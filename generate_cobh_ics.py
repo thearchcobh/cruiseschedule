@@ -111,69 +111,67 @@ if missing:
     # Data rows
     for r in rows[header_row_i + 1:]:
     cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
+
     if not cells:
         continue
 
-    # Skip month label rows and repeated header rows
-    if (len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0])) or looks_like_header(cells):
+    # Skip month label rows like "April 2026"
+    if len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0]):
         continue
 
-    # If the row is shorter than the header, ignore it
+    # Skip repeated header rows inside the table
+    if looks_like_header(cells):
+        continue
+
+    # Ignore malformed rows
     if len(cells) < len(header_cells):
         continue
 
-        cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
-        if not cells or len(cells) < len(header_cells):
-            continue
+    vessel = cells[i_vessel]
+    berth = cells[i_berth]
+    arrival_raw = cells[i_arrival]
+    departure_raw = cells[i_departure]
+    line = cells[i_line] if i_line is not None else ""
+    pax = cells[i_pax] if i_pax is not None else ""
+    agent = cells[i_agent] if i_agent is not None else ""
+    imo = cells[i_imo] if i_imo is not None else ""
 
-        vessel = cells[i_vessel]
-        berth = cells[i_berth]
-        arrival_raw = cells[i_arrival]
-        departure_raw = cells[i_departure]
-        line = cells[i_line] if i_line is not None else ""
-        pax = cells[i_pax] if i_pax is not None else ""
-        agent = cells[i_agent] if i_agent is not None else ""
-        imo = cells[i_imo] if i_imo is not None else ""
+    if berth != COBH_BERTH_EXACT:
+        continue
 
-        if berth != COBH_BERTH_EXACT:
-            continue
+    if not arrival_raw or not departure_raw:
+        continue
 
-        # Skip if times missing
-        if not arrival_raw or not departure_raw:
-            continue
+    try:
+        dt_start = to_localized_dt(arrival_raw)
+        dt_end = to_localized_dt(departure_raw)
+    except Exception:
+        continue
 
-        try:
-            dt_start = to_localized_dt(arrival_raw)
-            dt_end = to_localized_dt(departure_raw)
-        except Exception:
-            # If parsing fails, skip row rather than breaking the whole feed
-            continue
+    pax_str = pax if pax else "pax"
+    summary = f"{vessel} ({pax_str} pax)"
 
-        # Title: "Ship name (xxxx pax)"
-        pax_str = pax if pax else "pax"
-        summary = f"{vessel} ({pax_str} pax)"
+    ev = Event()
+    ev.add("uid", build_uid(imo, vessel, dt_start))
+    ev.add("dtstamp", now_utc)
+    ev.add("summary", summary)
+    ev.add("dtstart", dt_start)
+    ev.add("dtend", dt_end)
+    ev.add("location", berth)
 
-        ev = Event()
-        ev.add("uid", build_uid(imo, vessel, dt_start))
-        ev.add("dtstamp", now_utc)
-        ev.add("summary", summary)
-        ev.add("dtstart", dt_start)
-        ev.add("dtend", dt_end)
-        ev.add("location", berth)
+    desc_lines = []
+    if line:
+        desc_lines.append(f"Cruise line: {line}")
+    if agent:
+        desc_lines.append(f"Agent: {agent}")
+    if pax:
+        desc_lines.append(f"Pax: {pax}")
+    if imo:
+        desc_lines.append(f"IMO: {imo}")
+    desc_lines.append(f"Source: {SOURCE_URL}")
 
-        desc_lines = []
-        if line:
-            desc_lines.append(f"Cruise line: {line}")
-        if agent:
-            desc_lines.append(f"Agent: {agent}")
-        if pax:
-            desc_lines.append(f"Pax: {pax}")
-        if imo:
-            desc_lines.append(f"IMO: {imo}")
-        desc_lines.append(f"Source: {SOURCE_URL}")
-
-        ev.add("description", "\n".join(desc_lines))
-        cal.add_component(ev)
+    ev.add("description", "\n".join(desc_lines))
+    cal.add_component(ev)
 
     with open(OUTPUT_ICS, "wb") as f:
         f.write(cal.to_ical())
