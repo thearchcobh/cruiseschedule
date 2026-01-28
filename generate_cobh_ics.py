@@ -18,13 +18,12 @@ def clean(s):
 
 
 def is_month_row(cells):
-    # e.g. ["April 2026"]
     return len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0])
 
 
 def is_header_row(cells):
     text = " ".join(c.lower() for c in cells)
-    return ("vessel" in text) and ("berth" in text) and ("arrival" in text)
+    return ("vessel" in text) and ("berth" in text) and ("arrival" in text) and ("departure" in text)
 
 
 def uid_for(vessel, start_dt):
@@ -40,11 +39,9 @@ def main():
     ).text
 
     soup = BeautifulSoup(html, "html.parser")
-    table = soup.find("table")
-    if not table:
-        raise RuntimeError("Schedule table not found")
-
-    rows = table.find_all("tr")
+    tables = soup.find_all("table")
+    if not tables:
+        raise RuntimeError("No tables found on schedule page")
 
     cal = Calendar()
     cal.add("prodid", "-//Cobh Cruise Schedule//EN")
@@ -52,63 +49,68 @@ def main():
     cal.add("x-wr-calname", "Cobh Cruise Calls (Port of Cork)")
     cal.add("x-wr-timezone", "Europe/Dublin")
 
-    # We will update this whenever we see a header row
-    idx = None
+    events_written = 0
 
-    for row in rows:
-        cells = [clean(c.get_text()) for c in row.find_all(["th", "td"])]
-        if not cells or is_month_row(cells):
+    for table in tables:
+        rows = table.find_all("tr")
+        if not rows:
             continue
 
-        # When we hit a header row (repeated each month), refresh column indexes
-        if is_header_row(cells):
-            idx = {name.lower(): i for i, name in enumerate(cells) if name}
-            continue
+        idx = None
 
-        # If we haven't seen a header yet, we can't parse data rows
-        if not idx:
-            continue
+        for row in rows:
+            cells = [clean(c.get_text()) for c in row.find_all(["th", "td"])]
+            if not cells or is_month_row(cells):
+                continue
 
-        # Guard: must have the core columns
-        needed = ["vessel", "berth", "arrival", "departure"]
-        if any(k not in idx for k in needed):
-            continue
+            # Header row (usually first real row in each table)
+            if is_header_row(cells):
+                idx = {name.lower(): i for i, name in enumerate(cells) if name}
+                continue
 
-        # Some rows may be shorter than the header
-        if len(cells) <= max(idx[k] for k in needed):
-            continue
+            if not idx:
+                continue
 
-        berth = cells[idx["berth"]]
-        if berth != COBH_BERTH:
-            continue
+            # Must have core fields
+            needed = ["vessel", "berth", "arrival", "departure"]
+            if any(k not in idx for k in needed):
+                continue
 
-        vessel = cells[idx["vessel"]]
-        arrival = cells[idx["arrival"]]
-        departure = cells[idx["departure"]]
-        pax = cells[idx["pax"]] if ("pax" in idx and idx["pax"] < len(cells)) else ""
+            if len(cells) <= max(idx[k] for k in needed):
+                continue
 
-        if not arrival or not departure:
-            continue
+            berth = cells[idx["berth"]]
+            if berth != COBH_BERTH:
+                continue
 
-        # Parse dd/mm/yyyy times
-        start = TZ.localize(parse(arrival, dayfirst=True))
-        end = TZ.localize(parse(departure, dayfirst=True))
+            vessel = cells[idx["vessel"]]
+            arrival = cells[idx["arrival"]]
+            departure = cells[idx["departure"]]
+            pax = cells[idx["pax"]] if ("pax" in idx and idx["pax"] < len(cells)) else ""
 
-        event = Event()
-        event.add("uid", uid_for(vessel, start))
-        event.add("dtstamp", datetime.utcnow())
-        event.add("summary", f"{vessel} ({pax} pax)")
-        event.add("dtstart", start)
-        event.add("dtend", end)
-        event.add("location", berth)
-        event.add("description", f"Source: {SOURCE_URL}")
+            if not arrival or not departure:
+                continue
 
-        cal.add_component(event)
+            start = TZ.localize(parse(arrival, dayfirst=True))
+            end = TZ.localize(parse(departure, dayfirst=True))
+
+            event = Event()
+            event.add("uid", uid_for(vessel, start))
+            event.add("dtstamp", datetime.utcnow())
+            event.add("summary", f"{vessel} ({pax} pax)")
+            event.add("dtstart", start)
+            event.add("dtend", end)
+            event.add("location", berth)
+            event.add("description", f"Source: {SOURCE_URL}")
+
+            cal.add_component(event)
+            events_written += 1
 
     with open(OUTPUT_ICS, "wb") as f:
         f.write(cal.to_ical())
 
-    print(f"Wrote {OUTPUT_ICS}")
+    print("Wrote", OUTPUT_ICS)
+    print("Events written:", events_written)
 
 
 if __name__ == "__main__":
