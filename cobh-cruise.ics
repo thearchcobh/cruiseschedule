@@ -1,60 +1,78 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Cobh Cruise Schedule//EN
+X-WR-CALNAME:Cobh Cruise Calls (Port of Cork)
+X-WR-TIMEZONE:Europe/Dublin
 BEGIN:VEVENT
 SUMMARY:AIDAluna (2050 pax)
 DTSTART;TZID=Europe/Dublin:20260413T090000
 DTEND;TZID=Europe/Dublin:20260413T183000
-UID:AIDAluna-2026-04-13 09:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:aidaluna-20260413T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ambience (1400 pax)
 DTSTART;TZID=Europe/Dublin:20260418T130000
 DTEND;TZID=Europe/Dublin:20260418T200000
-UID:Ambience-2026-04-18 13:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:ambience-20260418T1300-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Majestic Princess (3560 pax)
 DTSTART;TZID=Europe/Dublin:20260419T070000
 DTEND;TZID=Europe/Dublin:20260419T170000
-UID:Majestic Princess-2026-04-19 07:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:majesticprincess-20260419T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Laperouse (184 pax)
 DTSTART;TZID=Europe/Dublin:20260420T080000
 DTEND;TZID=Europe/Dublin:20260420T160000
-UID:Le Laperouse-2026-04-20 08:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:lelaperouse-20260420T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hamburg (420 pax)
 DTSTART;TZID=Europe/Dublin:20260425T070000
 DTEND;TZID=Europe/Dublin:20260425T170000
-UID:Hamburg-2026-04-25 07:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:hamburg-20260425T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Laperouse (184 pax)
 DTSTART;TZID=Europe/Dublin:20260427T073000
 DTEND;TZID=Europe/Dublin:20260427T150000
-UID:Le Laperouse-2026-04-27 07:30:00+01:00
+DTSTAMP:20260128T100953Z
+UID:lelaperouse-20260427T0730-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NG Explorer (148 pax)
 DTSTART;TZID=Europe/Dublin:20260429T073000
 DTEND;TZID=Europe/Dublin:20260429T190000
-UID:NG Explorer-2026-04-29 07:30:00+01:00
+DTSTAMP:20260128T100953Z
+UID:ngexplorer-20260429T0730-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Majestic Princess (3560 pax)
 DTSTART;TZID=Europe/Dublin:20260430T070000
 DTEND;TZID=Europe/Dublin:20260430T170000
-UID:Majestic Princess-2026-04-30 07:00:00+01:00
+DTSTAMP:20260128T100953Z
+UID:majesticprincess-20260430T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
 END:VCALENDAR
