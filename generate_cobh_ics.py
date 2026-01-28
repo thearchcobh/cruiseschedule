@@ -110,7 +110,7 @@ if missing:
 
     # Data rows
     for r in rows[header_row_i + 1:]:
-    cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
+        cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
 
     if not cells:
         continue
