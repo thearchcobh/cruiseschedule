@@ -1,0 +1,5 @@
+requests==2.32.3
+beautifulsoup4==4.12.3
+python-dateutil==2.9.0.post0
+icalendar==5.0.13
+pytz==2025.1
