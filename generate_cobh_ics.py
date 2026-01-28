@@ -46,35 +46,59 @@ def main():
     if not table:
         raise RuntimeError("Could not find schedule table on the page.")
 
-    rows = table.find_all("tr")
-    if not rows or len(rows) < 2:
-        raise RuntimeError("Schedule table seems empty.")
+rows = table.find_all("tr")
+if not rows or len(rows) < 2:
+    raise RuntimeError("Schedule table seems empty.")
 
-    # Header detection
-    header_cells = [clean_text(th.get_text()) for th in rows[0].find_all(["th", "td"])]
-    # Expected columns on this print page include: ARRIVAL DATE, VESSEL, BERTH, Arrival, Departure, LINE, PAX, AGENT, IMO
-    # We'll map by name rather than position, to be more robust.
-    col_index = {name.lower(): idx for idx, name in enumerate(header_cells)}
+def looks_like_header(cells):
+    joined = " ".join(c.lower() for c in cells)
+    return ("vessel" in joined) and ("berth" in joined)
 
-    def idx_of(*names):
-        for n in names:
-            if n.lower() in col_index:
-                return col_index[n.lower()]
-        return None
+def make_col_index(header_cells):
+    return {name.strip().lower(): idx for idx, name in enumerate(header_cells) if name.strip()}
 
-    i_vessel = idx_of("VESSEL", "Vessel")
-    i_berth = idx_of("BERTH", "Berth")
-    i_arrival = idx_of("Arrival")
-    i_departure = idx_of("Departure")
-    i_line = idx_of("LINE", "Line")
-    i_pax = idx_of("PAX", "Pax")
-    i_agent = idx_of("AGENT", "Agent")
-    i_imo = idx_of("IMO", "Imo")
+def idx_of(col_index, *names):
+    for n in names:
+        key = n.strip().lower()
+        if key in col_index:
+            return col_index[key]
+    return None
 
-    needed = {"vessel": i_vessel, "berth": i_berth, "arrival": i_arrival, "departure": i_departure, "pax": i_pax, "imo": i_imo}
-    missing = [k for k, v in needed.items() if v is None]
-    if missing:
-        raise RuntimeError(f"Missing expected columns on schedule table: {missing}. Headers seen: {header_cells}")
+# --- Find the REAL header row (skip month label rows like "April 2026") ---
+header_cells = None
+col_index = None
+header_row_i = None
+
+for i, r in enumerate(rows):
+    cells = [clean_text(c.get_text()) for c in r.find_all(["th", "td"])]
+    # Skip empty / single-cell month title rows like "April 2026"
+    if not cells or (len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0])):
+        continue
+    if looks_like_header(cells):
+        header_cells = cells
+        col_index = make_col_index(header_cells)
+        header_row_i = i
+        break
+
+if not col_index:
+    raise RuntimeError(f"Could not locate header row. First rows seen: "
+                       f"{[[clean_text(c.get_text()) for c in r.find_all(['th','td'])] for r in rows[:5]]}")
+
+# Expected columns on this print page
+i_vessel = idx_of(col_index, "VESSEL", "Vessel")
+i_berth = idx_of(col_index, "BERTH", "Berth")
+i_arrival = idx_of(col_index, "Arrival")
+i_departure = idx_of(col_index, "Departure")
+i_line = idx_of(col_index, "LINE", "Line")
+i_pax = idx_of(col_index, "PAX", "Pax")
+i_agent = idx_of(col_index, "AGENT", "Agent")
+i_imo = idx_of(col_index, "IMO", "Imo")
+
+needed = {"vessel": i_vessel, "berth": i_berth, "arrival": i_arrival, "departure": i_departure, "pax": i_pax, "imo": i_imo}
+missing = [k for k, v in needed.items() if v is None]
+if missing:
+    raise RuntimeError(f"Missing expected columns on schedule table: {missing}. Headers seen: {header_cells}")
+
 
     cal = Calendar()
     cal.add("prodid", "-//Cobh Cruise Schedule//Port of Cork Scrape//EN")
@@ -85,7 +109,19 @@ def main():
     now_utc = datetime.now(tz=tz.UTC)
 
     # Data rows
-    for r in rows[1:]:
+    for r in rows[header_row_i + 1:]:
+    cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
+    if not cells:
+        continue
+
+    # Skip month label rows and repeated header rows
+    if (len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0])) or looks_like_header(cells):
+        continue
+
+    # If the row is shorter than the header, ignore it
+    if len(cells) < len(header_cells):
+        continue
+
         cells = [clean_text(td.get_text()) for td in r.find_all(["td", "th"])]
         if not cells or len(cells) < len(header_cells):
             continue
