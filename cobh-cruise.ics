@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:AIDAluna (2050 pax)
 DTSTART;TZID=Europe/Dublin:20260413T090000
 DTEND;TZID=Europe/Dublin:20260413T183000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:aidaluna-20260413T0900-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Ambience (1400 pax)
 DTSTART;TZID=Europe/Dublin:20260418T130000
 DTEND;TZID=Europe/Dublin:20260418T200000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:ambience-20260418T1300-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Majestic Princess (3560 pax)
 DTSTART;TZID=Europe/Dublin:20260419T070000
 DTEND;TZID=Europe/Dublin:20260419T170000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:majesticprincess-20260419T0700-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:Le Laperouse (184 pax)
 DTSTART;TZID=Europe/Dublin:20260420T080000
 DTEND;TZID=Europe/Dublin:20260420T160000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:lelaperouse-20260420T0800-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Hamburg (420 pax)
 DTSTART;TZID=Europe/Dublin:20260425T070000
 DTEND;TZID=Europe/Dublin:20260425T170000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:hamburg-20260425T0700-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:Le Laperouse (184 pax)
 DTSTART;TZID=Europe/Dublin:20260427T073000
 DTEND;TZID=Europe/Dublin:20260427T150000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:lelaperouse-20260427T0730-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:NG Explorer (148 pax)
 DTSTART;TZID=Europe/Dublin:20260429T073000
 DTEND;TZID=Europe/Dublin:20260429T190000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:ngexplorer-20260429T0730-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
@@ -70,8 +70,674 @@ BEGIN:VEVENT
 SUMMARY:Majestic Princess (3560 pax)
 DTSTART;TZID=Europe/Dublin:20260430T070000
 DTEND;TZID=Europe/Dublin:20260430T170000
-DTSTAMP:20260128T100953Z
+DTSTAMP:20260128T102110Z
 UID:majesticprincess-20260430T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seabourn Ovation (600 pax)
+DTSTART;TZID=Europe/Dublin:20260505T070000
+DTEND;TZID=Europe/Dublin:20260505T170000
+DTSTAMP:20260128T102110Z
+UID:seabournovation-20260505T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Celebrity Eclipse (2850 pax)
+DTSTART;TZID=Europe/Dublin:20260511T090000
+DTEND;TZID=Europe/Dublin:20260511T180000
+DTSTAMP:20260128T102110Z
+UID:celebrityeclipse-20260511T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MSC Preziosa (4345 pax)
+DTSTART;TZID=Europe/Dublin:20260512T140000
+DTEND;TZID=Europe/Dublin:20260512T210000
+DTSTAMP:20260128T102110Z
+UID:mscpreziosa-20260512T1400-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260513T070000
+DTEND;TZID=Europe/Dublin:20260513T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260513T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NG Explorer (148 pax)
+DTSTART;TZID=Europe/Dublin:20260515T090000
+DTEND;TZID=Europe/Dublin:20260515T190000
+DTSTAMP:20260128T102110Z
+UID:ngexplorer-20260515T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hamburg (420 pax)
+DTSTART;TZID=Europe/Dublin:20260517T070000
+DTEND;TZID=Europe/Dublin:20260517T170000
+DTSTAMP:20260128T102110Z
+UID:hamburg-20260517T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIDASol (2686 pax)
+DTSTART;TZID=Europe/Dublin:20260519T090000
+DTEND;TZID=Europe/Dublin:20260519T183000
+DTSTAMP:20260128T102110Z
+UID:aidasol-20260519T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NG Explorer (148 pax)
+DTSTART;TZID=Europe/Dublin:20260521T073000
+DTEND;TZID=Europe/Dublin:20260521T190000
+DTSTAMP:20260128T102110Z
+UID:ngexplorer-20260521T0730-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambience (1400 pax)
+DTSTART;TZID=Europe/Dublin:20260522T073000
+DTEND;TZID=Europe/Dublin:20260522T200000
+DTSTAMP:20260128T102110Z
+UID:ambience-20260522T0730-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deutschland (650 pax)
+DTSTART;TZID=Europe/Dublin:20260523T080000
+DTEND;TZID=Europe/Dublin:20260523T180000
+DTSTAMP:20260128T102110Z
+UID:deutschland-20260523T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260524T070000
+DTEND;TZID=Europe/Dublin:20260524T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260524T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arcadia (2388 pax)
+DTSTART;TZID=Europe/Dublin:20260527T080000
+DTEND;TZID=Europe/Dublin:20260527T180000
+DTSTAMP:20260128T102110Z
+UID:arcadia-20260527T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Silver Wind (274 pax)
+DTSTART;TZID=Europe/Dublin:20260528T080000
+DTEND;TZID=Europe/Dublin:20260528T170000
+DTSTAMP:20260128T102110Z
+UID:silverwind-20260528T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Norwegian Sky (1928 pax)
+DTSTART;TZID=Europe/Dublin:20260531T100000
+DTEND;TZID=Europe/Dublin:20260531T190000
+DTSTAMP:20260128T102110Z
+UID:norwegiansky-20260531T1000-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deutschland (650 pax)
+DTSTART;TZID=Europe/Dublin:20260601T080000
+DTEND;TZID=Europe/Dublin:20260601T200000
+DTSTAMP:20260128T102110Z
+UID:deutschland-20260601T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Discovery (999 pax)
+DTSTART;TZID=Europe/Dublin:20260602T080000
+DTEND;TZID=Europe/Dublin:20260602T190000
+DTSTAMP:20260128T102110Z
+UID:spiritofdiscovery-20260602T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Insignia (824 pax)
+DTSTART;TZID=Europe/Dublin:20260604T080000
+DTEND;TZID=Europe/Dublin:20260604T170000
+DTSTAMP:20260128T102110Z
+UID:insignia-20260604T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260606T070000
+DTEND;TZID=Europe/Dublin:20260606T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260606T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Discovery (999 pax)
+DTSTART;TZID=Europe/Dublin:20260607T080000
+DTEND;TZID=Europe/Dublin:20260607T200000
+DTSTAMP:20260128T102110Z
+UID:spiritofdiscovery-20260607T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MSC Virtuosa (6297 pax)
+DTSTART;TZID=Europe/Dublin:20260608T070000
+DTEND;TZID=Europe/Dublin:20260608T190000
+DTSTAMP:20260128T102110Z
+UID:mscvirtuosa-20260608T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nieuw Statendam (3391 pax)
+DTSTART;TZID=Europe/Dublin:20260610T080000
+DTEND;TZID=Europe/Dublin:20260610T180000
+DTSTAMP:20260128T102110Z
+UID:nieuwstatendam-20260610T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MS Vista (1200 pax)
+DTSTART;TZID=Europe/Dublin:20260617T080000
+DTEND;TZID=Europe/Dublin:20260617T160000
+DTSTAMP:20260128T102110Z
+UID:msvista-20260617T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Queen Anne (3000 pax)
+DTSTART;TZID=Europe/Dublin:20260619T080000
+DTEND;TZID=Europe/Dublin:20260619T170000
+DTSTAMP:20260128T102110Z
+UID:queenanne-20260619T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crown Princess (1200 pax)
+DTSTART;TZID=Europe/Dublin:20260620T080000
+DTEND;TZID=Europe/Dublin:20260620T220000
+DTSTAMP:20260128T102110Z
+UID:crownprincess-20260620T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambition (1904 pax)
+DTSTART;TZID=Europe/Dublin:20260626T130000
+DTEND;TZID=Europe/Dublin:20260626T200000
+DTSTAMP:20260128T102110Z
+UID:ambition-20260626T1300-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Evrima (314 pax)
+DTSTART;TZID=Europe/Dublin:20260628T100000
+DTEND;TZID=Europe/Dublin:20260628T180000
+DTSTAMP:20260128T102110Z
+UID:evrima-20260628T1000-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seven Seas Grandeur (750 pax)
+DTSTART;TZID=Europe/Dublin:20260630T080000
+DTEND;TZID=Europe/Dublin:20260630T180000
+DTSTAMP:20260128T102110Z
+UID:sevenseasgrandeur-20260630T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Evrima (314 pax)
+DTSTART;TZID=Europe/Dublin:20260703T090000
+DTEND;TZID=Europe/Dublin:20260703T200000
+DTSTAMP:20260128T102110Z
+UID:evrima-20260703T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Britannia (4324 pax)
+DTSTART;TZID=Europe/Dublin:20260705T080000
+DTEND;TZID=Europe/Dublin:20260705T170000
+DTSTAMP:20260128T102110Z
+UID:britannia-20260705T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260712T070000
+DTEND;TZID=Europe/Dublin:20260712T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260712T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Borealis (1404 pax)
+DTSTART;TZID=Europe/Dublin:20260714T093000
+DTEND;TZID=Europe/Dublin:20260714T183000
+DTSTAMP:20260128T102110Z
+UID:borealis-20260714T0930-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mein Schiff 2 ( pax)
+DTSTART;TZID=Europe/Dublin:20260716T070000
+DTEND;TZID=Europe/Dublin:20260716T180000
+DTSTAMP:20260128T102110Z
+UID:meinschiff2-20260716T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Discovery (999 pax)
+DTSTART;TZID=Europe/Dublin:20260720T090000
+DTEND;TZID=Europe/Dublin:20260720T170000
+DTSTAMP:20260128T102110Z
+UID:spiritofdiscovery-20260720T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIDASol (2686 pax)
+DTSTART;TZID=Europe/Dublin:20260721T090000
+DTEND;TZID=Europe/Dublin:20260721T183000
+DTSTAMP:20260128T102110Z
+UID:aidasol-20260721T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nieuw Statendam (3391 pax)
+DTSTART;TZID=Europe/Dublin:20260722T080000
+DTEND;TZID=Europe/Dublin:20260722T170000
+DTSTAMP:20260128T102110Z
+UID:nieuwstatendam-20260722T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260723T070000
+DTEND;TZID=Europe/Dublin:20260723T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260723T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aurora (1946 pax)
+DTSTART;TZID=Europe/Dublin:20260725T080000
+DTEND;TZID=Europe/Dublin:20260725T180000
+DTSTAMP:20260128T102110Z
+UID:aurora-20260725T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seabourn Ovation (600 pax)
+DTSTART;TZID=Europe/Dublin:20260728T070000
+DTEND;TZID=Europe/Dublin:20260728T170000
+DTSTAMP:20260128T102110Z
+UID:seabournovation-20260728T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crystal Serenity (1040 pax)
+DTSTART;TZID=Europe/Dublin:20260729T080000
+DTEND;TZID=Europe/Dublin:20260729T170000
+DTSTAMP:20260128T102110Z
+UID:crystalserenity-20260729T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mein Schiff 3 (2500 pax)
+DTSTART;TZID=Europe/Dublin:20260731T070000
+DTEND;TZID=Europe/Dublin:20260731T180000
+DTSTAMP:20260128T102110Z
+UID:meinschiff3-20260731T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Carnival Legend (2680 pax)
+DTSTART;TZID=Europe/Dublin:20260802T093000
+DTEND;TZID=Europe/Dublin:20260802T190000
+DTSTAMP:20260128T102110Z
+UID:carnivallegend-20260802T0930-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Adventure (999 pax)
+DTSTART;TZID=Europe/Dublin:20260803T090000
+DTEND;TZID=Europe/Dublin:20260803T180000
+DTSTAMP:20260128T102110Z
+UID:spiritofadventure-20260803T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Celebrity Eclipse (2850 pax)
+DTSTART;TZID=Europe/Dublin:20260804T090000
+DTEND;TZID=Europe/Dublin:20260804T180000
+DTSTAMP:20260128T102110Z
+UID:celebrityeclipse-20260804T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Queen Anne (3000 pax)
+DTSTART;TZID=Europe/Dublin:20260807T080000
+DTEND;TZID=Europe/Dublin:20260807T170000
+DTSTAMP:20260128T102110Z
+UID:queenanne-20260807T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seven Seas Voyager (706 pax)
+DTSTART;TZID=Europe/Dublin:20260809T113000
+DTEND;TZID=Europe/Dublin:20260809T213000
+DTSTAMP:20260128T102110Z
+UID:sevenseasvoyager-20260809T1130-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Azamara Quest (686 pax)
+DTSTART;TZID=Europe/Dublin:20260810T080000
+DTEND;TZID=Europe/Dublin:20260810T220000
+DTSTAMP:20260128T102110Z
+UID:azamaraquest-20260810T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260811T070000
+DTEND;TZID=Europe/Dublin:20260811T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260811T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Insignia (824 pax)
+DTSTART;TZID=Europe/Dublin:20260813T070000
+DTEND;TZID=Europe/Dublin:20260813T190000
+DTSTAMP:20260128T102110Z
+UID:insignia-20260813T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Artania (1260 pax)
+DTSTART;TZID=Europe/Dublin:20260815T093000
+DTEND;TZID=Europe/Dublin:20260815T160000
+DTSTAMP:20260128T102110Z
+UID:artania-20260815T0930-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260817T070000
+DTEND;TZID=Europe/Dublin:20260817T180000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260817T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Carnival Legend (2680 pax)
+DTSTART;TZID=Europe/Dublin:20260822T093000
+DTEND;TZID=Europe/Dublin:20260822T190000
+DTSTAMP:20260128T102110Z
+UID:carnivallegend-20260822T0930-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sapphire Princess (2700 pax)
+DTSTART;TZID=Europe/Dublin:20260825T100000
+DTEND;TZID=Europe/Dublin:20260825T210000
+DTSTAMP:20260128T102110Z
+UID:sapphireprincess-20260825T1000-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260828T070000
+DTEND;TZID=Europe/Dublin:20260828T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260828T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seven Seas Voyager (706 pax)
+DTSTART;TZID=Europe/Dublin:20260830T113000
+DTEND;TZID=Europe/Dublin:20260830T220000
+DTSTAMP:20260128T102110Z
+UID:sevenseasvoyager-20260830T1130-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sky Princess (3660 pax)
+DTSTART;TZID=Europe/Dublin:20260831T070000
+DTEND;TZID=Europe/Dublin:20260831T180000
+DTSTAMP:20260128T102110Z
+UID:skyprincess-20260831T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIDASol (2686 pax)
+DTSTART;TZID=Europe/Dublin:20260901T090000
+DTEND;TZID=Europe/Dublin:20260901T183000
+DTSTAMP:20260128T102110Z
+UID:aidasol-20260901T0900-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nieuw Statendam (3391 pax)
+DTSTART;TZID=Europe/Dublin:20260902T080000
+DTEND;TZID=Europe/Dublin:20260902T170000
+DTSTAMP:20260128T102110Z
+UID:nieuwstatendam-20260902T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MSC Preziosa (4345 pax)
+DTSTART;TZID=Europe/Dublin:20260905T140000
+DTEND;TZID=Europe/Dublin:20260905T210000
+DTSTAMP:20260128T102110Z
+UID:mscpreziosa-20260905T1400-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambience (1400 pax)
+DTSTART;TZID=Europe/Dublin:20260907T073000
+DTEND;TZID=Europe/Dublin:20260907T180000
+DTSTAMP:20260128T102110Z
+UID:ambience-20260907T0730-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Adventure (999 pax)
+DTSTART;TZID=Europe/Dublin:20260908T100000
+DTEND;TZID=Europe/Dublin:20260908T170000
+DTSTAMP:20260128T102110Z
+UID:spiritofadventure-20260908T1000-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260909T070000
+DTEND;TZID=Europe/Dublin:20260909T170000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260909T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Borealis (1404 pax)
+DTSTART;TZID=Europe/Dublin:20260911T123000
+DTEND;TZID=Europe/Dublin:20260911T180000
+DTSTAMP:20260128T102110Z
+UID:borealis-20260911T1230-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Disney Dream (4000 pax)
+DTSTART;TZID=Europe/Dublin:20260912T080000
+DTEND;TZID=Europe/Dublin:20260912T160000
+DTSTAMP:20260128T102110Z
+UID:disneydream-20260912T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spirit of Adventure (999 pax)
+DTSTART;TZID=Europe/Dublin:20260913T080000
+DTEND;TZID=Europe/Dublin:20260913T170000
+DTSTAMP:20260128T102110Z
+UID:spiritofadventure-20260913T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Silver Dawn (1040 pax)
+DTSTART;TZID=Europe/Dublin:20260916T080000
+DTEND;TZID=Europe/Dublin:20260916T180000
+DTSTAMP:20260128T102110Z
+UID:silverdawn-20260916T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MS Marina (1250 pax)
+DTSTART;TZID=Europe/Dublin:20260917T070000
+DTEND;TZID=Europe/Dublin:20260917T170000
+DTSTAMP:20260128T102110Z
+UID:msmarina-20260917T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20260921T083000
+DTEND;TZID=Europe/Dublin:20260921T180000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20260921T0830-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seven Seas Grandeur (750 pax)
+DTSTART;TZID=Europe/Dublin:20260924T080000
+DTEND;TZID=Europe/Dublin:20260924T180000
+DTSTAMP:20260128T102110Z
+UID:sevenseasgrandeur-20260924T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Laperouse (184 pax)
+DTSTART;TZID=Europe/Dublin:20260927T080000
+DTEND;TZID=Europe/Dublin:20260927T140000
+DTSTAMP:20260128T102110Z
+UID:lelaperouse-20260927T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MSC Virtuosa (6297 pax)
+DTSTART;TZID=Europe/Dublin:20260930T140000
+DTEND;TZID=Europe/Dublin:20261001T180000
+DTSTAMP:20260128T102110Z
+UID:mscvirtuosa-20260930T1400-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Majestic Princess (3560 pax)
+DTSTART;TZID=Europe/Dublin:20261002T080000
+DTEND;TZID=Europe/Dublin:20261002T180000
+DTSTAMP:20260128T102110Z
+UID:majesticprincess-20261002T0800-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambition (1904 pax)
+DTSTART;TZID=Europe/Dublin:20261014T130000
+DTEND;TZID=Europe/Dublin:20261014T190000
+DTSTAMP:20260128T102110Z
+UID:ambition-20261014T1300-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Norwegian Sun (2400 pax)
+DTSTART;TZID=Europe/Dublin:20261015T070000
+DTEND;TZID=Europe/Dublin:20261015T180000
+DTSTAMP:20260128T102110Z
+UID:norwegiansun-20261015T0700-cobh
+DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
+LOCATION:Cobh Cruise Terminal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MSC Virtuosa (6297 pax)
+DTSTART;TZID=Europe/Dublin:20261016T140000
+DTEND;TZID=Europe/Dublin:20261017T180000
+DTSTAMP:20260128T102110Z
+UID:mscvirtuosa-20261016T1400-cobh
 DESCRIPTION:Source: https://www.portofcork.ie/print-cruise-schedule.php
 LOCATION:Cobh Cruise Terminal
 END:VEVENT
