@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Test Event
 DTSTART;TZID=Europe/Dublin:20260130T110000
 DTEND;TZID=Europe/Dublin:20260130T210000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-test-event-20260130T1100-thearchcobh
 DESCRIPTION:Here's a manually created event\n\n\nCreated by The Arch\, Cob
  h\nData from InCobh + Google Sheet
@@ -18,45 +18,45 @@ SUMMARY:🎫 Traditional Irish Music at The Hi Chaperal - Thu 29 January 2
  026
 DTSTART;TZID=Europe/Dublin:20260129T210000
 DTEND;TZID=Europe/Dublin:20260129T230000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-29-january-
  20-20260129T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  hi-chaperal/?gde=2026-01-29\n\nCreated by The Arch\, Cobh\nData from InCob
  h + Google Sheet
-LOCATION:Cobh
+LOCATION:The High Chaperal Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Traditional Irish Music at The Hi Chaperal - Thu 5 February 2
  026
 DTSTART;TZID=Europe/Dublin:20260205T210000
 DTEND;TZID=Europe/Dublin:20260205T230000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-5-february-
  20-20260205T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  hi-chaperal/?gde=2026-02-05\n\nCreated by The Arch\, Cobh\nData from InCob
  h + Google Sheet
-LOCATION:Cobh
+LOCATION:The High Chaperal Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 An Evening With Seán Keane – Presented by Cathedral Sessio
  ns
 DTSTART;TZID=Europe/Dublin:20260508T193000
 DTEND;TZID=Europe/Dublin:20260508T213000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-an-evening-with-se-n-keane-presented-by-cathedral-sessions
  -20260508T1930-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/an-evening-with-sean-keane-pres
  ented-by-cathedral-sessions/\n\nCreated by The Arch\, Cobh\nData from InCo
  bh + Google Sheet
-LOCATION:Cobh
+LOCATION:St Colman’s Cathedral
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Cobh Trad & Folk Festival July 23rd to 26th 2026
-DTSTART;TZID=Europe/Dublin:20260723T000000
-DTEND;TZID=Europe/Dublin:20260723T020000
-DTSTAMP:20260129T171024Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260727
+DTSTAMP:20260129T172013Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T00
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -68,24 +68,24 @@ SUMMARY:🎫 Breen\, Rynne & Murray – Headline Concert – Cobh Trad Fes
  t 2026
 DTSTART;TZID=Europe/Dublin:20260724T200000
 DTEND;TZID=Europe/Dublin:20260724T220000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-breen-rynne-murray-headline-concert-cobh-trad-fest-2026-20
  260724T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
  cert-cobh-trad-fest-2026/\n\nCreated by The Arch\, Cobh\nData from InCobh 
  + Google Sheet
-LOCATION:Cobh
+LOCATION:Commodore Hotel
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Karan Casey Trio – Headline Concert – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T200000
 DTEND;TZID=Europe/Dublin:20260725T220000
-DTSTAMP:20260129T171024Z
+DTSTAMP:20260129T172013Z
 UID:cobh-events-karan-casey-trio-headline-concert-cobh-trad-fest-2026-2026
  0725T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
  rt-cobh-trad-fest-2026/\n\nCreated by The Arch\, Cobh\nData from InCobh + 
  Google Sheet
-LOCATION:Cobh
+LOCATION:Commodore Hotel
 END:VEVENT
 END:VCALENDAR
