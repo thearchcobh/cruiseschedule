@@ -91,6 +91,74 @@ def normalize_berth_title(berth):
     return berth
 
 
+# ---- Spend tier thresholds (€/passenger) ----
+TOP_TIER = 9.0        # > 9  => $$$$
+TIER_A = 3.0          # >= 3 => $$$
+TIER_B = 1.5          # >= 1.5 => $$
+
+
+def dollars_from_eur_per_pax(x):
+    if x is None:
+        return "$"
+    if x > TOP_TIER:
+        return "$$$$"
+    if x >= TIER_A:
+        return "$$$"
+    if x >= TIER_B:
+        return "$$"
+    return "$"
+
+
+def norm_key(s):
+    return clean(s).lower()
+
+
+# ---- Spend map (seeded with the vessels we computed from your 2025 data) ----
+# Vessel-level is most reliable.
+VesselSpendEUR = {
+    # Top tier (event-level expedition): > 9 €/pax
+    "ng explorer": 14.215541,
+    "island sky": 13.818509,
+    "world traveller": 9.477050,
+
+    # Luxury baseline examples (>= 3 €/pax)
+    "deutschland": 3.683215,
+    "azamara quest": 3.387697,
+    "azamara journey": 3.342009,
+    "seven seas voyager": 3.219788,
+    "seven seas grandeur": 3.173613,
+    "ilma": 3.147009,
+
+    # Add more vessel entries here as you expand your 2025 mapping
+}
+
+# Line-level fallback (coarser, but helps for new vessels in same brand)
+LineSpendEUR = {
+    "azamara": 3.35,
+    "regent seven seas": 3.2,
+    "seabourn": 2.8,
+    "silversea cruises": 2.6,
+    "oceania cruises": 1.9,
+    "holland america line": 1.8,
+    "princess cruises": 1.6,
+    "celebrity cruises": 1.4,
+    "norwegian cruise line": 1.2,
+    "msc cruises": 1.0,
+    "ambassador cruise line": 1.0,
+    "saga": 1.1,
+    "aida cruises": 1.1,
+}
+
+
+def spend_dollars_for_call(vessel, line):
+    v = norm_key(vessel)
+    l = norm_key(line)
+    eur = VesselSpendEUR.get(v)
+    if eur is None and l:
+        eur = LineSpendEUR.get(l)
+    return dollars_from_eur_per_pax(eur)
+
+
 def main():
     r = requests.get(SOURCE_URL, timeout=30, headers={"User-Agent": "thearchcobh"})
     r.raise_for_status()
@@ -115,6 +183,8 @@ def main():
 
     cobh_count = 0
     all_count = 0
+
+    unknown_vessels = set()
 
     for table in tables:
         rows = table.find_all("tr")
@@ -210,10 +280,14 @@ def main():
                 signal = pax_signal(p)
                 title_pax = pax if pax else ("?" if p is None else str(p))
 
+                spend_tag = spend_dollars_for_call(vessel, line)
+                if norm_key(vessel) not in VesselSpendEUR and norm_key(line) not in LineSpendEUR:
+                    unknown_vessels.add(f"{vessel} | {line}")
+
                 ev_cobh = Event()
                 ev_cobh.add("uid", stable_uid(vessel, line, mt, start, "cobh"))
                 ev_cobh.add("dtstamp", datetime.utcnow())
-                ev_cobh.add("summary", f"{signal} {vessel} — {title_pax} pax")
+                ev_cobh.add("summary", f"{signal} {spend_tag} {vessel} — {title_pax} pax")
                 ev_cobh.add("dtstart", start)
                 ev_cobh.add("dtend", end)
                 ev_cobh.add("location", "Cobh")
@@ -231,6 +305,11 @@ def main():
 
     print("All ports events:", all_count)
     print("Cobh events:", cobh_count)
+
+    if unknown_vessels:
+        print("\nUnknown vessels/lines (consider adding to VesselSpendEUR/LineSpendEUR):")
+        for x in sorted(unknown_vessels):
+            print(" -", x)
 
     with open(OUTPUT_ALL, "wb") as f:
         f.write(cal_all.to_ical())
