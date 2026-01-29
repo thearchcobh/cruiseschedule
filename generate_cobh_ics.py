@@ -55,11 +55,17 @@ def pax_signal(pax_value):
     return "🟢"
 
 
-def marinetraffic_link(imo):
-    imo = (imo or "").strip()
-    if not imo or not imo.isdigit():
+def extract_imo(raw):
+    if not raw:
         return ""
-    # Working format you confirmed
+    digits = re.sub(r"[^\d]", "", raw)
+    return digits
+
+
+def marinetraffic_link(imo_raw):
+    imo = extract_imo(imo_raw)
+    if not imo:
+        return ""
     return f"https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}/"
 
 
