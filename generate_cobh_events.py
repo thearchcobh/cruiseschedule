@@ -13,6 +13,8 @@ TZ = pytz.timezone("Europe/Dublin")
 
 INCOBH_UPCOMING = "https://incobh.com/events/?etype=upcoming"
 
+INCOBH_PAGE1 = "https://incobh.com/events/?etype=upcoming"
+
 SHEET_ID = "1pYxu33TbILiM6KCfM1hFRjiqSYvQIWvDjULdq7iFkhI"
 SHEET_TAB_NAME = "events"
 
@@ -131,87 +133,112 @@ def parse_sheet_events():
 
 def parse_incobh_events():
     """
-    Robust InCobh parser:
-    For each event title in <h3>, walk forward through the document (next_elements)
-    until the next <h3>, collecting text lines. Then parse:
-      - require standalone 'Cobh'
-      - first line containing a year -> date
-      - first HH:MM -> time
+    Robust InCobh parser with pagination.
+    - Walk pages: /events/?etype=upcoming, /events/page/2/?etype=upcoming, ...
+    - For each event h3, collect following text until next h3
+    - Filter: must contain standalone 'Cobh'
+    - Date: must be a standalone weekday+date+year line (NOT the title)
+    - Time: first HH:MM
     """
-    html = safe_get(INCOBH_UPCOMING)
-    soup = BeautifulSoup(html, "html.parser")
-
     out = []
 
-    for h3 in soup.find_all("h3"):
-        a = h3.find("a", href=True)
-        if not a:
-            continue
+    def page_url(n):
+        if n == 1:
+            return INCOBH_PAGE1
+        return f"https://incobh.com/events/page/{n}/?etype=upcoming"
 
-        title = clean(a.get_text())
-        url = a.get("href", "")
+    for page in range(1, 11):  # scan up to 10 pages; stops early when empty
+        html = safe_get(page_url(page))
+        soup = BeautifulSoup(html, "html.parser")
 
-        # Collect text AFTER this h3 until the next h3
-        lines = []
-        for el in h3.next_elements:
-            if el is h3:
+        h3s = soup.find_all("h3")
+        if not h3s:
+            break
+
+        page_events = 0
+
+        for h3 in h3s:
+            a = h3.find("a", href=True)
+            if not a:
                 continue
-            if getattr(el, "name", None) == "h3":
-                break
-            # Pull text from tags only (ignore raw whitespace strings)
-            if hasattr(el, "get_text"):
-                t = clean(el.get_text(" ", strip=True))
-                if t:
-                    # Split multi-bit chunks into separate "lines"
-                    # (helps when a container collapses multiple fields into one string)
+
+            title = clean(a.get_text())
+            url = a.get("href", "")
+
+            # Collect text AFTER this h3 until the next h3
+            lines = []
+            for el in h3.next_elements:
+                if el is h3:
+                    continue
+                if getattr(el, "name", None) == "h3":
+                    break
+                if hasattr(el, "get_text"):
+                    t = clean(el.get_text(" ", strip=True))
+                    if not t:
+                        continue
                     for part in re.split(r"\s{2,}|\n+", t):
                         part = clean(part)
                         if part:
                             lines.append(part)
 
-        if not lines:
-            continue
+            if not lines:
+                continue
 
-        # Filter: must contain standalone "Cobh"
-        if "Cobh" not in lines:
-            continue
+            # Must contain a standalone "Cobh"
+            if "Cobh" not in lines:
+                continue
 
-        # Date: first thing with a 4-digit year
-        date_line = ""
-        for t in lines:
-            if re.search(r"\b20\d{2}\b", t):
-                date_line = t
-                break
-        if not date_line:
-            continue
+            # Only search for date/time AFTER the location line, so we don't
+            # accidentally parse the date embedded in the title.
+            try:
+                loc_idx = lines.index("Cobh")
+            except ValueError:
+                continue
+            lines_after_loc = lines[loc_idx + 1 :]
 
-        # Time: first plain HH:MM (ignore ranges like "10:00 - 14:00")
-        time_line = ""
-        for t in lines:
-            if re.fullmatch(r"\d{1,2}:\d{2}", t):
-                time_line = t
-                break
-        if not time_line:
-            time_line = "00:00"
+            # Date line must look like: "Thu 29 January 2026"
+            date_line = ""
+            for t in lines_after_loc:
+                if re.search(r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b", t) and re.search(r"\b20\d{2}\b", t):
+                    date_line = t
+                    break
+            if not date_line:
+                continue
 
-        try:
-            start = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
-        except Exception:
-            continue
+            # Time line is first strict HH:MM (ignore ranges like 10:00 - 14:00)
+            time_line = ""
+            for t in lines_after_loc:
+                if re.fullmatch(r"\d{1,2}:\d{2}", t):
+                    time_line = t
+                    break
+            if not time_line:
+                time_line = "00:00"
 
-        end = start + timedelta(hours=2)
+            try:
+                start = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
+            except Exception:
+                continue
 
-        out.append(
-            {
-                "title": title,
-                "start": start,
-                "end": end,
-                "location": "Cobh",
-                "url": url,
-                "notes": "",
-                "source": "InCobh",
-            }
-        )
+            end = start + timedelta(hours=2)
+
+            out.append(
+                {
+                    "title": title,
+                    "start": start,
+                    "end": end,
+                    "location": "Cobh",
+                    "url": url,
+                    "notes": "",
+                    "source": "InCobh",
+                }
+            )
+            page_events += 1
+
+        print(f"[DEBUG] InCobh page {page} events parsed: {page_events}")
+
+        # Stop when a page returns no matching events (usually means we've reached the end)
+        if page_events == 0:
+            break
 
     # Deduplicate by (title, start)
     seen = set()
@@ -223,21 +250,7 @@ def parse_incobh_events():
         seen.add(key)
         deduped.append(e)
 
-    print(f"[DEBUG] InCobh events parsed: {len(deduped)}")
-    return deduped
-
-
-    # Deduplicate by (title, start)
-    seen = set()
-    deduped = []
-    for e in out:
-        key = (e["title"].lower(), e["start"].strftime("%Y%m%dT%H%M"))
-        if key in seen:
-            continue
-        seen.add(key)
-        deduped.append(e)
-
-    print(f"[DEBUG] InCobh events parsed: {len(deduped)}")
+    print(f"[DEBUG] InCobh total events parsed: {len(deduped)}")
     return deduped
 
 
