@@ -221,6 +221,17 @@ def parse_sheet_events():
 
 
 def parse_incobh_events():
+    """
+    Improved InCobh parser:
+    - Crawl page 1..N (does NOT stop when a page has 0 Cobh events)
+    - For each event block on the listing page:
+        * detect it’s a Cobh event from the listing block text
+        * capture listing date/time if present
+    - Then follow the event URL to enrich:
+        * venue (Location/Address)
+        * multi-day date ranges
+    - If time missing/00:00 -> all-day event
+    """
     out = []
 
     def page_url(n):
@@ -228,7 +239,7 @@ def parse_incobh_events():
             return "https://incobh.com/events/?etype=upcoming"
         return f"https://incobh.com/events/page/{n}/?etype=upcoming"
 
-    for page in range(1, 11):
+    for page in range(1, 21):  # scan up to 20 pages
         try:
             html = safe_get(page_url(page))
         except Exception as e:
@@ -238,21 +249,24 @@ def parse_incobh_events():
         soup = BeautifulSoup(html, "html.parser")
         h3s = soup.find_all("h3")
         if not h3s:
+            print(f"[DEBUG] InCobh page {page}: no <h3> found, stopping.")
             break
 
-        page_count = 0
+        total_h3 = 0
+        cobh_candidates = 0
 
         for h3 in h3s:
             a = h3.find("a", href=True)
             if not a:
                 continue
 
+            total_h3 += 1
             title = clean(a.get_text())
             url = a.get("href", "")
 
-            # Collect text AFTER this h3 until the next h3
-            # Key change: preserve newlines so tokens like "Cobh" stay separate.
-            lines = []
+            # Collect the event block text between this h3 and the next h3.
+            # Use newline-preserving text so "Cobh" is detectable even when phone/address exists.
+            block_lines = []
             for el in h3.next_elements:
                 if getattr(el, "name", None) == "h3":
                     break
@@ -263,29 +277,29 @@ def parse_incobh_events():
                     for part in txt.splitlines():
                         part = clean(part)
                         if part:
-                            lines.append(part)
+                            block_lines.append(part)
 
-            if not lines:
+            if not block_lines:
                 continue
 
-            # Filter: must contain a standalone "Cobh"
-            if "Cobh" not in lines:
+            # Must have Cobh as a standalone line in the listing block
+            if "Cobh" not in block_lines:
                 continue
 
-            # Only look after the first "Cobh" occurrence
-            loc_idx = lines.index("Cobh")
-            after = lines[loc_idx + 1 :]
+            cobh_candidates += 1
 
-            # Date: first line that includes a year
+            # Parse listing date/time AFTER the "Cobh" line (avoids title date confusion)
+            loc_idx = block_lines.index("Cobh")
+            after = block_lines[loc_idx + 1 :]
+
+            # Date line = first line containing a year
             date_line = ""
             for t in after:
                 if re.search(r"\b20\d{2}\b", t):
                     date_line = t
                     break
-            if not date_line:
-                continue
 
-            # Time: first strict HH:MM (ignore "10:00 - 14:00")
+            # Time line = first strict HH:MM (ignore ranges)
             time_line = ""
             for t in after:
                 if re.fullmatch(r"\d{1,2}:\d{2}", t):
@@ -296,35 +310,41 @@ def parse_incobh_events():
 
             all_day = is_midnight_time_str(time_line)
 
-            # Venue: first non-empty line after time that isn't phone/date/time noise
+            # Best-effort venue from listing (we'll overwrite with event page if found)
             venue = ""
             if time_line in after:
                 t_idx = after.index(time_line)
                 for t in after[t_idx + 1 :]:
                     if re.search(r"^\+?\d", t):  # phone
                         continue
-                    if re.search(r"\b20\d{2}\b", t):  # another date
+                    if re.search(r"\b20\d{2}\b", t):
                         continue
                     if re.fullmatch(r"\d{1,2}:\d{2}", t):
+                        continue
+                    if t.lower() in ("favourite", "favorite"):
                         continue
                     venue = t
                     break
 
-            # Parse listing start/end
-            if all_day:
-                d0 = parse_date_only_line(date_line)
-                if not d0:
-                    continue
-                start_val = d0
-                end_val = d0 + timedelta(days=1)
-            else:
-                try:
-                    start_val = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
-                except Exception:
-                    continue
-                end_val = start_val + timedelta(hours=2)
+            # Listing start/end
+            start_val = None
+            end_val = None
 
-            # Enrich from event page (gets multi-day ranges + venue reliably)
+            if all_day:
+                d0 = parse_date_only_line(date_line) if date_line else None
+                if d0:
+                    start_val = d0
+                    end_val = d0 + timedelta(days=1)
+            else:
+                if date_line:
+                    try:
+                        start_val = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
+                        end_val = start_val + timedelta(hours=2)
+                    except Exception:
+                        start_val = None
+                        end_val = None
+
+            # Enrich from event page (this is the reliable part for venue + multi-day)
             if url:
                 enrich = enrich_from_event_page(url)
             else:
@@ -333,10 +353,16 @@ def parse_incobh_events():
             if enrich:
                 if enrich.get("venue"):
                     venue = enrich["venue"]
-                # If listing looks all-day, prefer event-page date range when available
-                if all_day and enrich.get("start_date") and enrich.get("end_date"):
-                    start_val = enrich["start_date"]
-                    end_val = enrich["end_date"] + timedelta(days=1)
+
+                # If it's an all-day listing, prefer multi-day range from event page when present
+                if enrich.get("start_date") and enrich.get("end_date"):
+                    if all_day or start_val is None:
+                        start_val = enrich["start_date"]
+                        end_val = enrich["end_date"] + timedelta(days=1)
+
+            # If we still have no start (rare), skip
+            if start_val is None or end_val is None:
+                continue
 
             out.append(
                 {
@@ -349,11 +375,11 @@ def parse_incobh_events():
                     "source": "InCobh",
                 }
             )
-            page_count += 1
 
-        print(f"[DEBUG] InCobh page {page} events parsed: {page_count}")
-        if page_count == 0:
-            break
+        print(f"[DEBUG] InCobh page {page}: h3={total_h3}, cobh_candidates={cobh_candidates}")
+
+        # IMPORTANT: do NOT stop just because cobh_candidates == 0
+        # Some pages might be Cork-only but later pages have Cobh items.
 
     # Deduplicate by (title, start)
     seen = set()
