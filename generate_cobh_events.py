@@ -26,7 +26,27 @@ def clean(s):
 
 
 def safe_get(url):
-    r = requests.get(url, timeout=30, headers={"User-Agent": "thearchcobh"})
+    # Browser-like headers (helps with WAF/CDN blocks that hit GitHub runners)
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-IE,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Referer": "https://incobh.com/",
+    }
+
+    r = requests.get(url, timeout=30, headers=headers, allow_redirects=True)
+
+    # If blocked on this URL, try the same URL with a trailing slash (some setups differ)
+    if r.status_code == 415 and not url.endswith("/"):
+        r = requests.get(url + "/", timeout=30, headers=headers, allow_redirects=True)
+
+    # If still blocked, raise with a clearer message
     r.raise_for_status()
     return r.text
 
@@ -148,7 +168,11 @@ def parse_incobh_events():
         return f"https://incobh.com/events/page/{n}/?etype=upcoming"
 
     for page in range(1, 11):  # scan up to 10 pages; stops early when empty
-        html = safe_get(page_url(page))
+        try:
+            html = safe_get(page_url(page))
+        except Exception as e:
+            print(f"[WARN] InCobh page {page} fetch failed: {e}")
+            break
         soup = BeautifulSoup(html, "html.parser")
 
         h3s = soup.find_all("h3")
@@ -258,7 +282,12 @@ def main():
     cal = build_cal("Cobh Events (The Arch)")
 
     sheet_events = parse_sheet_events()
-    incobh_events = parse_incobh_events()
+    try:
+        incobh_events = parse_incobh_events()
+    except Exception as e:
+        print(f"[WARN] InCobh fetch/parse failed: {e}")
+        incobh_events = []
+
 
     all_events = sheet_events + incobh_events
     if not all_events:
