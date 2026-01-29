@@ -8,7 +8,10 @@ from dateutil.parser import parse
 from icalendar import Calendar, Event
 
 SOURCE_URL = "https://www.portofcork.ie/print-cruise-schedule.php"
-OUTPUT_ICS = "cobh-cruise.ics"
+
+OUTPUT_COBH = "cobh-cruise.ics"
+OUTPUT_ALL = "all-ports.ics"
+
 COBH_BERTH = "Cobh Cruise Terminal"
 TZ = pytz.timezone("Europe/Dublin")
 
@@ -80,6 +83,14 @@ def normalize_mt(url):
     return "https://" + u
 
 
+def normalize_berth_title(berth):
+    if berth == "Cobh Cruise Terminal":
+        return "Cobh"
+    if berth == "Ringaskiddy DWB":
+        return "Ringaskiddy"
+    return berth
+
+
 def main():
     r = requests.get(SOURCE_URL, timeout=30, headers={"User-Agent": "thearchcobh"})
     r.raise_for_status()
@@ -87,13 +98,23 @@ def main():
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    cal = Calendar()
-    cal.add("prodid", "-//The Arch Cobh//Cruise Schedule//EN")
-    cal.add("version", "2.0")
-    cal.add("x-wr-calname", "Cobh Cruise Calls (The Arch)")
-    cal.add("x-wr-timezone", "Europe/Dublin")
+    cal_cobh = Calendar()
+    cal_all = Calendar()
 
-    events_written = 0
+    cal_cobh.add("prodid", "-//The Arch Cobh//Cruise//EN")
+    cal_all.add("prodid", "-//The Arch Cobh//Cruise//EN")
+
+    cal_cobh.add("version", "2.0")
+    cal_all.add("version", "2.0")
+
+    cal_cobh.add("x-wr-calname", "Cobh Cruise Calls (The Arch)")
+    cal_all.add("x-wr-calname", "Cork Harbour Cruise Calls (All Ports)")
+
+    cal_cobh.add("x-wr-timezone", "Europe/Dublin")
+    cal_all.add("x-wr-timezone", "Europe/Dublin")
+
+    cobh_count = 0
+    all_count = 0
 
     for table in tables:
         rows = table.find_all("tr")
@@ -131,10 +152,7 @@ def main():
             if len(cells) <= max(idx[k] for k in required):
                 continue
 
-            berth = clean(cells[idx["berth"]].get_text())
-            if berth != COBH_BERTH:
-                continue
-
+            berth_raw = clean(cells[idx["berth"]].get_text())
             vessel = clean(cells[idx["vessel"]].get_text())
             arrival = clean(cells[idx["arrival"]].get_text())
             departure = clean(cells[idx["departure"]].get_text())
@@ -162,41 +180,63 @@ def main():
             except Exception:
                 continue
 
-            p = pax_int(pax)
-            signal = pax_signal(p)
-            title_pax = pax if pax else ("?" if p is None else str(p))
-            summary = f"{signal} {vessel} — {title_pax} pax"
-
             vessel_line = f"{vessel}, {line}" if line else vessel
+            berth_title = normalize_berth_title(berth_raw)
 
-            notes = [
+            # -------- ALL PORTS --------
+            ev_all = Event()
+            ev_all.add("uid", stable_uid(vessel, line, mt, start, berth_raw + "-all"))
+            ev_all.add("dtstamp", datetime.utcnow())
+            ev_all.add("summary", f"🚢 {vessel} — {berth_title}")
+            ev_all.add("dtstart", start)
+            ev_all.add("dtend", end)
+            ev_all.add("location", berth_title)
+            ev_all.add("description", "\n".join([
                 f"👥 {pax}".rstrip(),
                 f"🛳 {vessel_line}",
+                f"⚓ {berth_title}",
                 f"🔗 {mt}".rstrip(),
                 "",
                 "Created by The Arch, Cobh",
                 "Data from PortofCork.ie",
-            ]
+            ]))
 
-            ev = Event()
-            ev.add("uid", stable_uid(vessel, line, mt, start, berth))
-            ev.add("dtstamp", datetime.utcnow())
-            ev.add("summary", summary)
-            ev.add("dtstart", start)
-            ev.add("dtend", end)
-            ev.add("location", berth)
-            ev.add("description", "\n".join(notes))
+            cal_all.add_component(ev_all)
+            all_count += 1
 
-            cal.add_component(ev)
-            events_written += 1
+            # -------- COBH ONLY --------
+            if berth_raw == COBH_BERTH:
+                p = pax_int(pax)
+                signal = pax_signal(p)
+                title_pax = pax if pax else ("?" if p is None else str(p))
 
-    if events_written == 0:
-        raise RuntimeError("No events written")
+                ev_cobh = Event()
+                ev_cobh.add("uid", stable_uid(vessel, line, mt, start, "cobh"))
+                ev_cobh.add("dtstamp", datetime.utcnow())
+                ev_cobh.add("summary", f"{signal} {vessel} — {title_pax} pax")
+                ev_cobh.add("dtstart", start)
+                ev_cobh.add("dtend", end)
+                ev_cobh.add("location", "Cobh")
+                ev_cobh.add("description", "\n".join([
+                    f"👥 {pax}".rstrip(),
+                    f"🛳 {vessel_line}",
+                    f"🔗 {mt}".rstrip(),
+                    "",
+                    "Created by The Arch, Cobh",
+                    "Data from PortofCork.ie",
+                ]))
 
-    print("Events written:", events_written)
+                cal_cobh.add_component(ev_cobh)
+                cobh_count += 1
 
-    with open(OUTPUT_ICS, "wb") as f:
-        f.write(cal.to_ical())
+    print("All ports events:", all_count)
+    print("Cobh events:", cobh_count)
+
+    with open(OUTPUT_ALL, "wb") as f:
+        f.write(cal_all.to_ical())
+
+    with open(OUTPUT_COBH, "wb") as f:
+        f.write(cal_cobh.to_ical())
 
 
 if __name__ == "__main__":
