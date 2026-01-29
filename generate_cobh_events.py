@@ -49,8 +49,7 @@ def safe_get_jsonish_text(soup, heading_text):
 
 def enrich_from_event_page(event_url):
     """
-    Pull venue + date range + tags from the event detail page.
-    Tags are inferred from links like /events/tags/... and common category blocks.
+    Pull venue + date range + tags + a Cobh validation flag from the event page.
     """
     try:
         html = safe_get(event_url)
@@ -60,13 +59,16 @@ def enrich_from_event_page(event_url):
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Venue
+    # Venue (Location section)
     venue = ""
     loc_lines = safe_get_jsonish_text(soup, "Location")
     if loc_lines:
         venue = loc_lines[0]
 
-    # Date range
+    # Sometimes there is an Address section too; include it if present
+    addr_lines = safe_get_jsonish_text(soup, "Address")
+
+    # Date range (Event Dates section)
     start_d = None
     end_d = None
     date_lines = safe_get_jsonish_text(soup, "Event Dates")
@@ -79,24 +81,28 @@ def enrich_from_event_page(event_url):
         start_d = parsed_dates[0]
         end_d = parsed_dates[-1]
 
-    # Tags / categories (best-effort)
+    # Tags
     tags = set()
     for a in soup.find_all("a", href=True):
         href = a["href"]
         txt = clean(a.get_text())
         if not txt:
             continue
-        if "/events/tags/" in href or "/events/tag/" in href:
+        if "/events/tags/" in href or "/events/tag/" in href or "/event-tag/" in href:
             tags.add(txt)
-        # some WordPress themes use categories rather than tags
-        if "/category/" in href and "events" in href:
+        if "/category/" in href and "event" in href:
             tags.add(txt)
+
+    # Cobh validation: look for "cobh" anywhere in Location/Address text
+    loc_blob = " ".join([venue] + loc_lines + addr_lines).lower()
+    is_cobh = "cobh" in loc_blob
 
     return {
         "venue": venue,
         "start_date": start_d,
         "end_date": end_d,
         "tags": sorted(tags),
+        "is_cobh": is_cobh,
     }
 
 
@@ -332,6 +338,9 @@ def parse_incobh_events():
             tags = []
             if url:
                 enrich = enrich_from_event_page(url)
+                # Final truth: only include if event page says it's in/near Cobh
+                if enrich and enrich.get("is_cobh") is False:
+                    continue
                 if enrich:
                     venue = enrich.get("venue") or ""
                     tags = enrich.get("tags") or []
