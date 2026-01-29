@@ -49,9 +49,8 @@ def safe_get_jsonish_text(soup, heading_text):
 
 def enrich_from_event_page(event_url):
     """
-    Pull venue + date range from the event detail page.
-    Venue = Location section (usually a single line like 'Commodore Hotel') :contentReference[oaicite:2]{index=2}
-    Dates = Event Dates section (start - end) :contentReference[oaicite:3]{index=3}
+    Pull venue + date range + tags from the event detail page.
+    Tags are inferred from links like /events/tags/... and common category blocks.
     """
     try:
         html = safe_get(event_url)
@@ -61,32 +60,43 @@ def enrich_from_event_page(event_url):
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Location / venue
+    # Venue
     venue = ""
     loc_lines = safe_get_jsonish_text(soup, "Location")
     if loc_lines:
-        # usually first meaningful line is the venue name
         venue = loc_lines[0]
 
-    # Event date range
+    # Date range
     start_d = None
     end_d = None
     date_lines = safe_get_jsonish_text(soup, "Event Dates")
-    # Example: "Thu 9 April 2026", "-", "Sun 12 April 2026" :contentReference[oaicite:4]{index=4}
     parsed_dates = []
     for l in date_lines:
         d = parse_date_only_line(l)
         if d:
             parsed_dates.append(d)
-
     if parsed_dates:
         start_d = parsed_dates[0]
         end_d = parsed_dates[-1]
+
+    # Tags / categories (best-effort)
+    tags = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        txt = clean(a.get_text())
+        if not txt:
+            continue
+        if "/events/tags/" in href or "/events/tag/" in href:
+            tags.add(txt)
+        # some WordPress themes use categories rather than tags
+        if "/category/" in href and "events" in href:
+            tags.add(txt)
 
     return {
         "venue": venue,
         "start_date": start_d,
         "end_date": end_d,
+        "tags": sorted(tags),
     }
 
 
@@ -212,7 +222,7 @@ def parse_sheet_events():
                 "location": "Cobh",
                 "url": "",
                 "notes": notes,
-                "source": "Google Sheet",
+                "source": "The Arch",
             }
         )
 
@@ -221,17 +231,6 @@ def parse_sheet_events():
 
 
 def parse_incobh_events():
-    """
-    Improved InCobh parser:
-    - Crawl page 1..N (does NOT stop when a page has 0 Cobh events)
-    - For each event block on the listing page:
-        * detect it’s a Cobh event from the listing block text
-        * capture listing date/time if present
-    - Then follow the event URL to enrich:
-        * venue (Location/Address)
-        * multi-day date ranges
-    - If time missing/00:00 -> all-day event
-    """
     out = []
 
     def page_url(n):
@@ -239,7 +238,7 @@ def parse_incobh_events():
             return "https://incobh.com/events/?etype=upcoming"
         return f"https://incobh.com/events/page/{n}/?etype=upcoming"
 
-    for page in range(1, 21):  # scan up to 20 pages
+    for page in range(1, 21):
         try:
             html = safe_get(page_url(page))
         except Exception as e:
@@ -252,21 +251,18 @@ def parse_incobh_events():
             print(f"[DEBUG] InCobh page {page}: no <h3> found, stopping.")
             break
 
-        total_h3 = 0
-        cobh_candidates = 0
+        page_added = 0
 
         for h3 in h3s:
             a = h3.find("a", href=True)
             if not a:
                 continue
 
-            total_h3 += 1
             title = clean(a.get_text())
             url = a.get("href", "")
 
-            # Collect the event block text between this h3 and the next h3.
-            # Use newline-preserving text so "Cobh" is detectable even when phone/address exists.
-            block_lines = []
+            # Collect text after this h3 until next h3 (newline-preserving)
+            lines = []
             for el in h3.next_elements:
                 if getattr(el, "name", None) == "h3":
                     break
@@ -277,29 +273,36 @@ def parse_incobh_events():
                     for part in txt.splitlines():
                         part = clean(part)
                         if part:
-                            block_lines.append(part)
+                            lines.append(part)
 
-            if not block_lines:
+            if not lines:
                 continue
 
-            # Must have Cobh as a standalone line in the listing block
-            if "Cobh" not in block_lines:
-                continue
+            # Determine the FIRST location token in the block
+            # (prevents Cork events being included just because 'Cobh' appears later)
+            first_loc = None
+            first_loc_idx = None
+            for i, t in enumerate(lines):
+                if t in ("Cobh", "Cork"):
+                    first_loc = t
+                    first_loc_idx = i
+                    break
 
-            cobh_candidates += 1
+            if first_loc != "Cobh":
+                continue  # ONLY Cobh events
 
-            # Parse listing date/time AFTER the "Cobh" line (avoids title date confusion)
-            loc_idx = block_lines.index("Cobh")
-            after = block_lines[loc_idx + 1 :]
+            after = lines[first_loc_idx + 1 :]
 
-            # Date line = first line containing a year
+            # Date line: first line containing a year
             date_line = ""
             for t in after:
                 if re.search(r"\b20\d{2}\b", t):
                     date_line = t
                     break
+            if not date_line:
+                continue
 
-            # Time line = first strict HH:MM (ignore ranges)
+            # Time line: first strict HH:MM
             time_line = ""
             for t in after:
                 if re.fullmatch(r"\d{1,2}:\d{2}", t):
@@ -310,59 +313,33 @@ def parse_incobh_events():
 
             all_day = is_midnight_time_str(time_line)
 
-            # Best-effort venue from listing (we'll overwrite with event page if found)
-            venue = ""
-            if time_line in after:
-                t_idx = after.index(time_line)
-                for t in after[t_idx + 1 :]:
-                    if re.search(r"^\+?\d", t):  # phone
-                        continue
-                    if re.search(r"\b20\d{2}\b", t):
-                        continue
-                    if re.fullmatch(r"\d{1,2}:\d{2}", t):
-                        continue
-                    if t.lower() in ("favourite", "favorite"):
-                        continue
-                    venue = t
-                    break
-
-            # Listing start/end
-            start_val = None
-            end_val = None
-
+            # Parse start/end from listing
             if all_day:
-                d0 = parse_date_only_line(date_line) if date_line else None
-                if d0:
-                    start_val = d0
-                    end_val = d0 + timedelta(days=1)
+                d0 = parse_date_only_line(date_line)
+                if not d0:
+                    continue
+                start_val = d0
+                end_val = d0 + timedelta(days=1)
             else:
-                if date_line:
-                    try:
-                        start_val = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
-                        end_val = start_val + timedelta(hours=2)
-                    except Exception:
-                        start_val = None
-                        end_val = None
+                try:
+                    start_val = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
+                    end_val = start_val + timedelta(hours=2)
+                except Exception:
+                    continue
 
-            # Enrich from event page (this is the reliable part for venue + multi-day)
+            # Enrich from event page (venue, multi-day range, tags)
+            venue = ""
+            tags = []
             if url:
                 enrich = enrich_from_event_page(url)
-            else:
-                enrich = None
-
-            if enrich:
-                if enrich.get("venue"):
-                    venue = enrich["venue"]
-
-                # If it's an all-day listing, prefer multi-day range from event page when present
-                if enrich.get("start_date") and enrich.get("end_date"):
-                    if all_day or start_val is None:
-                        start_val = enrich["start_date"]
-                        end_val = enrich["end_date"] + timedelta(days=1)
-
-            # If we still have no start (rare), skip
-            if start_val is None or end_val is None:
-                continue
+                if enrich:
+                    venue = enrich.get("venue") or ""
+                    tags = enrich.get("tags") or []
+                    if enrich.get("start_date") and enrich.get("end_date"):
+                        # If listing is all-day (or unreliable), prefer event-page range
+                        if all_day:
+                            start_val = enrich["start_date"]
+                            end_val = enrich["end_date"] + timedelta(days=1)
 
             out.append(
                 {
@@ -373,15 +350,14 @@ def parse_incobh_events():
                     "url": url,
                     "notes": "",
                     "source": "InCobh",
+                    "tags": tags,
                 }
             )
+            page_added += 1
 
-        print(f"[DEBUG] InCobh page {page}: h3={total_h3}, cobh_candidates={cobh_candidates}")
+        print(f"[DEBUG] InCobh page {page}: added {page_added}")
 
-        # IMPORTANT: do NOT stop just because cobh_candidates == 0
-        # Some pages might be Cork-only but later pages have Cobh items.
-
-    # Deduplicate by (title, start)
+    # Dedup
     seen = set()
     deduped = []
     for e in out:
@@ -393,6 +369,21 @@ def parse_incobh_events():
 
     print(f"[DEBUG] InCobh total events parsed: {len(deduped)}")
     return deduped
+
+def event_emoji(e):
+    title = (e.get("title") or "").lower()
+    tags = " ".join([t.lower() for t in (e.get("tags") or [])])
+
+    # Farmers markets
+    if "market" in title or "market" in tags:
+        return "👨‍🌾"
+
+    # Music-ish
+    if any(k in title for k in ["music", "gig", "concert", "trad", "session"]) or "music" in tags:
+        return "🎵"
+
+    return "🎫"
+
 
 
 def main():
@@ -414,7 +405,7 @@ def main():
         ev = Event()
         ev.add("uid", uid("cobh-events", e["title"], e["start"]))
         ev.add("dtstamp", datetime.utcnow())
-        ev.add("summary", f"🎫 {e['title']}")
+        ev.add("summary", f"{event_emoji(e)} {e['title']}")
         ev.add("dtstart", e["start"])
         ev.add("dtend", e["end"])
         ev.add("location", e.get("location", "Cobh"))
@@ -429,7 +420,11 @@ def main():
 
         desc.append("")
         desc.append("Created by The Arch, Cobh")
-        desc.append("Data from InCobh")
+        if e.get("source") == "InCobh":
+            desc.append("Data from InCobh.com")
+        else:
+            desc.append("Data from The Arch")
+
 
         ev.add("description", "\n".join([d for d in desc if d is not None]))
         cal.add_component(ev)
