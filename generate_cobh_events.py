@@ -52,44 +52,24 @@ def looks_like_html(text):
     return head.startswith("<!doctype html") or head.startswith("<html") or "accounts.google.com" in head
 
 
-def parse_date_line(line):
-    """
-    Parse date lines like:
-      Thu 29 January 2026
-      Sun 1 February 2026
-    We don't regex the month; we just try parsing.
-    """
-    try:
-        dt = parse(line, dayfirst=True, fuzzy=True)
-        if dt.year >= 2020:
-            return dt.date()
-    except Exception:
-        pass
-    return None
-
-
-def parse_time_line(line):
-    """
-    Accept:
-      21:00
-      10:00
-    Ignore ranges like '10:00 - 14:00' (those appear in opening-hours blocks)
-    """
-    m = re.fullmatch(r"(\d{1,2}:\d{2})", line.strip())
-    return m.group(1) if m else None
+def norm_key(k):
+    # "Event Name" -> "event_name"
+    k = (k or "").strip().lower()
+    k = re.sub(r"[^a-z0-9]+", "_", k)
+    return k.strip("_")
 
 
 def parse_sheet_events():
     """
-    Headings:
-    Event, Name, Date, Start Time, End Time, Notes
+    Sheet headings you gave:
+    Event Name, Date, Start Time, End Time, Notes
+    (Optionally Name column may exist in other rows; we support it.)
     """
     url = sheet_csv_url(SHEET_ID, SHEET_TAB_NAME)
     body = safe_get(url)
 
     if looks_like_html(body):
         print("[WARN] Google Sheet did not return CSV (looks like HTML).")
-        print("[WARN] Confirm sharing / publish-to-web.")
         return []
 
     f = StringIO(body)
@@ -100,32 +80,35 @@ def parse_sheet_events():
 
     for row in reader:
         row_count += 1
-        r = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
+        # normalize keys
+        r = {norm_key(k): (v or "").strip() for k, v in row.items()}
 
-        event_name = r.get("event", "")
-        person_name = r.get("name", "")
-        date_raw = r.get("date", "")
-        start_time_raw = r.get("start time", "")
-        end_time_raw = r.get("end time", "")
-        notes = r.get("notes", "")
+        event_name = r.get("event_name") or r.get("event") or ""
+        person_name = r.get("name") or ""
+        date_raw = r.get("date") or ""
+        start_time_raw = r.get("start_time") or ""
+        end_time_raw = r.get("end_time") or ""
+        notes = r.get("notes") or ""
 
         if not event_name or not date_raw:
             continue
 
         title = f"{event_name} — {person_name}" if person_name else event_name
 
-        # Start time optional; default 00:00
+        # If start time missing, make it all-day-ish at midnight
         start_time_raw = start_time_raw if start_time_raw else "00:00"
 
         try:
             start = TZ.localize(parse(f"{date_raw} {start_time_raw}", dayfirst=True, fuzzy=True))
-        except Exception:
+        except Exception as e:
+            print(f"[WARN] Sheet parse failed for start: date='{date_raw}' time='{start_time_raw}': {e}")
             continue
 
         if end_time_raw:
             try:
                 end = TZ.localize(parse(f"{date_raw} {end_time_raw}", dayfirst=True, fuzzy=True))
-            except Exception:
+            except Exception as e:
+                print(f"[WARN] Sheet parse failed for end: date='{date_raw}' time='{end_time_raw}': {e}")
                 end = start + timedelta(hours=2)
         else:
             end = start + timedelta(hours=2)
@@ -148,20 +131,22 @@ def parse_sheet_events():
 
 def parse_incobh_events():
     """
-    InCobh listing structure (as rendered in the HTML):
-      ### <a>Event title ...</a>
+    InCobh page contains event blocks like:
+      ### <a>Title</a>
       Cobh
       Thu 29 January 2026
       21:00
-      <venue link>
-    There are also blocks like opening hours; we ignore those by only taking the first clean time line.
+      Venue
+
+    The key is: those lines are siblings after each h3 until the next h3.
     """
     html = safe_get(INCOBH_UPCOMING)
     soup = BeautifulSoup(html, "html.parser")
 
     out = []
 
-    for h3 in soup.find_all("h3"):
+    h3s = soup.find_all("h3")
+    for i, h3 in enumerate(h3s):
         a = h3.find("a", href=True)
         if not a:
             continue
@@ -169,42 +154,52 @@ def parse_incobh_events():
         title = clean(a.get_text())
         url = a.get("href", "")
 
-        container = h3.parent
-        if not container:
-            continue
+        # collect text until next h3
+        lines = []
+        node = h3.next_sibling
+        while node is not None:
+            # stop when we hit the next event title
+            if getattr(node, "name", None) == "h3":
+                break
 
-        lines = [clean(t) for t in container.stripped_strings if clean(t)]
+            if hasattr(node, "stripped_strings"):
+                for t in node.stripped_strings:
+                    t = clean(t)
+                    if t:
+                        lines.append(t)
+            node = node.next_sibling
+
         if not lines:
             continue
 
-        # Filter: must include a standalone "Cobh" line
+        # Must contain a standalone location line = Cobh
+        # (This matches what is visible on the page.) :contentReference[oaicite:1]{index=1}
         if "Cobh" not in lines:
             continue
 
-        # Find date line (first parsable date with a year)
-        event_date = None
+        # Find date line (has a year)
+        date_line = ""
         for t in lines:
             if re.search(r"\b20\d{2}\b", t):
-                d = parse_date_line(t)
-                if d:
-                    event_date = d
-                    break
-
-        if not event_date:
+                date_line = t
+                break
+        if not date_line:
             continue
 
-        # Find first simple time line like "21:00"
-        time_str = None
+        # Find first HH:MM time line (ignore ranges like 10:00 - 14:00)
+        time_line = ""
         for t in lines:
-            ts = parse_time_line(t)
-            if ts:
-                time_str = ts
+            if re.fullmatch(r"\d{1,2}:\d{2}", t):
+                time_line = t
                 break
+        if not time_line:
+            time_line = "00:00"
 
-        if not time_str:
-            time_str = "00:00"
+        try:
+            start = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
+        except Exception:
+            continue
 
-        start = TZ.localize(parse(f"{event_date.isoformat()} {time_str}", dayfirst=True, fuzzy=True))
         end = start + timedelta(hours=2)
 
         out.append(
@@ -241,10 +236,7 @@ def main():
 
     all_events = sheet_events + incobh_events
     if not all_events:
-        raise RuntimeError(
-            "No events generated from either source. "
-            "InCobh may have changed layout OR the sheet isn't truly returning CSV to the runner."
-        )
+        raise RuntimeError("No events generated from either source.")
 
     for e in all_events:
         ev = Event()
