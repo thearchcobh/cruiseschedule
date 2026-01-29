@@ -13,6 +13,9 @@ COBH_BERTH = "Cobh Cruise Terminal"
 TZ = pytz.timezone("Europe/Dublin")
 
 
+# ----------------------------
+# Helpers
+# ----------------------------
 def clean(s):
     return re.sub(r"\s+", " ", (s or "").strip())
 
@@ -27,14 +30,47 @@ def is_header_row(cells):
     return ("vessel" in text) and ("berth" in text) and ("arrival" in text) and ("departure" in text)
 
 
+def find_col(header_cells, needle):
+    """
+    Find the index of the first header cell containing `needle` (case-insensitive).
+    This handles headers like 'IMO No.' instead of exact 'IMO'.
+    """
+    needle = needle.lower()
+    for i, h in enumerate(header_cells):
+        if needle in (h or "").lower():
+            return i
+    return None
+
+
+def extract_digits(raw):
+    return re.sub(r"[^\d]", "", raw or "")
+
+
+def marinetraffic_link(imo_raw):
+    imo = extract_digits(imo_raw)
+    if not imo:
+        return ""
+    # This is the format you confirmed works
+    return f"https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}/"
+
+
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")[:40] or "x"
+
+
+def stable_uid(vessel, imo_raw, start_dt, berth):
+    """
+    Stable UID within a given arrival date so time changes update cleanly.
+    Uses IMO if available, otherwise vessel slug.
+    """
+    day = start_dt.strftime("%Y%m%d")
+    base = extract_digits(imo_raw) or slug(vessel)
+    return f"{base}-{day}-{slug(berth)}-thearchcobh"
 
 
 def pax_int(pax_str):
     if not pax_str:
         return None
-    # handle "4,200" etc.
     digits = re.sub(r"[^\d]", "", pax_str)
     if not digits:
         return None
@@ -45,7 +81,7 @@ def pax_int(pax_str):
 
 
 def pax_signal(pax_value):
-    # Adjust thresholds any time you like
+    # Tune thresholds any time
     if pax_value is None:
         return "⚪"
     if pax_value >= 3000:
@@ -55,79 +91,77 @@ def pax_signal(pax_value):
     return "🟢"
 
 
-def extract_imo(raw):
-    if not raw:
-        return ""
-    digits = re.sub(r"[^\d]", "", raw)
-    return digits
-
-
-def marinetraffic_link(imo_raw):
-    imo = extract_imo(imo_raw)
-    if not imo:
-        return ""
-    return f"https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}/"
-
-
-def stable_uid(vessel, imo, start_dt, berth):
-    """
-    Stable UID within a given arrival date so time changes update cleanly.
-    If the date changes, UID changes (old event may be removed by the client on refresh).
-    """
-    day = start_dt.strftime("%Y%m%d")
-    base = (imo.strip() if (imo or "").strip().isdigit() else slug(vessel))
-    return f"{base}-{day}-{slug(berth)}-thearchcobh"
-
-
+# ----------------------------
+# Main
+# ----------------------------
 def main():
-    html = requests.get(
+    resp = requests.get(
         SOURCE_URL,
         timeout=30,
         headers={"User-Agent": "thearchcobh-cruise-ical/1.0"},
-    ).text
+    )
+    resp.raise_for_status()
 
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(resp.text, "html.parser")
     tables = soup.find_all("table")
     if not tables:
-        raise RuntimeError("No tables found on schedule page")
+        raise RuntimeError("No <table> elements found on schedule page.")
 
     cal = Calendar()
-    cal.add("prodid", "-//The Arch Cobh//Cruise Schedule//EN")
+    cal.add("prodid", "-//The Arch, Cobh//Cruise Schedule//EN")
     cal.add("version", "2.0")
     cal.add("x-wr-calname", "Cobh Cruise Calls (The Arch)")
     cal.add("x-wr-timezone", "Europe/Dublin")
 
+    total_rows_seen = 0
+    header_rows_seen = 0
     events_written = 0
+    imo_found_count = 0
+    imo_blank_count = 0
 
-    for table in tables:
+    for t_i, table in enumerate(tables):
         rows = table.find_all("tr")
         if not rows:
             continue
 
         idx = None
+        header_cells = None
 
-        for row in rows:
+        for r_i, row in enumerate(rows):
+            total_rows_seen += 1
+
             cells = [clean(c.get_text()) for c in row.find_all(["th", "td"])]
-            if not cells or is_month_row(cells):
+            if not cells:
+                continue
+            if is_month_row(cells):
                 continue
 
+            # Header row (repeated per section/table)
             if is_header_row(cells):
-                idx = {name.lower(): i for i, name in enumerate(cells) if name}
+                header_rows_seen += 1
+                header_cells = cells
+                idx = {
+                    "vessel": find_col(cells, "vessel"),
+                    "berth": find_col(cells, "berth"),
+                    "arrival": find_col(cells, "arrival"),
+                    "departure": find_col(cells, "departure"),
+                    "pax": find_col(cells, "pax"),
+                    "imo": find_col(cells, "imo"),
+                }
+
+                # Debug: show headers we found and the mapping
+                print(f"[DEBUG] Table {t_i} header row {r_i}: {cells}")
+                print(f"[DEBUG] Column index mapping: {idx}")
+
                 continue
 
-            if not idx:
+            # Can't parse without header mapping
+            if not idx or idx["vessel"] is None or idx["berth"] is None or idx["arrival"] is None or idx["departure"] is None:
                 continue
 
-            # Required columns
-            for key in ("vessel", "berth", "arrival", "departure"):
-                if key not in idx:
-                    idx = None
-                    break
-            if not idx:
-                continue
-
-            # Ensure row has enough columns
-            if len(cells) <= max(idx["vessel"], idx["berth"], idx["arrival"], idx["departure"]):
+            # Guard: row may be shorter than header
+            required_max = max(idx["vessel"], idx["berth"], idx["arrival"], idx["departure"])
+            if len(cells) <= required_max:
                 continue
 
             berth = cells[idx["berth"]]
@@ -139,45 +173,49 @@ def main():
             departure = cells[idx["departure"]]
 
             pax = ""
-            if "pax" in idx and idx["pax"] < len(cells):
+            if idx.get("pax") is not None and idx["pax"] < len(cells):
                 pax = cells[idx["pax"]]
 
-            imo = ""
-            if "imo" in idx and idx["imo"] < len(cells):
-                imo = cells[idx["imo"]]
+            imo_raw = ""
+            if idx.get("imo") is not None and idx["imo"] < len(cells):
+                imo_raw = cells[idx["imo"]]
 
-            if not arrival or not departure or not vessel:
+            # Debug IMO presence
+            if extract_digits(imo_raw):
+                imo_found_count += 1
+            else:
+                imo_blank_count += 1
+
+            if not vessel or not arrival or not departure:
                 continue
 
             # Parse dd/mm/yyyy times
             try:
                 start = TZ.localize(parse(arrival, dayfirst=True))
                 end = TZ.localize(parse(departure, dayfirst=True))
-            except Exception:
+            except Exception as e:
+                print(f"[WARN] Failed to parse datetimes for vessel={vessel} arrival={arrival} departure={departure}: {e}")
                 continue
 
             p_int = pax_int(pax)
             signal = pax_signal(p_int)
-
-            # Title with passenger load signal
-            # Keep the pax string as-is for readability (e.g. "4,200")
             title_pax = pax if pax else ("?" if p_int is None else str(p_int))
-            summary = f"{signal} {vessel} — {title_pax} pax"
 
-            mt = marinetraffic_link(imo)
+            summary = f"{signal} {vessel} — {title_pax} pax"
+            mt = marinetraffic_link(imo_raw)
 
             # Notes exactly as requested
             notes_lines = [
-                f"Pax: {pax if pax else ''}".rstrip(),
+                f"Pax: {pax}".rstrip(),
                 f"Vessel: {vessel}",
-                f"MarineTraffic: {mt}" if mt else "MarineTraffic: ",
+                f"MarineTraffic: {mt}".rstrip(),
                 "Created by The Arch, Cobh",
                 "Data from PortofCork.ie",
             ]
             description = "\n".join(notes_lines)
 
             ev = Event()
-            ev.add("uid", stable_uid(vessel, imo, start, berth))
+            ev.add("uid", stable_uid(vessel, imo_raw, start, berth))
             ev.add("dtstamp", datetime.utcnow())
             ev.add("summary", summary)
             ev.add("dtstart", start)
@@ -188,11 +226,24 @@ def main():
             cal.add_component(ev)
             events_written += 1
 
+    if events_written == 0:
+        raise RuntimeError(
+            "No events were written. This likely means the berth filter didn't match "
+            "or the page layout changed."
+        )
+
+    # Summary debug
+    print(f"[DEBUG] Total tables found: {len(tables)}")
+    print(f"[DEBUG] Total rows seen: {total_rows_seen}")
+    print(f"[DEBUG] Header rows seen: {header_rows_seen}")
+    print(f"[DEBUG] Events written: {events_written}")
+    print(f"[DEBUG] Events with IMO extracted: {imo_found_count}")
+    print(f"[DEBUG] Events with IMO blank: {imo_blank_count}")
+
     with open(OUTPUT_ICS, "wb") as f:
         f.write(cal.to_ical())
 
     print("Wrote", OUTPUT_ICS)
-    print("Events written:", events_written)
 
 
 if __name__ == "__main__":
