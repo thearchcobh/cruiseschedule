@@ -49,7 +49,12 @@ def safe_get_jsonish_text(soup, heading_text):
 
 def enrich_from_event_page(event_url):
     """
-    Pull venue + date range + tags + a Cobh validation flag from the event page.
+    Pull venue + date range + tags + an is_cobh flag.
+
+    is_cobh meanings:
+      True  = location/address clearly mentions Cobh
+      False = location/address present but clearly does NOT mention Cobh
+      None  = location/address not present / unknown -> do not filter out
     """
     try:
         html = safe_get(event_url)
@@ -59,16 +64,12 @@ def enrich_from_event_page(event_url):
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Venue (Location section)
-    venue = ""
+    # Venue/location lines (best effort)
     loc_lines = safe_get_jsonish_text(soup, "Location")
-    if loc_lines:
-        venue = loc_lines[0]
-
-    # Sometimes there is an Address section too; include it if present
     addr_lines = safe_get_jsonish_text(soup, "Address")
+    venue = loc_lines[0] if loc_lines else ""
 
-    # Date range (Event Dates section)
+    # Date range (Event Dates)
     start_d = None
     end_d = None
     date_lines = safe_get_jsonish_text(soup, "Event Dates")
@@ -93,9 +94,13 @@ def enrich_from_event_page(event_url):
         if "/category/" in href and "event" in href:
             tags.add(txt)
 
-    # Cobh validation: look for "cobh" anywhere in Location/Address text
-    loc_blob = " ".join([venue] + loc_lines + addr_lines).lower()
-    is_cobh = "cobh" in loc_blob
+    # Cobh validation (SAFE)
+    # Only decide True/False if we actually found location-ish text.
+    loc_blob = " ".join([venue] + loc_lines + addr_lines).strip().lower()
+    if not loc_blob:
+        is_cobh = None
+    else:
+        is_cobh = ("cobh" in loc_blob)
 
     return {
         "venue": venue,
@@ -338,9 +343,12 @@ def parse_incobh_events():
             tags = []
             if url:
                 enrich = enrich_from_event_page(url)
-                # Final truth: only include if event page says it's in/near Cobh
-                if enrich and enrich.get("is_cobh") is False:
-                    continue
+                    # Final truth: only include if event page says it's in/near Cobh
+                   # Only exclude if the event page explicitly indicates it's NOT in Cobh.
+                    # If it's unknown (None), keep it and rely on the listing filter.
+            if enrich is not None and enrich.get("is_cobh") is False:
+                continue
+
                 if enrich:
                     venue = enrich.get("venue") or ""
                     tags = enrich.get("tags") or []
