@@ -52,6 +52,33 @@ def looks_like_html(text):
     return head.startswith("<!doctype html") or head.startswith("<html") or "accounts.google.com" in head
 
 
+def parse_date_line(line):
+    """
+    Parse date lines like:
+      Thu 29 January 2026
+      Sun 1 February 2026
+    We don't regex the month; we just try parsing.
+    """
+    try:
+        dt = parse(line, dayfirst=True, fuzzy=True)
+        if dt.year >= 2020:
+            return dt.date()
+    except Exception:
+        pass
+    return None
+
+
+def parse_time_line(line):
+    """
+    Accept:
+      21:00
+      10:00
+    Ignore ranges like '10:00 - 14:00' (those appear in opening-hours blocks)
+    """
+    m = re.fullmatch(r"(\d{1,2}:\d{2})", line.strip())
+    return m.group(1) if m else None
+
+
 def parse_sheet_events():
     """
     Headings:
@@ -60,17 +87,19 @@ def parse_sheet_events():
     url = sheet_csv_url(SHEET_ID, SHEET_TAB_NAME)
     body = safe_get(url)
 
-    # If sheet isn't public, Google returns HTML. Detect and warn.
     if looks_like_html(body):
         print("[WARN] Google Sheet did not return CSV (looks like HTML).")
-        print("[WARN] Make the sheet public ('Anyone with link can view') or 'Publish to web'.")
+        print("[WARN] Confirm sharing / publish-to-web.")
         return []
 
     f = StringIO(body)
     reader = csv.DictReader(f)
+
     out = []
+    row_count = 0
 
     for row in reader:
+        row_count += 1
         r = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
 
         event_name = r.get("event", "")
@@ -85,17 +114,17 @@ def parse_sheet_events():
 
         title = f"{event_name} — {person_name}" if person_name else event_name
 
-        # If Start Time missing, default to 00:00 and treat as 2h block
+        # Start time optional; default 00:00
         start_time_raw = start_time_raw if start_time_raw else "00:00"
 
         try:
-            start = TZ.localize(parse(f"{date_raw} {start_time_raw}", dayfirst=True))
+            start = TZ.localize(parse(f"{date_raw} {start_time_raw}", dayfirst=True, fuzzy=True))
         except Exception:
             continue
 
         if end_time_raw:
             try:
-                end = TZ.localize(parse(f"{date_raw} {end_time_raw}", dayfirst=True))
+                end = TZ.localize(parse(f"{date_raw} {end_time_raw}", dayfirst=True, fuzzy=True))
             except Exception:
                 end = start + timedelta(hours=2)
         else:
@@ -113,24 +142,25 @@ def parse_sheet_events():
             }
         )
 
+    print(f"[DEBUG] Sheet rows read: {row_count}, events parsed: {len(out)}")
     return out
 
 
 def parse_incobh_events():
     """
-    Matches the InCobh listing structure visible on the events page:
-    Each event appears as: ### <a>Title</a> then lines like:
-    Cobh
-    Thu 29 January 2026
-    21:00
-    Venue...
+    InCobh listing structure (as rendered in the HTML):
+      ### <a>Event title ...</a>
+      Cobh
+      Thu 29 January 2026
+      21:00
+      <venue link>
+    There are also blocks like opening hours; we ignore those by only taking the first clean time line.
     """
     html = safe_get(INCOBH_UPCOMING)
     soup = BeautifulSoup(html, "html.parser")
 
     out = []
 
-    # Titles are in h3 -> a
     for h3 in soup.find_all("h3"):
         a = h3.find("a", href=True)
         if not a:
@@ -139,7 +169,6 @@ def parse_incobh_events():
         title = clean(a.get_text())
         url = a.get("href", "")
 
-        # The container around the h3 holds the text lines we need
         container = h3.parent
         if not container:
             continue
@@ -148,31 +177,34 @@ def parse_incobh_events():
         if not lines:
             continue
 
-        # Require location == "Cobh" somewhere after the title
-        # On the page, "Cobh" appears as a standalone line for Cobh events. :contentReference[oaicite:3]{index=3}
+        # Filter: must include a standalone "Cobh" line
         if "Cobh" not in lines:
             continue
 
-        # Grab first plausible date line and time line
-        date_str = ""
-        time_str = ""
-
+        # Find date line (first parsable date with a year)
+        event_date = None
         for t in lines:
-            if re.search(r"\b20\d{2}\b", t) and re.search(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", t, re.I):
-                date_str = t
-            if re.fullmatch(r"\d{1,2}:\d{2}", t):
-                time_str = t
+            if re.search(r"\b20\d{2}\b", t):
+                d = parse_date_line(t)
+                if d:
+                    event_date = d
+                    break
 
-        if not date_str:
+        if not event_date:
             continue
+
+        # Find first simple time line like "21:00"
+        time_str = None
+        for t in lines:
+            ts = parse_time_line(t)
+            if ts:
+                time_str = ts
+                break
+
         if not time_str:
             time_str = "00:00"
 
-        try:
-            start = TZ.localize(parse(f"{date_str} {time_str}", dayfirst=True))
-        except Exception:
-            continue
-
+        start = TZ.localize(parse(f"{event_date.isoformat()} {time_str}", dayfirst=True, fuzzy=True))
         end = start + timedelta(hours=2)
 
         out.append(
@@ -197,6 +229,7 @@ def parse_incobh_events():
         seen.add(key)
         deduped.append(e)
 
+    print(f"[DEBUG] InCobh events parsed: {len(deduped)}")
     return deduped
 
 
@@ -206,14 +239,11 @@ def main():
     sheet_events = parse_sheet_events()
     incobh_events = parse_incobh_events()
 
-    print("Sheet events:", len(sheet_events))
-    print("InCobh events:", len(incobh_events))
-
     all_events = sheet_events + incobh_events
     if not all_events:
         raise RuntimeError(
             "No events generated from either source. "
-            "Fix sheet sharing OR InCobh page structure has changed."
+            "InCobh may have changed layout OR the sheet isn't truly returning CSV to the runner."
         )
 
     for e in all_events:
@@ -244,6 +274,8 @@ def main():
         f.write(cal.to_ical())
 
     print("Wrote", OUTPUT_EVENTS, "events:", len(all_events))
+    print(" - from sheet:", len(sheet_events))
+    print(" - from incobh:", len(incobh_events))
 
 
 if __name__ == "__main__":
