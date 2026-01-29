@@ -6,11 +6,32 @@ X-WR-TIMEZONE:Europe/Dublin
 BEGIN:VEVENT
 SUMMARY:🎫 Community Art Exhibition
 DTSTART;VALUE=DATE:20260201
-DTEND;VALUE=DATE:20260301
-DTSTAMP:20260129T194629Z
+DTEND;VALUE=DATE:20260202
+DTSTAMP:20260129T195554Z
 UID:cobh-events-community-art-exhibition-20260201T0000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/1377954/\n\nCreated by The Arch
  \, Cobh\nData from InCobh.com
-LOCATION:Cobh Library
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Irish Chilli Fest
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+DTSTAMP:20260129T195554Z
+UID:cobh-events-irish-chilli-fest-20260723T0000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/irish-cilli-fest/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+DTSTAMP:20260129T195554Z
+UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T00
+ 00-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
+ e Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 END:VCALENDAR
