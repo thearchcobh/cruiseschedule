@@ -250,43 +250,42 @@ def parse_incobh_events():
             title = clean(a.get_text())
             url = a.get("href", "")
 
-            # Collect “block text” between this h3 and the next h3 (robust)
+            # Collect text AFTER this h3 until the next h3
+            # Key change: preserve newlines so tokens like "Cobh" stay separate.
             lines = []
             for el in h3.next_elements:
                 if getattr(el, "name", None) == "h3":
                     break
                 if hasattr(el, "get_text"):
-                    t = clean(el.get_text(" ", strip=True))
-                    if t:
-                        for part in re.split(r"\s{2,}|\n+", t):
-                            part = clean(part)
-                            if part:
-                                lines.append(part)
+                    txt = el.get_text("\n", strip=True)
+                    if not txt:
+                        continue
+                    for part in txt.splitlines():
+                        part = clean(part)
+                        if part:
+                            lines.append(part)
 
-            # Filter: must include standalone Cobh somewhere in the block
+            if not lines:
+                continue
+
+            # Filter: must contain a standalone "Cobh"
             if "Cobh" not in lines:
                 continue
 
-            # Find the dedicated date/time AFTER the 'Cobh' line (avoids title date confusion)
+            # Only look after the first "Cobh" occurrence
             loc_idx = lines.index("Cobh")
             after = lines[loc_idx + 1 :]
 
-            # Date line = first line containing a year (prefer weekday-looking line)
+            # Date: first line that includes a year
             date_line = ""
             for t in after:
-                if re.search(r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b", t) and re.search(r"\b20\d{2}\b", t):
+                if re.search(r"\b20\d{2}\b", t):
                     date_line = t
                     break
             if not date_line:
-                # fallback: any line with year
-                for t in after:
-                    if re.search(r"\b20\d{2}\b", t):
-                        date_line = t
-                        break
-            if not date_line:
                 continue
 
-            # Time line (strict HH:MM)
+            # Time: first strict HH:MM (ignore "10:00 - 14:00")
             time_line = ""
             for t in after:
                 if re.fullmatch(r"\d{1,2}:\d{2}", t):
@@ -295,55 +294,55 @@ def parse_incobh_events():
             if not time_line:
                 time_line = "00:00"
 
-            # Venue (the “link-looking” text after time; best effort)
+            all_day = is_midnight_time_str(time_line)
+
+            # Venue: first non-empty line after time that isn't phone/date/time noise
             venue = ""
             if time_line in after:
                 t_idx = after.index(time_line)
                 for t in after[t_idx + 1 :]:
-                    # stop if we hit obvious non-venue noise
-                    if t.lower() in ("favourite", "favorite") or t.lower().startswith("image:"):
-                        break
-                    if re.search(r"^\+?\d", t):  # phone numbers
+                    if re.search(r"^\+?\d", t):  # phone
                         continue
-                    if re.search(r"\b20\d{2}\b", t) or re.fullmatch(r"\d{1,2}:\d{2}", t):
+                    if re.search(r"\b20\d{2}\b", t):  # another date
+                        continue
+                    if re.fullmatch(r"\d{1,2}:\d{2}", t):
                         continue
                     venue = t
                     break
 
-            # Parse start/end
-            # If time is 00:00 => all-day (date only)
-            start_dt = None
-            end_dt = None
-            all_day = is_midnight_time_str(time_line)
-
+            # Parse listing start/end
             if all_day:
                 d0 = parse_date_only_line(date_line)
                 if not d0:
                     continue
-                start_dt = d0
-                end_dt = d0 + timedelta(days=1)
+                start_val = d0
+                end_val = d0 + timedelta(days=1)
             else:
                 try:
-                    start_dt = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
-                    end_dt = start_dt + timedelta(hours=2)
+                    start_val = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
                 except Exception:
                     continue
+                end_val = start_val + timedelta(hours=2)
 
-            # Enrich from event page (fixes missing/multi-day events like Titanic convention) :contentReference[oaicite:5]{index=5}
-            enrich = enrich_from_event_page(url) if url else None
+            # Enrich from event page (gets multi-day ranges + venue reliably)
+            if url:
+                enrich = enrich_from_event_page(url)
+            else:
+                enrich = None
+
             if enrich:
                 if enrich.get("venue"):
-                    venue = enrich["venue"]  # use the event page venue text
-                # If event page provides date range and listing shows 00:00, treat as multi-day all-day
+                    venue = enrich["venue"]
+                # If listing looks all-day, prefer event-page date range when available
                 if all_day and enrich.get("start_date") and enrich.get("end_date"):
-                    start_dt = enrich["start_date"]
-                    end_dt = enrich["end_date"] + timedelta(days=1)
+                    start_val = enrich["start_date"]
+                    end_val = enrich["end_date"] + timedelta(days=1)
 
             out.append(
                 {
                     "title": title,
-                    "start": start_dt,
-                    "end": end_dt,
+                    "start": start_val,
+                    "end": end_val,
                     "location": venue or "Cobh",
                     "url": url,
                     "notes": "",
@@ -368,7 +367,6 @@ def parse_incobh_events():
 
     print(f"[DEBUG] InCobh total events parsed: {len(deduped)}")
     return deduped
-
 
 
 def main():
