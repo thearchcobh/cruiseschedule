@@ -131,22 +131,19 @@ def parse_sheet_events():
 
 def parse_incobh_events():
     """
-    InCobh page contains event blocks like:
-      ### <a>Title</a>
-      Cobh
-      Thu 29 January 2026
-      21:00
-      Venue
-
-    The key is: those lines are siblings after each h3 until the next h3.
+    Robust InCobh parser:
+    For each event title in <h3>, walk forward through the document (next_elements)
+    until the next <h3>, collecting text lines. Then parse:
+      - require standalone 'Cobh'
+      - first line containing a year -> date
+      - first HH:MM -> time
     """
     html = safe_get(INCOBH_UPCOMING)
     soup = BeautifulSoup(html, "html.parser")
 
     out = []
 
-    h3s = soup.find_all("h3")
-    for i, h3 in enumerate(h3s):
+    for h3 in soup.find_all("h3"):
         a = h3.find("a", href=True)
         if not a:
             continue
@@ -154,30 +151,32 @@ def parse_incobh_events():
         title = clean(a.get_text())
         url = a.get("href", "")
 
-        # collect text until next h3
+        # Collect text AFTER this h3 until the next h3
         lines = []
-        node = h3.next_sibling
-        while node is not None:
-            # stop when we hit the next event title
-            if getattr(node, "name", None) == "h3":
+        for el in h3.next_elements:
+            if el is h3:
+                continue
+            if getattr(el, "name", None) == "h3":
                 break
-
-            if hasattr(node, "stripped_strings"):
-                for t in node.stripped_strings:
-                    t = clean(t)
-                    if t:
-                        lines.append(t)
-            node = node.next_sibling
+            # Pull text from tags only (ignore raw whitespace strings)
+            if hasattr(el, "get_text"):
+                t = clean(el.get_text(" ", strip=True))
+                if t:
+                    # Split multi-bit chunks into separate "lines"
+                    # (helps when a container collapses multiple fields into one string)
+                    for part in re.split(r"\s{2,}|\n+", t):
+                        part = clean(part)
+                        if part:
+                            lines.append(part)
 
         if not lines:
             continue
 
-        # Must contain a standalone location line = Cobh
-        # (This matches what is visible on the page.) :contentReference[oaicite:1]{index=1}
+        # Filter: must contain standalone "Cobh"
         if "Cobh" not in lines:
             continue
 
-        # Find date line (has a year)
+        # Date: first thing with a 4-digit year
         date_line = ""
         for t in lines:
             if re.search(r"\b20\d{2}\b", t):
@@ -186,7 +185,7 @@ def parse_incobh_events():
         if not date_line:
             continue
 
-        # Find first HH:MM time line (ignore ranges like 10:00 - 14:00)
+        # Time: first plain HH:MM (ignore ranges like "10:00 - 14:00")
         time_line = ""
         for t in lines:
             if re.fullmatch(r"\d{1,2}:\d{2}", t):
@@ -213,6 +212,20 @@ def parse_incobh_events():
                 "source": "InCobh",
             }
         )
+
+    # Deduplicate by (title, start)
+    seen = set()
+    deduped = []
+    for e in out:
+        key = (e["title"].lower(), e["start"].strftime("%Y%m%dT%H%M"))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(e)
+
+    print(f"[DEBUG] InCobh events parsed: {len(deduped)}")
+    return deduped
+
 
     # Deduplicate by (title, start)
     seen = set()
