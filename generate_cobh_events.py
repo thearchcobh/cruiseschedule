@@ -20,6 +20,75 @@ SHEET_TAB_NAME = "events"
 
 OUTPUT_EVENTS = "cobh-events.ics"
 
+from datetime import date  # add this import near your other imports
+
+def is_midnight_time_str(t):
+    return (t or "").strip() in ("00:00", "00:00:00", "12:00:00 AM", "12:00 AM")
+
+def parse_date_only_line(line):
+    # e.g. "Thu 9 April 2026" -> date(2026,4,9)
+    try:
+        d = parse(line, dayfirst=True, fuzzy=True).date()
+        return d if d.year >= 2020 else None
+    except Exception:
+        return None
+
+def safe_get_jsonish_text(soup, heading_text):
+    # Find an H2/H3/LI/tab heading containing heading_text, then grab nearby text block
+    # Works well on event pages that have sections: Profile / Event Dates / Location etc.
+    h = soup.find(lambda tag: tag.name in ("h2", "h3", "h4") and heading_text.lower() in tag.get_text(" ", strip=True).lower())
+    if not h:
+        return []
+    block = h.find_parent() or h
+    lines = []
+    for t in block.get_text("\n", strip=True).split("\n"):
+        t = clean(t)
+        if t and t.lower() != heading_text.lower():
+            lines.append(t)
+    return lines
+
+def enrich_from_event_page(event_url):
+    """
+    Pull venue + date range from the event detail page.
+    Venue = Location section (usually a single line like 'Commodore Hotel') :contentReference[oaicite:2]{index=2}
+    Dates = Event Dates section (start - end) :contentReference[oaicite:3]{index=3}
+    """
+    try:
+        html = safe_get(event_url)
+    except Exception as e:
+        print(f"[WARN] Could not fetch event page {event_url}: {e}")
+        return None
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Location / venue
+    venue = ""
+    loc_lines = safe_get_jsonish_text(soup, "Location")
+    if loc_lines:
+        # usually first meaningful line is the venue name
+        venue = loc_lines[0]
+
+    # Event date range
+    start_d = None
+    end_d = None
+    date_lines = safe_get_jsonish_text(soup, "Event Dates")
+    # Example: "Thu 9 April 2026", "-", "Sun 12 April 2026" :contentReference[oaicite:4]{index=4}
+    parsed_dates = []
+    for l in date_lines:
+        d = parse_date_only_line(l)
+        if d:
+            parsed_dates.append(d)
+
+    if parsed_dates:
+        start_d = parsed_dates[0]
+        end_d = parsed_dates[-1]
+
+    return {
+        "venue": venue,
+        "start_date": start_d,
+        "end_date": end_d,
+    }
+
 
 def clean(s):
     return re.sub(r"\s+", " ", (s or "").strip())
@@ -152,34 +221,26 @@ def parse_sheet_events():
 
 
 def parse_incobh_events():
-    """
-    Robust InCobh parser with pagination.
-    - Walk pages: /events/?etype=upcoming, /events/page/2/?etype=upcoming, ...
-    - For each event h3, collect following text until next h3
-    - Filter: must contain standalone 'Cobh'
-    - Date: must be a standalone weekday+date+year line (NOT the title)
-    - Time: first HH:MM
-    """
     out = []
 
     def page_url(n):
         if n == 1:
-            return INCOBH_PAGE1
+            return "https://incobh.com/events/?etype=upcoming"
         return f"https://incobh.com/events/page/{n}/?etype=upcoming"
 
-    for page in range(1, 11):  # scan up to 10 pages; stops early when empty
+    for page in range(1, 11):
         try:
             html = safe_get(page_url(page))
         except Exception as e:
             print(f"[WARN] InCobh page {page} fetch failed: {e}")
             break
-        soup = BeautifulSoup(html, "html.parser")
 
+        soup = BeautifulSoup(html, "html.parser")
         h3s = soup.find_all("h3")
         if not h3s:
             break
 
-        page_events = 0
+        page_count = 0
 
         for h3 in h3s:
             a = h3.find("a", href=True)
@@ -189,86 +250,117 @@ def parse_incobh_events():
             title = clean(a.get_text())
             url = a.get("href", "")
 
-            # Collect text AFTER this h3 until the next h3
+            # Collect “block text” between this h3 and the next h3 (robust)
             lines = []
             for el in h3.next_elements:
-                if el is h3:
-                    continue
                 if getattr(el, "name", None) == "h3":
                     break
                 if hasattr(el, "get_text"):
                     t = clean(el.get_text(" ", strip=True))
-                    if not t:
-                        continue
-                    for part in re.split(r"\s{2,}|\n+", t):
-                        part = clean(part)
-                        if part:
-                            lines.append(part)
+                    if t:
+                        for part in re.split(r"\s{2,}|\n+", t):
+                            part = clean(part)
+                            if part:
+                                lines.append(part)
 
-            if not lines:
-                continue
-
-            # Must contain a standalone "Cobh"
+            # Filter: must include standalone Cobh somewhere in the block
             if "Cobh" not in lines:
                 continue
 
-            # Only search for date/time AFTER the location line, so we don't
-            # accidentally parse the date embedded in the title.
-            try:
-                loc_idx = lines.index("Cobh")
-            except ValueError:
-                continue
-            lines_after_loc = lines[loc_idx + 1 :]
+            # Find the dedicated date/time AFTER the 'Cobh' line (avoids title date confusion)
+            loc_idx = lines.index("Cobh")
+            after = lines[loc_idx + 1 :]
 
-            # Date line must look like: "Thu 29 January 2026"
+            # Date line = first line containing a year (prefer weekday-looking line)
             date_line = ""
-            for t in lines_after_loc:
+            for t in after:
                 if re.search(r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b", t) and re.search(r"\b20\d{2}\b", t):
                     date_line = t
                     break
             if not date_line:
+                # fallback: any line with year
+                for t in after:
+                    if re.search(r"\b20\d{2}\b", t):
+                        date_line = t
+                        break
+            if not date_line:
                 continue
 
-            # Time line is first strict HH:MM (ignore ranges like 10:00 - 14:00)
+            # Time line (strict HH:MM)
             time_line = ""
-            for t in lines_after_loc:
+            for t in after:
                 if re.fullmatch(r"\d{1,2}:\d{2}", t):
                     time_line = t
                     break
             if not time_line:
                 time_line = "00:00"
 
-            try:
-                start = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
-            except Exception:
-                continue
+            # Venue (the “link-looking” text after time; best effort)
+            venue = ""
+            if time_line in after:
+                t_idx = after.index(time_line)
+                for t in after[t_idx + 1 :]:
+                    # stop if we hit obvious non-venue noise
+                    if t.lower() in ("favourite", "favorite") or t.lower().startswith("image:"):
+                        break
+                    if re.search(r"^\+?\d", t):  # phone numbers
+                        continue
+                    if re.search(r"\b20\d{2}\b", t) or re.fullmatch(r"\d{1,2}:\d{2}", t):
+                        continue
+                    venue = t
+                    break
 
-            end = start + timedelta(hours=2)
+            # Parse start/end
+            # If time is 00:00 => all-day (date only)
+            start_dt = None
+            end_dt = None
+            all_day = is_midnight_time_str(time_line)
+
+            if all_day:
+                d0 = parse_date_only_line(date_line)
+                if not d0:
+                    continue
+                start_dt = d0
+                end_dt = d0 + timedelta(days=1)
+            else:
+                try:
+                    start_dt = TZ.localize(parse(f"{date_line} {time_line}", dayfirst=True, fuzzy=True))
+                    end_dt = start_dt + timedelta(hours=2)
+                except Exception:
+                    continue
+
+            # Enrich from event page (fixes missing/multi-day events like Titanic convention) :contentReference[oaicite:5]{index=5}
+            enrich = enrich_from_event_page(url) if url else None
+            if enrich:
+                if enrich.get("venue"):
+                    venue = enrich["venue"]  # use the event page venue text
+                # If event page provides date range and listing shows 00:00, treat as multi-day all-day
+                if all_day and enrich.get("start_date") and enrich.get("end_date"):
+                    start_dt = enrich["start_date"]
+                    end_dt = enrich["end_date"] + timedelta(days=1)
 
             out.append(
                 {
                     "title": title,
-                    "start": start,
-                    "end": end,
-                    "location": "Cobh",
+                    "start": start_dt,
+                    "end": end_dt,
+                    "location": venue or "Cobh",
                     "url": url,
                     "notes": "",
                     "source": "InCobh",
                 }
             )
-            page_events += 1
+            page_count += 1
 
-        print(f"[DEBUG] InCobh page {page} events parsed: {page_events}")
-
-        # Stop when a page returns no matching events (usually means we've reached the end)
-        if page_events == 0:
+        print(f"[DEBUG] InCobh page {page} events parsed: {page_count}")
+        if page_count == 0:
             break
 
     # Deduplicate by (title, start)
     seen = set()
     deduped = []
     for e in out:
-        key = (e["title"].lower(), e["start"].strftime("%Y%m%dT%H%M"))
+        key = (e["title"].lower(), str(e["start"]))
         if key in seen:
             continue
         seen.add(key)
@@ -276,6 +368,7 @@ def parse_incobh_events():
 
     print(f"[DEBUG] InCobh total events parsed: {len(deduped)}")
     return deduped
+
 
 
 def main():
