@@ -18,6 +18,7 @@ def clean(s):
 
 
 def is_month_row(cells):
+    # e.g. ["April 2026"]
     return len(cells) == 1 and re.search(r"\b20\d{2}\b", cells[0])
 
 
@@ -26,16 +27,57 @@ def is_header_row(cells):
     return ("vessel" in text) and ("berth" in text) and ("arrival" in text) and ("departure" in text)
 
 
-def uid_for(vessel, start_dt):
-    base = re.sub(r"\W+", "", (vessel or "").lower())[:32] or "unknown"
-    return f"{base}-{start_dt.strftime('%Y%m%dT%H%M')}-cobh"
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")[:40] or "x"
+
+
+def pax_int(pax_str):
+    if not pax_str:
+        return None
+    # handle "4,200" etc.
+    digits = re.sub(r"[^\d]", "", pax_str)
+    if not digits:
+        return None
+    try:
+        return int(digits)
+    except Exception:
+        return None
+
+
+def pax_signal(pax_value):
+    # Adjust thresholds any time you like
+    if pax_value is None:
+        return "⚪"
+    if pax_value >= 3000:
+        return "🔴"
+    if pax_value >= 1000:
+        return "🟠"
+    return "🟢"
+
+
+def marinetraffic_link(imo):
+    imo = (imo or "").strip()
+    if not imo or not imo.isdigit():
+        return ""
+    # Working format you confirmed
+    return f"https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}/"
+
+
+def stable_uid(vessel, imo, start_dt, berth):
+    """
+    Stable UID within a given arrival date so time changes update cleanly.
+    If the date changes, UID changes (old event may be removed by the client on refresh).
+    """
+    day = start_dt.strftime("%Y%m%d")
+    base = (imo.strip() if (imo or "").strip().isdigit() else slug(vessel))
+    return f"{base}-{day}-{slug(berth)}-thearchcobh"
 
 
 def main():
     html = requests.get(
         SOURCE_URL,
         timeout=30,
-        headers={"User-Agent": "cobh-cruise-ical/1.0"},
+        headers={"User-Agent": "thearchcobh-cruise-ical/1.0"},
     ).text
 
     soup = BeautifulSoup(html, "html.parser")
@@ -44,9 +86,9 @@ def main():
         raise RuntimeError("No tables found on schedule page")
 
     cal = Calendar()
-    cal.add("prodid", "-//Cobh Cruise Schedule//EN")
+    cal.add("prodid", "-//The Arch Cobh//Cruise Schedule//EN")
     cal.add("version", "2.0")
-    cal.add("x-wr-calname", "Cobh Cruise Calls (Port of Cork)")
+    cal.add("x-wr-calname", "Cobh Cruise Calls (The Arch)")
     cal.add("x-wr-timezone", "Europe/Dublin")
 
     events_written = 0
@@ -63,7 +105,6 @@ def main():
             if not cells or is_month_row(cells):
                 continue
 
-            # Header row (usually first real row in each table)
             if is_header_row(cells):
                 idx = {name.lower(): i for i, name in enumerate(cells) if name}
                 continue
@@ -71,12 +112,16 @@ def main():
             if not idx:
                 continue
 
-            # Must have core fields
-            needed = ["vessel", "berth", "arrival", "departure"]
-            if any(k not in idx for k in needed):
+            # Required columns
+            for key in ("vessel", "berth", "arrival", "departure"):
+                if key not in idx:
+                    idx = None
+                    break
+            if not idx:
                 continue
 
-            if len(cells) <= max(idx[k] for k in needed):
+            # Ensure row has enough columns
+            if len(cells) <= max(idx["vessel"], idx["berth"], idx["arrival"], idx["departure"]):
                 continue
 
             berth = cells[idx["berth"]]
@@ -86,24 +131,55 @@ def main():
             vessel = cells[idx["vessel"]]
             arrival = cells[idx["arrival"]]
             departure = cells[idx["departure"]]
-            pax = cells[idx["pax"]] if ("pax" in idx and idx["pax"] < len(cells)) else ""
 
-            if not arrival or not departure:
+            pax = ""
+            if "pax" in idx and idx["pax"] < len(cells):
+                pax = cells[idx["pax"]]
+
+            imo = ""
+            if "imo" in idx and idx["imo"] < len(cells):
+                imo = cells[idx["imo"]]
+
+            if not arrival or not departure or not vessel:
                 continue
 
-            start = TZ.localize(parse(arrival, dayfirst=True))
-            end = TZ.localize(parse(departure, dayfirst=True))
+            # Parse dd/mm/yyyy times
+            try:
+                start = TZ.localize(parse(arrival, dayfirst=True))
+                end = TZ.localize(parse(departure, dayfirst=True))
+            except Exception:
+                continue
 
-            event = Event()
-            event.add("uid", uid_for(vessel, start))
-            event.add("dtstamp", datetime.utcnow())
-            event.add("summary", f"{vessel} ({pax} pax)")
-            event.add("dtstart", start)
-            event.add("dtend", end)
-            event.add("location", berth)
-            event.add("description", f"Source: {SOURCE_URL}")
+            p_int = pax_int(pax)
+            signal = pax_signal(p_int)
 
-            cal.add_component(event)
+            # Title with passenger load signal
+            # Keep the pax string as-is for readability (e.g. "4,200")
+            title_pax = pax if pax else ("?" if p_int is None else str(p_int))
+            summary = f"{signal} {vessel} — {title_pax} pax"
+
+            mt = marinetraffic_link(imo)
+
+            # Notes exactly as requested
+            notes_lines = [
+                f"Pax: {pax if pax else ''}".rstrip(),
+                f"Vessel: {vessel}",
+                f"MarineTraffic: {mt}" if mt else "MarineTraffic: ",
+                "Created by The Arch, Cobh",
+                "Data from PortofCork.ie",
+            ]
+            description = "\n".join(notes_lines)
+
+            ev = Event()
+            ev.add("uid", stable_uid(vessel, imo, start, berth))
+            ev.add("dtstamp", datetime.utcnow())
+            ev.add("summary", summary)
+            ev.add("dtstart", start)
+            ev.add("dtend", end)
+            ev.add("location", berth)
+            ev.add("description", description)
+
+            cal.add_component(ev)
             events_written += 1
 
     with open(OUTPUT_ICS, "wb") as f:
