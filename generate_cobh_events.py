@@ -429,7 +429,7 @@ def main():
 
         desc.append("")
         desc.append("Created by The Arch, Cobh")
-        desc.append("Data from InCobh + Google Sheet")
+        desc.append("Data from InCobh")
 
         ev.add("description", "\n".join([d for d in desc if d is not None]))
         cal.add_component(ev)
