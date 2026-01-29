@@ -1,1 +1,16 @@
-
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Arch Cobh//Cobh Events//EN
+X-WR-CALNAME:Cobh Events (The Arch)
+X-WR-TIMEZONE:Europe/Dublin
+BEGIN:VEVENT
+SUMMARY:🎫 Test Event
+DTSTART;TZID=Europe/Dublin:20260130T110000
+DTEND;TZID=Europe/Dublin:20260130T210000
+DTSTAMP:20260129T161608Z
+UID:cobh-events-test-event-20260130T1100-thearchcobh
+DESCRIPTION:Here's a manually created event\n\n\nCreated by The Arch\, Cob
+ h\nData from InCobh + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+END:VCALENDAR
