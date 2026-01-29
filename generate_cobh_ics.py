@@ -203,17 +203,19 @@ def main():
 
             # Notes: Pax, Vessel Name + Line, MarineTraffic link, and attribution lines
             vessel_line = vessel
-            if line:
-                vessel_line = f"{vessel}, {line}"
+                if line:
+                    vessel_line = f"{vessel}, {line}"
+                
+                notes_lines = [
+                    f"👥 {pax}".rstrip(),
+                    f"🛳 {vessel_line}",
+                    f"🔗 {mt_url}".rstrip(),
+                    "",
+                    "Created by The Arch, Cobh",
+                    "Data from PortofCork.ie",
+                ]
+                description = "\n".join(notes_lines)
 
-            notes_lines = [
-                f"Pax: {pax}".rstrip(),
-                f"Vessel: {vessel_line}",
-                f"MarineTraffic: {mt_url}".rstrip(),
-                "Created by The Arch, Cobh",
-                "Data from PortofCork.ie",
-            ]
-            description = "\n".join(notes_lines)
 
             ev = Event()
             ev.add("uid", stable_uid(vessel, line, mt_url, start, berth))
