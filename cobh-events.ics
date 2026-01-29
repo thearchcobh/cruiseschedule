@@ -7,10 +7,82 @@ BEGIN:VEVENT
 SUMMARY:🎫 Test Event
 DTSTART;TZID=Europe/Dublin:20260130T110000
 DTEND;TZID=Europe/Dublin:20260130T210000
-DTSTAMP:20260129T161608Z
+DTSTAMP:20260129T162702Z
 UID:cobh-events-test-event-20260130T1100-thearchcobh
 DESCRIPTION:Here's a manually created event\n\n\nCreated by The Arch\, Cob
  h\nData from InCobh + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Traditional Irish Music at The Hi Chaperal - Thu 29 January 2
+ 026
+DTSTART;TZID=Europe/Dublin:20260129T210000
+DTEND;TZID=Europe/Dublin:20260129T230000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-29-january-
+ 20-20260129T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
+ hi-chaperal/?gde=2026-01-29\n\nCreated by The Arch\, Cobh\nData from InCob
+ h + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Farmers Market - Sat 31 January 2026
+DTSTART;TZID=Europe/Dublin:20260131T100000
+DTEND;TZID=Europe/Dublin:20260131T120000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-cobh-farmers-market-sat-31-january-2026-20260131T1000-thea
+ rchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
+ 1-31\n\nCreated by The Arch\, Cobh\nData from InCobh + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Traditional Irish Music at The Roaring Donkey - Wed 4 Februar
+ y 2026
+DTSTART;TZID=Europe/Dublin:20260204T210000
+DTEND;TZID=Europe/Dublin:20260204T230000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-4-februa
+ ry-20260204T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 26-02-04\n\nCreated by The Arch\, Cobh\nData from InCobh + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Traditional Irish Music at The Hi Chaperal - Thu 5 February 2
+ 026
+DTSTART;TZID=Europe/Dublin:20260205T210000
+DTEND;TZID=Europe/Dublin:20260205T230000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-5-february-
+ 20-20260205T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
+ hi-chaperal/?gde=2026-02-05\n\nCreated by The Arch\, Cobh\nData from InCob
+ h + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Farmers Market - Sat 7 February 2026
+DTSTART;TZID=Europe/Dublin:20260207T100000
+DTEND;TZID=Europe/Dublin:20260207T120000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-cobh-farmers-market-sat-7-february-2026-20260207T1000-thea
+ rchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
+ 2-07\n\nCreated by The Arch\, Cobh\nData from InCobh + Google Sheet
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Traditional Irish Music at The Roaring Donkey - Wed 11 Februa
+ ry 2026
+DTSTART;TZID=Europe/Dublin:20260211T210000
+DTEND;TZID=Europe/Dublin:20260211T230000
+DTSTAMP:20260129T162702Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-febru
+ ar-20260211T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 26-02-11\n\nCreated by The Arch\, Cobh\nData from InCobh + Google Sheet
 LOCATION:Cobh
 END:VEVENT
 END:VCALENDAR
