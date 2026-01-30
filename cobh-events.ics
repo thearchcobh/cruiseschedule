@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 31 January 2026
 DTSTART;TZID=Europe/Dublin:20260131T100000
 DTEND;TZID=Europe/Dublin:20260131T140000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-cobh-farmers-market-sat-31-january-2026-20260131T1000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -18,7 +18,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Community Art Exhibition
 DTSTART;TZID=Europe/Dublin:20260102T000000
 DTEND;TZID=Europe/Dublin:20260228T235900
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-community-art-exhibition-20260102T0000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/1377954/\n\nCreated by The Arch
  \, Cobh\nData from InCobh.com
@@ -29,7 +29,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 4 Februar
  y 2026
 DTSTART;TZID=Europe/Dublin:20260402T220000
 DTEND;TZID=Europe/Dublin:20260403T003000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-4-februa
  ry-20260402T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -41,7 +41,7 @@ SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 5 February 2
  026
 DTSTART;TZID=Europe/Dublin:20260502T220000
 DTEND;TZID=Europe/Dublin:20260503T003000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-5-february-
  20-20260502T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 7 February 2026
 DTSTART;TZID=Europe/Dublin:20260702T110000
 DTEND;TZID=Europe/Dublin:20260702T150000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-cobh-farmers-market-sat-7-february-2026-20260702T1100-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -65,7 +65,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 11 Februa
  ry 2026
 DTSTART;TZID=Europe/Dublin:20261102T210000
 DTEND;TZID=Europe/Dublin:20261102T233000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-febru
  ar-20261102T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 British Titanic Society Convention 2026
 DTSTART;TZID=Europe/Dublin:20260904T010000
 DTEND;TZID=Europe/Dublin:20261204T235900
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-british-titanic-society-convention-2026-20260904T0100-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/british-titanic-society-convent
@@ -88,7 +88,7 @@ SUMMARY:🎵 An Evening With Seán Keane – Presented by Cathedral Sessio
  ns
 DTSTART;TZID=Europe/Dublin:20260805T203000
 DTEND;TZID=Europe/Dublin:20260805T223000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-an-evening-with-se-n-keane-presented-by-cathedral-sessions
  -20260805T2030-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/an-evening-with-sean-keane-pres
@@ -100,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
 DTSTART;TZID=Europe/Dublin:20260723T010000
 DTEND;TZID=Europe/Dublin:20260727T005900
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T01
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -112,7 +112,7 @@ SUMMARY:🎵 Breen\, Rynne & Murray – Headline Concert – Cobh Trad Fes
  t 2026
 DTSTART;TZID=Europe/Dublin:20260724T210000
 DTEND;TZID=Europe/Dublin:20260724T230000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-breen-rynne-murray-headline-concert-cobh-trad-fest-2026-20
  260724T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
@@ -124,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Karan Casey Trio – Headline Concert – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T210000
 DTEND;TZID=Europe/Dublin:20260725T230000
-DTSTAMP:20260130T194905Z
+DTSTAMP:20260130T215143Z
 UID:cobh-events-karan-casey-trio-headline-concert-cobh-trad-fest-2026-2026
  0725T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
