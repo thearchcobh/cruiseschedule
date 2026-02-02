@@ -19,6 +19,11 @@ Key behaviors:
 - Footer source line:
   InCobh events: "Data from InCobh.com"
   Sheet events:  "Data from The Arch"
+
+IMPORTANT FIX (date bug):
+- InCobh JSON-LD sometimes uses slash-formatted dates like 02/01/2026 which are ambiguous.
+  We treat slash dates as US-style MM/DD/YYYY (dayfirst=False) and ISO as ISO.
+  This fixes Feb 1 incorrectly being parsed as Jan 2.
 """
 
 import csv
@@ -26,7 +31,7 @@ import json
 import re
 from datetime import datetime, timedelta, date
 from io import StringIO
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Union
 
 import pytz
 import requests
@@ -154,6 +159,43 @@ def event_emoji(title: str, tags: List[str]) -> str:
     return "🎫"
 
 
+def parse_jsonld_datetime(s: str) -> Optional[Union[datetime, date]]:
+    """
+    Parse JSON-LD date/time reliably.
+
+    - ISO (YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS...) -> parse as ISO (yearfirst)
+    - Slash dates (MM/DD/YYYY) -> assume US style for InCobh JSON-LD
+    - Return date if no time component appears in the source string, else datetime (Europe/Dublin)
+    """
+    if not s:
+        return None
+
+    s = s.strip()
+
+    try:
+        # ISO date or datetime (YYYY-MM-DD...)
+        if re.match(r"^\d{4}-\d{2}-\d{2}", s):
+            p = parse(s, yearfirst=True, dayfirst=False, fuzzy=True)
+            if "T" not in s and p.hour == 0 and p.minute == 0 and p.second == 0:
+                return p.date()
+            return TZ.localize(p) if p.tzinfo is None else p.astimezone(TZ)
+
+        # Slash dates are ambiguous; assume US style MM/DD/YYYY
+        if "/" in s:
+            p = parse(s, dayfirst=False, yearfirst=False, fuzzy=True)
+            if not re.search(r"\d{1,2}:\d{2}", s) and p.hour == 0 and p.minute == 0 and p.second == 0:
+                return p.date()
+            return TZ.localize(p) if p.tzinfo is None else p.astimezone(TZ)
+
+        # Fallback (dayfirst tends to match Irish/UK textual formats)
+        p = parse(s, dayfirst=True, fuzzy=True)
+        if not re.search(r"\d{1,2}:\d{2}", s) and p.hour == 0 and p.minute == 0 and p.second == 0:
+            return p.date()
+        return TZ.localize(p) if p.tzinfo is None else p.astimezone(TZ)
+    except Exception:
+        return None
+
+
 # -------------------------
 # JSON-LD extraction from event pages
 # -------------------------
@@ -161,7 +203,7 @@ def _flatten_jsonld(root: Any) -> List[Dict[str, Any]]:
     """Flatten JSON-LD payloads into a list of dict objects."""
     objs: List[Dict[str, Any]] = []
 
-    def add_obj(x: Any):
+    def add_obj(x: Any) -> None:
         if isinstance(x, dict):
             objs.append(x)
             if "@graph" in x and isinstance(x["@graph"], list):
@@ -199,31 +241,8 @@ def extract_event_jsonld(soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
             start_raw = obj.get("startDate")
             end_raw = obj.get("endDate")
 
-            start_val: Optional[Union[datetime, date]] = None
-            end_val: Optional[Union[datetime, date]] = None
-
-            # Parse start
-            if start_raw:
-                try:
-                    p = parse(start_raw, dayfirst=True, fuzzy=True)
-                    # Heuristic: if the source string doesn't include 'T' or time info, treat as date
-                    if isinstance(start_raw, str) and "T" not in start_raw and p.hour == 0 and p.minute == 0:
-                        start_val = p.date()
-                    else:
-                        start_val = TZ.localize(p) if p.tzinfo is None else p.astimezone(TZ)
-                except Exception:
-                    pass
-
-            # Parse end
-            if end_raw:
-                try:
-                    p = parse(end_raw, dayfirst=True, fuzzy=True)
-                    if isinstance(end_raw, str) and "T" not in end_raw and p.hour == 0 and p.minute == 0:
-                        end_val = p.date()
-                    else:
-                        end_val = TZ.localize(p) if p.tzinfo is None else p.astimezone(TZ)
-                except Exception:
-                    pass
+            start_val = parse_jsonld_datetime(start_raw) if isinstance(start_raw, str) else None
+            end_val = parse_jsonld_datetime(end_raw) if isinstance(end_raw, str) else None
 
             # Venue + locality
             venue = ""
@@ -280,6 +299,7 @@ def enrich_from_event_page(event_url: str) -> Dict[str, Any]:
             is_cobh = locality.lower() == "cobh"
         else:
             is_cobh = None
+
         return {
             "venue": js.get("venue") or "",
             "start": js.get("start"),
@@ -326,13 +346,12 @@ def parse_sheet_events() -> List[Dict[str, Any]]:
         if not event_name or not date_raw:
             continue
 
-        # If time missing => all-day
+        # If time missing or midnight-ish => all-day
         all_day = (not start_time_raw) or is_midnight_like_time_str(start_time_raw)
 
         if all_day:
             d0 = parse_date_only_line(date_raw)
             if not d0:
-                # Try full datetime parse fallback
                 try:
                     d0 = parse(date_raw, dayfirst=True, fuzzy=True).date()
                 except Exception:
@@ -485,13 +504,10 @@ def parse_incobh_events() -> List[Dict[str, Any]]:
 
             # Normalize all-day end (exclusive DTEND)
             if isinstance(start_val, date) and not isinstance(start_val, datetime):
-                # start_val is a date
                 if isinstance(end_val, datetime):
-                    # weird mixed case: convert to date
                     end_val = end_val.date()
 
                 if isinstance(end_val, date):
-                    # If end <= start -> make it 1 day
                     if end_val <= start_val:
                         end_val = start_val + timedelta(days=1)
                     else:
@@ -515,9 +531,6 @@ def parse_incobh_events() -> List[Dict[str, Any]]:
             page_added += 1
 
         print(f"[DEBUG] InCobh page {page}: added {page_added}")
-
-        # Don't stop early based on page_added; some pages may have no Cobh items but later pages might.
-        # Stop only when h3s disappear (handled above).
 
     # Deduplicate by (title, start)
     seen = set()
@@ -564,9 +577,7 @@ def main() -> None:
 
         # All-day vs timed
         if isinstance(start_val, date) and not isinstance(start_val, datetime):
-            # All-day uses VALUE=DATE
             ev.add("dtstart", start_val)
-            # end_val should be exclusive date
             ev.add("dtend", end_val if isinstance(end_val, date) else (start_val + timedelta(days=1)))
         else:
             ev.add("dtstart", start_val)
