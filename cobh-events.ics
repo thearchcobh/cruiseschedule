@@ -5,10 +5,10 @@ X-WR-CALNAME:Cobh Events (The Arch)
 X-WR-TIMEZONE:Europe/Dublin
 BEGIN:VEVENT
 SUMMARY:🎫 Community Art Exhibition
-DTSTART;TZID=Europe/Dublin:20260102T000000
+DTSTART;TZID=Europe/Dublin:20260201T000000
 DTEND;TZID=Europe/Dublin:20260228T235900
-DTSTAMP:20260202T143119Z
-UID:cobh-events-community-art-exhibition-20260102T0000-thearchcobh
+DTSTAMP:20260202T172656Z
+UID:cobh-events-community-art-exhibition-20260201T0000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/1377954/\n\nCreated by The Arch
  \, Cobh\nData from InCobh.com
 LOCATION:Community Art Exhibition
@@ -16,11 +16,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 4 Februar
  y 2026
-DTSTART;TZID=Europe/Dublin:20260402T220000
-DTEND;TZID=Europe/Dublin:20260403T003000
-DTSTAMP:20260202T143119Z
+DTSTART;TZID=Europe/Dublin:20260204T210000
+DTEND;TZID=Europe/Dublin:20260204T233000
+DTSTAMP:20260202T172656Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-4-februa
- ry-20260402T2200-thearchcobh
+ ry-20260204T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-02-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Traditional Irish Music at The Roaring Donkey
@@ -28,11 +28,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 5 February 2
  026
-DTSTART;TZID=Europe/Dublin:20260502T220000
-DTEND;TZID=Europe/Dublin:20260503T003000
-DTSTAMP:20260202T143119Z
+DTSTART;TZID=Europe/Dublin:20260205T210000
+DTEND;TZID=Europe/Dublin:20260205T233000
+DTSTAMP:20260202T172656Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-5-february-
- 20-20260502T2200-thearchcobh
+ 20-20260205T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  hi-chaperal/?gde=2026-02-05\n\nCreated by The Arch\, Cobh\nData from InCob
  h.com
@@ -40,10 +40,10 @@ LOCATION:Traditional Irish Music at The Hi Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 7 February 2026
-DTSTART;TZID=Europe/Dublin:20260702T110000
-DTEND;TZID=Europe/Dublin:20260702T150000
-DTSTAMP:20260202T143119Z
-UID:cobh-events-cobh-farmers-market-sat-7-february-2026-20260702T1100-thea
+DTSTART;TZID=Europe/Dublin:20260207T100000
+DTEND;TZID=Europe/Dublin:20260207T140000
+DTSTAMP:20260202T172656Z
+UID:cobh-events-cobh-farmers-market-sat-7-february-2026-20260207T1000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
  2-07\n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -52,21 +52,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 11 Februa
  ry 2026
-DTSTART;TZID=Europe/Dublin:20261102T210000
-DTEND;TZID=Europe/Dublin:20261102T233000
-DTSTAMP:20260202T143119Z
+DTSTART;TZID=Europe/Dublin:20260211T210000
+DTEND;TZID=Europe/Dublin:20260211T233000
+DTSTAMP:20260202T172656Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-febru
- ar-20261102T2100-thearchcobh
+ ar-20260211T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-02-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Traditional Irish Music at The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 British Titanic Society Convention 2026
-DTSTART;TZID=Europe/Dublin:20260904T010000
-DTEND;TZID=Europe/Dublin:20261204T235900
-DTSTAMP:20260202T143119Z
-UID:cobh-events-british-titanic-society-convention-2026-20260904T0100-thea
+DTSTART;TZID=Europe/Dublin:20260409T010000
+DTEND;TZID=Europe/Dublin:20260413T005900
+DTSTAMP:20260202T172656Z
+UID:cobh-events-british-titanic-society-convention-2026-20260409T0100-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/british-titanic-society-convent
  ion-2026/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -75,11 +75,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 An Evening With Seán Keane – Presented by Cathedral Sessio
  ns
-DTSTART;TZID=Europe/Dublin:20260805T203000
-DTEND;TZID=Europe/Dublin:20260805T223000
-DTSTAMP:20260202T143119Z
+DTSTART;TZID=Europe/Dublin:20260508T203000
+DTEND;TZID=Europe/Dublin:20260508T223000
+DTSTAMP:20260202T172656Z
 UID:cobh-events-an-evening-with-se-n-keane-presented-by-cathedral-sessions
- -20260805T2030-thearchcobh
+ -20260508T2030-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/an-evening-with-sean-keane-pres
  ented-by-cathedral-sessions/\n\nCreated by The Arch\, Cobh\nData from InCo
  bh.com
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
 DTSTART;TZID=Europe/Dublin:20260723T010000
 DTEND;TZID=Europe/Dublin:20260727T005900
-DTSTAMP:20260202T143119Z
+DTSTAMP:20260202T172656Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T01
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -101,7 +101,7 @@ SUMMARY:🎵 Breen\, Rynne & Murray – Headline Concert – Cobh Trad Fes
  t 2026
 DTSTART;TZID=Europe/Dublin:20260724T210000
 DTEND;TZID=Europe/Dublin:20260724T230000
-DTSTAMP:20260202T143119Z
+DTSTAMP:20260202T172656Z
 UID:cobh-events-breen-rynne-murray-headline-concert-cobh-trad-fest-2026-20
  260724T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
@@ -113,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Karan Casey Trio – Headline Concert – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T210000
 DTEND;TZID=Europe/Dublin:20260725T230000
-DTSTAMP:20260202T143119Z
+DTSTAMP:20260202T172656Z
 UID:cobh-events-karan-casey-trio-headline-concert-cobh-trad-fest-2026-2026
  0725T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
