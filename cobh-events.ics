@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Community Art Exhibition
 DTSTART;TZID=Europe/Dublin:20260201T000000
 DTEND;TZID=Europe/Dublin:20260228T235900
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-community-art-exhibition-20260201T0000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/1377954/\n\nCreated by The Arch
  \, Cobh\nData from InCobh.com
@@ -18,7 +18,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 11 Februa
  ry 2026
 DTSTART;TZID=Europe/Dublin:20260218T210000
 DTEND;TZID=Europe/Dublin:20260218T233000
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-febru
  ar-20260218T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 British Titanic Society Convention 2026
 DTSTART;TZID=Europe/Dublin:20260409T010000
 DTEND;TZID=Europe/Dublin:20260413T005900
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-british-titanic-society-convention-2026-20260409T0100-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/british-titanic-society-convent
@@ -41,7 +41,7 @@ SUMMARY:🎵 An Evening With Seán Keane – Presented by Cathedral Sessio
  ns
 DTSTART;TZID=Europe/Dublin:20260508T203000
 DTEND;TZID=Europe/Dublin:20260508T223000
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-an-evening-with-se-n-keane-presented-by-cathedral-sessions
  -20260508T2030-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/an-evening-with-sean-keane-pres
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
 DTSTART;TZID=Europe/Dublin:20260723T010000
 DTEND;TZID=Europe/Dublin:20260727T005900
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T01
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -65,7 +65,7 @@ SUMMARY:🎵 Breen\, Rynne & Murray – Headline Concert – Cobh Trad Fes
  t 2026
 DTSTART;TZID=Europe/Dublin:20260724T210000
 DTEND;TZID=Europe/Dublin:20260724T230000
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-breen-rynne-murray-headline-concert-cobh-trad-fest-2026-20
  260724T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Karan Casey Trio – Headline Concert – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T210000
 DTEND;TZID=Europe/Dublin:20260725T230000
-DTSTAMP:20260214T135830Z
+DTSTAMP:20260214T155353Z
 UID:cobh-events-karan-casey-trio-headline-concert-cobh-trad-fest-2026-2026
  0725T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
