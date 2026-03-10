@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 The Arch Turns 3!
 DTSTART;TZID=Europe/Dublin:20260523T000100
 DTEND;TZID=Europe/Dublin:20260523T235900
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-the-arch-turns-3-20260523T0001-thearchcobh
 DESCRIPTION:The Arch is turning 3!\n\n\nCreated by The Arch\, Cobh\nData f
  rom The Arch
@@ -18,7 +18,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 11 March
  2026
 DTSTART;TZID=Europe/Dublin:20260311T210000
 DTEND;TZID=Europe/Dublin:20260311T233000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-march
  -2-20260311T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -30,7 +30,7 @@ SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 12 March 202
  6
 DTSTART;TZID=Europe/Dublin:20260312T210000
 DTEND;TZID=Europe/Dublin:20260312T233000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-12-march-20
  26-20260312T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -43,7 +43,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 18 March
  2026
 DTSTART;TZID=Europe/Dublin:20260318T210000
 DTEND;TZID=Europe/Dublin:20260318T233000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-18-march
  -2-20260318T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -55,7 +55,7 @@ SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 19 March 202
  6
 DTSTART;TZID=Europe/Dublin:20260319T210000
 DTEND;TZID=Europe/Dublin:20260319T233000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-19-march-20
  26-20260319T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -68,7 +68,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 25 March
  2026
 DTSTART;TZID=Europe/Dublin:20260325T210000
 DTEND;TZID=Europe/Dublin:20260325T233000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-march
  -2-20260325T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 British Titanic Society Convention 2026
 DTSTART;TZID=Europe/Dublin:20260409T010000
 DTEND;TZID=Europe/Dublin:20260413T005900
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-british-titanic-society-convention-2026-20260409T0100-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/british-titanic-society-convent
@@ -91,7 +91,7 @@ SUMMARY:🎵 An Evening With Seán Keane – Presented by Cathedral Sessio
  ns
 DTSTART;TZID=Europe/Dublin:20260508T203000
 DTEND;TZID=Europe/Dublin:20260508T223000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-an-evening-with-se-n-keane-presented-by-cathedral-sessions
  -20260508T2030-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/an-evening-with-sean-keane-pres
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
 DTSTART;TZID=Europe/Dublin:20260723T010000
 DTEND;TZID=Europe/Dublin:20260727T005900
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T01
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -114,7 +114,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 In Time: Dónal Lunny – by East Cork Cinema
 DTSTART;TZID=Europe/Dublin:20260723T204500
 DTEND;TZID=Europe/Dublin:20260723T223000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-in-time-d-nal-lunny-by-east-cork-cinema-20260723T2045-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/in-time-donal-lunny/\n\nCreated
@@ -125,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Clíona Halley & Darragh Carey-Kennedy (Open Trad Session)
 DTSTART;TZID=Europe/Dublin:20260724T180000
 DTEND;TZID=Europe/Dublin:20260724T200000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cl-ona-halley-darragh-carey-kennedy-open-trad-session-2026
  0724T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session/\n\nCreated b
@@ -137,7 +137,7 @@ SUMMARY:🎵 Breen\, Rynne & Murray – Headline Concert – Cobh Trad Fes
  t 2026
 DTSTART;TZID=Europe/Dublin:20260724T210000
 DTEND;TZID=Europe/Dublin:20260724T230000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-breen-rynne-murray-headline-concert-cobh-trad-fest-2026-20
  260724T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20260724T220000
 DTEND;TZID=Europe/Dublin:20260725T000000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-the-roaring-donkey-202607
  24T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2/\n\nCreated
@@ -160,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Bodhrán Workshop
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-bodhr-n-workshop-20260725T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
  ith-christy-leahy-2-2-2/\n\nCreated by The Arch\, Cobh\nData from InCobh.c
@@ -171,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Flute and Tin Whistle Workshop with Mairéad Carey
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-flute-and-tin-whistle-workshop-with-mair-ad-carey-20260725
  T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -182,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Fiddle Workshop with Liam Flanagan
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-fiddle-workshop-with-liam-flanagan-20260725T1100-thearchco
  bh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Banjo & Mandolin Workshop
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-banjo-mandolin-workshop-20260725T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
  ith-christy-leahy-2-2/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -204,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Mixed Instrument Workshop with Joanne Quirke (Under 18s)
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T123000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-mixed-instrument-workshop-with-joanne-quirke-under-18s-202
  60725T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -215,7 +215,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Accordion & Concertina Workshop with Christy Leahy
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-accordion-concertina-workshop-with-christy-leahy-20260725T
  1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -226,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Guitar Accompaniment Workshop with Jim Carroll
 DTSTART;TZID=Europe/Dublin:20260725T110000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-guitar-accompaniment-workshop-with-jim-carroll-20260725T11
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -237,7 +237,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Mixed Instrument Workshop with Joanne Quirke (Adult)
 DTSTART;TZID=Europe/Dublin:20260725T123000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-mixed-instrument-workshop-with-joanne-quirke-adult-2026072
  5T1230-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -248,7 +248,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Workshop Performance
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T160000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-workshop-performance-20260725T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/workshop-performance/\n\nCreate
  d by The Arch\, Cobh\nData from InCobh.com
@@ -258,7 +258,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Junior Busking Competition
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T160000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-junior-busking-competition-20260725T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/junior-busking-competition/\n\n
  Created by The Arch\, Cobh\nData from InCobh.com
@@ -268,7 +268,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Battle of The Bands
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T180000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-battle-of-the-bands-20260725T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/battle-of-the-bands/\n\nCreated
   by The Arch\, Cobh\nData from InCobh.com
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Ryans
 DTSTART;TZID=Europe/Dublin:20260725T160000
 DTEND;TZID=Europe/Dublin:20260725T190000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-ryans-20260725T1600-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2-2/\n\nCre
@@ -289,7 +289,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Connie Doolans
 DTSTART;TZID=Europe/Dublin:20260725T160000
 DTEND;TZID=Europe/Dublin:20260725T190000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-connie-doolans-20260725T1
  600-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2/\n\nCreat
@@ -300,7 +300,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Karan Casey Trio – Headline Concert – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T210000
 DTEND;TZID=Europe/Dublin:20260725T230000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-karan-casey-trio-headline-concert-cobh-trad-fest-2026-2026
  0725T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
@@ -312,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Singing Workshop with Karan Casey
 DTSTART;TZID=Europe/Dublin:20260726T130000
 DTEND;TZID=Europe/Dublin:20260726T143000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-singing-workshop-with-karan-casey-20260726T1300-thearchcob
  h
 DESCRIPTION:🔗 https://incobh.com/events/singing-workshop-with-karan-cas
@@ -323,7 +323,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Kellys
 DTSTART;TZID=Europe/Dublin:20260726T150000
 DTEND;TZID=Europe/Dublin:20260726T190000
-DTSTAMP:20260310T070852Z
+DTSTAMP:20260310T100027Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-kellys-20260726T1500-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2-2-2/\n\nC
