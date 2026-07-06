@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Sonia 10km Race
 DTSTART;TZID=Europe/Dublin:20260412T103000
 DTEND;TZID=Europe/Dublin:20260412T120001
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-sonia-10km-race-20260412T1030-thearchcobh
 DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Leanne McDonagh: Community & Connection
 DTSTART;TZID=Europe/Dublin:20260704T140000
 DTEND;TZID=Europe/Dublin:20260912T160000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-leanne-mcdonagh-community-connection-20260704T1400-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/leanne-mcdonagh-community-conne
@@ -28,7 +28,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 8 July 20
  26
 DTSTART;TZID=Europe/Dublin:20260708T210000
 DTEND;TZID=Europe/Dublin:20260708T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-8-july-2
  02-20260708T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 9 July 2026
 DTSTART;TZID=Europe/Dublin:20260709T184500
 DTEND;TZID=Europe/Dublin:20260709T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-9-july-2026-20260709T1845-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -50,7 +50,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 9 July 2026
 DTSTART;TZID=Europe/Dublin:20260709T193000
 DTEND;TZID=Europe/Dublin:20260709T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-9-july-2026-20260709T1930-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 9 July 2026
 DTSTART;TZID=Europe/Dublin:20260709T210000
 DTEND;TZID=Europe/Dublin:20260709T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-9-july-2026
  -20260709T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 11 July 2026
 DTSTART;TZID=Europe/Dublin:20260711T100000
 DTEND;TZID=Europe/Dublin:20260711T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-11-july-2026-20260711T1000-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -84,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Prom Sunday Market - Sun 12 July 2026
 DTSTART;TZID=Europe/Dublin:20260712T100000
 DTEND;TZID=Europe/Dublin:20260712T170000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-prom-sunday-market-sun-12-july-2026-20260712T1000-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-prom-sunday-market/?gde=20
@@ -96,7 +96,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 15 July 2
  026
 DTSTART;TZID=Europe/Dublin:20260715T210000
 DTEND;TZID=Europe/Dublin:20260715T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-15-july-
  20-20260715T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 16 July 2026
 DTSTART;TZID=Europe/Dublin:20260716T184500
 DTEND;TZID=Europe/Dublin:20260716T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-16-july-2026-20260716T1845-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -118,7 +118,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 16 July 2026
 DTSTART;TZID=Europe/Dublin:20260716T193000
 DTEND;TZID=Europe/Dublin:20260716T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-16-july-2026-20260716T1930-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 16 July 2026
 DTSTART;TZID=Europe/Dublin:20260716T210000
 DTEND;TZID=Europe/Dublin:20260716T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-16-july-202
  6-20260716T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -141,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 18 July 2026
 DTSTART;TZID=Europe/Dublin:20260718T100000
 DTEND;TZID=Europe/Dublin:20260718T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-18-july-2026-20260718T1000-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Summer Paint and Sip at SIRIUS
 DTSTART;TZID=Europe/Dublin:20260718T180000
 DTEND;TZID=Europe/Dublin:20260718T210000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-summer-paint-and-sip-at-sirius-20260718T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/summer-paint-and-sip-at-sirius/
  \n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Summer Art Club with Gloria O’Doherty
 DTSTART;TZID=Europe/Dublin:20260721T103000
 DTEND;TZID=Europe/Dublin:20260724T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-summer-art-club-with-gloria-o-doherty-20260721T1030-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/summer-art-club-with-gloria-odo
@@ -174,7 +174,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 22 July 2
  026
 DTSTART;TZID=Europe/Dublin:20260722T210000
 DTEND;TZID=Europe/Dublin:20260722T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-22-july-
  20-20260722T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad & Folk Festival July 23rd to 26th 2026
 DTSTART;TZID=Europe/Dublin:20260723T000000
 DTEND;TZID=Europe/Dublin:20260726T235900
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-folk-festival-july-23rd-to-26th-2026-20260723T00
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-tradfest/\n\nCreated by Th
@@ -196,7 +196,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Storytelling with Terri Ryan
 DTSTART;TZID=Europe/Dublin:20260723T180000
 DTEND;TZID=Europe/Dublin:20260723T193000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-storytelling-with-terri-ryan-20260723T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/storytelling-with-terri-ryan/\n
  \nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 23 July 2026
 DTSTART;TZID=Europe/Dublin:20260723T184500
 DTEND;TZID=Europe/Dublin:20260723T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-23-july-2026-20260723T1845-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -217,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 23 July 2026
 DTSTART;TZID=Europe/Dublin:20260723T193000
 DTEND;TZID=Europe/Dublin:20260723T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-23-july-2026-20260723T1930-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -228,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 In Time: Dónal Lunny – by East Cork Cinema
 DTSTART;TZID=Europe/Dublin:20260723T194500
 DTEND;TZID=Europe/Dublin:20260723T213000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-in-time-d-nal-lunny-by-east-cork-cinema-20260723T1945-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/in-time-donal-lunny/\n\nCreated
@@ -239,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 23 July 2026
 DTSTART;TZID=Europe/Dublin:20260723T210000
 DTEND;TZID=Europe/Dublin:20260723T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-23-july-202
  6-20260723T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Tommy Cunniffe & Oisín Morrison
 DTSTART;TZID=Europe/Dublin:20260724T170000
 DTEND;TZID=Europe/Dublin:20260724T190000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-tommy-cunniffe-ois-n-morrison-20260724T1700-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/tommy-cunniffe-oisin-morrison/\
  n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -262,7 +262,7 @@ SUMMARY:🎵 Breen\, Rynne & Murray – Headline Concert – with special
  guest Maria Byrne – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260724T200000
 DTEND;TZID=Europe/Dublin:20260724T220000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-breen-rynne-murray-headline-concert-with-special-guest-mar
  ia-20260724T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/breen-rynne-murray-headline-con
@@ -275,7 +275,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Flute and Tin Whistle Workshop with Mairéad Carey
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-flute-and-tin-whistle-workshop-with-mair-ad-carey-20260725
  T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -286,7 +286,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Fiddle Workshop with Liam Flanagan
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-fiddle-workshop-with-liam-flanagan-20260725T1000-thearchco
  bh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -298,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Mixed Instrument Workshop with Joanne Quirke (Under 18s)
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T113000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mixed-instrument-workshop-with-joanne-quirke-under-18s-202
  60725T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -309,7 +309,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Guitar Accompaniment Workshop with Jim Carroll
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-guitar-accompaniment-workshop-with-jim-carroll-20260725T10
  00-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -320,7 +320,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Banjo & Mandolin Workshop with Cathal Hickey
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-banjo-mandolin-workshop-with-cathal-hickey-20260725T1000-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/banjo-mandolin-workshop-with-ca
@@ -331,7 +331,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Bodhrán Workshop with Colm Murphy
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-bodhr-n-workshop-with-colm-murphy-20260725T100
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -343,7 +343,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Concertina & Button Accordion Workshop with Christy Leahy
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-concertina-button-accordion-workshop-with-christy-leahy-20
  260725T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 25 July 2026
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-25-july-2026-20260725T1000-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -365,7 +365,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 WEEE Public Collection Day
 DTSTART;TZID=Europe/Dublin:20260725T100000
 DTEND;TZID=Europe/Dublin:20260725T160000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-weee-public-collection-day-20260725T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/weee-public-collection-day/\n\n
  Created by The Arch\, Cobh\nData from InCobh.com
@@ -375,7 +375,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Mixed Instrument Workshop with Joanne Quirke (Adult)
 DTSTART;TZID=Europe/Dublin:20260725T113000
 DTEND;TZID=Europe/Dublin:20260725T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mixed-instrument-workshop-with-joanne-quirke-adult-2026072
  5T1130-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/accordion-concertina-workshop-w
@@ -386,7 +386,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Jack Gilly
 DTSTART;TZID=Europe/Dublin:20260725T130000
 DTEND;TZID=Europe/Dublin:20260725T134500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-jack-gilly-20260725T1300-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/jack-gilly/\n\nCreated by The A
  rch\, Cobh\nData from InCobh.com
@@ -396,7 +396,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Workshop Performance
 DTSTART;TZID=Europe/Dublin:20260725T140000
 DTEND;TZID=Europe/Dublin:20260725T150000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-workshop-performance-20260725T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/workshop-performance/\n\nCreate
  d by The Arch\, Cobh\nData from InCobh.com
@@ -406,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Junior Busking Competition
 DTSTART;TZID=Europe/Dublin:20260725T140000
 DTEND;TZID=Europe/Dublin:20260725T150000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-junior-busking-competition-20260725T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/junior-busking-competition/\n\n
  Created by The Arch\, Cobh\nData from InCobh.com
@@ -416,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 MacHenry and The Dog Roses
 DTSTART;TZID=Europe/Dublin:20260725T140000
 DTEND;TZID=Europe/Dublin:20260725T150000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-machenry-and-the-dog-roses-20260725T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/machenry-and-the-dog-roses/\n\n
  Created by The Arch\, Cobh\nData from InCobh.com
@@ -426,7 +426,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 MacHenry & The Dog Roses
 DTSTART;TZID=Europe/Dublin:20260725T140000
 DTEND;TZID=Europe/Dublin:20260725T144500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-machenry-the-dog-roses-20260725T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/machenry-the-dog-roses/\n\nCrea
  ted by The Arch\, Cobh\nData from InCobh.com
@@ -436,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Ryans
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T180000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-ryans-20260725T1500-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2-2/\n\nCre
@@ -447,7 +447,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Connie Doolans
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T180000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-connie-doolans-20260725T1
  500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2/\n\nCreat
@@ -458,7 +458,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Fiárock with guest Jason Turk
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T160000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-fi-rock-with-guest-jason-turk-20260725T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/fiarock-with-guest-jason-turk/\
  n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -468,7 +468,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Fiarock & Jason Turk
 DTSTART;TZID=Europe/Dublin:20260725T150000
 DTEND;TZID=Europe/Dublin:20260725T154500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-fiarock-jason-turk-20260725T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/fiarock-jason-turk/\n\nCreated 
  by The Arch\, Cobh\nData from InCobh.com
@@ -478,7 +478,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 The Collective
 DTSTART;TZID=Europe/Dublin:20260725T160000
 DTEND;TZID=Europe/Dublin:20260725T164500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-the-collective-20260725T1600-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-collective/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
@@ -488,7 +488,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Clíona Halley & Darragh Carey-Kennedy (Open Trad Session)
 DTSTART;TZID=Europe/Dublin:20260725T170000
 DTEND;TZID=Europe/Dublin:20260725T190000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cl-ona-halley-darragh-carey-kennedy-open-trad-session-2026
  0725T1700-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session/\n\nCreated b
@@ -499,7 +499,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Serpentine
 DTSTART;TZID=Europe/Dublin:20260725T190000
 DTEND;TZID=Europe/Dublin:20260725T203000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-serpentine-20260725T1900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/serpentine/\n\nCreated by The A
  rch\, Cobh\nData from InCobh.com
@@ -510,7 +510,7 @@ SUMMARY:🎵 Karan Casey Trio – Headline Concert – With special guest
  Luasca – Cobh Trad Fest 2026
 DTSTART;TZID=Europe/Dublin:20260725T200000
 DTEND;TZID=Europe/Dublin:20260725T220000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-karan-casey-trio-headline-concert-with-special-guest-luasc
  a--20260725T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/karan-casey-trio-headline-conce
@@ -523,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Spideog
 DTSTART;TZID=Europe/Dublin:20260725T220000
 DTEND;TZID=Europe/Dublin:20260725T235900
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-spideog-20260725T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/spideog-2/\n\nCreated by The Ar
  ch\, Cobh\nData from InCobh.com
@@ -533,7 +533,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Singing Workshop with Karan Casey
 DTSTART;TZID=Europe/Dublin:20260726T120000
 DTEND;TZID=Europe/Dublin:20260726T133000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-singing-workshop-with-karan-casey-20260726T1200-thearchcob
  h
 DESCRIPTION:🔗 https://incobh.com/events/singing-workshop-with-karan-cas
@@ -544,7 +544,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Marloag
 DTSTART;TZID=Europe/Dublin:20260726T130000
 DTEND;TZID=Europe/Dublin:20260726T134500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-marloag-20260726T1300-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/marloag/\n\nCreated by The Arch
  \, Cobh\nData from InCobh.com
@@ -554,7 +554,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – Kellys
 DTSTART;TZID=Europe/Dublin:20260726T140000
 DTEND;TZID=Europe/Dublin:20260726T180000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-kellys-20260726T1400-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2-2-2-2/\n\nC
@@ -565,7 +565,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 “How to Write a Folk Song” with Jasmin O’Davidson
 DTSTART;TZID=Europe/Dublin:20260726T140000
 DTEND;TZID=Europe/Dublin:20260726T153000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-how-to-write-a-folk-song-with-jasmin-o-davidson-20260726T1
  400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/how-to-write-a-folk-song-with-j
@@ -576,7 +576,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 No Hats\, No Saddles
 DTSTART;TZID=Europe/Dublin:20260726T140000
 DTEND;TZID=Europe/Dublin:20260726T144500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-no-hats-no-saddles-20260726T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/no-hats-no-saddles/\n\nCreated 
  by The Arch\, Cobh\nData from InCobh.com
@@ -586,7 +586,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad
 DTSTART;TZID=Europe/Dublin:20260726T150000
 DTEND;TZID=Europe/Dublin:20260726T154500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-20260726T1500-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-2/\n\nCreated by The 
  Arch\, Cobh\nData from InCobh.com
@@ -596,7 +596,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
 DTSTART;TZID=Europe/Dublin:20260726T160000
 DTEND;TZID=Europe/Dublin:20260726T164500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-katie-mcgroarty-20260726T1600-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-2/\n\nCreated b
  y The Arch\, Cobh\nData from InCobh.com
@@ -606,7 +606,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Judy Ní Mhurchú & Friends
 DTSTART;TZID=Europe/Dublin:20260726T180000
 DTEND;TZID=Europe/Dublin:20260726T200000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-judy-n-mhurch-friends-20260726T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/judy-ni-mhurchu-friends/\n\nCre
  ated by The Arch\, Cobh\nData from InCobh.com
@@ -616,7 +616,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
 DTSTART;TZID=Europe/Dublin:20260726T180000
 DTEND;TZID=Europe/Dublin:20260726T200000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-the-hollyz-20260726T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-hollyz/\n\nCreated by The A
  rch\, Cobh\nData from InCobh.com
@@ -626,7 +626,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Fest – Pub Trail Session – The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20260726T210000
 DTEND;TZID=Europe/Dublin:20260726T230000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-fest-pub-trail-session-the-roaring-donkey-202607
  26T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/pub-trail-session-2/\n\nCreated
@@ -638,7 +638,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 29 July 2
  026
 DTSTART;TZID=Europe/Dublin:20260729T210000
 DTEND;TZID=Europe/Dublin:20260729T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-29-july-
  20-20260729T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -649,7 +649,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 30 July 2026
 DTSTART;TZID=Europe/Dublin:20260730T184500
 DTEND;TZID=Europe/Dublin:20260730T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-30-july-2026-20260730T1845-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -660,7 +660,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 30 July 2026
 DTSTART;TZID=Europe/Dublin:20260730T193000
 DTEND;TZID=Europe/Dublin:20260730T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-30-july-2026-20260730T1930-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -671,7 +671,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 30 July 2026
 DTSTART;TZID=Europe/Dublin:20260730T210000
 DTEND;TZID=Europe/Dublin:20260730T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-30-july-202
  6-20260730T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
@@ -683,7 +683,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 1 August 2026
 DTSTART;TZID=Europe/Dublin:20260801T100000
 DTEND;TZID=Europe/Dublin:20260801T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-1-august-2026-20260801T1000-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -694,7 +694,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Prom Sunday Market - Sun 2 August 2026
 DTSTART;TZID=Europe/Dublin:20260802T100000
 DTEND;TZID=Europe/Dublin:20260802T170000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-prom-sunday-market-sun-2-august-2026-20260802T1000-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-prom-sunday-market/?gde=20
@@ -706,7 +706,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 August
  2026
 DTSTART;TZID=Europe/Dublin:20260805T210000
 DTEND;TZID=Europe/Dublin:20260805T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-august
  -2-20260805T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -717,7 +717,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 6 August 2026
 DTSTART;TZID=Europe/Dublin:20260806T184500
 DTEND;TZID=Europe/Dublin:20260806T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-6-august-2026-20260806T1845
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 6 August 2026
 DTSTART;TZID=Europe/Dublin:20260806T193000
 DTEND;TZID=Europe/Dublin:20260806T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-6-august-2026-20260806T1930-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -739,7 +739,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 8 August 2026
 DTSTART;TZID=Europe/Dublin:20260808T100000
 DTEND;TZID=Europe/Dublin:20260808T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-8-august-2026-20260808T1000-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -750,7 +750,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 The Urge
 DTSTART;TZID=Europe/Dublin:20260809T180000
 DTEND;TZID=Europe/Dublin:20260809T200000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-the-urge-20260809T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-urge-3/\n\nCreated by The A
  rch\, Cobh\nData from InCobh.com
@@ -761,7 +761,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 August
   2026
 DTSTART;TZID=Europe/Dublin:20260812T210000
 DTEND;TZID=Europe/Dublin:20260812T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-augus
  t--20260812T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -772,7 +772,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 13 August 2026
 DTSTART;TZID=Europe/Dublin:20260813T184500
 DTEND;TZID=Europe/Dublin:20260813T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-13-august-2026-20260813T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -783,7 +783,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 13 August 2026
 DTSTART;TZID=Europe/Dublin:20260813T193000
 DTEND;TZID=Europe/Dublin:20260813T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-13-august-2026-20260813T1930-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -794,7 +794,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 15 August 2026
 DTSTART;TZID=Europe/Dublin:20260815T100000
 DTEND;TZID=Europe/Dublin:20260815T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-15-august-2026-20260815T1000-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -806,7 +806,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 August
   2026
 DTSTART;TZID=Europe/Dublin:20260819T210000
 DTEND;TZID=Europe/Dublin:20260819T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-augus
  t--20260819T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -817,7 +817,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 20 August 2026
 DTSTART;TZID=Europe/Dublin:20260820T184500
 DTEND;TZID=Europe/Dublin:20260820T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-20-august-2026-20260820T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -828,7 +828,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 20 August 2026
 DTSTART;TZID=Europe/Dublin:20260820T193000
 DTEND;TZID=Europe/Dublin:20260820T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-20-august-2026-20260820T1930-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -839,7 +839,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 22 August 2026
 DTSTART;TZID=Europe/Dublin:20260822T100000
 DTEND;TZID=Europe/Dublin:20260822T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-22-august-2026-20260822T1000-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -850,7 +850,7 @@ BEGIN:VEVENT
 SUMMARY:🎫 Dr Dec & The Side Effects
 DTSTART;TZID=Europe/Dublin:20260823T180000
 DTEND;TZID=Europe/Dublin:20260823T200000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-dr-dec-the-side-effects-20260823T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dr-dec-the-side-effects-2/\n\nC
  reated by The Arch\, Cobh\nData from InCobh.com
@@ -861,7 +861,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 August
   2026
 DTSTART;TZID=Europe/Dublin:20260826T210000
 DTEND;TZID=Europe/Dublin:20260826T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-augus
  t--20260826T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -872,7 +872,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 27 August 2026
 DTSTART;TZID=Europe/Dublin:20260827T184500
 DTEND;TZID=Europe/Dublin:20260827T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-27-august-2026-20260827T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -883,7 +883,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 27 August 2026
 DTSTART;TZID=Europe/Dublin:20260827T193000
 DTEND;TZID=Europe/Dublin:20260827T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-27-august-2026-20260827T1930-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -894,7 +894,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 29 August 2026
 DTSTART;TZID=Europe/Dublin:20260829T100000
 DTEND;TZID=Europe/Dublin:20260829T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-29-august-2026-20260829T1000-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -906,7 +906,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 2 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260902T210000
 DTEND;TZID=Europe/Dublin:20260902T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-2-septem
  be-20260902T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -917,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 3 September 2026
 DTSTART;TZID=Europe/Dublin:20260903T184500
 DTEND;TZID=Europe/Dublin:20260903T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-3-september-2026-20260903T1
  845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -928,7 +928,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 3 September 2026
 DTSTART;TZID=Europe/Dublin:20260903T193000
 DTEND;TZID=Europe/Dublin:20260903T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-3-september-2026-20260903T1930
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -939,7 +939,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 5 September 2026
 DTSTART;TZID=Europe/Dublin:20260905T100000
 DTEND;TZID=Europe/Dublin:20260905T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-5-september-2026-20260905T1000-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -951,7 +951,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260909T210000
 DTEND;TZID=Europe/Dublin:20260909T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-septem
  be-20260909T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -962,7 +962,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 10 September 2026
 DTSTART;TZID=Europe/Dublin:20260910T184500
 DTEND;TZID=Europe/Dublin:20260910T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-10-september-2026-20260910T
  1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -973,7 +973,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 10 September 2026
 DTSTART;TZID=Europe/Dublin:20260910T193000
 DTEND;TZID=Europe/Dublin:20260910T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-10-september-2026-20260910T193
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -984,7 +984,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 12 September 2026
 DTSTART;TZID=Europe/Dublin:20260912T100000
 DTEND;TZID=Europe/Dublin:20260912T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-12-september-2026-20260912T1000-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -996,7 +996,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260916T210000
 DTEND;TZID=Europe/Dublin:20260916T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-septe
  mb-20260916T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1007,7 +1007,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 17 September 2026
 DTSTART;TZID=Europe/Dublin:20260917T184500
 DTEND;TZID=Europe/Dublin:20260917T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-17-september-2026-20260917T
  1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1018,7 +1018,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 17 September 2026
 DTSTART;TZID=Europe/Dublin:20260917T193000
 DTEND;TZID=Europe/Dublin:20260917T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-17-september-2026-20260917T193
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1029,7 +1029,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 September 2026
 DTSTART;TZID=Europe/Dublin:20260919T100000
 DTEND;TZID=Europe/Dublin:20260919T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-19-september-2026-20260919T1000-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -1041,7 +1041,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260923T210000
 DTEND;TZID=Europe/Dublin:20260923T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-septe
  mb-20260923T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1052,7 +1052,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 24 September 2026
 DTSTART;TZID=Europe/Dublin:20260924T184500
 DTEND;TZID=Europe/Dublin:20260924T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-24-september-2026-20260924T
  1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1063,7 +1063,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 24 September 2026
 DTSTART;TZID=Europe/Dublin:20260924T193000
 DTEND;TZID=Europe/Dublin:20260924T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-24-september-2026-20260924T193
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1074,7 +1074,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 26 September 2026
 DTSTART;TZID=Europe/Dublin:20260926T100000
 DTEND;TZID=Europe/Dublin:20260926T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-26-september-2026-20260926T1000-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
@@ -1086,7 +1086,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260930T210000
 DTEND;TZID=Europe/Dublin:20260930T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-septe
  mb-20260930T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1097,7 +1097,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 1 October 2026
 DTSTART;TZID=Europe/Dublin:20261001T184500
 DTEND;TZID=Europe/Dublin:20261001T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-1-october-2026-20261001T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1108,7 +1108,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 1 October 2026
 DTSTART;TZID=Europe/Dublin:20261001T193000
 DTEND;TZID=Europe/Dublin:20261001T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-1-october-2026-20261001T1930-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1119,7 +1119,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
 DTSTART;TZID=Europe/Dublin:20261003T100000
 DTEND;TZID=Europe/Dublin:20261003T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-3-october-2026-20261003T1000-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1131,7 +1131,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 7 October
   2026
 DTSTART;TZID=Europe/Dublin:20261007T210000
 DTEND;TZID=Europe/Dublin:20261007T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-7-octobe
  r--20261007T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1142,7 +1142,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 8 October 2026
 DTSTART;TZID=Europe/Dublin:20261008T184500
 DTEND;TZID=Europe/Dublin:20261008T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-8-october-2026-20261008T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1153,7 +1153,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 8 October 2026
 DTSTART;TZID=Europe/Dublin:20261008T193000
 DTEND;TZID=Europe/Dublin:20261008T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-8-october-2026-20261008T1930-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1164,7 +1164,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 10 October 2026
 DTSTART;TZID=Europe/Dublin:20261010T100000
 DTEND;TZID=Europe/Dublin:20261010T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-10-october-2026-20261010T1000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1176,7 +1176,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 14 Octobe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261014T210000
 DTEND;TZID=Europe/Dublin:20261014T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-14-octob
  er-20261014T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1187,7 +1187,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 15 October 2026
 DTSTART;TZID=Europe/Dublin:20261015T184500
 DTEND;TZID=Europe/Dublin:20261015T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-15-october-2026-20261015T18
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1198,7 +1198,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 15 October 2026
 DTSTART;TZID=Europe/Dublin:20261015T193000
 DTEND;TZID=Europe/Dublin:20261015T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-15-october-2026-20261015T1930-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1209,7 +1209,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 17 October 2026
 DTSTART;TZID=Europe/Dublin:20261017T100000
 DTEND;TZID=Europe/Dublin:20261017T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-17-october-2026-20261017T1000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1221,7 +1221,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 21 Octobe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261021T210000
 DTEND;TZID=Europe/Dublin:20261021T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-21-octob
  er-20261021T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1232,7 +1232,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 22 October 2026
 DTSTART;TZID=Europe/Dublin:20261022T184500
 DTEND;TZID=Europe/Dublin:20261022T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-22-october-2026-20261022T18
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1243,7 +1243,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 22 October 2026
 DTSTART;TZID=Europe/Dublin:20261022T193000
 DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-22-october-2026-20261022T1930-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1254,7 +1254,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 24 October 2026
 DTSTART;TZID=Europe/Dublin:20261024T100000
 DTEND;TZID=Europe/Dublin:20261024T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-24-october-2026-20261024T1000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1266,7 +1266,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 28 Octobe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261028T200000
 DTEND;TZID=Europe/Dublin:20261028T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-28-octob
  er-20261028T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1277,7 +1277,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 29 October 2026
 DTSTART;TZID=Europe/Dublin:20261029T174500
 DTEND;TZID=Europe/Dublin:20261029T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-29-october-2026-20261029T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1288,7 +1288,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 29 October 2026
 DTSTART;TZID=Europe/Dublin:20261029T183000
 DTEND;TZID=Europe/Dublin:20261029T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-29-october-2026-20261029T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1299,7 +1299,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 31 October 2026
 DTSTART;TZID=Europe/Dublin:20261031T090000
 DTEND;TZID=Europe/Dublin:20261031T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-31-october-2026-20261031T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1311,7 +1311,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 4 Novembe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261104T200000
 DTEND;TZID=Europe/Dublin:20261104T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-4-novemb
  er-20261104T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1322,7 +1322,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 5 November 2026
 DTSTART;TZID=Europe/Dublin:20261105T174500
 DTEND;TZID=Europe/Dublin:20261105T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-5-november-2026-20261105T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1333,7 +1333,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 5 November 2026
 DTSTART;TZID=Europe/Dublin:20261105T183000
 DTEND;TZID=Europe/Dublin:20261105T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-5-november-2026-20261105T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1344,7 +1344,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 7 November 2026
 DTSTART;TZID=Europe/Dublin:20261107T090000
 DTEND;TZID=Europe/Dublin:20261107T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-7-november-2026-20261107T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1356,7 +1356,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 11 Novemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261111T200000
 DTEND;TZID=Europe/Dublin:20261111T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-novem
  be-20261111T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1367,7 +1367,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 12 November 2026
 DTSTART;TZID=Europe/Dublin:20261112T174500
 DTEND;TZID=Europe/Dublin:20261112T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-12-november-2026-20261112T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1378,7 +1378,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 12 November 2026
 DTSTART;TZID=Europe/Dublin:20261112T183000
 DTEND;TZID=Europe/Dublin:20261112T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-12-november-2026-20261112T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1389,7 +1389,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 14 November 2026
 DTSTART;TZID=Europe/Dublin:20261114T090000
 DTEND;TZID=Europe/Dublin:20261114T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-14-november-2026-20261114T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1401,7 +1401,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 18 Novemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261118T200000
 DTEND;TZID=Europe/Dublin:20261118T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-18-novem
  be-20261118T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1412,7 +1412,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 19 November 2026
 DTSTART;TZID=Europe/Dublin:20261119T174500
 DTEND;TZID=Europe/Dublin:20261119T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-19-november-2026-20261119T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1423,7 +1423,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 19 November 2026
 DTSTART;TZID=Europe/Dublin:20261119T183000
 DTEND;TZID=Europe/Dublin:20261119T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-19-november-2026-20261119T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1434,7 +1434,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 21 November 2026
 DTSTART;TZID=Europe/Dublin:20261121T090000
 DTEND;TZID=Europe/Dublin:20261121T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-21-november-2026-20261121T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1446,7 +1446,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 25 Novemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261125T200000
 DTEND;TZID=Europe/Dublin:20261125T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-novem
  be-20261125T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1457,7 +1457,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 26 November 2026
 DTSTART;TZID=Europe/Dublin:20261126T174500
 DTEND;TZID=Europe/Dublin:20261126T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-26-november-2026-20261126T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1468,7 +1468,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 26 November 2026
 DTSTART;TZID=Europe/Dublin:20261126T183000
 DTEND;TZID=Europe/Dublin:20261126T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-26-november-2026-20261126T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1479,7 +1479,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 28 November 2026
 DTSTART;TZID=Europe/Dublin:20261128T090000
 DTEND;TZID=Europe/Dublin:20261128T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-28-november-2026-20261128T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1491,7 +1491,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 2 Decembe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261202T200000
 DTEND;TZID=Europe/Dublin:20261202T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-2-decemb
  er-20261202T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1502,7 +1502,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 3 December 2026
 DTSTART;TZID=Europe/Dublin:20261203T174500
 DTEND;TZID=Europe/Dublin:20261203T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-3-december-2026-20261203T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1513,7 +1513,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 3 December 2026
 DTSTART;TZID=Europe/Dublin:20261203T183000
 DTEND;TZID=Europe/Dublin:20261203T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-3-december-2026-20261203T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1524,7 +1524,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 5 December 2026
 DTSTART;TZID=Europe/Dublin:20261205T090000
 DTEND;TZID=Europe/Dublin:20261205T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-5-december-2026-20261205T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1536,7 +1536,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Decembe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261209T200000
 DTEND;TZID=Europe/Dublin:20261209T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-decemb
  er-20261209T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1547,7 +1547,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 10 December 2026
 DTSTART;TZID=Europe/Dublin:20261210T174500
 DTEND;TZID=Europe/Dublin:20261210T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-10-december-2026-20261210T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1558,7 +1558,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 10 December 2026
 DTSTART;TZID=Europe/Dublin:20261210T183000
 DTEND;TZID=Europe/Dublin:20261210T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-10-december-2026-20261210T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1569,7 +1569,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 12 December 2026
 DTSTART;TZID=Europe/Dublin:20261212T090000
 DTEND;TZID=Europe/Dublin:20261212T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-12-december-2026-20261212T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1581,7 +1581,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Decemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261216T200000
 DTEND;TZID=Europe/Dublin:20261216T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-decem
  be-20261216T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1592,7 +1592,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 17 December 2026
 DTSTART;TZID=Europe/Dublin:20261217T174500
 DTEND;TZID=Europe/Dublin:20261217T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-17-december-2026-20261217T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1603,7 +1603,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 17 December 2026
 DTSTART;TZID=Europe/Dublin:20261217T183000
 DTEND;TZID=Europe/Dublin:20261217T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-17-december-2026-20261217T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1614,7 +1614,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 December 2026
 DTSTART;TZID=Europe/Dublin:20261219T090000
 DTEND;TZID=Europe/Dublin:20261219T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-19-december-2026-20261219T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1626,7 +1626,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Decemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261223T200000
 DTEND;TZID=Europe/Dublin:20261223T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-decem
  be-20261223T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1637,7 +1637,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 24 December 2026
 DTSTART;TZID=Europe/Dublin:20261224T174500
 DTEND;TZID=Europe/Dublin:20261224T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-24-december-2026-20261224T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1648,7 +1648,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 24 December 2026
 DTSTART;TZID=Europe/Dublin:20261224T183000
 DTEND;TZID=Europe/Dublin:20261224T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-24-december-2026-20261224T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1659,7 +1659,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 26 December 2026
 DTSTART;TZID=Europe/Dublin:20261226T090000
 DTEND;TZID=Europe/Dublin:20261226T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-26-december-2026-20261226T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
@@ -1671,7 +1671,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Decemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20261230T200000
 DTEND;TZID=Europe/Dublin:20261230T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-decem
  be-20261230T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1682,7 +1682,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 31 December 2026
 DTSTART;TZID=Europe/Dublin:20261231T174500
 DTEND;TZID=Europe/Dublin:20261231T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-31-december-2026-20261231T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1693,7 +1693,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 31 December 2026
 DTSTART;TZID=Europe/Dublin:20261231T183000
 DTEND;TZID=Europe/Dublin:20261231T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-31-december-2026-20261231T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1704,7 +1704,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 2 January 2027
 DTSTART;TZID=Europe/Dublin:20270102T090000
 DTEND;TZID=Europe/Dublin:20270102T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-2-january-2027-20270102T0900-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1716,7 +1716,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 January
   2027
 DTSTART;TZID=Europe/Dublin:20270106T200000
 DTEND;TZID=Europe/Dublin:20270106T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-januar
  y--20270106T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1727,7 +1727,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 7 January 2027
 DTSTART;TZID=Europe/Dublin:20270107T174500
 DTEND;TZID=Europe/Dublin:20270107T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-7-january-2027-20270107T174
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1738,7 +1738,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 7 January 2027
 DTSTART;TZID=Europe/Dublin:20270107T183000
 DTEND;TZID=Europe/Dublin:20270107T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-7-january-2027-20270107T1830-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1749,7 +1749,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 9 January 2027
 DTSTART;TZID=Europe/Dublin:20270109T090000
 DTEND;TZID=Europe/Dublin:20270109T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-9-january-2027-20270109T0900-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1761,7 +1761,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 Januar
  y 2027
 DTSTART;TZID=Europe/Dublin:20270113T200000
 DTEND;TZID=Europe/Dublin:20270113T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-janua
  ry-20270113T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1772,7 +1772,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 14 January 2027
 DTSTART;TZID=Europe/Dublin:20270114T174500
 DTEND;TZID=Europe/Dublin:20270114T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-14-january-2027-20270114T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1783,7 +1783,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 14 January 2027
 DTSTART;TZID=Europe/Dublin:20270114T183000
 DTEND;TZID=Europe/Dublin:20270114T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-14-january-2027-20270114T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1794,7 +1794,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 16 January 2027
 DTSTART;TZID=Europe/Dublin:20270116T090000
 DTEND;TZID=Europe/Dublin:20270116T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-16-january-2027-20270116T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1806,7 +1806,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 Januar
  y 2027
 DTSTART;TZID=Europe/Dublin:20270120T200000
 DTEND;TZID=Europe/Dublin:20270120T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-janua
  ry-20270120T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1817,7 +1817,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 21 January 2027
 DTSTART;TZID=Europe/Dublin:20270121T174500
 DTEND;TZID=Europe/Dublin:20270121T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-21-january-2027-20270121T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1828,7 +1828,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 21 January 2027
 DTSTART;TZID=Europe/Dublin:20270121T183000
 DTEND;TZID=Europe/Dublin:20270121T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-21-january-2027-20270121T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1839,7 +1839,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 23 January 2027
 DTSTART;TZID=Europe/Dublin:20270123T090000
 DTEND;TZID=Europe/Dublin:20270123T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-23-january-2027-20270123T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1851,7 +1851,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 Januar
  y 2027
 DTSTART;TZID=Europe/Dublin:20270127T200000
 DTEND;TZID=Europe/Dublin:20270127T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-janua
  ry-20270127T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1862,7 +1862,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 28 January 2027
 DTSTART;TZID=Europe/Dublin:20270128T174500
 DTEND;TZID=Europe/Dublin:20270128T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-28-january-2027-20270128T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1873,7 +1873,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 28 January 2027
 DTSTART;TZID=Europe/Dublin:20270128T183000
 DTEND;TZID=Europe/Dublin:20270128T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-28-january-2027-20270128T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1884,7 +1884,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 30 January 2027
 DTSTART;TZID=Europe/Dublin:20270130T090000
 DTEND;TZID=Europe/Dublin:20270130T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-30-january-2027-20270130T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1896,7 +1896,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 Februar
  y 2027
 DTSTART;TZID=Europe/Dublin:20270203T200000
 DTEND;TZID=Europe/Dublin:20270203T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-februa
  ry-20270203T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1907,7 +1907,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 4 February 2027
 DTSTART;TZID=Europe/Dublin:20270204T174500
 DTEND;TZID=Europe/Dublin:20270204T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-4-february-2027-20270204T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1918,7 +1918,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 4 February 2027
 DTSTART;TZID=Europe/Dublin:20270204T183000
 DTEND;TZID=Europe/Dublin:20270204T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-4-february-2027-20270204T1830-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1929,7 +1929,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 6 February 2027
 DTSTART;TZID=Europe/Dublin:20270206T090000
 DTEND;TZID=Europe/Dublin:20270206T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-6-february-2027-20270206T0900-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1941,7 +1941,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 Februa
  ry 2027
 DTSTART;TZID=Europe/Dublin:20270210T200000
 DTEND;TZID=Europe/Dublin:20270210T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-febru
  ar-20270210T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1952,7 +1952,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 11 February 2027
 DTSTART;TZID=Europe/Dublin:20270211T174500
 DTEND;TZID=Europe/Dublin:20270211T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-11-february-2027-20270211T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -1963,7 +1963,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 11 February 2027
 DTSTART;TZID=Europe/Dublin:20270211T183000
 DTEND;TZID=Europe/Dublin:20270211T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-11-february-2027-20270211T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -1974,7 +1974,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 13 February 2027
 DTSTART;TZID=Europe/Dublin:20270213T090000
 DTEND;TZID=Europe/Dublin:20270213T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-13-february-2027-20270213T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -1986,7 +1986,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 Februa
  ry 2027
 DTSTART;TZID=Europe/Dublin:20270217T200000
 DTEND;TZID=Europe/Dublin:20270217T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-febru
  ar-20270217T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -1997,7 +1997,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 18 February 2027
 DTSTART;TZID=Europe/Dublin:20270218T174500
 DTEND;TZID=Europe/Dublin:20270218T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-18-february-2027-20270218T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2008,7 +2008,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 18 February 2027
 DTSTART;TZID=Europe/Dublin:20270218T183000
 DTEND;TZID=Europe/Dublin:20270218T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-18-february-2027-20270218T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2019,7 +2019,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 20 February 2027
 DTSTART;TZID=Europe/Dublin:20270220T090000
 DTEND;TZID=Europe/Dublin:20270220T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-20-february-2027-20270220T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2031,7 +2031,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 Februa
  ry 2027
 DTSTART;TZID=Europe/Dublin:20270224T200000
 DTEND;TZID=Europe/Dublin:20270224T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-febru
  ar-20270224T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2042,7 +2042,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 25 February 2027
 DTSTART;TZID=Europe/Dublin:20270225T174500
 DTEND;TZID=Europe/Dublin:20270225T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-25-february-2027-20270225T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2053,7 +2053,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 25 February 2027
 DTSTART;TZID=Europe/Dublin:20270225T183000
 DTEND;TZID=Europe/Dublin:20270225T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-25-february-2027-20270225T1830
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2064,7 +2064,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 27 February 2027
 DTSTART;TZID=Europe/Dublin:20270227T090000
 DTEND;TZID=Europe/Dublin:20270227T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-27-february-2027-20270227T0900-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2076,7 +2076,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 March 2
  027
 DTSTART;TZID=Europe/Dublin:20270303T200000
 DTEND;TZID=Europe/Dublin:20270303T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-march-
  20-20270303T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2087,7 +2087,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 4 March 2027
 DTSTART;TZID=Europe/Dublin:20270304T174500
 DTEND;TZID=Europe/Dublin:20270304T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-4-march-2027-20270304T1745-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2098,7 +2098,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 4 March 2027
 DTSTART;TZID=Europe/Dublin:20270304T183000
 DTEND;TZID=Europe/Dublin:20270304T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-4-march-2027-20270304T1830-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2109,7 +2109,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 6 March 2027
 DTSTART;TZID=Europe/Dublin:20270306T090000
 DTEND;TZID=Europe/Dublin:20270306T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-6-march-2027-20270306T0900-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2121,7 +2121,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 March
  2027
 DTSTART;TZID=Europe/Dublin:20270310T200000
 DTEND;TZID=Europe/Dublin:20270310T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-march
  -2-20270310T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2132,7 +2132,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 11 March 2027
 DTSTART;TZID=Europe/Dublin:20270311T174500
 DTEND;TZID=Europe/Dublin:20270311T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-11-march-2027-20270311T1745
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2143,7 +2143,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 11 March 2027
 DTSTART;TZID=Europe/Dublin:20270311T183000
 DTEND;TZID=Europe/Dublin:20270311T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-11-march-2027-20270311T1830-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2154,7 +2154,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 13 March 2027
 DTSTART;TZID=Europe/Dublin:20270313T090000
 DTEND;TZID=Europe/Dublin:20270313T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-13-march-2027-20270313T0900-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2166,7 +2166,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 March
  2027
 DTSTART;TZID=Europe/Dublin:20270317T200000
 DTEND;TZID=Europe/Dublin:20270317T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-march
  -2-20270317T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2177,7 +2177,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 18 March 2027
 DTSTART;TZID=Europe/Dublin:20270318T174500
 DTEND;TZID=Europe/Dublin:20270318T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-18-march-2027-20270318T1745
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2188,7 +2188,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 18 March 2027
 DTSTART;TZID=Europe/Dublin:20270318T183000
 DTEND;TZID=Europe/Dublin:20270318T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-18-march-2027-20270318T1830-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2199,7 +2199,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 20 March 2027
 DTSTART;TZID=Europe/Dublin:20270320T090000
 DTEND;TZID=Europe/Dublin:20270320T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-20-march-2027-20270320T0900-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2211,7 +2211,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 March
  2027
 DTSTART;TZID=Europe/Dublin:20270324T200000
 DTEND;TZID=Europe/Dublin:20270324T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-march
  -2-20270324T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2222,7 +2222,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 25 March 2027
 DTSTART;TZID=Europe/Dublin:20270325T174500
 DTEND;TZID=Europe/Dublin:20270325T191500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-25-march-2027-20270325T1745
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2233,7 +2233,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 25 March 2027
 DTSTART;TZID=Europe/Dublin:20270325T183000
 DTEND;TZID=Europe/Dublin:20270325T223000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-25-march-2027-20270325T1830-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2244,7 +2244,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 27 March 2027
 DTSTART;TZID=Europe/Dublin:20270327T090000
 DTEND;TZID=Europe/Dublin:20270327T130000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-27-march-2027-20270327T0900-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2256,7 +2256,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 31 March
  2027
 DTSTART;TZID=Europe/Dublin:20270331T210000
 DTEND;TZID=Europe/Dublin:20270331T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-31-march
  -2-20270331T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2267,7 +2267,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 1 April 2027
 DTSTART;TZID=Europe/Dublin:20270401T184500
 DTEND;TZID=Europe/Dublin:20270401T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-1-april-2027-20270401T1845-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2278,7 +2278,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 1 April 2027
 DTSTART;TZID=Europe/Dublin:20270401T193000
 DTEND;TZID=Europe/Dublin:20270401T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-1-april-2027-20270401T1930-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2289,7 +2289,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 April 2027
 DTSTART;TZID=Europe/Dublin:20270403T100000
 DTEND;TZID=Europe/Dublin:20270403T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-3-april-2027-20270403T1000-thearch
  cobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2301,7 +2301,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 7 April 2
  027
 DTSTART;TZID=Europe/Dublin:20270407T210000
 DTEND;TZID=Europe/Dublin:20270407T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-7-april-
  20-20270407T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2312,7 +2312,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 8 April 2027
 DTSTART;TZID=Europe/Dublin:20270408T184500
 DTEND;TZID=Europe/Dublin:20270408T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-8-april-2027-20270408T1845-
  thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2323,7 +2323,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 8 April 2027
 DTSTART;TZID=Europe/Dublin:20270408T193000
 DTEND;TZID=Europe/Dublin:20270408T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-8-april-2027-20270408T1930-the
  archcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2334,7 +2334,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 10 April 2027
 DTSTART;TZID=Europe/Dublin:20270410T100000
 DTEND;TZID=Europe/Dublin:20270410T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-10-april-2027-20270410T1000-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2346,7 +2346,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 14 April
  2027
 DTSTART;TZID=Europe/Dublin:20270414T210000
 DTEND;TZID=Europe/Dublin:20270414T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-14-april
  -2-20270414T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2357,7 +2357,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 15 April 2027
 DTSTART;TZID=Europe/Dublin:20270415T184500
 DTEND;TZID=Europe/Dublin:20270415T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-15-april-2027-20270415T1845
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2368,7 +2368,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 15 April 2027
 DTSTART;TZID=Europe/Dublin:20270415T193000
 DTEND;TZID=Europe/Dublin:20270415T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-15-april-2027-20270415T1930-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2379,7 +2379,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 17 April 2027
 DTSTART;TZID=Europe/Dublin:20270417T100000
 DTEND;TZID=Europe/Dublin:20270417T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-17-april-2027-20270417T1000-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2391,7 +2391,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 21 April
  2027
 DTSTART;TZID=Europe/Dublin:20270421T210000
 DTEND;TZID=Europe/Dublin:20270421T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-21-april
  -2-20270421T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2402,7 +2402,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 22 April 2027
 DTSTART;TZID=Europe/Dublin:20270422T184500
 DTEND;TZID=Europe/Dublin:20270422T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-22-april-2027-20270422T1845
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2413,7 +2413,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 22 April 2027
 DTSTART;TZID=Europe/Dublin:20270422T193000
 DTEND;TZID=Europe/Dublin:20270422T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-22-april-2027-20270422T1930-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2424,7 +2424,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 24 April 2027
 DTSTART;TZID=Europe/Dublin:20270424T100000
 DTEND;TZID=Europe/Dublin:20270424T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-24-april-2027-20270424T1000-thearc
  hcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2436,7 +2436,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 28 April
  2027
 DTSTART;TZID=Europe/Dublin:20270428T210000
 DTEND;TZID=Europe/Dublin:20270428T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-28-april
  -2-20270428T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2447,7 +2447,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 29 April 2027
 DTSTART;TZID=Europe/Dublin:20270429T184500
 DTEND;TZID=Europe/Dublin:20270429T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-29-april-2027-20270429T1845
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2458,7 +2458,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 29 April 2027
 DTSTART;TZID=Europe/Dublin:20270429T193000
 DTEND;TZID=Europe/Dublin:20270429T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-29-april-2027-20270429T1930-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2469,7 +2469,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 1 May 2027
 DTSTART;TZID=Europe/Dublin:20270501T100000
 DTEND;TZID=Europe/Dublin:20270501T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-1-may-2027-20270501T1000-thearchco
  bh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2481,7 +2481,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 May 202
  7
 DTSTART;TZID=Europe/Dublin:20270505T210000
 DTEND;TZID=Europe/Dublin:20270505T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-may-20
  27-20270505T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2492,7 +2492,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 6 May 2027
 DTSTART;TZID=Europe/Dublin:20270506T184500
 DTEND;TZID=Europe/Dublin:20270506T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-6-may-2027-20270506T1845-th
  earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2503,7 +2503,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 6 May 2027
 DTSTART;TZID=Europe/Dublin:20270506T193000
 DTEND;TZID=Europe/Dublin:20270506T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-6-may-2027-20270506T1930-thear
  chcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2514,7 +2514,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 8 May 2027
 DTSTART;TZID=Europe/Dublin:20270508T100000
 DTEND;TZID=Europe/Dublin:20270508T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-8-may-2027-20270508T1000-thearchco
  bh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2526,7 +2526,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 May 20
  27
 DTSTART;TZID=Europe/Dublin:20270512T210000
 DTEND;TZID=Europe/Dublin:20270512T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-may-2
  02-20270512T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2537,7 +2537,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 13 May 2027
 DTSTART;TZID=Europe/Dublin:20270513T184500
 DTEND;TZID=Europe/Dublin:20270513T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-13-may-2027-20270513T1845-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2548,7 +2548,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 13 May 2027
 DTSTART;TZID=Europe/Dublin:20270513T193000
 DTEND;TZID=Europe/Dublin:20270513T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-13-may-2027-20270513T1930-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2559,7 +2559,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 15 May 2027
 DTSTART;TZID=Europe/Dublin:20270515T100000
 DTEND;TZID=Europe/Dublin:20270515T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-15-may-2027-20270515T1000-thearchc
  obh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2571,7 +2571,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 May 20
  27
 DTSTART;TZID=Europe/Dublin:20270519T210000
 DTEND;TZID=Europe/Dublin:20270519T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-may-2
  02-20270519T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2582,7 +2582,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 20 May 2027
 DTSTART;TZID=Europe/Dublin:20270520T184500
 DTEND;TZID=Europe/Dublin:20270520T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-20-may-2027-20270520T1845-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2593,7 +2593,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 20 May 2027
 DTSTART;TZID=Europe/Dublin:20270520T193000
 DTEND;TZID=Europe/Dublin:20270520T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-20-may-2027-20270520T1930-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
@@ -2604,7 +2604,7 @@ BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 22 May 2027
 DTSTART;TZID=Europe/Dublin:20270522T100000
 DTEND;TZID=Europe/Dublin:20270522T140000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-farmers-market-sat-22-may-2027-20270522T1000-thearchc
  obh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2027-0
@@ -2616,7 +2616,7 @@ SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 May 20
  27
 DTSTART;TZID=Europe/Dublin:20270526T210000
 DTEND;TZID=Europe/Dublin:20270526T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-may-2
  02-20270526T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
@@ -2627,7 +2627,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning session - Thu 27 May 2027
 DTSTART;TZID=Europe/Dublin:20270527T184500
 DTEND;TZID=Europe/Dublin:20270527T201500
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-cobh-trad-learning-session-thu-27-may-2027-20270527T1845-t
  hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
@@ -2638,7 +2638,7 @@ BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 27 May 2027
 DTSTART;TZID=Europe/Dublin:20270527T193000
 DTEND;TZID=Europe/Dublin:20270527T233000
-DTSTAMP:20260706T110809Z
+DTSTAMP:20260706T160050Z
 UID:cobh-events-mad-for-trad-at-kelly-s-thu-27-may-2027-20270527T1930-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
