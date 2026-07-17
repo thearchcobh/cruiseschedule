@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 AIDAluna — Cobh
 DTSTART;TZID=Europe/Dublin:20260413T090000
 DTEND;TZID=Europe/Dublin:20260413T183000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9334868-20260413-cobh-cruise-terminal-all-aida-cruises-thearchcobh
 DESCRIPTION:👥 2050\n🛳 AIDAluna\, AIDA Cruises\n⚓ Cobh\n🔗 https:
  //www.marinetraffic.com/en/ais/details/ships/imo:9334868\n\nCreated by The
@@ -18,7 +18,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Cobh
 DTSTART;TZID=Europe/Dublin:20260418T130000
 DTEND;TZID=Europe/Dublin:20260418T200000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8521232-20260418-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Cobh\n
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Majestic Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260419T071500
 DTEND;TZID=Europe/Dublin:20260419T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9614141-20260419-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3560\n🛳 Majestic Princess\, Princess Cruises\n⚓ Cobh
  \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9614141\n\nC
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cobh
 DTSTART;TZID=Europe/Dublin:20260420T071500
 DTEND;TZID=Europe/Dublin:20260420T150000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9814026-20260420-cobh-cruise-terminal-all-ponant-thearchcobh
 DESCRIPTION:👥 184\n🛳 Le Laperouse\, Ponant\n⚓ Cobh\n🔗 https://w
  ww.marinetraffic.com/en/ais/details/ships/imo:9814026\n\nCreated by The Ar
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Hamburg — Cobh
 DTSTART;TZID=Europe/Dublin:20260425T070000
 DTEND;TZID=Europe/Dublin:20260425T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9138329-20260425-cobh-cruise-terminal-all-plantours-partner-thearchcob
  h
 DESCRIPTION:👥 420\n🛳 Hamburg\, Plantours & partner\n⚓ Cobh\n🔗 h
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cobh
 DTSTART;TZID=Europe/Dublin:20260427T070000
 DTEND;TZID=Europe/Dublin:20260427T150000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9814026-20260427-cobh-cruise-terminal-all-ponant-thearchcobh
 DESCRIPTION:👥 184\n🛳 Le Laperouse\, Ponant\n⚓ Cobh\n🔗 https://w
  ww.marinetraffic.com/en/ais/details/ships/imo:9814026\n\nCreated by The Ar
@@ -75,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 NG Explorer — Cobh
 DTSTART;TZID=Europe/Dublin:20260429T073000
 DTEND;TZID=Europe/Dublin:20260429T190000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8019356-20260429-cobh-cruise-terminal-all-lindblad-expeditions-thearch
  cobh
 DESCRIPTION:👥 148\n🛳 NG Explorer\, Lindblad Expeditions\n⚓ Cobh\n
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cork City
 DTSTART;TZID=Europe/Dublin:20260429T120000
 DTEND;TZID=Europe/Dublin:20260429T183000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9814026-20260429-cork-city-all-ponant-thearchcobh
 DESCRIPTION:👥 184\n🛳 Le Laperouse\, Ponant\n⚓ Cork City\n🔗 http
  s://www.marinetraffic.com/en/ais/details/ships/imo:9814026\n\nCreated by T
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Majestic Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260430T071500
 DTEND;TZID=Europe/Dublin:20260430T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9614141-20260430-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3560\n🛳 Majestic Princess\, Princess Cruises\n⚓ Cobh
  \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9614141\n\nC
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Seabourn Ovation — Cobh
 DTSTART;TZID=Europe/Dublin:20260505T063000
 DTEND;TZID=Europe/Dublin:20260505T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9764958-20260505-cobh-cruise-terminal-all-seabourn-thearchcobh
 DESCRIPTION:👥 600\n🛳 Seabourn Ovation\, Seabourn\n⚓ Cobh\n🔗 htt
  ps://www.marinetraffic.com/en/ais/details/ships/imo:9764958\n\nCreated by 
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Celebrity Eclipse — Cobh
 DTSTART;TZID=Europe/Dublin:20260511T080000
 DTEND;TZID=Europe/Dublin:20260511T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9404314-20260511-cobh-cruise-terminal-all-celebrity-cruises-thearchcob
  h
 DESCRIPTION:👥 2850\n🛳 Celebrity Eclipse\, Celebrity Cruises\n⚓ Cob
@@ -132,7 +132,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Douglas Mawson — Cork City
 DTSTART;TZID=Europe/Dublin:20260511T083000
 DTEND;TZID=Europe/Dublin:20260511T200000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9992713-20260511-cork-city-all-aurora-expeditions-thearchcobh
 DESCRIPTION:👥 120\n🛳 Douglas Mawson\, Aurora Expeditions\n⚓ Cork C
  ity\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9992713\n
@@ -143,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Nieuw Statendam — Ringaskiddy
 DTSTART;TZID=Europe/Dublin:20260512T081500
 DTEND;TZID=Europe/Dublin:20260512T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9767106-20260512-ringaskiddy-dwb-all-holland-america-line-thearchcobh
 DESCRIPTION:👥 3391\n🛳 Nieuw Statendam\, Holland America Line\n⚓ Ri
  ngaskiddy\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:976
@@ -154,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 MSC Preziosa — Cobh
 DTSTART;TZID=Europe/Dublin:20260512T140000
 DTEND;TZID=Europe/Dublin:20260512T210000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9595321-20260512-cobh-cruise-terminal-all-msc-cruises-thearchcobh
 DESCRIPTION:👥 4345\n🛳 MSC Preziosa\, MSC Cruises\n⚓ Cobh\n🔗 htt
  ps://www.marinetraffic.com/en/ais/details/ships/imo:9595321\n\nCreated by 
@@ -165,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Majestic Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260513T071500
 DTEND;TZID=Europe/Dublin:20260513T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9614141-20260513-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3560\n🛳 Majestic Princess\, Princess Cruises\n⚓ Cobh
  \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9614141\n\nC
@@ -176,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Spirit of Adventure — Ringaskiddy
 DTSTART;TZID=Europe/Dublin:20260513T084500
 DTEND;TZID=Europe/Dublin:20260513T150000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9818084-20260513-ringaskiddy-dwb-all-saga-thearchcobh
 DESCRIPTION:👥 999\n🛳 Spirit of Adventure\, Saga\n⚓ Ringaskiddy\n
  🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9818084\n\nCre
@@ -187,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 NG Explorer — Cork City
 DTSTART;TZID=Europe/Dublin:20260514T120000
 DTEND;TZID=Europe/Dublin:20260515T070000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8019356-20260514-cork-city-all-lindblad-expeditions-thearchcobh
 DESCRIPTION:👥 148\n🛳 NG Explorer\, Lindblad Expeditions\n⚓ Cork Ci
  ty\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8019356\n\
@@ -198,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 NG Explorer — Cobh
 DTSTART;TZID=Europe/Dublin:20260515T083000
 DTEND;TZID=Europe/Dublin:20260515T190000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8019356-20260515-cobh-cruise-terminal-all-lindblad-expeditions-thearch
  cobh
 DESCRIPTION:👥 148\n🛳 NG Explorer\, Lindblad Expeditions\n⚓ Cobh\n
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 AIDASol — Cobh
 DTSTART;TZID=Europe/Dublin:20260519T090000
 DTEND;TZID=Europe/Dublin:20260519T183000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9490040-20260519-cobh-cruise-terminal-all-aida-cruises-thearchcobh
 DESCRIPTION:👥 2686\n🛳 AIDASol\, AIDA Cruises\n⚓ Cobh\n🔗 https:/
  /www.marinetraffic.com/en/ais/details/ships/imo:9490040\n\nCreated by The 
@@ -221,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 NG Explorer — Cobh
 DTSTART;TZID=Europe/Dublin:20260521T073000
 DTEND;TZID=Europe/Dublin:20260521T190000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8019356-20260521-cobh-cruise-terminal-all-lindblad-expeditions-thearch
  cobh
 DESCRIPTION:👥 148\n🛳 NG Explorer\, Lindblad Expeditions\n⚓ Cobh\n
@@ -233,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Cobh
 DTSTART;TZID=Europe/Dublin:20260522T073000
 DTEND;TZID=Europe/Dublin:20260522T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8521232-20260522-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Cobh\n
@@ -245,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Deutschland — Cobh
 DTSTART;TZID=Europe/Dublin:20260523T081500
 DTEND;TZID=Europe/Dublin:20260523T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9141807-20260523-cobh-cruise-terminal-all-phoenix-reisen-thearchcobh
 DESCRIPTION:👥 650\n🛳 Deutschland\, Phoenix Reisen\n⚓ Cobh\n🔗 ht
  tps://www.marinetraffic.com/en/ais/details/ships/imo:9141807\n\nCreated by
@@ -256,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Douglas Mawson — Cork City
 DTSTART;TZID=Europe/Dublin:20260523T090000
 DTEND;TZID=Europe/Dublin:20260523T220000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9992713-20260523-cork-city-all-aurora-expeditions-thearchcobh
 DESCRIPTION:👥 120\n🛳 Douglas Mawson\, Aurora Expeditions\n⚓ Cork C
  ity\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9992713\n
@@ -267,7 +267,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Majestic Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260524T071500
 DTEND;TZID=Europe/Dublin:20260524T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9614141-20260524-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3560\n🛳 Majestic Princess\, Princess Cruises\n⚓ Cobh
  \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9614141\n\nC
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Arcadia — Cobh
 DTSTART;TZID=Europe/Dublin:20260527T073000
 DTEND;TZID=Europe/Dublin:20260527T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9226906-20260527-cobh-cruise-terminal-all-p-o-cruises-thearchcobh
 DESCRIPTION:👥 2388\n🛳 Arcadia\, P&O Cruises\n⚓ Cobh\n🔗 https://
  www.marinetraffic.com/en/ais/details/ships/imo:9226906\n\nCreated by The A
@@ -289,7 +289,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Silver Wind — Cobh
 DTSTART;TZID=Europe/Dublin:20260528T080000
 DTEND;TZID=Europe/Dublin:20260528T170000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8903935-20260528-cobh-cruise-terminal-all-silversea-cruises-thearchcob
  h
 DESCRIPTION:👥 274\n🛳 Silver Wind\, Silversea Cruises\n⚓ Cobh\n🔗
@@ -301,7 +301,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Hanseatic Nature — Cork City
 DTSTART;TZID=Europe/Dublin:20260530T083000
 DTEND;TZID=Europe/Dublin:20260530T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9817133-20260530-cork-city-all-hapag-lloyd-cruises-thearchcobh
 DESCRIPTION:👥 230\n🛳 Hanseatic Nature\, Hapag-Lloyd Cruises\n⚓ Cor
  k City\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:981713
@@ -312,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Norwegian Sky — Cobh
 DTSTART;TZID=Europe/Dublin:20260531T094500
 DTEND;TZID=Europe/Dublin:20260531T190000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9128532-20260531-cobh-cruise-terminal-all-norwegian-cruise-line-thearc
  hcobh
 DESCRIPTION:👥 1928\n🛳 Norwegian Sky\, Norwegian Cruise Line\n⚓ Cob
@@ -324,7 +324,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Deutschland — Cobh
 DTSTART;TZID=Europe/Dublin:20260601T080000
 DTEND;TZID=Europe/Dublin:20260601T200000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9141807-20260601-cobh-cruise-terminal-all-phoenix-reisen-thearchcobh
 DESCRIPTION:👥 650\n🛳 Deutschland\, Phoenix Reisen\n⚓ Cobh\n🔗 ht
  tps://www.marinetraffic.com/en/ais/details/ships/imo:9141807\n\nCreated by
@@ -335,7 +335,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Insignia — Cobh
 DTSTART;TZID=Europe/Dublin:20260604T080000
 DTEND;TZID=Europe/Dublin:20260604T163000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9156462-20260604-cobh-cruise-terminal-all-oceania-cruises-thearchcobh
 DESCRIPTION:👥 824\n🛳 Insignia\, Oceania Cruises\n⚓ Cobh\n🔗 http
  s://www.marinetraffic.com/en/ais/details/ships/imo:9156462\n\nCreated by T
@@ -346,7 +346,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Spirit of Discovery — Cobh
 DTSTART;TZID=Europe/Dublin:20260605T090000
 DTEND;TZID=Europe/Dublin:20260605T200000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9802683-20260605-cobh-cruise-terminal-all-saga-thearchcobh
 DESCRIPTION:👥 999\n🛳 Spirit of Discovery\, Saga\n⚓ Cobh\n🔗 http
  s://www.marinetraffic.com/en/ais/details/ships/imo:9802683\n\nCreated by T
@@ -357,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Majestic Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260606T070000
 DTEND;TZID=Europe/Dublin:20260606T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9614141-20260606-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3560\n🛳 Majestic Princess\, Princess Cruises\n⚓ Cobh
  \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9614141\n\nC
@@ -368,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 MSC Virtuosa — Cobh
 DTSTART;TZID=Europe/Dublin:20260608T070000
 DTEND;TZID=Europe/Dublin:20260608T190000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9803625-20260608-cobh-cruise-terminal-all-msc-cruises-thearchcobh
 DESCRIPTION:👥 6297\n🛳 MSC Virtuosa\, MSC Cruises\n⚓ Cobh\n🔗 htt
  ps://www.marinetraffic.com/en/ais/details/ships/imo:9803625\n\nCreated by 
@@ -379,7 +379,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 MS Marina — Ringaskiddy
 DTSTART;TZID=Europe/Dublin:20260610T071500
 DTEND;TZID=Europe/Dublin:20260610T160000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9438066-20260610-ringaskiddy-dwb-all-oceania-cruises-thearchcobh
 DESCRIPTION:👥 1250\n🛳 MS Marina\, Oceania Cruises\n⚓ Ringaskiddy\n
  🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9438066\n\nCre
@@ -390,7 +390,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Nieuw Statendam — Cobh
 DTSTART;TZID=Europe/Dublin:20260610T080000
 DTEND;TZID=Europe/Dublin:20260610T180000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9767106-20260610-cobh-cruise-terminal-all-holland-america-line-thearch
  cobh
 DESCRIPTION:👥 3391\n🛳 Nieuw Statendam\, Holland America Line\n⚓ Co
@@ -402,7 +402,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 Star Pride — Ringaskiddy
 DTSTART;TZID=Europe/Dublin:20260616T070000
 DTEND;TZID=Europe/Dublin:20260616T153000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:8707343-20260616-ringaskiddy-dwb-all-windstar-cruises-thearchcobh
 DESCRIPTION:👥 312\n🛳 Star Pride\, Windstar Cruises\n⚓ Ringaskiddy\
  n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8707343\n\nCr
@@ -413,7 +413,7 @@ BEGIN:VEVENT
 SUMMARY:🚢 MS Vista — Cobh
 DTSTART;TZID=Europe/Dublin:20260617T080000
 DTEND;TZID=Europe/Dublin:20260617T160000
-DTSTAMP:20260717T033543Z
+DTSTAMP:20260717T082654Z
 UID:9876957-20260617-cobh-cruise-terminal-all-oceania-cruises-thearchcobh
 DESCRIPTION:👥 1200\n🛳 MS Vista\, Oceania Cruises\n⚓ Cobh\n🔗 htt
  ps://www.marinetraffic.com/en/ais/details/ships/imo:9876957\n\nCreated by 
