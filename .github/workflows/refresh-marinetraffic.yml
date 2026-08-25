@@ -40,8 +40,9 @@ jobs:
 
       - name: Refresh cached ship IDs
         env:
-          MT_MAX_LOOKUPS: "15"
+          MT_MAX_LOOKUPS: "60"
           MT_STALE_DAYS: "180"
+          MT_MISS_RETRY_DAYS: "30"
         run: python refresh_marinetraffic_shipids.py
 
       - name: Commit cache updates
