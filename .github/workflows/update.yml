@@ -9,6 +9,8 @@ on:
       - generate_cobh_ics.py
       - generate_cobh_events.py
       - generate_hardened.py
+      - apply_marinetraffic_links.py
+      - marinetraffic_shipids.json
       - requirements.txt
       - .github/workflows/update.yml
   schedule:
@@ -18,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ical-feed-update
+  group: cruise-repo-writes
   cancel-in-progress: true
 
 jobs:
@@ -44,7 +46,7 @@ jobs:
       - name: Generate and validate calendars
         run: |
           for attempt in 1 2 3; do
-            if python generate_hardened.py; then
+            if python generate_hardened.py && python apply_marinetraffic_links.py; then
               exit 0
             fi
             if [ "$attempt" -eq 3 ]; then
@@ -71,3 +73,4 @@ jobs:
           git push
 
 # Hardened generation preserves known-good feeds and historical cruise calls.
+# MarineTraffic route links are applied only from the local cached ship-ID map.
