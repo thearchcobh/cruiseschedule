@@ -1,5 +1,24 @@
 {
-  "version": 1,
-  "updated_at": null,
-  "mappings": {}
+  "mappings": {
+    "8521232": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8521232",
+      "imo": "8521232",
+      "last_verified_at": "2026-08-25T18:52:23Z",
+      "resolution_source": "wikidata_marinetraffic_reference",
+      "route_forecast_url": "https://www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6",
+      "shipid": "192731",
+      "vessel": "Ambience"
+    },
+    "9172777": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9172777",
+      "imo": "9172777",
+      "last_verified_at": "2026-08-25T18:52:23Z",
+      "resolution_source": "wikidata_marinetraffic_reference",
+      "route_forecast_url": "https://www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6",
+      "shipid": "3380256",
+      "vessel": "Ambition"
+    }
+  },
+  "updated_at": "2026-08-25T18:52:23Z",
+  "version": 1
 }
