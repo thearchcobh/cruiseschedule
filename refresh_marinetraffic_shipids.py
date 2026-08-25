@@ -25,7 +25,7 @@ STALE_DAYS = int(os.getenv("MT_STALE_DAYS", "180"))
 MAX_LOOKUPS = int(os.getenv("MT_MAX_LOOKUPS", "15"))
 
 DETAILS_URL = "https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}"
-WIKIDATA_API = "https://www.wikidata.org/w/api.php"
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 WIKIDATA_ENTITY = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
 USER_AGENT = "TheArchCobh-CruiseCalendar/1.0 (https://github.com/thearchcobh/cruiseschedule)"
 
@@ -60,10 +60,8 @@ def extract_line(description: str, prefix: str) -> str:
 
 
 def current_vessels() -> dict[str, str]:
-    payload = FEED_FILE.read_bytes()
-    cal = Calendar.from_ical(payload)
+    cal = Calendar.from_ical(FEED_FILE.read_bytes())
     found: dict[str, str] = {}
-
     for component in cal.walk():
         if component.name != "VEVENT":
             continue
@@ -71,18 +69,15 @@ def current_vessels() -> dict[str, str]:
         link = extract_line(description, "🔗")
         imo_match = re.search(r"imo[:/](\d{7})", link, flags=re.IGNORECASE)
         if not imo_match:
-            uid = str(component.get("UID") or "")
-            uid_match = re.match(r"(\d{7})-", uid)
+            uid_match = re.match(r"(\d{7})-", str(component.get("UID") or ""))
             if uid_match:
                 imo_match = uid_match
         if not imo_match:
             continue
-
         imo = imo_match.group(1)
         vessel_line = extract_line(description, "🛳")
         vessel = vessel_line.split(",", 1)[0].strip() if vessel_line else ""
         found.setdefault(imo, vessel)
-
     return found
 
 
@@ -103,13 +98,12 @@ def needs_lookup(record: dict | None, now: datetime) -> bool:
 
 
 def shipid_from_text(text: str) -> str | None:
-    patterns = (
+    for pattern in (
         r"shipid[:/](\d+)",
         r"[\"']shipid[\"']\s*:\s*[\"']?(\d+)",
         r"[\"']shipId[\"']\s*:\s*[\"']?(\d+)",
         r"[\"']ship_id[\"']\s*:\s*[\"']?(\d+)",
-    )
-    for pattern in patterns:
+    ):
         match = re.search(pattern, text or "", flags=re.IGNORECASE)
         if match:
             return match.group(1)
@@ -117,21 +111,21 @@ def shipid_from_text(text: str) -> str | None:
 
 
 def wikidata_candidates(imo: str) -> list[str]:
+    query = f'SELECT ?item WHERE {{ ?item wdt:P458 "{imo}". }} LIMIT 10'
     response = requests.get(
-        WIKIDATA_API,
-        params={
-            "action": "wbsearchentities",
-            "search": imo,
-            "language": "en",
-            "type": "item",
-            "limit": 10,
-            "format": "json",
-        },
-        timeout=20,
-        headers={"User-Agent": USER_AGENT},
+        WIKIDATA_SPARQL,
+        params={"query": query, "format": "json"},
+        timeout=25,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/sparql-results+json"},
     )
     response.raise_for_status()
-    return [row.get("id") for row in response.json().get("search", []) if row.get("id")]
+    qids: list[str] = []
+    for row in response.json().get("results", {}).get("bindings", []):
+        value = ((row.get("item") or {}).get("value") or "")
+        qid = value.rsplit("/", 1)[-1]
+        if re.fullmatch(r"Q\d+", qid):
+            qids.append(qid)
+    return qids
 
 
 def resolve_shipid_wikidata(imo: str) -> str | None:
@@ -145,23 +139,13 @@ def resolve_shipid_wikidata(imo: str) -> str | None:
         entity = response.json().get("entities", {}).get(qid, {})
         claims = entity.get("claims", {})
 
-        imo_claims = claims.get("P458", [])
-        if not any(
-            str(((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value") or "") == imo
-            for claim in imo_claims
-        ):
-            continue
-
-        # MarineTraffic URLs are often stored as reference URLs on the IMO claim.
-        # Search all references on the entity as a fallback because Wikidata
-        # editors do not always attach them to exactly the same statement.
         candidate_urls: list[str] = []
         for property_claims in claims.values():
             for claim in property_claims:
                 for ref in claim.get("references", []) or []:
                     for snaks in (ref.get("snaks") or {}).values():
                         for snak in snaks:
-                            value = ((snak.get("datavalue") or {}).get("value"))
+                            value = (snak.get("datavalue") or {}).get("value")
                             if isinstance(value, str) and "marinetraffic.com" in value.lower():
                                 candidate_urls.append(value)
 
@@ -175,17 +159,11 @@ def resolve_shipid_wikidata(imo: str) -> str | None:
 
 
 def resolve_shipid_marinetraffic(imo: str) -> str | None:
-    url = DETAILS_URL.format(imo=imo)
     response = requests.get(
-        url,
+        DETAILS_URL.format(imo=imo),
         timeout=30,
         allow_redirects=True,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151 Safari/537.36"
-            )
-        },
+        headers={"User-Agent": "Mozilla/5.0 AppleWebKit/537.36 Chrome/151 Safari/537.36"},
     )
     response.raise_for_status()
     return shipid_from_text(response.url) or shipid_from_text(response.text)
@@ -198,14 +176,12 @@ def resolve_shipid(imo: str) -> tuple[str | None, str | None]:
             return shipid, "wikidata_marinetraffic_reference"
     except Exception as exc:
         print(f"{imo}: Wikidata lookup failed: {exc}")
-
     try:
         shipid = resolve_shipid_marinetraffic(imo)
         if shipid:
             return shipid, "marinetraffic_public_page"
     except Exception as exc:
         print(f"{imo}: MarineTraffic lookup failed: {exc}")
-
     return None, None
 
 
@@ -214,10 +190,8 @@ def main() -> None:
     mappings: dict[str, dict] = cache["mappings"]
     vessels = current_vessels()
     now = utc_now()
-
     candidates = [
-        (imo, vessel)
-        for imo, vessel in sorted(vessels.items())
+        (imo, vessel) for imo, vessel in sorted(vessels.items())
         if needs_lookup(mappings.get(imo), now)
     ][:MAX_LOOKUPS]
 
@@ -231,7 +205,6 @@ def main() -> None:
         if not shipid:
             print(f"{imo} {vessel}: no shipid found")
             continue
-
         previous = mappings.get(imo) or {}
         record = {
             "imo": imo,
