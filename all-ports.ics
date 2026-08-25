@@ -18,12 +18,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Cobh
 DTSTART;TZID=Europe/Dublin:20260418T130000
 DTEND;TZID=Europe/Dublin:20260418T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260418-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n
+ \nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -233,12 +233,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Cobh
 DTSTART;TZID=Europe/Dublin:20260522T073000
 DTEND;TZID=Europe/Dublin:20260522T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260522-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n
+ \nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -446,12 +446,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambition — Cobh
 DTSTART;TZID=Europe/Dublin:20260626T130000
 DTEND;TZID=Europe/Dublin:20260626T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9172777-20260626-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1904\n🛳 Ambition\, Ambassador Cruise Line\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9172777\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6\
+ n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -527,12 +527,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Ringaskiddy
 DTSTART;TZID=Europe/Dublin:20260712T080000
 DTEND;TZID=Europe/Dublin:20260712T183000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260712-ringaskiddy-dwb-all-ambassador-cruise-line-thearchcob
  h
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Ringask
- iddy\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232\
- n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ iddy\n🔗 https://www.marinetraffic.com/en/ais/home/shipid:192731/trackty
+ pe:6\n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Ringaskiddy
 END:VEVENT
 BEGIN:VEVENT
@@ -551,11 +551,11 @@ BEGIN:VEVENT
 SUMMARY:🚢 Mein Schiff 2 — Cobh
 DTSTART;TZID=Europe/Dublin:20260716T070000
 DTEND;TZID=Europe/Dublin:20260716T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9783576-20260716-cobh-cruise-terminal-all-tui-cruises-thearchcobh
 DESCRIPTION:👥\n🛳 Mein Schiff 2\, TUI Cruises\n⚓ Cobh\n🔗 https:/
- /www.marinetraffic.com/en/ais/details/ships/imo:9783576\n\nCreated by The 
- Arch\, Cobh\nData from PortofCork.ie
+ /www.marinetraffic.com/en/ais/home/shipid:5722912/tracktype:6\n\nCreated b
+ y The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -854,11 +854,11 @@ BEGIN:VEVENT
 SUMMARY:🚢 Sky Princess — Cobh
 DTSTART;TZID=Europe/Dublin:20260831T094500
 DTEND;TZID=Europe/Dublin:20260831T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9802396-20260831-cobh-cruise-terminal-all-princess-cruises-thearchcobh
 DESCRIPTION:👥 3660\n🛳 Sky Princess\, Princess Cruises\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9802396\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:5943236/tracktype:6\
+ n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -910,12 +910,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambience — Cobh
 DTSTART;TZID=Europe/Dublin:20260907T073000
 DTEND;TZID=Europe/Dublin:20260907T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260907-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n
+ \nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -1036,12 +1036,12 @@ BEGIN:VEVENT
 SUMMARY:🚢 Ambition — Cobh
 DTSTART;TZID=Europe/Dublin:20261014T130000
 DTEND;TZID=Europe/Dublin:20261014T190000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9172777-20261014-cobh-cruise-terminal-all-ambassador-cruise-line-thear
  chcobh
 DESCRIPTION:👥 1904\n🛳 Ambition\, Ambassador Cruise Line\n⚓ Cobh\n
- 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9172777\n\nCre
- ated by The Arch\, Cobh\nData from PortofCork.ie
+ 🔗 https://www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6\
+ n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT

@@ -18,11 +18,11 @@ BEGIN:VEVENT
 SUMMARY:🟠 $ Ambience — 1400 pax
 DTSTART;TZID=Europe/Dublin:20260418T130000
 DTEND;TZID=Europe/Dublin:20260418T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260418-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n🔗 https:
- //www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCreated by The
-  Arch\, Cobh\nData from PortofCork.ie
+ //www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n\nCreated b
+ y The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -172,11 +172,11 @@ BEGIN:VEVENT
 SUMMARY:🟠 $ Ambience — 1400 pax
 DTSTART;TZID=Europe/Dublin:20260522T073000
 DTEND;TZID=Europe/Dublin:20260522T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260522-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n🔗 https:
- //www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCreated by The
-  Arch\, Cobh\nData from PortofCork.ie
+ //www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n\nCreated b
+ y The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -326,11 +326,11 @@ BEGIN:VEVENT
 SUMMARY:🟠 $ Ambition — 1904 pax
 DTSTART;TZID=Europe/Dublin:20260626T130000
 DTEND;TZID=Europe/Dublin:20260626T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9172777-20260626-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1904\n🛳 Ambition\, Ambassador Cruise Line\n🔗 https:
- //www.marinetraffic.com/en/ais/details/ships/imo:9172777\n\nCreated by The
-  Arch\, Cobh\nData from PortofCork.ie
+ //www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6\n\nCreated 
+ by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -403,11 +403,11 @@ BEGIN:VEVENT
 SUMMARY:⚪ ? Mein Schiff 2 — ? pax
 DTSTART;TZID=Europe/Dublin:20260716T070000
 DTEND;TZID=Europe/Dublin:20260716T180000
-DTSTAMP:20260825T175911Z
+DTSTAMP:20260825T190250Z
 UID:9783576-20260716-cobh-tui-cruises-thearchcobh
 DESCRIPTION:👥\n🛳 Mein Schiff 2\, TUI Cruises\n🔗 https://www.marin
- etraffic.com/en/ais/details/ships/imo:9783576\n\nCreated by The Arch\, Cob
- h\nData from PortofCork.ie
+ etraffic.com/en/ais/home/shipid:5722912/tracktype:6\n\nCreated by The Arch
+ \, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -645,11 +645,11 @@ BEGIN:VEVENT
 SUMMARY:🔴 $$ Sky Princess — 3660 pax
 DTSTART;TZID=Europe/Dublin:20260831T094500
 DTEND;TZID=Europe/Dublin:20260831T200000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9802396-20260831-cobh-princess-cruises-thearchcobh
 DESCRIPTION:👥 3660\n🛳 Sky Princess\, Princess Cruises\n🔗 https://
- www.marinetraffic.com/en/ais/details/ships/imo:9802396\n\nCreated by The A
- rch\, Cobh\nData from PortofCork.ie
+ www.marinetraffic.com/en/ais/home/shipid:5943236/tracktype:6\n\nCreated by
+  The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -689,11 +689,11 @@ BEGIN:VEVENT
 SUMMARY:🟠 $ Ambience — 1400 pax
 DTSTART;TZID=Europe/Dublin:20260907T073000
 DTEND;TZID=Europe/Dublin:20260907T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:8521232-20260907-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n🔗 https:
- //www.marinetraffic.com/en/ais/details/ships/imo:8521232\n\nCreated by The
-  Arch\, Cobh\nData from PortofCork.ie
+ //www.marinetraffic.com/en/ais/home/shipid:192731/tracktype:6\n\nCreated b
+ y The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -799,11 +799,11 @@ BEGIN:VEVENT
 SUMMARY:🟠 $ Ambition — 1904 pax
 DTSTART;TZID=Europe/Dublin:20261014T130000
 DTEND;TZID=Europe/Dublin:20261014T190000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260825T190250Z
 UID:9172777-20261014-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1904\n🛳 Ambition\, Ambassador Cruise Line\n🔗 https:
- //www.marinetraffic.com/en/ais/details/ships/imo:9172777\n\nCreated by The
-  Arch\, Cobh\nData from PortofCork.ie
+ //www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6\n\nCreated 
+ by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
