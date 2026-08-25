@@ -20,31 +20,25 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 python-dateutil pytz icalendar
+          pip install -r requirements.txt
 
-      - name: Generate cruise calendars
-        run: |
-          python generate_cobh_ics.py
-
-      - name: Generate Cobh Events calendar
-        run: |
-          python generate_cobh_events.py
+      - name: Generate and validate calendars
+        run: python generate_hardened.py
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add all generated feeds (adjust if your filenames differ)
           git add cobh-cruise.ics all-ports.ics cobh-events.ics
 
-          # Only commit if there are changes
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No source calendar changes to commit."
             exit 0
           fi
 
