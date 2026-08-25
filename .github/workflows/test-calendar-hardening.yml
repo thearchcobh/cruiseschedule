@@ -11,7 +11,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,4 +21,42 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m py_compile generate_cobh_ics.py generate_cobh_events.py generate_hardened.py
       - run: python generate_hardened.py
-      - run: git diff --check
+      - name: Validate generated calendars
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from icalendar import Calendar
+
+          paths = ("cobh-cruise.ics", "all-ports.ics", "cobh-events.ics")
+          parsed = {}
+          for path in paths:
+              with open(path, "rb") as f:
+                  cal = Calendar.from_ical(f.read())
+              events = [c for c in cal.walk() if c.name == "VEVENT"]
+              assert events, f"{path} has no events"
+              for event in events:
+                  stamp = event.decoded("DTSTAMP")
+                  assert isinstance(stamp, datetime), (path, event.get("UID"), stamp)
+              parsed[path] = events
+
+          event_rows = parsed["cobh-events.ics"]
+          assert not any(
+              "Cruise Maps UNIQUE" in str(event.get("LOCATION") or "")
+              for event in event_rows
+          )
+
+          markets = [e for e in event_rows if "Cobh Farmers Market" in str(e.get("SUMMARY") or "")]
+          assert markets
+          assert all(str(e.get("LOCATION") or "") == "The Promenade" for e in markets)
+
+          roaring = [e for e in event_rows if "Roaring Donkey" in str(e.get("SUMMARY") or "")]
+          assert roaring
+          assert all(str(e.get("LOCATION") or "") == "The Roaring Donkey" for e in roaring)
+
+          cruise_rows = parsed["cobh-cruise.ics"]
+          unknown = [e for e in cruise_rows if "Disney Dream" in str(e.get("SUMMARY") or "")]
+          if unknown:
+              assert all(" ? " in str(e.get("SUMMARY") or "") for e in unknown)
+
+          print("Validated:", {path: len(rows) for path, rows in parsed.items()})
+          PY
