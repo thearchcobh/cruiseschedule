@@ -1,5 +1,19 @@
 {
   "mappings": {
+    "8019356": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8019356",
+      "imo": "8019356",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "NG Explorer"
+    },
+    "8201480": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8201480",
+      "imo": "8201480",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Artania"
+    },
     "8521232": {
       "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8521232",
       "imo": "8521232",
@@ -9,6 +23,69 @@
       "shipid": "192731",
       "vessel": "Ambience"
     },
+    "8707343": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8707343",
+      "imo": "8707343",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Star Pride"
+    },
+    "8903935": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:8903935",
+      "imo": "8903935",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Silver Wind"
+    },
+    "9008598": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9008598",
+      "imo": "9008598",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Star Legend"
+    },
+    "9122552": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9122552",
+      "imo": "9122552",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Borealis"
+    },
+    "9128532": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9128532",
+      "imo": "9128532",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Norwegian Sky"
+    },
+    "9138329": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9138329",
+      "imo": "9138329",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Hamburg"
+    },
+    "9141807": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9141807",
+      "imo": "9141807",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Deutschland"
+    },
+    "9156462": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9156462",
+      "imo": "9156462",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Insignia"
+    },
+    "9169524": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9169524",
+      "imo": "9169524",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Aurora"
+    },
     "9172777": {
       "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9172777",
       "imo": "9172777",
@@ -17,8 +94,238 @@
       "route_forecast_url": "https://www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6",
       "shipid": "3380256",
       "vessel": "Ambition"
+    },
+    "9210218": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9210218",
+      "imo": "9210218",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Azamara Quest"
+    },
+    "9218131": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9218131",
+      "imo": "9218131",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Norwegian Sun"
+    },
+    "9224726": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9224726",
+      "imo": "9224726",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Carnival Legend"
+    },
+    "9226906": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9226906",
+      "imo": "9226906",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Arcadia"
+    },
+    "9228186": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9228186",
+      "imo": "9228186",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Sapphire Princess"
+    },
+    "9243667": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9243667",
+      "imo": "9243667",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Crystal Serenity"
+    },
+    "9247144": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9247144",
+      "imo": "9247144",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Seven Seas Voyager"
+    },
+    "9334868": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9334868",
+      "imo": "9334868",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "AIDAluna"
+    },
+    "9404314": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9404314",
+      "imo": "9404314",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Celebrity Eclipse"
+    },
+    "9434254": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9434254",
+      "imo": "9434254",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Disney Dream"
+    },
+    "9438066": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9438066",
+      "imo": "9438066",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "MS Marina"
+    },
+    "9490040": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9490040",
+      "imo": "9490040",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "AIDASol"
+    },
+    "9595321": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9595321",
+      "imo": "9595321",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "MSC Preziosa"
+    },
+    "9614036": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9614036",
+      "imo": "9614036",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Britannia"
+    },
+    "9614141": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9614141",
+      "imo": "9614141",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Majestic Princess"
+    },
+    "9641730": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9641730",
+      "imo": "9641730",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Mein Schiff 3"
+    },
+    "9764958": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9764958",
+      "imo": "9764958",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Seabourn Ovation"
+    },
+    "9767106": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9767106",
+      "imo": "9767106",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Nieuw Statendam"
+    },
+    "9783576": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9783576",
+      "imo": "9783576",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "last_verified_at": "2026-08-25T18:54:16Z",
+      "resolution_source": "wikidata_marinetraffic_reference",
+      "route_forecast_url": "https://www.marinetraffic.com/en/ais/home/shipid:5722912/tracktype:6",
+      "shipid": "5722912",
+      "vessel": "Mein Schiff 2"
+    },
+    "9802396": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9802396",
+      "imo": "9802396",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "last_verified_at": "2026-08-25T18:54:16Z",
+      "resolution_source": "wikidata_marinetraffic_reference",
+      "route_forecast_url": "https://www.marinetraffic.com/en/ais/home/shipid:5943236/tracktype:6",
+      "shipid": "5943236",
+      "vessel": "Sky Princess"
+    },
+    "9802683": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9802683",
+      "imo": "9802683",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Spirit of Discovery"
+    },
+    "9803625": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9803625",
+      "imo": "9803625",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "MSC Virtuosa"
+    },
+    "9814026": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9814026",
+      "imo": "9814026",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Le Laperouse"
+    },
+    "9817133": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9817133",
+      "imo": "9817133",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Hanseatic Nature"
+    },
+    "9818084": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9818084",
+      "imo": "9818084",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Spirit of Adventure"
+    },
+    "9823687": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9823687",
+      "imo": "9823687",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Evrima"
+    },
+    "9839399": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9839399",
+      "imo": "9839399",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Queen Anne"
+    },
+    "9857937": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9857937",
+      "imo": "9857937",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Silver Dawn"
+    },
+    "9871529": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9871529",
+      "imo": "9871529",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "World Voyager"
+    },
+    "9876957": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9876957",
+      "imo": "9876957",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "MS Vista"
+    },
+    "9877444": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9877444",
+      "imo": "9877444",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Seven Seas Grandeur"
+    },
+    "9992713": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9992713",
+      "imo": "9992713",
+      "last_attempt_at": "2026-08-25T18:54:16Z",
+      "shipid": null,
+      "vessel": "Douglas Mawson"
     }
   },
-  "updated_at": "2026-08-25T18:52:23Z",
+  "updated_at": "2026-08-25T18:54:16Z",
   "version": 1
 }
