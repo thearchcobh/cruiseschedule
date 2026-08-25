@@ -109,6 +109,12 @@ def _event_signature(component) -> tuple[bytes, ...]:
     return tuple(out)
 
 
+def _replace_dtstamp(component, value: datetime) -> None:
+    if "DTSTAMP" in component:
+        del component["DTSTAMP"]
+    component.add("dtstamp", value)
+
+
 def _stabilize_dtstamps(new_cal: Calendar, old_cal: Calendar | None) -> None:
     old_by_uid = {_uid(e): e for e in _events(old_cal) if _uid(e)}
     now = datetime.now(timezone.utc)
@@ -117,11 +123,14 @@ def _stabilize_dtstamps(new_cal: Calendar, old_cal: Calendar | None) -> None:
         uid = _uid(component)
         old = old_by_uid.get(uid)
         if old is not None and _event_signature(old) == _event_signature(component):
-            old_stamp = old.get("DTSTAMP")
-            if old_stamp is not None:
-                component["DTSTAMP"] = deepcopy(old_stamp)
+            try:
+                old_stamp = old.decoded("DTSTAMP")
+            except Exception:
+                old_stamp = None
+            if isinstance(old_stamp, datetime):
+                _replace_dtstamp(component, old_stamp)
                 continue
-        component["DTSTAMP"] = now
+        _replace_dtstamp(component, now)
 
 
 def _assert_not_collapsed(
@@ -235,26 +244,11 @@ def _venue_from_title(title: str) -> str:
     return ""
 
 
-def _visible_venue(soup, title: str) -> str:
-    title_key = _normalized_title(title)
-
-    for element in soup.find_all(True):
-        classes = " ".join(element.get("class") or [])
-        element_id = element.get("id") or ""
-        marker = f"{classes} {element_id}".lower()
-        if "venue" not in marker and "location" not in marker:
-            continue
-        text = _normalize_text(element.get_text(" ", strip=True))
-        text = re.sub(r"^(?:venue|location)\s*[:\-]\s*", "", text, flags=re.IGNORECASE)
-        if not text or len(text) > 100:
-            continue
-        if _normalized_title(text) in {title_key, "cobh", "cork"}:
-            continue
-        if re.search(r"\b20\d{2}\b", text):
-            continue
-        return text
-
-    return _venue_from_title(title)
+def _safe_venue_fallback(title: str) -> str:
+    # InCobh's JSON-LD sometimes repeats the event name in location.name.
+    # Only use venue information we can derive deterministically; otherwise
+    # "Cobh" is safer than inventing a venue from unrelated page furniture.
+    return _venue_from_title(title) or "Cobh"
 
 
 def _patch_event_helpers() -> None:
@@ -274,7 +268,7 @@ def _patch_event_helpers() -> None:
         suspicious = not venue or (title and _normalized_title(venue) == _normalized_title(title))
 
         if suspicious:
-            result["venue"] = _visible_venue(soup, title) or "Cobh"
+            result["venue"] = _safe_venue_fallback(title)
         else:
             result["venue"] = venue
         return result
