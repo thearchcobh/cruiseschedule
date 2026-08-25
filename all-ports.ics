@@ -190,8 +190,8 @@ DTEND;TZID=Europe/Dublin:20260515T070000
 DTSTAMP:20260825T155837Z
 UID:8019356-20260514-cork-city-all-lindblad-expeditions-thearchcobh
 DESCRIPTION:👥 148\n🛳 NG Explorer\, Lindblad Expeditions\n⚓ Cork Ci
- ty\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8019356\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ ty\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8019356\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cork City
 END:VEVENT
 BEGIN:VEVENT
@@ -394,8 +394,8 @@ DTSTAMP:20260825T155837Z
 UID:9767106-20260610-cobh-cruise-terminal-all-holland-america-line-thearch
  cobh
 DESCRIPTION:👥 3391\n🛳 Nieuw Statendam\, Holland America Line\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -404,9 +404,9 @@ DTSTART;TZID=Europe/Dublin:20260616T070000
 DTEND;TZID=Europe/Dublin:20260616T153000
 DTSTAMP:20260825T155837Z
 UID:8707343-20260616-ringaskiddy-dwb-all-windstar-cruises-thearchcobh
-DESCRIPTION:👥 312\n🛳 Star Pride\, Windstar Cruises\n⚓ Ringaskiddy
- \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8707343\n\nC
- reated by The Arch\, Cobh\nData from PortofCork.ie
+DESCRIPTION:👥 312\n🛳 Star Pride\, Windstar Cruises\n⚓ Ringaskiddy\
+ n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8707343\n\nCr
+ eated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Ringaskiddy
 END:VEVENT
 BEGIN:VEVENT
@@ -485,8 +485,8 @@ DTSTAMP:20260825T155837Z
 UID:9877444-20260630-cobh-cruise-terminal-all-regent-seven-seas-thearchcob
  h
 DESCRIPTION:👥 750\n🛳 Seven Seas Grandeur\, Regent Seven Seas\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9877444\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9877444\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -531,8 +531,8 @@ DTSTAMP:20260825T155837Z
 UID:8521232-20260712-ringaskiddy-dwb-all-ambassador-cruise-line-thearchcob
  h
 DESCRIPTION:👥 1400\n🛳 Ambience\, Ambassador Cruise Line\n⚓ Ringask
- iddy\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232
- \n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ iddy\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:8521232\
+ n\nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Ringaskiddy
 END:VEVENT
 BEGIN:VEVENT
@@ -542,9 +542,9 @@ DTEND;TZID=Europe/Dublin:20260714T183000
 DTSTAMP:20260825T155837Z
 UID:9122552-20260714-cobh-cruise-terminal-all-fred-olsen-cruise-lines-thea
  rchcobh
-DESCRIPTION:👥 1404\n🛳 Borealis\, Fred. Olsen Cruise Lines\n⚓ Cobh
- \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9122552\n\nC
- reated by The Arch\, Cobh\nData from PortofCork.ie
+DESCRIPTION:👥 1404\n🛳 Borealis\, Fred. Olsen Cruise Lines\n⚓ Cobh\
+ n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9122552\n\nCr
+ eated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -588,8 +588,8 @@ DTSTAMP:20260825T155837Z
 UID:9767106-20260722-cobh-cruise-terminal-all-holland-america-line-thearch
  cobh
 DESCRIPTION:👥 3391\n🛳 Nieuw Statendam\, Holland America Line\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -644,8 +644,8 @@ DTSTAMP:20260825T155837Z
 UID:9224726-20260802-cobh-cruise-terminal-all-carnival-cruise-line-thearch
  cobh
 DESCRIPTION:👥 2680\n🛳 Carnival Legend\, Carnival Cruise Line\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9224726\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9224726\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -801,8 +801,8 @@ DTSTAMP:20260825T155837Z
 UID:9224726-20260822-cobh-cruise-terminal-all-carnival-cruise-line-thearch
  cobh
 DESCRIPTION:👥 2680\n🛳 Carnival Legend\, Carnival Cruise Line\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9224726\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9224726\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -891,8 +891,8 @@ DTSTAMP:20260825T155837Z
 UID:9767106-20260902-cobh-cruise-terminal-all-holland-america-line-thearch
  cobh
 DESCRIPTION:👥 3391\n🛳 Nieuw Statendam\, Holland America Line\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9767106\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -947,9 +947,9 @@ DTEND;TZID=Europe/Dublin:20260911T180000
 DTSTAMP:20260825T155837Z
 UID:9122552-20260911-cobh-cruise-terminal-all-fred-olsen-cruise-lines-thea
  rchcobh
-DESCRIPTION:👥 1404\n🛳 Borealis\, Fred. Olsen Cruise Lines\n⚓ Cobh
- \n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9122552\n\nC
- reated by The Arch\, Cobh\nData from PortofCork.ie
+DESCRIPTION:👥 1404\n🛳 Borealis\, Fred. Olsen Cruise Lines\n⚓ Cobh\
+ n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9122552\n\nCr
+ eated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -995,8 +995,8 @@ DTSTAMP:20260825T155837Z
 UID:9877444-20260924-cobh-cruise-terminal-all-regent-seven-seas-thearchcob
  h
 DESCRIPTION:👥 750\n🛳 Seven Seas Grandeur\, Regent Seven Seas\n⚓ Co
- bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9877444\n
- \nCreated by The Arch\, Cobh\nData from PortofCork.ie
+ bh\n🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9877444\n\
+ nCreated by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
