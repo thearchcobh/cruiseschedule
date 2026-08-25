@@ -2,6 +2,12 @@ name: Refresh MarineTraffic ship IDs
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - refresh_marinetraffic_shipids.py
+      - .github/workflows/refresh-marinetraffic.yml
   schedule:
     - cron: "47 6 * * 1" # Mondays at 06:47 UTC
 
