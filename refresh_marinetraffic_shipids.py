@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Refresh cached MarineTraffic ship IDs for vessels in the cruise calendar.
 
-The normal calendar build never depends on MarineTraffic. This helper runs on a
-separate, low-frequency schedule. It first looks for a MarineTraffic reference
-on Wikidata keyed by IMO; if that is unavailable it makes a best-effort request
-to the public MarineTraffic vessel page. Failed lookups never affect calendars.
+Calendar generation never depends on MarineTraffic. This low-frequency helper
+uses Wikidata references first and the public MarineTraffic vessel page as a
+best-effort fallback. Successful mappings are rechecked periodically; unresolved
+IMOs are backed off before retrying so they cannot starve newly seen vessels.
 """
 
 from __future__ import annotations
@@ -22,7 +22,8 @@ from icalendar import Calendar
 CACHE_FILE = Path("marinetraffic_shipids.json")
 FEED_FILE = Path("all-ports.ics")
 STALE_DAYS = int(os.getenv("MT_STALE_DAYS", "180"))
-MAX_LOOKUPS = int(os.getenv("MT_MAX_LOOKUPS", "15"))
+MISS_RETRY_DAYS = int(os.getenv("MT_MISS_RETRY_DAYS", "30"))
+MAX_LOOKUPS = int(os.getenv("MT_MAX_LOOKUPS", "60"))
 
 DETAILS_URL = "https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}"
 WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
@@ -67,14 +68,12 @@ def current_vessels() -> dict[str, str]:
             continue
         description = str(component.get("DESCRIPTION") or "")
         link = extract_line(description, "🔗")
-        imo_match = re.search(r"imo[:/](\d{7})", link, flags=re.IGNORECASE)
-        if not imo_match:
-            uid_match = re.match(r"(\d{7})-", str(component.get("UID") or ""))
-            if uid_match:
-                imo_match = uid_match
-        if not imo_match:
+        match = re.search(r"imo[:/](\d{7})", link, flags=re.IGNORECASE)
+        if not match:
+            match = re.match(r"(\d{7})-", str(component.get("UID") or ""))
+        if not match:
             continue
-        imo = imo_match.group(1)
+        imo = match.group(1)
         vessel_line = extract_line(description, "🛳")
         vessel = vessel_line.split(",", 1)[0].strip() if vessel_line else ""
         found.setdefault(imo, vessel)
@@ -91,10 +90,14 @@ def parse_timestamp(value: str | None) -> datetime | None:
 
 
 def needs_lookup(record: dict | None, now: datetime) -> bool:
-    if not record or not str(record.get("shipid") or "").isdigit():
+    if not record:
         return True
-    checked = parse_timestamp(record.get("last_verified_at"))
-    return checked is None or checked < now - timedelta(days=STALE_DAYS)
+    shipid = str(record.get("shipid") or "")
+    if shipid.isdigit():
+        checked = parse_timestamp(record.get("last_verified_at"))
+        return checked is None or checked < now - timedelta(days=STALE_DAYS)
+    attempted = parse_timestamp(record.get("last_attempt_at"))
+    return attempted is None or attempted < now - timedelta(days=MISS_RETRY_DAYS)
 
 
 def shipid_from_text(text: str) -> str | None:
@@ -131,38 +134,29 @@ def wikidata_candidates(imo: str) -> list[str]:
 def resolve_shipid_wikidata(imo: str) -> str | None:
     for qid in wikidata_candidates(imo):
         response = requests.get(
-            WIKIDATA_ENTITY.format(qid=qid),
-            timeout=20,
-            headers={"User-Agent": USER_AGENT},
+            WIKIDATA_ENTITY.format(qid=qid), timeout=20, headers={"User-Agent": USER_AGENT}
         )
         response.raise_for_status()
-        entity = response.json().get("entities", {}).get(qid, {})
-        claims = entity.get("claims", {})
-
-        candidate_urls: list[str] = []
+        claims = response.json().get("entities", {}).get(qid, {}).get("claims", {})
         for property_claims in claims.values():
             for claim in property_claims:
                 for ref in claim.get("references", []) or []:
                     for snaks in (ref.get("snaks") or {}).values():
                         for snak in snaks:
                             value = (snak.get("datavalue") or {}).get("value")
-                            if isinstance(value, str) and "marinetraffic.com" in value.lower():
-                                candidate_urls.append(value)
-
-        for url in candidate_urls:
-            host = (urlparse(url).hostname or "").lower()
-            if host.endswith("marinetraffic.com"):
-                shipid = shipid_from_text(url)
-                if shipid:
-                    return shipid
+                            if not isinstance(value, str) or "marinetraffic.com" not in value.lower():
+                                continue
+                            host = (urlparse(value).hostname or "").lower()
+                            if host.endswith("marinetraffic.com"):
+                                shipid = shipid_from_text(value)
+                                if shipid:
+                                    return shipid
     return None
 
 
 def resolve_shipid_marinetraffic(imo: str) -> str | None:
     response = requests.get(
-        DETAILS_URL.format(imo=imo),
-        timeout=30,
-        allow_redirects=True,
+        DETAILS_URL.format(imo=imo), timeout=30, allow_redirects=True,
         headers={"User-Agent": "Mozilla/5.0 AppleWebKit/537.36 Chrome/151 Safari/537.36"},
     )
     response.raise_for_status()
@@ -196,29 +190,38 @@ def main() -> None:
     ][:MAX_LOOKUPS]
 
     print(f"Known IMOs in calendar: {len(vessels)}")
-    print(f"Mappings already cached: {sum(bool(v.get('shipid')) for v in mappings.values())}")
+    print(f"Mappings already cached: {sum(str(v.get('shipid') or '').isdigit() for v in mappings.values())}")
     print(f"Looking up this run: {len(candidates)}")
 
     changed = False
     for imo, vessel in candidates:
-        shipid, source = resolve_shipid(imo)
-        if not shipid:
-            print(f"{imo} {vessel}: no shipid found")
-            continue
         previous = mappings.get(imo) or {}
-        record = {
-            "imo": imo,
-            "vessel": vessel or previous.get("vessel") or None,
-            "shipid": shipid,
-            "last_verified_at": iso(now),
-            "resolution_source": source,
-            "details_url": DETAILS_URL.format(imo=imo),
-            "route_forecast_url": f"https://www.marinetraffic.com/en/ais/home/shipid:{shipid}/tracktype:6",
-        }
+        shipid, source = resolve_shipid(imo)
+        if shipid:
+            record = {
+                "imo": imo,
+                "vessel": vessel or previous.get("vessel") or None,
+                "shipid": shipid,
+                "last_attempt_at": iso(now),
+                "last_verified_at": iso(now),
+                "resolution_source": source,
+                "details_url": DETAILS_URL.format(imo=imo),
+                "route_forecast_url": f"https://www.marinetraffic.com/en/ais/home/shipid:{shipid}/tracktype:6",
+            }
+            print(f"{imo} {vessel}: shipid={shipid} via {source}")
+        else:
+            record = {
+                **previous,
+                "imo": imo,
+                "vessel": vessel or previous.get("vessel") or None,
+                "shipid": previous.get("shipid"),
+                "last_attempt_at": iso(now),
+                "details_url": DETAILS_URL.format(imo=imo),
+            }
+            print(f"{imo} {vessel}: no shipid found; retry after {MISS_RETRY_DAYS} days")
         if previous != record:
             mappings[imo] = record
             changed = True
-        print(f"{imo} {vessel}: shipid={shipid} via {source}")
 
     if changed:
         cache["updated_at"] = iso(now)
