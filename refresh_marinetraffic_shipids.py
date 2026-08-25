@@ -2,8 +2,9 @@
 """Refresh cached MarineTraffic ship IDs for vessels in the cruise calendar.
 
 The normal calendar build never depends on MarineTraffic. This helper runs on a
-separate, low-frequency schedule and only updates the cache when it can resolve
-a vessel confidently from its IMO number.
+separate, low-frequency schedule. It first looks for a MarineTraffic reference
+on Wikidata keyed by IMO; if that is unavailable it makes a best-effort request
+to the public MarineTraffic vessel page. Failed lookups never affect calendars.
 """
 
 from __future__ import annotations
@@ -13,6 +14,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 from icalendar import Calendar
@@ -23,6 +25,9 @@ STALE_DAYS = int(os.getenv("MT_STALE_DAYS", "180"))
 MAX_LOOKUPS = int(os.getenv("MT_MAX_LOOKUPS", "15"))
 
 DETAILS_URL = "https://www.marinetraffic.com/en/ais/details/ships/imo:{imo}"
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
+WIKIDATA_ENTITY = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
+USER_AGENT = "TheArchCobh-CruiseCalendar/1.0 (https://github.com/thearchcobh/cruiseschedule)"
 
 
 def utc_now() -> datetime:
@@ -97,7 +102,79 @@ def needs_lookup(record: dict | None, now: datetime) -> bool:
     return checked is None or checked < now - timedelta(days=STALE_DAYS)
 
 
-def resolve_shipid(imo: str) -> str | None:
+def shipid_from_text(text: str) -> str | None:
+    patterns = (
+        r"shipid[:/](\d+)",
+        r"[\"']shipid[\"']\s*:\s*[\"']?(\d+)",
+        r"[\"']shipId[\"']\s*:\s*[\"']?(\d+)",
+        r"[\"']ship_id[\"']\s*:\s*[\"']?(\d+)",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text or "", flags=re.IGNORECASE)
+        if match:
+            return match.group(1)
+    return None
+
+
+def wikidata_candidates(imo: str) -> list[str]:
+    response = requests.get(
+        WIKIDATA_API,
+        params={
+            "action": "wbsearchentities",
+            "search": imo,
+            "language": "en",
+            "type": "item",
+            "limit": 10,
+            "format": "json",
+        },
+        timeout=20,
+        headers={"User-Agent": USER_AGENT},
+    )
+    response.raise_for_status()
+    return [row.get("id") for row in response.json().get("search", []) if row.get("id")]
+
+
+def resolve_shipid_wikidata(imo: str) -> str | None:
+    for qid in wikidata_candidates(imo):
+        response = requests.get(
+            WIKIDATA_ENTITY.format(qid=qid),
+            timeout=20,
+            headers={"User-Agent": USER_AGENT},
+        )
+        response.raise_for_status()
+        entity = response.json().get("entities", {}).get(qid, {})
+        claims = entity.get("claims", {})
+
+        imo_claims = claims.get("P458", [])
+        if not any(
+            str(((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value") or "") == imo
+            for claim in imo_claims
+        ):
+            continue
+
+        # MarineTraffic URLs are often stored as reference URLs on the IMO claim.
+        # Search all references on the entity as a fallback because Wikidata
+        # editors do not always attach them to exactly the same statement.
+        candidate_urls: list[str] = []
+        for property_claims in claims.values():
+            for claim in property_claims:
+                for ref in claim.get("references", []) or []:
+                    for snaks in (ref.get("snaks") or {}).values():
+                        for snak in snaks:
+                            value = ((snak.get("datavalue") or {}).get("value"))
+                            if isinstance(value, str) and "marinetraffic.com" in value.lower():
+                                candidate_urls.append(value)
+
+        for url in candidate_urls:
+            host = (urlparse(url).hostname or "").lower()
+            if host.endswith("marinetraffic.com"):
+                shipid = shipid_from_text(url)
+                if shipid:
+                    return shipid
+    return None
+
+
+def resolve_shipid_marinetraffic(imo: str) -> str | None:
     url = DETAILS_URL.format(imo=imo)
     response = requests.get(
         url,
@@ -111,20 +188,25 @@ def resolve_shipid(imo: str) -> str | None:
         },
     )
     response.raise_for_status()
+    return shipid_from_text(response.url) or shipid_from_text(response.text)
 
-    candidates = [response.url, response.text]
-    patterns = (
-        r"shipid[:/](\d+)",
-        r"[\"']shipid[\"']\s*:\s*[\"']?(\d+)",
-        r"[\"']shipId[\"']\s*:\s*[\"']?(\d+)",
-        r"[\"']ship_id[\"']\s*:\s*[\"']?(\d+)",
-    )
-    for text in candidates:
-        for pattern in patterns:
-            match = re.search(pattern, text, flags=re.IGNORECASE)
-            if match:
-                return match.group(1)
-    return None
+
+def resolve_shipid(imo: str) -> tuple[str | None, str | None]:
+    try:
+        shipid = resolve_shipid_wikidata(imo)
+        if shipid:
+            return shipid, "wikidata_marinetraffic_reference"
+    except Exception as exc:
+        print(f"{imo}: Wikidata lookup failed: {exc}")
+
+    try:
+        shipid = resolve_shipid_marinetraffic(imo)
+        if shipid:
+            return shipid, "marinetraffic_public_page"
+    except Exception as exc:
+        print(f"{imo}: MarineTraffic lookup failed: {exc}")
+
+    return None, None
 
 
 def main() -> None:
@@ -145,12 +227,7 @@ def main() -> None:
 
     changed = False
     for imo, vessel in candidates:
-        try:
-            shipid = resolve_shipid(imo)
-        except Exception as exc:
-            print(f"{imo} {vessel}: lookup failed: {exc}")
-            continue
-
+        shipid, source = resolve_shipid(imo)
         if not shipid:
             print(f"{imo} {vessel}: no shipid found")
             continue
@@ -161,13 +238,14 @@ def main() -> None:
             "vessel": vessel or previous.get("vessel") or None,
             "shipid": shipid,
             "last_verified_at": iso(now),
+            "resolution_source": source,
             "details_url": DETAILS_URL.format(imo=imo),
             "route_forecast_url": f"https://www.marinetraffic.com/en/ais/home/shipid:{shipid}/tracktype:6",
         }
         if previous != record:
             mappings[imo] = record
             changed = True
-        print(f"{imo} {vessel}: shipid={shipid}")
+        print(f"{imo} {vessel}: shipid={shipid} via {source}")
 
     if changed:
         cache["updated_at"] = iso(now)
