@@ -54,3 +54,5 @@ jobs:
 
           git commit -m "Update iCal feeds"
           git push
+
+# Hardened generation preserves known-good feeds and historical cruise calls.
