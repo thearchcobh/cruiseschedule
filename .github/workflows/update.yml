@@ -2,6 +2,15 @@ name: Update iCal Feeds
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - generate_cobh_ics.py
+      - generate_cobh_events.py
+      - generate_hardened.py
+      - requirements.txt
+      - .github/workflows/update.yml
   schedule:
     - cron: "17 */3 * * *" # every 3 hours (UTC)
 
@@ -11,6 +20,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
