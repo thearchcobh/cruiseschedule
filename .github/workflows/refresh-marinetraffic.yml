@@ -1,0 +1,53 @@
+name: Refresh MarineTraffic ship IDs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 6 * * 1" # Mondays at 06:47 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cruise-repo-writes
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh cached ship IDs
+        env:
+          MT_MAX_LOOKUPS: "15"
+          MT_STALE_DAYS: "180"
+        run: python refresh_marinetraffic_shipids.py
+
+      - name: Commit cache updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add marinetraffic_shipids.json
+          if git diff --cached --quiet; then
+            echo "No MarineTraffic mapping changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Refresh MarineTraffic ship IDs"
+          git push
