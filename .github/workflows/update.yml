@@ -20,7 +20,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repo
@@ -38,7 +38,18 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate and validate calendars
-        run: python generate_hardened.py
+        run: |
+          for attempt in 1 2 3; do
+            if python generate_hardened.py; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Calendar generation failed after 3 attempts."
+              exit 1
+            fi
+            echo "Calendar generation attempt $attempt failed; retrying."
+            sleep 15
+          done
 
       - name: Commit and push changes
         run: |
