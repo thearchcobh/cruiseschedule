@@ -141,6 +141,16 @@ DESCRIPTION:🔗 https://incobh.com/events/shane-keane-6/\n\nCreated by Th
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Carillon Recital
+DTSTART;TZID=Europe/Dublin:20260830T163000
+DTEND;TZID=Europe/Dublin:20260830T173000
+DTSTAMP:20260826T200804Z
+UID:cobh-events-carillon-recital-20260830T1630-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/carillon-recital/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Paul Hannon
 DTSTART;TZID=Europe/Dublin:20260830T170000
 DTEND;TZID=Europe/Dublin:20260830T190000
@@ -2693,18 +2703,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-januar
  y--20300109T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Januar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300116T200000
-DTEND;TZID=Europe/Dublin:20300116T223000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-janua
- ry-20300116T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
