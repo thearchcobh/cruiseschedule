@@ -24,66 +24,20 @@ DESCRIPTION:🔗 https://incobh.com/events/leanne-mcdonagh-community-conne
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 August
-  2026
-DTSTART;TZID=Europe/Dublin:20260826T210000
-DTEND;TZID=Europe/Dublin:20260826T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-augus
- t--20260826T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 26-08-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Paul Hannon
-DTSTART;TZID=Europe/Dublin:20260826T213000
-DTEND;TZID=Europe/Dublin:20260826T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-paul-hannon-20260826T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/paul-hannon-10/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 27 August 2026
-DTSTART;TZID=Europe/Dublin:20260827T200000
-DTEND;TZID=Europe/Dublin:20260827T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-27-august-2026-20260827T2000-t
- hearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
- 6-08-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 27 August 20
- 26
-DTSTART;TZID=Europe/Dublin:20260827T210000
-DTEND;TZID=Europe/Dublin:20260827T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-27-august-2
- 02-20260827T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-08-27\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20260828T140000
-DTEND;TZID=Europe/Dublin:20260828T160000
-DTSTAMP:20260826T132225Z
-UID:cobh-events-kevin-moore-20260828T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-8/\n\nCreated by Th
+DTSTART;TZID=Europe/Dublin:20260828T214500
+DTEND;TZID=Europe/Dublin:20260828T234500
+DTSTAMP:20260828T152858Z
+UID:cobh-events-kevin-moore-20260828T2145-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-9/\n\nCreated by Th
  e Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Dr Dec & The Side Effects
 DTSTART;TZID=Europe/Dublin:20260828T220000
-DTEND;TZID=Europe/Dublin:20260828T000000
-DTSTAMP:20260826T132225Z
+DTEND;TZID=Europe/Dublin:20260829T000000
+DTSTAMP:20260828T152858Z
 UID:cobh-events-dr-dec-the-side-effects-20260828T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dr-dec-the-side-effects-5/\n\nC
  reated by The Arch\, Cobh\nData from InCobh.com
@@ -111,6 +65,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Tony Mack
+DTSTART;TZID=Europe/Dublin:20260829T120000
+DTEND;TZID=Europe/Dublin:20260829T140000
+DTSTAMP:20260828T152858Z
+UID:cobh-events-tony-mack-20260829T1200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/tony-mack-5/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Gracefully Broken – Book Launch
 DTSTART;TZID=Europe/Dublin:20260829T140000
 DTEND;TZID=Europe/Dublin:20260829T153000
@@ -131,6 +95,16 @@ DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-8/\n\nCreated by
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Young Ones
+DTSTART;TZID=Europe/Dublin:20260829T213000
+DTEND;TZID=Europe/Dublin:20260829T233000
+DTSTAMP:20260828T152858Z
+UID:cobh-events-the-young-ones-20260829T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-2/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Shane Keane
 DTSTART;TZID=Europe/Dublin:20260829T220000
 DTEND;TZID=Europe/Dublin:20260829T120000
@@ -138,6 +112,16 @@ DTSTAMP:20260826T132225Z
 UID:cobh-events-shane-keane-20260829T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/shane-keane-6/\n\nCreated by Th
  e Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Brian Murphy
+DTSTART;TZID=Europe/Dublin:20260830T120000
+DTEND;TZID=Europe/Dublin:20260830T140000
+DTSTAMP:20260828T152858Z
+UID:cobh-events-brian-murphy-20260830T1200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/brian-murphy-2/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2703,6 +2687,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-januar
  y--20300109T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Januar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300116T200000
+DTEND;TZID=Europe/Dublin:20300116T223000
+DTSTAMP:20260828T152858Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-janua
+ ry-20300116T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Januar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300123T200000
+DTEND;TZID=Europe/Dublin:20300123T223000
+DTSTAMP:20260828T152858Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-janua
+ ry-20300123T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
