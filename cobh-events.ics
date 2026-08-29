@@ -24,37 +24,6 @@ DESCRIPTION:🔗 https://incobh.com/events/leanne-mcdonagh-community-conne
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 29 August 2026
-DTSTART;TZID=Europe/Dublin:20260829T100000
-DTEND;TZID=Europe/Dublin:20260829T140000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-cobh-farmers-market-sat-29-august-2026-20260829T1000-thear
- chcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
- 8-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Tony Mack
-DTSTART;TZID=Europe/Dublin:20260829T120000
-DTEND;TZID=Europe/Dublin:20260829T140000
-DTSTAMP:20260828T152858Z
-UID:cobh-events-tony-mack-20260829T1200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/tony-mack-5/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Gracefully Broken – Book Launch
-DTSTART;TZID=Europe/Dublin:20260829T140000
-DTEND;TZID=Europe/Dublin:20260829T153000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-gracefully-broken-book-launch-20260829T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/gracefully-broken-book-launch/\
- n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Brian OGlanby
 DTSTART;TZID=Europe/Dublin:20260829T213000
 DTEND;TZID=Europe/Dublin:20260829T233000
@@ -2727,6 +2696,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-febru
  ar-20300213T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 Februa
+ ry 2030
+DTSTART;TZID=Europe/Dublin:20300220T200000
+DTEND;TZID=Europe/Dublin:20300220T223000
+DTSTAMP:20260829T164942Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-febru
+ ar-20300220T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 Februa
+ ry 2030
+DTSTART;TZID=Europe/Dublin:20300227T200000
+DTEND;TZID=Europe/Dublin:20300227T223000
+DTSTAMP:20260829T164942Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-febru
+ ar-20300227T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
