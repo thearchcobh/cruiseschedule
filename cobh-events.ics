@@ -64,11 +64,21 @@ DESCRIPTION:🔗 https://incobh.com/events/jack-gilly-2/\n\nCreated by The
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Clann Eireann
+DTSTART;TZID=Europe/Dublin:20260830T210000
+DTEND;TZID=Europe/Dublin:20260830T230000
+DTSTAMP:20260830T052943Z
+UID:cobh-events-clann-eireann-20260830T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/clann-eireann-2/\n\nCreated by 
+ The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Cillian Calvert
-DTSTART;TZID=Europe/Dublin:20260830T215700
-DTEND;TZID=Europe/Dublin:20260830T235700
-DTSTAMP:20260826T132225Z
-UID:cobh-events-cillian-calvert-20260830T2157-thearchcobh
+DTSTART;TZID=Europe/Dublin:20260830T210000
+DTEND;TZID=Europe/Dublin:20260830T230000
+DTSTAMP:20260830T052943Z
+UID:cobh-events-cillian-calvert-20260830T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cillian-calvert/\n\nCreated by 
  The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
@@ -2726,18 +2736,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
  -2-20300320T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 March 
- 2030
-DTSTART;TZID=Europe/Dublin:20300327T200000
-DTEND;TZID=Europe/Dublin:20300327T223000
-DTSTAMP:20260829T232440Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
- -2-20300327T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
