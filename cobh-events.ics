@@ -761,14 +761,14 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 March 2
  027
-DTSTART;TZID=Europe/Dublin:20270303T210000
-DTEND;TZID=Europe/Dublin:20270303T230000
-DTSTAMP:20260831T135404Z
+DTSTART;TZID=Europe/Dublin:20270303T200000
+DTEND;TZID=Europe/Dublin:20270303T223000
+DTSTAMP:20260831T205648Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-march-
- 20-20270303T2100-thearchcobh
+ 20-20270303T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  27-03-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
+LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 March 
