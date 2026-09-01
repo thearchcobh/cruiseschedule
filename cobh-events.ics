@@ -70,6 +70,16 @@ DESCRIPTION:🔗 https://incobh.com/events/spike-island-literary-festival/
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Brian OGlanby
+DTSTART;TZID=Europe/Dublin:20260904T210000
+DTEND;TZID=Europe/Dublin:20260904T230000
+DTSTAMP:20260901T183511Z
+UID:cobh-events-brian-oglanby-20260904T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-10/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 5 September 2026
 DTSTART;TZID=Europe/Dublin:20260905T100000
 DTEND;TZID=Europe/Dublin:20260905T140000
@@ -98,6 +108,16 @@ DTEND;TZID=Europe/Dublin:20260906T200000
 DTSTAMP:20260825T175911Z
 UID:cobh-events-the-hollyz-20260906T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-hollyz/\n\nCreated by The A
+ rch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 The Urge
+DTSTART;TZID=Europe/Dublin:20260906T210000
+DTEND;TZID=Europe/Dublin:20260906T230000
+DTSTAMP:20260901T183511Z
+UID:cobh-events-the-urge-20260906T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-urge-9/\n\nCreated by The A
  rch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
@@ -2724,30 +2744,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-april
  -2-20300417T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300424T210000
-DTEND;TZID=Europe/Dublin:20300424T233000
-DTSTAMP:20260830T233541Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-april
- -2-20300424T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 1 May 203
- 0
-DTSTART;TZID=Europe/Dublin:20300501T210000
-DTEND;TZID=Europe/Dublin:20300501T233000
-DTSTAMP:20260830T233541Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-1-may-20
- 30-20300501T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
