@@ -742,9 +742,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🟠 $$ Silver Dawn — 1040 pax
-DTSTART;TZID=Europe/Dublin:20260916T080000
+DTSTART;TZID=Europe/Dublin:20260916T081500
 DTEND;TZID=Europe/Dublin:20260916T180000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260902T043854Z
 UID:9857937-20260916-cobh-silversea-cruises-thearchcobh
 DESCRIPTION:👥 1040\n🛳 Silver Dawn\, Silversea Cruises\n🔗 https://
  www.marinetraffic.com/en/ais/details/ships/imo:9857937\n\nCreated by The A
