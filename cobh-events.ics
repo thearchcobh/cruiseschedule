@@ -192,16 +192,6 @@ DESCRIPTION:🔗 https://incobh.com/events/mark-daly-3/\n\nCreated by The
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Test Gug Ignore
-DTSTART;TZID=Europe/Dublin:20260907T180000
-DTEND;TZID=Europe/Dublin:20260907T200000
-DTSTAMP:20260902T164020Z
-UID:cobh-events-test-gug-ignore-20260907T1800-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/test-gug-ignore/\n\nCreated by 
- The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260909T210000
@@ -1300,6 +1290,18 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-novem
  be-20271110T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  27-11-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 Novemb
+ er 2027
+DTSTART;TZID=Europe/Dublin:20271117T200000
+DTEND;TZID=Europe/Dublin:20271117T223000
+DTSTAMP:20260902T210830Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-novem
+ be-20271117T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 27-11-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
@@ -2443,6 +2445,18 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 Septem
+ ber 2029
+DTSTART;TZID=Europe/Dublin:20290919T210000
+DTEND;TZID=Europe/Dublin:20290919T233000
+DTSTAMP:20260902T210830Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-septe
+ mb-20290919T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 Septem
  ber 2029
 DTSTART;TZID=Europe/Dublin:20290926T210000
@@ -2716,6 +2730,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-febru
  ar-20300227T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-02-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 March 2
+ 030
+DTSTART;TZID=Europe/Dublin:20300306T200000
+DTEND;TZID=Europe/Dublin:20300306T223000
+DTSTAMP:20260902T210830Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-march-
+ 20-20300306T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300313T200000
+DTEND;TZID=Europe/Dublin:20300313T223000
+DTSTAMP:20260902T210830Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-march
+ -2-20300313T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
