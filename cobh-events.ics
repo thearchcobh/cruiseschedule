@@ -140,6 +140,16 @@ DESCRIPTION:🔗 https://incobh.com/events/dermie-orourke/\n\nCreated by T
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Carillon Recital
+DTSTART;TZID=Europe/Dublin:20260906T163000
+DTEND;TZID=Europe/Dublin:20260906T173000
+DTSTAMP:20260903T043842Z
+UID:cobh-events-carillon-recital-20260906T1630-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/carillon-recital-2/\n\nCreated 
+ by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Cathal Fitz
 DTSTART;TZID=Europe/Dublin:20260906T170000
 DTEND;TZID=Europe/Dublin:20260906T190000
@@ -2744,18 +2754,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
  -2-20300320T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 March 
- 2030
-DTSTART;TZID=Europe/Dublin:20300327T200000
-DTEND;TZID=Europe/Dublin:20300327T223000
-DTSTAMP:20260902T232509Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
- -2-20300327T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
