@@ -105,6 +105,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Kieran Jones
+DTSTART;TZID=Europe/Dublin:20260905T110000
+DTEND;TZID=Europe/Dublin:20260905T130000
+DTSTAMP:20260904T205017Z
+UID:cobh-events-kieran-jones-20260905T1100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/kieran-jones/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Cobh to Blackrock Sailing Race
 DTSTART;TZID=Europe/Dublin:20260905T133000
 DTEND;TZID=Europe/Dublin:20260905T160000
@@ -172,6 +182,16 @@ DTEND;TZID=Europe/Dublin:20260905T000000
 DTSTAMP:20260902T112411Z
 UID:cobh-events-dermie-orourke-20260905T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dermie-orourke/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Brian Murphy
+DTSTART;TZID=Europe/Dublin:20260906T140000
+DTEND;TZID=Europe/Dublin:20260906T160000
+DTSTAMP:20260904T205017Z
+UID:cobh-events-brian-murphy-20260906T1400-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/brian-murphy-3/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
@@ -2740,18 +2760,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-febru
  ar-20300213T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 Februa
- ry 2030
-DTSTART;TZID=Europe/Dublin:20300220T200000
-DTEND;TZID=Europe/Dublin:20300220T223000
-DTSTAMP:20260829T164942Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-febru
- ar-20300220T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
