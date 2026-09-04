@@ -24,30 +24,6 @@ DESCRIPTION:🔗 https://incobh.com/events/leanne-mcdonagh-community-conne
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 3 September 2026
-DTSTART;TZID=Europe/Dublin:20260903T200000
-DTEND;TZID=Europe/Dublin:20260903T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-3-september-2026-20260903T2000
- -thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
- 6-09-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 3 September 
- 2026
-DTSTART;TZID=Europe/Dublin:20260903T210000
-DTEND;TZID=Europe/Dublin:20260903T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-3-september
- -2-20260903T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-09-03\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Spike Island Literary Festival
 DTSTART;TZID=Europe/Dublin:20260904T123000
 DTEND;TZID=Europe/Dublin:20260906T200000
@@ -2597,14 +2573,14 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 Decembe
  r 2029
-DTSTART;TZID=Europe/Dublin:20291205T210000
-DTEND;TZID=Europe/Dublin:20291205T230000
-DTSTAMP:20260903T210908Z
+DTSTART;TZID=Europe/Dublin:20291205T200000
+DTEND;TZID=Europe/Dublin:20291205T223000
+DTSTAMP:20260904T043843Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-decemb
- er-20291205T2100-thearchcobh
+ er-20291205T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
+LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Decemb
@@ -2760,6 +2736,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-march-
  20-20300306T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300313T200000
+DTEND;TZID=Europe/Dublin:20300313T223000
+DTSTAMP:20260904T043843Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-march
+ -2-20300313T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300320T200000
+DTEND;TZID=Europe/Dublin:20300320T223000
+DTSTAMP:20260904T043843Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
+ -2-20300320T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
