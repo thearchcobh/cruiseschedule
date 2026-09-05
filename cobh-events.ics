@@ -13,17 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Leanne McDonagh: Community & Connection
-DTSTART;TZID=Europe/Dublin:20260704T140000
-DTEND;TZID=Europe/Dublin:20260912T160000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-leanne-mcdonagh-community-connection-20260704T1400-thearch
- cobh
-DESCRIPTION:🔗 https://incobh.com/events/leanne-mcdonagh-community-conne
- ction/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Spike Island Literary Festival
 DTSTART;TZID=Europe/Dublin:20260904T123000
 DTEND;TZID=Europe/Dublin:20260906T200000
@@ -31,58 +20,6 @@ DTSTAMP:20260825T175911Z
 UID:cobh-events-spike-island-literary-festival-20260904T1230-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/spike-island-literary-festival/
  \n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 5 September 2026
-DTSTART;TZID=Europe/Dublin:20260905T100000
-DTEND;TZID=Europe/Dublin:20260905T140000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-cobh-farmers-market-sat-5-september-2026-20260905T1000-the
- archcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
- 9-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Brian OGlanby
-DTSTART;TZID=Europe/Dublin:20260905T113000
-DTEND;TZID=Europe/Dublin:20260905T133000
-DTSTAMP:20260905T104005Z
-UID:cobh-events-brian-oglanby-20260905T1130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-12/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Cobh to Blackrock Sailing Race
-DTSTART;TZID=Europe/Dublin:20260905T133000
-DTEND;TZID=Europe/Dublin:20260905T160000
-DTSTAMP:20260904T112313Z
-UID:cobh-events-cobh-to-blackrock-sailing-race-20260905T1330-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-to-blackrock-sailing-race/
- \n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Marrion Horgan – Dognose Book Launch
-DTSTART;TZID=Europe/Dublin:20260905T140000
-DTEND;TZID=Europe/Dublin:20260905T160000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-marrion-horgan-dognose-book-launch-20260905T1400-thearchco
- bh
-DESCRIPTION:🔗 https://incobh.com/events/marrion-horgan-dognose-book-lau
- nch/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Nenagh Brass Band
-DTSTART;TZID=Europe/Dublin:20260905T143000
-DTEND;TZID=Europe/Dublin:20260905T160000
-DTSTAMP:20260904T112313Z
-UID:cobh-events-nenagh-brass-band-20260905T1430-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/nenagh-brass-band/\n\nCreated b
- y The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2768,6 +2705,78 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-march
  -2-20300313T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300320T200000
+DTEND;TZID=Europe/Dublin:20300320T223000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
+ -2-20300320T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300327T200000
+DTEND;TZID=Europe/Dublin:20300327T223000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
+ -2-20300327T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 April 2
+ 030
+DTSTART;TZID=Europe/Dublin:20300403T210000
+DTEND;TZID=Europe/Dublin:20300403T233000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-april-
+ 20-20300403T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 April 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300410T210000
+DTEND;TZID=Europe/Dublin:20300410T233000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
+ -2-20300410T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 April 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300417T210000
+DTEND;TZID=Europe/Dublin:20300417T233000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-april
+ -2-20300417T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 April 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300424T210000
+DTEND;TZID=Europe/Dublin:20300424T233000
+DTSTAMP:20260905T151803Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-april
+ -2-20300424T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
