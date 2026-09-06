@@ -13,46 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Spike Island Literary Festival
-DTSTART;TZID=Europe/Dublin:20260904T123000
-DTEND;TZID=Europe/Dublin:20260906T200000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-spike-island-literary-festival-20260904T1230-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/spike-island-literary-festival/
- \n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Carillon Recital
-DTSTART;TZID=Europe/Dublin:20260906T163000
-DTEND;TZID=Europe/Dublin:20260906T173000
-DTSTAMP:20260903T043842Z
-UID:cobh-events-carillon-recital-20260906T1630-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/carillon-recital-2/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Cathal Fitz
-DTSTART;TZID=Europe/Dublin:20260906T170000
-DTEND;TZID=Europe/Dublin:20260906T190000
-DTSTAMP:20260902T112411Z
-UID:cobh-events-cathal-fitz-20260906T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cathal-fitz-3/\n\nCreated by Th
- e Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 The Hollyz
-DTSTART;TZID=Europe/Dublin:20260906T180000
-DTEND;TZID=Europe/Dublin:20260906T200000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-the-hollyz-20260906T1800-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-hollyz/\n\nCreated by The A
- rch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Ronan O’Driscoll
 DTSTART;TZID=Europe/Dublin:20260906T210000
 DTEND;TZID=Europe/Dublin:20260906T230000
