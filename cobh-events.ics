@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/spike-island-literary-festival/
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Brian Murphy
-DTSTART;TZID=Europe/Dublin:20260906T140000
-DTEND;TZID=Europe/Dublin:20260906T160000
-DTSTAMP:20260904T205017Z
-UID:cobh-events-brian-murphy-20260906T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-murphy-3/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Carillon Recital
 DTSTART;TZID=Europe/Dublin:20260906T163000
 DTEND;TZID=Europe/Dublin:20260906T173000
