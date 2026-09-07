@@ -13,6 +13,17 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cork College of FET\, Cobh – Information Day
+DTSTART;TZID=Europe/Dublin:20260908T133000
+DTEND;TZID=Europe/Dublin:20260908T143000
+DTSTAMP:20260907T191603Z
+UID:cobh-events-cork-college-of-fet-cobh-information-day-20260908T1330-the
+ archcobh
+DESCRIPTION:🔗 https://incobh.com/events/cork-college-of-fet-cobh-inform
+ ation-day/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260909T210000
@@ -69,6 +80,16 @@ UID:cobh-events-cobh-farmers-market-sat-12-september-2026-20260912T1000-th
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
  9-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Spike Island 5K Race
+DTSTART;TZID=Europe/Dublin:20260912T160000
+DTEND;TZID=Europe/Dublin:20260912T200000
+DTSTAMP:20260907T191603Z
+UID:cobh-events-spike-island-5k-race-20260912T1600-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/spike-island-5k-race/\n\nCreate
+ d by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Once Upon a Time In a Cinema
@@ -2784,30 +2805,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
  -2-20300327T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 April 2
- 030
-DTSTART;TZID=Europe/Dublin:20300403T210000
-DTEND;TZID=Europe/Dublin:20300403T233000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-april-
- 20-20300403T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300410T210000
-DTEND;TZID=Europe/Dublin:20300410T233000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
- -2-20300410T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
