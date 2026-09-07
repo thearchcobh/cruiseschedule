@@ -25,6 +25,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 10 September 2026
+DTSTART;TZID=Europe/Dublin:20260910T184500
+DTEND;TZID=Europe/Dublin:20260910T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-10-september-2026-20260910T
+ 1845-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-09-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 10 September 2026
 DTSTART;TZID=Europe/Dublin:20260910T200000
 DTEND;TZID=Europe/Dublin:20260910T233000
@@ -60,6 +71,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Once Upon a Time In a Cinema
+DTSTART;TZID=Europe/Dublin:20260914T193000
+DTEND;TZID=Europe/Dublin:20260914T214500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-once-upon-a-time-in-a-cinema-20260914T1930-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/once-upon-a-time-in-a-cinema/\n
+ \nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260916T210000
@@ -70,6 +91,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-septe
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-09-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 17 September 2026
+DTSTART;TZID=Europe/Dublin:20260917T184500
+DTEND;TZID=Europe/Dublin:20260917T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-17-september-2026-20260917T
+ 1845-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-09-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 17 September 2026
@@ -107,6 +139,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Hen (Greece)
+DTSTART;TZID=Europe/Dublin:20260921T193000
+DTEND;TZID=Europe/Dublin:20260921T214500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-hen-greece-20260921T1930-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/hen-greece/\n\nCreated by The A
+ rch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260923T210000
@@ -117,6 +159,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-septe
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-09-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 24 September 2026
+DTSTART;TZID=Europe/Dublin:20260924T184500
+DTEND;TZID=Europe/Dublin:20260924T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-24-september-2026-20260924T
+ 1845-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-09-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 24 September 2026
@@ -166,6 +219,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 1 October 2026
+DTSTART;TZID=Europe/Dublin:20261001T184500
+DTEND;TZID=Europe/Dublin:20261001T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-1-october-2026-20261001T184
+ 5-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-10-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 1 October 2026
 DTSTART;TZID=Europe/Dublin:20261001T200000
 DTEND;TZID=Europe/Dublin:20261001T233000
@@ -211,6 +275,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-7-octobe
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-07\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 8 October 2026
+DTSTART;TZID=Europe/Dublin:20261008T184500
+DTEND;TZID=Europe/Dublin:20261008T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-8-october-2026-20261008T184
+ 5-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-10-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 8 October 2026
@@ -260,6 +335,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 15 October 2026
+DTSTART;TZID=Europe/Dublin:20261015T184500
+DTEND;TZID=Europe/Dublin:20261015T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-15-october-2026-20261015T18
+ 45-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-10-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 15 October 2026
 DTSTART;TZID=Europe/Dublin:20261015T200000
 DTEND;TZID=Europe/Dublin:20261015T233000
@@ -305,6 +391,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-21-octob
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 22 October 2026
+DTSTART;TZID=Europe/Dublin:20261022T184500
+DTEND;TZID=Europe/Dublin:20261022T201500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-22-october-2026-20261022T18
+ 45-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 22 October 2026
@@ -354,6 +451,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 29 October 2026
+DTSTART;TZID=Europe/Dublin:20261029T174500
+DTEND;TZID=Europe/Dublin:20261029T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-29-october-2026-20261029T17
+ 45-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-10-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 29 October 2026
 DTSTART;TZID=Europe/Dublin:20261029T190000
 DTEND;TZID=Europe/Dublin:20261029T223000
@@ -401,6 +509,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 5 November 2026
+DTSTART;TZID=Europe/Dublin:20261105T174500
+DTEND;TZID=Europe/Dublin:20261105T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-5-november-2026-20261105T17
+ 45-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-11-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 7 November 2026
 DTSTART;TZID=Europe/Dublin:20261107T090000
 DTEND;TZID=Europe/Dublin:20261107T130000
@@ -422,6 +541,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-11-novem
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-11-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 12 November 2026
+DTSTART;TZID=Europe/Dublin:20261112T174500
+DTEND;TZID=Europe/Dublin:20261112T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-12-november-2026-20261112T1
+ 745-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-11-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 14 November 2026
@@ -447,6 +577,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 19 November 2026
+DTSTART;TZID=Europe/Dublin:20261119T174500
+DTEND;TZID=Europe/Dublin:20261119T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-19-november-2026-20261119T1
+ 745-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-11-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 21 November 2026
 DTSTART;TZID=Europe/Dublin:20261121T090000
 DTEND;TZID=Europe/Dublin:20261121T130000
@@ -468,6 +609,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-novem
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-11-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 26 November 2026
+DTSTART;TZID=Europe/Dublin:20261126T174500
+DTEND;TZID=Europe/Dublin:20261126T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-26-november-2026-20261126T1
+ 745-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-11-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 28 November 2026
@@ -493,6 +645,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 3 December 2026
+DTSTART;TZID=Europe/Dublin:20261203T174500
+DTEND;TZID=Europe/Dublin:20261203T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-3-december-2026-20261203T17
+ 45-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-12-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 5 December 2026
 DTSTART;TZID=Europe/Dublin:20261205T090000
 DTEND;TZID=Europe/Dublin:20261205T130000
@@ -516,6 +679,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 10 December 2026
+DTSTART;TZID=Europe/Dublin:20261210T174500
+DTEND;TZID=Europe/Dublin:20261210T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-10-december-2026-20261210T1
+ 745-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-12-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 12 December 2026
 DTSTART;TZID=Europe/Dublin:20261212T090000
 DTEND;TZID=Europe/Dublin:20261212T130000
@@ -537,6 +711,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-decem
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-12-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Cobh Trad Learning Session - Thu 17 December 2026
+DTSTART;TZID=Europe/Dublin:20261217T174500
+DTEND;TZID=Europe/Dublin:20261217T191500
+DTSTAMP:20260907T123651Z
+UID:cobh-events-cobh-trad-learning-session-thu-17-december-2026-20261217T1
+ 745-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
+ =2026-12-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 December 2026
@@ -2623,102 +2808,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
  -2-20300410T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300417T210000
-DTEND;TZID=Europe/Dublin:20300417T233000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-april
- -2-20300417T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300424T210000
-DTEND;TZID=Europe/Dublin:20300424T233000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-april
- -2-20300424T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 1 May 203
- 0
-DTSTART;TZID=Europe/Dublin:20300501T210000
-DTEND;TZID=Europe/Dublin:20300501T233000
-DTSTAMP:20260905T202620Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-1-may-20
- 30-20300501T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 8 May 203
- 0
-DTSTART;TZID=Europe/Dublin:20300508T210000
-DTEND;TZID=Europe/Dublin:20300508T233000
-DTSTAMP:20260905T202620Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-8-may-20
- 30-20300508T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 15 May 20
- 30
-DTSTART;TZID=Europe/Dublin:20300515T210000
-DTEND;TZID=Europe/Dublin:20300515T233000
-DTSTAMP:20260905T202620Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-15-may-2
- 03-20300515T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 22 May 20
- 30
-DTSTART;TZID=Europe/Dublin:20300522T210000
-DTEND;TZID=Europe/Dublin:20300522T233000
-DTSTAMP:20260906T044314Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-22-may-2
- 03-20300522T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 29 May 20
- 30
-DTSTART;TZID=Europe/Dublin:20300529T210000
-DTEND;TZID=Europe/Dublin:20300529T233000
-DTSTAMP:20260906T044314Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-29-may-2
- 03-20300529T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 June 20
- 30
-DTSTART;TZID=Europe/Dublin:20300605T210000
-DTEND;TZID=Europe/Dublin:20300605T233000
-DTSTAMP:20260906T044314Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-june-2
- 03-20300605T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-06-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
