@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Ronan O’Driscoll
-DTSTART;TZID=Europe/Dublin:20260906T210000
-DTEND;TZID=Europe/Dublin:20260906T230000
-DTSTAMP:20260903T210908Z
-UID:cobh-events-ronan-o-driscoll-20260906T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-2/\n\nCreated b
- y The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Mark Daly
-DTSTART;TZID=Europe/Dublin:20260906T220000
-DTEND;TZID=Europe/Dublin:20260906T000000
-DTSTAMP:20260901T232445Z
-UID:cobh-events-mark-daly-20260906T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mark-daly-3/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260909T210000
