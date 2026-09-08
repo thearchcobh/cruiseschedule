@@ -920,9 +920,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🚢 Spirit of Adventure — Cobh
-DTSTART;TZID=Europe/Dublin:20260908T100000
+DTSTART;TZID=Europe/Dublin:20260908T090000
 DTEND;TZID=Europe/Dublin:20260908T170000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260908T043958Z
 UID:9818084-20260908-cobh-cruise-terminal-all-saga-thearchcobh
 DESCRIPTION:👥 999\n🛳 Spirit of Adventure\, Saga\n⚓ Cobh\n🔗 http
  s://www.marinetraffic.com/en/ais/details/ships/imo:9818084\n\nCreated by T
@@ -954,9 +954,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🚢 Disney Dream — Cobh
-DTSTART;TZID=Europe/Dublin:20260912T080000
+DTSTART;TZID=Europe/Dublin:20260912T063000
 DTEND;TZID=Europe/Dublin:20260912T160000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260908T043958Z
 UID:9434254-20260912-cobh-cruise-terminal-all-disney-cruise-line-thearchco
  bh
 DESCRIPTION:👥 4000\n🛳 Disney Dream\, Disney Cruise Line\n⚓ Cobh\n

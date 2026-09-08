@@ -698,9 +698,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🟢 $ Spirit of Adventure — 999 pax
-DTSTART;TZID=Europe/Dublin:20260908T100000
+DTSTART;TZID=Europe/Dublin:20260908T090000
 DTEND;TZID=Europe/Dublin:20260908T170000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260908T043958Z
 UID:9818084-20260908-cobh-saga-thearchcobh
 DESCRIPTION:👥 999\n🛳 Spirit of Adventure\, Saga\n🔗 https://www.ma
  rinetraffic.com/en/ais/details/ships/imo:9818084\n\nCreated by The Arch\, 
@@ -731,9 +731,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 ? Disney Dream — 4000 pax
-DTSTART;TZID=Europe/Dublin:20260912T080000
+DTSTART;TZID=Europe/Dublin:20260912T063000
 DTEND;TZID=Europe/Dublin:20260912T160000
-DTSTAMP:20260825T175911Z
+DTSTAMP:20260908T043958Z
 UID:9434254-20260912-cobh-disney-cruise-line-thearchcobh
 DESCRIPTION:👥 4000\n🛳 Disney Dream\, Disney Cruise Line\n🔗 https:
  //www.marinetraffic.com/en/ais/details/ships/imo:9434254\n\nCreated by The
