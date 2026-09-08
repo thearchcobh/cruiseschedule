@@ -58,17 +58,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 10 September
-  2026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 10 Septemb
+ er 2026
 DTSTART;TZID=Europe/Dublin:20260910T210000
 DTEND;TZID=Europe/Dublin:20260910T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-10-septembe
- r--20260910T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-10-septem
+ be-20260910T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-09-10\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-09-10\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 12 September 2026
@@ -136,17 +136,28 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 17 September
-  2026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 17 Septemb
+ er 2026
 DTSTART;TZID=Europe/Dublin:20260917T210000
 DTEND;TZID=Europe/Dublin:20260917T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-17-septembe
- r--20260917T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-17-septem
+ be-20260917T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-09-17\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-09-17\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Culture Night at Cobh Heritage Centre
+DTSTART;TZID=Europe/Dublin:20260918T180000
+DTEND;TZID=Europe/Dublin:20260918T190000
+DTSTAMP:20260908T112433Z
+UID:cobh-events-culture-night-at-cobh-heritage-centre-20260918T1800-thearc
+ hcobh
+DESCRIPTION:🔗 https://incobh.com/events/culture-night-at-cobh-heritage-
+ centre/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 September 2026
@@ -204,17 +215,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 24 September
-  2026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 24 Septemb
+ er 2026
 DTSTART;TZID=Europe/Dublin:20260924T210000
 DTEND;TZID=Europe/Dublin:20260924T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-24-septembe
- r--20260924T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-24-septem
+ be-20260924T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-09-24\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-09-24\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 26 September 2026
@@ -262,17 +273,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 1 October 20
- 26
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 1 October 
+ 2026
 DTSTART;TZID=Europe/Dublin:20261001T210000
 DTEND;TZID=Europe/Dublin:20261001T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-1-october-2
- 02-20261001T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-1-october
+ -2-20261001T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-10-01\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-10-01\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
@@ -320,17 +331,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 8 October 20
- 26
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 8 October 
+ 2026
 DTSTART;TZID=Europe/Dublin:20261008T210000
 DTEND;TZID=Europe/Dublin:20261008T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-8-october-2
- 02-20261008T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-8-october
+ -2-20261008T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-10-08\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-10-08\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 10 October 2026
@@ -378,17 +389,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 15 October 2
- 026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 15 October
+  2026
 DTSTART;TZID=Europe/Dublin:20261015T210000
 DTEND;TZID=Europe/Dublin:20261015T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-15-october-
- 20-20261015T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-15-octobe
+ r--20261015T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-10-15\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-10-15\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 17 October 2026
@@ -436,17 +447,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 22 October 2
- 026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 22 October
+  2026
 DTSTART;TZID=Europe/Dublin:20261022T210000
 DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-22-october-
- 20-20261022T2100-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-22-octobe
+ r--20261022T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-10-22\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-10-22\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 24 October 2026
@@ -494,17 +505,17 @@ DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
 LOCATION:Kelly's
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Hi Chaperal - Thu 29 October 2
- 026
+SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 29 October
+  2026
 DTSTART;TZID=Europe/Dublin:20261029T200000
 DTEND;TZID=Europe/Dublin:20261029T223000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-hi-chaperal-thu-29-october-
- 20-20261029T2000-thearchcobh
+DTSTAMP:20260908T112433Z
+UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-29-octobe
+ r--20261029T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- hi-chaperal/?gde=2026-10-29\n\nCreated by The Arch\, Cobh\nData from InCob
- h.com
-LOCATION:The Hi Chaperal
+ high-chaperal/?gde=2026-10-29\n\nCreated by The Arch\, Cobh\nData from InC
+ obh.com
+LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 31 October 2026
@@ -640,6 +651,16 @@ UID:cobh-events-cobh-trad-learning-session-thu-26-november-2026-20261126T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-11-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 The Irresistible Call
+DTSTART;TZID=Europe/Dublin:20261126T183000
+DTEND;TZID=Europe/Dublin:20261126T194500
+DTSTAMP:20260908T112433Z
+UID:cobh-events-the-irresistible-call-20261126T1830-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-irresistible-call/\n\nCreat
+ ed by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2781,30 +2802,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-march
  -2-20300313T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 March 
- 2030
-DTSTART;TZID=Europe/Dublin:20300320T200000
-DTEND;TZID=Europe/Dublin:20300320T223000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
- -2-20300320T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 March 
- 2030
-DTSTART;TZID=Europe/Dublin:20300327T200000
-DTEND;TZID=Europe/Dublin:20300327T223000
-DTSTAMP:20260905T151803Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
- -2-20300327T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
