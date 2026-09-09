@@ -13,6 +13,16 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Baldur Ballerup Brass Band
+DTSTART;TZID=Europe/Dublin:20260909T130000
+DTEND;TZID=Europe/Dublin:20260909T143000
+DTSTAMP:20260909T044556Z
+UID:cobh-events-baldur-ballerup-brass-band-20260909T1300-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/baldur-ballerup-brass-band/\n\n
+ Created by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
 DTSTART;TZID=Europe/Dublin:20260909T140000
 DTEND;TZID=Europe/Dublin:20260909T160000
@@ -2779,18 +2789,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-janua
  ry-20300130T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 Februar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300206T200000
-DTEND;TZID=Europe/Dublin:20300206T223000
-DTSTAMP:20260829T015219Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-februa
- ry-20300206T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
