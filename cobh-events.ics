@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Baldur Ballerup Brass Band
-DTSTART;TZID=Europe/Dublin:20260909T130000
-DTEND;TZID=Europe/Dublin:20260909T143000
-DTSTAMP:20260909T044556Z
-UID:cobh-events-baldur-ballerup-brass-band-20260909T1300-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/baldur-ballerup-brass-band/\n\n
- Created by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Katie McGroarty
-DTSTART;TZID=Europe/Dublin:20260909T140000
-DTEND;TZID=Europe/Dublin:20260909T160000
-DTSTAMP:20260908T211530Z
-UID:cobh-events-katie-mcgroarty-20260909T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-12/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 Septemb
  er 2026
 DTSTART;TZID=Europe/Dublin:20260909T210000
@@ -138,6 +118,16 @@ DTSTAMP:20260908T211530Z
 UID:cobh-events-dermot-o-rourke-20260912T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dermot-orourke-5/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 The Urge
+DTSTART;TZID=Europe/Dublin:20260913T180000
+DTEND;TZID=Europe/Dublin:20260913T200000
+DTSTAMP:20260909T164500Z
+UID:cobh-events-the-urge-20260913T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-urge-10/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2789,6 +2779,18 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-janua
  ry-20300130T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 Februar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300206T200000
+DTEND;TZID=Europe/Dublin:20300206T223000
+DTSTAMP:20260909T164500Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-februa
+ ry-20300206T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
