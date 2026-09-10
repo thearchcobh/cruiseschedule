@@ -129,6 +129,16 @@ DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-13/\n\nCreated by T
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Carillon Recital
+DTSTART;TZID=Europe/Dublin:20260913T163000
+DTEND;TZID=Europe/Dublin:20260913T173000
+DTSTAMP:20260910T112428Z
+UID:cobh-events-carillon-recital-20260913T1630-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/carillon-recital-2/\n\nCreated 
+ by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Paul Hannon
 DTSTART;TZID=Europe/Dublin:20260913T170000
 DTEND;TZID=Europe/Dublin:20260913T190000
@@ -2771,18 +2781,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-januar
  y--20300109T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Januar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300116T200000
-DTEND;TZID=Europe/Dublin:20300116T223000
-DTSTAMP:20260828T152858Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-janua
- ry-20300116T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
