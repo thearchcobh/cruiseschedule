@@ -13,30 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 10 September 2026
-DTSTART;TZID=Europe/Dublin:20260910T200000
-DTEND;TZID=Europe/Dublin:20260910T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-10-september-2026-20260910T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
- 6-09-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 10 Septemb
- er 2026
-DTSTART;TZID=Europe/Dublin:20260910T210000
-DTEND;TZID=Europe/Dublin:20260910T233000
-DTSTAMP:20260908T112433Z
-UID:cobh-events-traditional-irish-music-at-the-high-chaperal-thu-10-septem
- be-20260910T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- high-chaperal/?gde=2026-09-10\n\nCreated by The Arch\, Cobh\nData from InC
- obh.com
-LOCATION:The High Chaperal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Shane Keane
 DTSTART;TZID=Europe/Dublin:20260911T220000
 DTEND;TZID=Europe/Dublin:20260911T000000
@@ -2760,6 +2736,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-octobe
  r--20291003T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 Octobe
+ r 2029
+DTSTART;TZID=Europe/Dublin:20291010T210000
+DTEND;TZID=Europe/Dublin:20291010T233000
+DTSTAMP:20260910T231512Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-octob
+ er-20291010T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 Octobe
+ r 2029
+DTSTART;TZID=Europe/Dublin:20291017T210000
+DTEND;TZID=Europe/Dublin:20291017T233000
+DTSTAMP:20260910T231512Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-octob
+ er-20291017T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
