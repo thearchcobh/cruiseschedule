@@ -13,6 +13,16 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Banjo Jim & Tim
+DTSTART;TZID=Europe/Dublin:20260911T214500
+DTEND;TZID=Europe/Dublin:20260911T234500
+DTSTAMP:20260911T163448Z
+UID:cobh-events-banjo-jim-tim-20260911T2145-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/banjo-jim-tim-2/\n\nCreated by 
+ The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Shane Keane
 DTSTART;TZID=Europe/Dublin:20260911T220000
 DTEND;TZID=Europe/Dublin:20260911T000000
@@ -81,6 +91,16 @@ DTSTAMP:20260911T112701Z
 UID:cobh-events-cinesalon-by-the-water-20260912T1900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cinesalon-by-the-water/\n\nCrea
  ted by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 DJ Clokey
+DTSTART;TZID=Europe/Dublin:20260912T210000
+DTEND;TZID=Europe/Dublin:20260912T230000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-dj-clokey-20260912T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-clokey-4/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -184,6 +204,17 @@ UID:cobh-events-cobh-trad-learning-session-thu-17-september-2026-20260917T
  1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-09-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 17 September 2026
+DTSTART;TZID=Europe/Dublin:20260917T193000
+DTEND;TZID=Europe/Dublin:20260917T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-17-september-2026-20260917T1930-thearch
+ cobh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-09-17\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -424,6 +455,17 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 24 September 2026
+DTSTART;TZID=Europe/Dublin:20260924T193000
+DTEND;TZID=Europe/Dublin:20260924T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-24-september-2026-20260924T1930-thearch
+ cobh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-09-24\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 24 September 2026
 DTSTART;TZID=Europe/Dublin:20260924T200000
 DTEND;TZID=Europe/Dublin:20260924T233000
@@ -479,6 +521,17 @@ UID:cobh-events-cobh-trad-learning-session-thu-1-october-2026-20261001T184
  5-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-10-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 1 October 2026
+DTSTART;TZID=Europe/Dublin:20261001T193000
+DTEND;TZID=Europe/Dublin:20261001T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-1-october-2026-20261001T1930-thearchcob
+ h
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-01\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -540,6 +593,17 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 8 October 2026
+DTSTART;TZID=Europe/Dublin:20261008T193000
+DTEND;TZID=Europe/Dublin:20261008T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-8-october-2026-20261008T1930-thearchcob
+ h
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-08\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 8 October 2026
 DTSTART;TZID=Europe/Dublin:20261008T200000
 DTEND;TZID=Europe/Dublin:20261008T233000
@@ -595,6 +659,17 @@ UID:cobh-events-cobh-trad-learning-session-thu-15-october-2026-20261015T18
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-10-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 15 October 2026
+DTSTART;TZID=Europe/Dublin:20261015T193000
+DTEND;TZID=Europe/Dublin:20261015T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-15-october-2026-20261015T1930-thearchco
+ bh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-15\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -656,6 +731,17 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 22 October 2026
+DTSTART;TZID=Europe/Dublin:20261022T193000
+DTEND;TZID=Europe/Dublin:20261022T210000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-22-october-2026-20261022T1930-thearchco
+ bh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-22\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 22 October 2026
 DTSTART;TZID=Europe/Dublin:20261022T200000
 DTEND;TZID=Europe/Dublin:20261022T233000
@@ -711,6 +797,17 @@ UID:cobh-events-cobh-trad-learning-session-thu-29-october-2026-20261029T17
  45-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-10-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 29 October 2026
+DTSTART;TZID=Europe/Dublin:20261029T183000
+DTEND;TZID=Europe/Dublin:20261029T200000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-29-october-2026-20261029T1830-thearchco
+ bh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-29\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -772,6 +869,17 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 5 November 2026
+DTSTART;TZID=Europe/Dublin:20261105T183000
+DTEND;TZID=Europe/Dublin:20261105T200000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-5-november-2026-20261105T1830-thearchco
+ bh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-11-05\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 7 November 2026
 DTSTART;TZID=Europe/Dublin:20261107T090000
 DTEND;TZID=Europe/Dublin:20261107T130000
@@ -806,6 +914,17 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 12 November 2026
+DTSTART;TZID=Europe/Dublin:20261112T183000
+DTEND;TZID=Europe/Dublin:20261112T200000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-12-november-2026-20261112T1830-thearchc
+ obh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-11-12\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 14 November 2026
 DTSTART;TZID=Europe/Dublin:20261114T090000
 DTEND;TZID=Europe/Dublin:20261114T130000
@@ -837,6 +956,17 @@ UID:cobh-events-cobh-trad-learning-session-thu-19-november-2026-20261119T1
  745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-11-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Acting Classes - Thu 19 November 2026
+DTSTART;TZID=Europe/Dublin:20261119T183000
+DTEND;TZID=Europe/Dublin:20261119T200000
+DTSTAMP:20260911T163448Z
+UID:cobh-events-acting-classes-thu-19-november-2026-20261119T1830-thearchc
+ obh
+DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-11-19\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2614,150 +2744,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-18-july-
  20-20290718T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-07-18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 25 July 2
- 029
-DTSTART;TZID=Europe/Dublin:20290725T210000
-DTEND;TZID=Europe/Dublin:20290725T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-july-
- 20-20290725T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 1 August 
- 2029
-DTSTART;TZID=Europe/Dublin:20290801T210000
-DTEND;TZID=Europe/Dublin:20290801T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-1-august
- -2-20290801T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 8 August 
- 2029
-DTSTART;TZID=Europe/Dublin:20290808T210000
-DTEND;TZID=Europe/Dublin:20290808T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-8-august
- -2-20290808T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 15 August
-  2029
-DTSTART;TZID=Europe/Dublin:20290815T210000
-DTEND;TZID=Europe/Dublin:20290815T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-15-augus
- t--20290815T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 22 August
-  2029
-DTSTART;TZID=Europe/Dublin:20290822T210000
-DTEND;TZID=Europe/Dublin:20290822T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-22-augus
- t--20290822T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 29 August
-  2029
-DTSTART;TZID=Europe/Dublin:20290829T210000
-DTEND;TZID=Europe/Dublin:20290829T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-29-augus
- t--20290829T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 Septemb
- er 2029
-DTSTART;TZID=Europe/Dublin:20290905T210000
-DTEND;TZID=Europe/Dublin:20290905T233000
-DTSTAMP:20260905T225942Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-septem
- be-20290905T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Septem
- ber 2029
-DTSTART;TZID=Europe/Dublin:20290912T210000
-DTEND;TZID=Europe/Dublin:20290912T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-septe
- mb-20290912T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 Septem
- ber 2029
-DTSTART;TZID=Europe/Dublin:20290919T210000
-DTEND;TZID=Europe/Dublin:20290919T233000
-DTSTAMP:20260902T210830Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-septe
- mb-20290919T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 Septem
- ber 2029
-DTSTART;TZID=Europe/Dublin:20290926T210000
-DTEND;TZID=Europe/Dublin:20290926T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-septe
- mb-20290926T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 October
-  2029
-DTSTART;TZID=Europe/Dublin:20291003T210000
-DTEND;TZID=Europe/Dublin:20291003T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-octobe
- r--20291003T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 Octobe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291010T210000
-DTEND;TZID=Europe/Dublin:20291010T233000
-DTSTAMP:20260910T231512Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-octob
- er-20291010T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
