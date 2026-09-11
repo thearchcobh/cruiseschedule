@@ -74,6 +74,16 @@ DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-12/\n\nCreated by T
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 CineSalon by the Water
+DTSTART;TZID=Europe/Dublin:20260912T190000
+DTEND;TZID=Europe/Dublin:20260912T220000
+DTSTAMP:20260911T112701Z
+UID:cobh-events-cinesalon-by-the-water-20260912T1900-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cinesalon-by-the-water/\n\nCrea
+ ted by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Dermot O’Rourke
 DTSTART;TZID=Europe/Dublin:20260912T220000
 DTEND;TZID=Europe/Dublin:20260912T000000
@@ -2748,18 +2758,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-octob
  er-20291010T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 Octobe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291017T210000
-DTEND;TZID=Europe/Dublin:20291017T233000
-DTSTAMP:20260910T231512Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-octob
- er-20291017T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
