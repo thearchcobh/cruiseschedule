@@ -13,36 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Banjo Jim & Tim
-DTSTART;TZID=Europe/Dublin:20260911T214500
-DTEND;TZID=Europe/Dublin:20260911T234500
-DTSTAMP:20260911T163448Z
-UID:cobh-events-banjo-jim-tim-20260911T2145-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/banjo-jim-tim-2/\n\nCreated by 
- The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Shane Keane
-DTSTART;TZID=Europe/Dublin:20260911T220000
-DTEND;TZID=Europe/Dublin:20260911T000000
-DTSTAMP:20260910T044819Z
-UID:cobh-events-shane-keane-20260911T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/shane-keane-7/\n\nCreated by Th
- e Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20260911T223000
-DTEND;TZID=Europe/Dublin:20260911T003000
-DTSTAMP:20260908T211530Z
-UID:cobh-events-kevin-moore-20260911T2230-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-11/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 12 September 2026
 DTSTART;TZID=Europe/Dublin:20260912T100000
 DTEND;TZID=Europe/Dublin:20260912T140000
@@ -121,6 +91,16 @@ DTSTAMP:20260909T210228Z
 UID:cobh-events-kevin-moore-20260912T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-13/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 DJ Keith
+DTSTART;TZID=Europe/Dublin:20260912T220400
+DTEND;TZID=Europe/Dublin:20260912T000400
+DTSTAMP:20260911T232035Z
+UID:cobh-events-dj-keith-20260912T2204-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-keith/\n\nCreated by The Arc
+ h\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2744,6 +2724,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-18-july-
  20-20290718T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-07-18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 25 July 2
+ 029
+DTSTART;TZID=Europe/Dublin:20290725T210000
+DTEND;TZID=Europe/Dublin:20290725T233000
+DTSTAMP:20260911T232035Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-july-
+ 20-20290725T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 1 August 
+ 2029
+DTSTART;TZID=Europe/Dublin:20290801T210000
+DTEND;TZID=Europe/Dublin:20290801T233000
+DTSTAMP:20260911T232035Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-1-august
+ -2-20290801T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
