@@ -720,9 +720,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🟠 ? Borealis — 1404 pax
-DTSTART;TZID=Europe/Dublin:20260911T123000
-DTEND;TZID=Europe/Dublin:20260911T180000
-DTSTAMP:20260825T175911Z
+DTSTART;TZID=Europe/Dublin:20260911T083000
+DTEND;TZID=Europe/Dublin:20260911T190000
+DTSTAMP:20260911T044545Z
 UID:9122552-20260911-cobh-fred-olsen-cruise-lines-thearchcobh
 DESCRIPTION:👥 1404\n🛳 Borealis\, Fred. Olsen Cruise Lines\n🔗 http
  s://www.marinetraffic.com/en/ais/details/ships/imo:9122552\n\nCreated by T
@@ -732,8 +732,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 ? Disney Dream — 4000 pax
 DTSTART;TZID=Europe/Dublin:20260912T063000
-DTEND;TZID=Europe/Dublin:20260912T160000
-DTSTAMP:20260908T043958Z
+DTEND;TZID=Europe/Dublin:20260912T151500
+DTSTAMP:20260911T044545Z
 UID:9434254-20260912-cobh-disney-cruise-line-thearchcobh
 DESCRIPTION:👥 4000\n🛳 Disney Dream\, Disney Cruise Line\n🔗 https:
  //www.marinetraffic.com/en/ais/details/ships/imo:9434254\n\nCreated by The
