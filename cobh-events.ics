@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Spike Island 5K Race
-DTSTART;TZID=Europe/Dublin:20260912T160000
-DTEND;TZID=Europe/Dublin:20260912T200000
-DTSTAMP:20260907T191603Z
-UID:cobh-events-spike-island-5k-race-20260912T1600-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/spike-island-5k-race/\n\nCreate
- d by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20260912T170000
-DTEND;TZID=Europe/Dublin:20260912T190000
-DTSTAMP:20260908T211530Z
-UID:cobh-events-kevin-moore-20260912T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-12/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 CineSalon by the Water
 DTSTART;TZID=Europe/Dublin:20260912T190000
 DTEND;TZID=Europe/Dublin:20260912T220000
@@ -2749,6 +2729,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-8-august
  -2-20290808T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-08-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 15 August
+  2029
+DTSTART;TZID=Europe/Dublin:20290815T210000
+DTEND;TZID=Europe/Dublin:20290815T233000
+DTSTAMP:20260912T203926Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-15-augus
+ t--20290815T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 22 August
+  2029
+DTSTART;TZID=Europe/Dublin:20290822T210000
+DTEND;TZID=Europe/Dublin:20290822T233000
+DTSTAMP:20260912T203926Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-22-augus
+ t--20290822T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
