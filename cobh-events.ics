@@ -13,56 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 CineSalon by the Water
-DTSTART;TZID=Europe/Dublin:20260912T190000
-DTEND;TZID=Europe/Dublin:20260912T220000
-DTSTAMP:20260911T112701Z
-UID:cobh-events-cinesalon-by-the-water-20260912T1900-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cinesalon-by-the-water/\n\nCrea
- ted by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 DJ Clokey
-DTSTART;TZID=Europe/Dublin:20260912T210000
-DTEND;TZID=Europe/Dublin:20260912T230000
-DTSTAMP:20260911T163448Z
-UID:cobh-events-dj-clokey-20260912T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dj-clokey-4/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Dermot O’Rourke
-DTSTART;TZID=Europe/Dublin:20260912T220000
-DTEND;TZID=Europe/Dublin:20260912T000000
-DTSTAMP:20260908T211530Z
-UID:cobh-events-dermot-o-rourke-20260912T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dermot-orourke-5/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20260912T220000
-DTEND;TZID=Europe/Dublin:20260912T000000
-DTSTAMP:20260909T210228Z
-UID:cobh-events-kevin-moore-20260912T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-13/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 DJ Keith
-DTSTART;TZID=Europe/Dublin:20260912T220400
-DTEND;TZID=Europe/Dublin:20260912T000400
-DTSTAMP:20260911T232035Z
-UID:cobh-events-dj-keith-20260912T2204-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dj-keith/\n\nCreated by The Arc
- h\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 St. Nicholas Brass Band
 DTSTART;TZID=Europe/Dublin:20260913T143000
 DTEND;TZID=Europe/Dublin:20260913T160000
@@ -2753,6 +2703,66 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-22-augus
  t--20290822T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-08-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 29 August
+  2029
+DTSTART;TZID=Europe/Dublin:20290829T210000
+DTEND;TZID=Europe/Dublin:20290829T233000
+DTSTAMP:20260912T230822Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-29-augus
+ t--20290829T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 Septemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20290905T210000
+DTEND;TZID=Europe/Dublin:20290905T233000
+DTSTAMP:20260912T230822Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-septem
+ be-20290905T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Septem
+ ber 2029
+DTSTART;TZID=Europe/Dublin:20290912T210000
+DTEND;TZID=Europe/Dublin:20290912T233000
+DTSTAMP:20260912T230822Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-septe
+ mb-20290912T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 Septem
+ ber 2029
+DTSTART;TZID=Europe/Dublin:20290919T210000
+DTEND;TZID=Europe/Dublin:20290919T233000
+DTSTAMP:20260912T230822Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-septe
+ mb-20290919T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 Septem
+ ber 2029
+DTSTART;TZID=Europe/Dublin:20290926T210000
+DTEND;TZID=Europe/Dublin:20290926T233000
+DTSTAMP:20260912T230822Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-septe
+ mb-20290926T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
