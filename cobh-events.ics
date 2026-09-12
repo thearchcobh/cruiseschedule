@@ -104,6 +104,16 @@ DESCRIPTION:🔗 https://incobh.com/events/dj-keith/\n\nCreated by The Arc
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 St. Nicholas Brass Band
+DTSTART;TZID=Europe/Dublin:20260913T143000
+DTEND;TZID=Europe/Dublin:20260913T160000
+DTSTAMP:20260912T105209Z
+UID:cobh-events-st-nicholas-brass-band-20260913T1430-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/st-nicholas-brass-band-2/\n\nCr
+ eated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Carillon Recital
 DTSTART;TZID=Europe/Dublin:20260913T163000
 DTEND;TZID=Europe/Dublin:20260913T173000
@@ -2736,18 +2746,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-25-july-
  20-20290725T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-07-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 1 August 
- 2029
-DTSTART;TZID=Europe/Dublin:20290801T210000
-DTEND;TZID=Europe/Dublin:20290801T233000
-DTSTAMP:20260911T232035Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-1-august
- -2-20290801T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
