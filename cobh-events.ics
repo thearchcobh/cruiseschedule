@@ -73,16 +73,6 @@ DESCRIPTION:🔗 https://incobh.com/events/lisa-from-gemini/\n\nCreated by
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Once Upon a Time In a Cinema
-DTSTART;TZID=Europe/Dublin:20260914T193000
-DTEND;TZID=Europe/Dublin:20260914T214500
-DTSTAMP:20260907T123651Z
-UID:cobh-events-once-upon-a-time-in-a-cinema-20260914T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/once-upon-a-time-in-a-cinema/\n
- \nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260916T210000
@@ -2763,6 +2753,18 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-septe
  mb-20290926T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 October
+  2029
+DTSTART;TZID=Europe/Dublin:20291003T210000
+DTEND;TZID=Europe/Dublin:20291003T233000
+DTSTAMP:20260913T115710Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-octobe
+ r--20291003T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
