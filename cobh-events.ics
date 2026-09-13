@@ -13,36 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Carillon Recital
-DTSTART;TZID=Europe/Dublin:20260913T163000
-DTEND;TZID=Europe/Dublin:20260913T173000
-DTSTAMP:20260910T112428Z
-UID:cobh-events-carillon-recital-20260913T1630-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/carillon-recital-2/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Paul Hannon
-DTSTART;TZID=Europe/Dublin:20260913T170000
-DTEND;TZID=Europe/Dublin:20260913T190000
-DTSTAMP:20260910T044819Z
-UID:cobh-events-paul-hannon-20260913T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/paul-hannon-15/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 The Urge
-DTSTART;TZID=Europe/Dublin:20260913T180000
-DTEND;TZID=Europe/Dublin:20260913T200000
-DTSTAMP:20260909T164500Z
-UID:cobh-events-the-urge-20260913T1800-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-urge-10/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
 DTSTART;TZID=Europe/Dublin:20260913T210000
 DTEND;TZID=Europe/Dublin:20260913T230000
@@ -299,6 +269,39 @@ UID:cobh-events-cobh-farmers-market-sat-19-september-2026-20260919T1000-th
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
  9-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Great Island Big Beach Cleanup (Cuskinny)
+DTSTART;TZID=Europe/Dublin:20260919T160000
+DTEND;TZID=Europe/Dublin:20260919T170000
+DTSTAMP:20260913T205517Z
+UID:cobh-events-great-island-big-beach-cleanup-cuskinny-20260919T1600-thea
+ rchcobh
+DESCRIPTION:🔗 https://incobh.com/events/great-island-big-beach-cleanup-
+ cuskinny/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Discovering Local Seaweed
+DTSTART;TZID=Europe/Dublin:20260919T170000
+DTEND;TZID=Europe/Dublin:20260919T180000
+DTSTAMP:20260913T205517Z
+UID:cobh-events-discovering-local-seaweed-20260919T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/discovering-local-seaweed/\n\nC
+ reated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Great Island Beach Cleanup (Whitepoint to Pebble Beach
+DTSTART;TZID=Europe/Dublin:20260920T180000
+DTEND;TZID=Europe/Dublin:20260920T190000
+DTSTAMP:20260913T205517Z
+UID:cobh-events-great-island-beach-cleanup-whitepoint-to-pebble-beach-2026
+ 0920T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/great-island-beach-cleanup-whit
+ epoint-to-pebble-beach/\n\nCreated by The Arch\, Cobh\nData from InCobh.co
+ m
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Hen (Greece)
