@@ -363,6 +363,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Hollyz
+DTSTART;TZID=Europe/Dublin:20260927T180000
+DTEND;TZID=Europe/Dublin:20260927T200000
+DTSTAMP:20260916T113728Z
+UID:cobh-events-the-hollyz-20260927T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-5/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260930T210000
@@ -2762,18 +2772,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-octob
  er-20291017T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 24 Octobe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291024T210000
-DTEND;TZID=Europe/Dublin:20291024T233000
-DTSTAMP:20260913T231659Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-24-octob
- er-20291024T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
