@@ -13,18 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Septem
- ber 2026
-DTSTART;TZID=Europe/Dublin:20260916T210000
-DTEND;TZID=Europe/Dublin:20260916T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-septe
- mb-20260916T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 26-09-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session - Thu 17 September 2026
 DTSTART;TZID=Europe/Dublin:20260917T184500
 DTEND;TZID=Europe/Dublin:20260917T201500
@@ -71,11 +59,11 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Cobh Animation Team Presentation
+SUMMARY:🎫 Animation Team Presentation
 DTSTART;TZID=Europe/Dublin:20260918T160000
 DTEND;TZID=Europe/Dublin:20260918T170000
-DTSTAMP:20260910T205649Z
-UID:cobh-events-cobh-animation-team-presentation-20260918T1600-thearchcobh
+DTSTAMP:20260916T234536Z
+UID:cobh-events-animation-team-presentation-20260918T1600-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-animation-team-presentatio
  n/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
@@ -111,22 +99,21 @@ DESCRIPTION:🔗 https://incobh.com/events/night-time-farmers-market/\n\nC
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Film Screening: Mná na DXP
+SUMMARY:🎫 Film: Mná na DXP
 DTSTART;TZID=Europe/Dublin:20260918T170000
 DTEND;TZID=Europe/Dublin:20260918T190000
-DTSTAMP:20260910T205649Z
-UID:cobh-events-film-screening-mn-na-dxp-20260918T1700-thearchcobh
+DTSTAMP:20260916T234536Z
+UID:cobh-events-film-mn-na-dxp-20260918T1700-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/film-screening-mna-na-dxp/\n\nC
  reated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Looking Back to the good old days with Cobh Vintage Era
+SUMMARY:🎫 Cobh Vintage Era Look Back
 DTSTART;TZID=Europe/Dublin:20260918T170000
 DTEND;TZID=Europe/Dublin:20260918T180000
-DTSTAMP:20260910T205649Z
-UID:cobh-events-looking-back-to-the-good-old-days-with-cobh-vintage-era-20
- 260918T1700-thearchcobh
+DTSTAMP:20260916T234536Z
+UID:cobh-events-cobh-vintage-era-look-back-20260918T1700-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/looking-back-to-the-good-old-da
  ys-with-cobh-vintage-era/\n\nCreated by The Arch\, Cobh\nData from InCobh.
  com
@@ -154,14 +141,23 @@ DESCRIPTION:🔗 https://incobh.com/events/culture-night-at-cobh-heritage-
 LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Live music with East Cork Songwriting Group
+SUMMARY:🎫 East Cork Songwriting Group
 DTSTART;TZID=Europe/Dublin:20260918T180000
 DTEND;TZID=Europe/Dublin:20260918T190000
-DTSTAMP:20260910T205649Z
-UID:cobh-events-live-music-with-east-cork-songwriting-group-20260918T1800-
- thearchcobh
+DTSTAMP:20260916T234536Z
+UID:cobh-events-east-cork-songwriting-group-20260918T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/live-music-with-east-cork-songw
  riting-group/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Brewhouse Quartet
+DTSTART;TZID=Europe/Dublin:20260918T180000
+DTEND;TZID=Europe/Dublin:20260918T190000
+DTSTAMP:20260916T234536Z
+UID:cobh-events-brewhouse-quartet-20260918T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/brewhouse-quartet/\n\nCreated b
+ y The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -189,14 +185,14 @@ DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-perfo
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 DJ Sean Live at Cobh Bandstand
+SUMMARY:🎫 DJ Sean
 DTSTART;TZID=Europe/Dublin:20260918T190000
 DTEND;TZID=Europe/Dublin:20260918T210000
-DTSTAMP:20260910T205649Z
-UID:cobh-events-dj-sean-live-at-cobh-bandstand-20260918T1900-thearchcobh
+DTSTAMP:20260916T234536Z
+UID:cobh-events-dj-sean-20260918T1900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dj-sean-live-at-cobh-bandstand/
  \n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Bandstand
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Evil Genius
@@ -289,6 +285,16 @@ DTSTAMP:20260916T212345Z
 UID:cobh-events-ronan-o-driscoll-20260919T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-3/\n\nCreated b
  y The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Carillon Recital
+DTSTART;TZID=Europe/Dublin:20260920T163000
+DTEND;TZID=Europe/Dublin:20260920T173000
+DTSTAMP:20260916T234536Z
+UID:cobh-events-carillon-recital-20260920T1630-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/carillon-recita/\n\nCreated by 
+ The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2752,18 +2758,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-septe
  mb-20290912T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-09-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 Septem
- ber 2029
-DTSTART;TZID=Europe/Dublin:20290919T210000
-DTEND;TZID=Europe/Dublin:20290919T233000
-DTSTAMP:20260912T230822Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-septe
- mb-20290919T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
