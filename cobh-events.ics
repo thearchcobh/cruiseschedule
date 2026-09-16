@@ -240,6 +240,16 @@ DESCRIPTION:🔗 https://incobh.com/events/culture-night-late-at-sirius-ar
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Shane Keane
+DTSTART;TZID=Europe/Dublin:20260918T220000
+DTEND;TZID=Europe/Dublin:20260918T000000
+DTSTAMP:20260916T212345Z
+UID:cobh-events-shane-keane-20260918T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/shane-keane-8/\n\nCreated by Th
+ e Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 September 2026
 DTSTART;TZID=Europe/Dublin:20260919T100000
 DTEND;TZID=Europe/Dublin:20260919T140000
@@ -272,6 +282,26 @@ DESCRIPTION:🔗 https://incobh.com/events/discovering-local-seaweed/\n\nC
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Ronan O’Driscoll
+DTSTART;TZID=Europe/Dublin:20260919T220000
+DTEND;TZID=Europe/Dublin:20260919T000000
+DTSTAMP:20260916T212345Z
+UID:cobh-events-ronan-o-driscoll-20260919T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-3/\n\nCreated b
+ y The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Catie Anderson
+DTSTART;TZID=Europe/Dublin:20260920T170000
+DTEND;TZID=Europe/Dublin:20260920T190000
+DTSTAMP:20260916T212345Z
+UID:cobh-events-catie-anderson-20260920T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/catie-anderson/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Great Island Beach Cleanup (Whitepoint to Pebble Beach
 DTSTART;TZID=Europe/Dublin:20260920T180000
 DTEND;TZID=Europe/Dublin:20260920T190000
@@ -281,6 +311,16 @@ UID:cobh-events-great-island-beach-cleanup-whitepoint-to-pebble-beach-2026
 DESCRIPTION:🔗 https://incobh.com/events/great-island-beach-cleanup-whit
  epoint-to-pebble-beach/\n\nCreated by The Arch\, Cobh\nData from InCobh.co
  m
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Mark Daly
+DTSTART;TZID=Europe/Dublin:20260920T210000
+DTEND;TZID=Europe/Dublin:20260920T230000
+DTSTAMP:20260916T212345Z
+UID:cobh-events-mark-daly-20260920T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/mark-daly-4/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2724,54 +2764,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-septe
  mb-20290919T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 Septem
- ber 2029
-DTSTART;TZID=Europe/Dublin:20290926T210000
-DTEND;TZID=Europe/Dublin:20290926T233000
-DTSTAMP:20260912T230822Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-septe
- mb-20290926T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 October
-  2029
-DTSTART;TZID=Europe/Dublin:20291003T210000
-DTEND;TZID=Europe/Dublin:20291003T233000
-DTSTAMP:20260913T115710Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-octobe
- r--20291003T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 Octobe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291010T210000
-DTEND;TZID=Europe/Dublin:20291010T233000
-DTSTAMP:20260913T162118Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-octob
- er-20291010T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 Octobe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291017T210000
-DTEND;TZID=Europe/Dublin:20291017T233000
-DTSTAMP:20260913T231659Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-octob
- er-20291017T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
