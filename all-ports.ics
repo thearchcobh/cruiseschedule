@@ -988,6 +988,18 @@ DESCRIPTION:👥 1250\n🛳 MS Marina\, Oceania Cruises\n⚓ Cobh\n🔗 ht
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🚢 Bolette — Cobh
+DTSTART;TZID=Europe/Dublin:20260920T080000
+DTEND;TZID=Europe/Dublin:20260920T170000
+DTSTAMP:20260918T044914Z
+UID:9188037-20260920-cobh-cruise-terminal-all-fred-olsen-cruise-lines-thea
+ rchcobh
+DESCRIPTION:👥 1380\n🛳 Bolette\, Fred. Olsen Cruise Lines\n⚓ Cobh\n
+ 🔗 https://www.marinetraffic.com/en/ais/details/ships/imo:9188037\n\nCre
+ ated by The Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🚢 Seven Seas Grandeur — Cobh
 DTSTART;TZID=Europe/Dublin:20260924T080000
 DTEND;TZID=Europe/Dublin:20260924T180000
