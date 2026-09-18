@@ -13,46 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 The King
-DTSTART;TZID=Europe/Dublin:20260918T213000
-DTEND;TZID=Europe/Dublin:20260918T233000
-DTSTAMP:20260918T162900Z
-UID:cobh-events-the-king-20260918T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-king-3/\n\nCreated by The A
- rch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Shane Keane
-DTSTART;TZID=Europe/Dublin:20260918T220000
-DTEND;TZID=Europe/Dublin:20260918T000000
-DTSTAMP:20260916T212345Z
-UID:cobh-events-shane-keane-20260918T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/shane-keane-8/\n\nCreated by Th
- e Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 William O’Halloran
-DTSTART;TZID=Europe/Dublin:20260918T220000
-DTEND;TZID=Europe/Dublin:20260918T000000
-DTSTAMP:20260917T114627Z
-UID:cobh-events-william-o-halloran-20260918T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/william-ohalloran-2/\n\nCreated
-  by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Paul Hannon
-DTSTART;TZID=Europe/Dublin:20260918T220000
-DTEND;TZID=Europe/Dublin:20260918T000000
-DTSTAMP:20260918T162900Z
-UID:cobh-events-paul-hannon-20260918T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/paul-hannon-16/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 September 2026
 DTSTART;TZID=Europe/Dublin:20260919T100000
 DTEND;TZID=Europe/Dublin:20260919T140000
@@ -2759,6 +2719,54 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-decemb
  er-20291205T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Decemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20291212T200000
+DTEND;TZID=Europe/Dublin:20291212T223000
+DTSTAMP:20260918T232236Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-decem
+ be-20291212T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 19 Decemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20291219T200000
+DTEND;TZID=Europe/Dublin:20291219T223000
+DTSTAMP:20260918T232236Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-19-decem
+ be-20291219T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 26 Decemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20291226T200000
+DTEND;TZID=Europe/Dublin:20291226T223000
+DTSTAMP:20260918T232236Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-26-decem
+ be-20291226T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 2 January
+  2030
+DTSTART;TZID=Europe/Dublin:20300102T200000
+DTEND;TZID=Europe/Dublin:20300102T223000
+DTSTAMP:20260918T232236Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-2-januar
+ y--20300102T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
