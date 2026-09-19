@@ -13,27 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 19 September 2026
-DTSTART;TZID=Europe/Dublin:20260919T100000
-DTEND;TZID=Europe/Dublin:20260919T140000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-cobh-farmers-market-sat-19-september-2026-20260919T1000-th
- earchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
- 9-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Tony MacK
-DTSTART;TZID=Europe/Dublin:20260919T120000
-DTEND;TZID=Europe/Dublin:20260919T140000
-DTSTAMP:20260917T114627Z
-UID:cobh-events-tony-mack-20260919T1200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/tony-mack-6/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Great Island Big Beach Cleanup (Cuskinny)
 DTSTART;TZID=Europe/Dublin:20260919T160000
 DTEND;TZID=Europe/Dublin:20260919T170000
@@ -65,16 +44,6 @@ DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-3/\n\nCreated by
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Ronan O’Driscoll
-DTSTART;TZID=Europe/Dublin:20260919T220000
-DTEND;TZID=Europe/Dublin:20260919T000000
-DTSTAMP:20260916T212345Z
-UID:cobh-events-ronan-o-driscoll-20260919T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-3/\n\nCreated b
- y The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 DJ Killian
 DTSTART;TZID=Europe/Dublin:20260919T220000
 DTEND;TZID=Europe/Dublin:20260919T000000
@@ -82,6 +51,16 @@ DTSTAMP:20260917T114627Z
 UID:cobh-events-dj-killian-20260919T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dj-killian-4/\n\nCreated by The
   Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Ronan O’Driscoll
+DTSTART;TZID=Europe/Dublin:20260919T220000
+DTEND;TZID=Europe/Dublin:20260919T000000
+DTSTAMP:20260919T155900Z
+UID:cobh-events-ronan-o-driscoll-20260919T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-4/\n\nCreated b
+ y The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2767,6 +2746,42 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-2-januar
  y--20300102T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 January
+  2030
+DTSTART;TZID=Europe/Dublin:20300109T200000
+DTEND;TZID=Europe/Dublin:20300109T223000
+DTSTAMP:20260919T155900Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-januar
+ y--20300109T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Januar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300116T200000
+DTEND;TZID=Europe/Dublin:20300116T223000
+DTSTAMP:20260919T155900Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-janua
+ ry-20300116T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Januar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300123T200000
+DTEND;TZID=Europe/Dublin:20300123T223000
+DTSTAMP:20260919T155900Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-janua
+ ry-20300123T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
