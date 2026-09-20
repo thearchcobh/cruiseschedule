@@ -13,38 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Carillon Recital
-DTSTART;TZID=Europe/Dublin:20260920T163000
-DTEND;TZID=Europe/Dublin:20260920T173000
-DTSTAMP:20260916T234536Z
-UID:cobh-events-carillon-recital-20260920T1630-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/carillon-recita/\n\nCreated by 
- The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Catie Anderson
-DTSTART;TZID=Europe/Dublin:20260920T170000
-DTEND;TZID=Europe/Dublin:20260920T190000
-DTSTAMP:20260916T212345Z
-UID:cobh-events-catie-anderson-20260920T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/catie-anderson/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Great Island Beach Cleanup (Whitepoint to Pebble Beach
-DTSTART;TZID=Europe/Dublin:20260920T180000
-DTEND;TZID=Europe/Dublin:20260920T190000
-DTSTAMP:20260913T205517Z
-UID:cobh-events-great-island-beach-cleanup-whitepoint-to-pebble-beach-2026
- 0920T1800-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/great-island-beach-cleanup-whit
- epoint-to-pebble-beach/\n\nCreated by The Arch\, Cobh\nData from InCobh.co
- m
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Mark Daly
 DTSTART;TZID=Europe/Dublin:20260920T210000
 DTEND;TZID=Europe/Dublin:20260920T230000
@@ -1105,13 +1073,13 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 June 2
  027
 DTSTART;TZID=Europe/Dublin:20270623T210000
-DTEND;TZID=Europe/Dublin:20270623T230000
-DTSTAMP:20260920T161122Z
+DTEND;TZID=Europe/Dublin:20270623T233000
+DTSTAMP:20260920T205434Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-june-
  20-20270623T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  27-06-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
+LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 June 2
@@ -2803,6 +2771,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-march-
  20-20300306T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300313T200000
+DTEND;TZID=Europe/Dublin:20300313T223000
+DTSTAMP:20260920T205434Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-march
+ -2-20300313T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 March 
+ 2030
+DTSTART;TZID=Europe/Dublin:20300320T200000
+DTEND;TZID=Europe/Dublin:20300320T223000
+DTSTAMP:20260920T205434Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
+ -2-20300320T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
