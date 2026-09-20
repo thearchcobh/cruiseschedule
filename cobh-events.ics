@@ -1105,13 +1105,13 @@ BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 June 2
  027
 DTSTART;TZID=Europe/Dublin:20270623T210000
-DTEND;TZID=Europe/Dublin:20270623T233000
-DTSTAMP:20260825T175911Z
+DTEND;TZID=Europe/Dublin:20270623T230000
+DTSTAMP:20260920T161122Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-june-
  20-20270623T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  27-06-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 June 2
