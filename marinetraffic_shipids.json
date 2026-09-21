@@ -95,6 +95,13 @@
       "shipid": "3380256",
       "vessel": "Ambition"
     },
+    "9188037": {
+      "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9188037",
+      "imo": "9188037",
+      "last_attempt_at": "2026-09-21T13:21:06Z",
+      "shipid": null,
+      "vessel": "Bolette"
+    },
     "9210218": {
       "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9210218",
       "imo": "9210218",
@@ -326,6 +333,6 @@
       "vessel": "Douglas Mawson"
     }
   },
-  "updated_at": "2026-08-25T18:54:16Z",
+  "updated_at": "2026-09-21T13:21:06Z",
   "version": 1
 }
