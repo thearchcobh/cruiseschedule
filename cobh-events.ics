@@ -150,6 +150,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Rev Disco Cobh
+DTSTART;TZID=Europe/Dublin:20261003T083000
+DTEND;TZID=Europe/Dublin:20261003T223000
+DTSTAMP:20260922T114241Z
+UID:cobh-events-rev-disco-cobh-20261003T0830-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/rev-disco-cobh/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
 DTSTART;TZID=Europe/Dublin:20261003T100000
 DTEND;TZID=Europe/Dublin:20261003T140000
@@ -2791,18 +2801,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
  -2-20300410T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300417T210000
-DTEND;TZID=Europe/Dublin:20300417T233000
-DTSTAMP:20260922T001118Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-april
- -2-20300417T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
