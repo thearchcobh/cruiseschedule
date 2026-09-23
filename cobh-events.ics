@@ -25,6 +25,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Katie McGroarty
+DTSTART;TZID=Europe/Dublin:20260923T213000
+DTEND;TZID=Europe/Dublin:20260923T233000
+DTSTAMP:20260923T114139Z
+UID:cobh-events-katie-mcgroarty-20260923T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-14/\n\nCreated 
+ by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session - Thu 24 September 2026
 DTSTART;TZID=Europe/Dublin:20260924T184500
 DTEND;TZID=Europe/Dublin:20260924T201500
@@ -2789,18 +2799,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-april-
  20-20300403T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300410T210000
-DTEND;TZID=Europe/Dublin:20300410T233000
-DTSTAMP:20260921T200411Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
- -2-20300410T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
