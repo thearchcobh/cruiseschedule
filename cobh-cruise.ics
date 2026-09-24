@@ -796,6 +796,17 @@ DESCRIPTION:👥 184\n🛳 Le Laperouse\, Ponant\n🔗 https://www.marinet
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🟢 ? Test Vessel — 646 pax
+DTSTART;TZID=Europe/Dublin:20260930T080000
+DTEND;TZID=Europe/Dublin:20260930T120000
+DTSTAMP:20260924T045552Z
+UID:936254213-20260930-cobh-test-booking-line-thearchcobh
+DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n🔗 https://w
+ ww.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreated by The 
+ Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🔴 $ MSC Virtuosa — 6297 pax
 DTSTART;TZID=Europe/Dublin:20260930T140000
 DTEND;TZID=Europe/Dublin:20261001T180000
