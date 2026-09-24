@@ -13,28 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Cobh Trad Learning Session - Thu 24 September 2026
-DTSTART;TZID=Europe/Dublin:20260924T184500
-DTEND;TZID=Europe/Dublin:20260924T201500
-DTSTAMP:20260907T123651Z
-UID:cobh-events-cobh-trad-learning-session-thu-24-september-2026-20260924T
- 1845-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
- =2026-09-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Acting Classes - Thu 24 September 2026
-DTSTART;TZID=Europe/Dublin:20260924T193000
-DTEND;TZID=Europe/Dublin:20260924T210000
-DTSTAMP:20260911T163448Z
-UID:cobh-events-acting-classes-thu-24-september-2026-20260924T1930-thearch
- cobh
-DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-09-24\
- n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 24 September 2026
 DTSTART;TZID=Europe/Dublin:20260924T200000
 DTEND;TZID=Europe/Dublin:20260924T233000
@@ -2779,6 +2757,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-janua
  ry-20300130T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 Februar
+ y 2030
+DTSTART;TZID=Europe/Dublin:20300206T200000
+DTEND;TZID=Europe/Dublin:20300206T223000
+DTSTAMP:20260924T213648Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-februa
+ ry-20300206T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 Februa
+ ry 2030
+DTSTART;TZID=Europe/Dublin:20300213T200000
+DTEND;TZID=Europe/Dublin:20300213T223000
+DTSTAMP:20260924T213648Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-febru
+ ar-20300213T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
