@@ -1013,9 +1013,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cobh
-DTSTART;TZID=Europe/Dublin:20260927T080000
+DTSTART;TZID=Europe/Dublin:20260927T081500
 DTEND;TZID=Europe/Dublin:20260927T140000
-DTSTAMP:20260825T155837Z
+DTSTAMP:20260925T050336Z
 UID:9814026-20260927-cobh-cruise-terminal-all-ponant-thearchcobh
 DESCRIPTION:👥 184\n🛳 Le Laperouse\, Ponant\n⚓ Cobh\n🔗 https://w
  ww.marinetraffic.com/en/ais/details/ships/imo:9814026\n\nCreated by The Ar
