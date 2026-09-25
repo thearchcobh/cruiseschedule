@@ -23,6 +23,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-ramblers-v-athlone-town/\n
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Kevin Moore
+DTSTART;TZID=Europe/Dublin:20260925T214500
+DTEND;TZID=Europe/Dublin:20260925T234500
+DTSTAMP:20260925T171651Z
+UID:cobh-events-kevin-moore-20260925T2145-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-14/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Paul Hannon
 DTSTART;TZID=Europe/Dublin:20260925T220000
 DTEND;TZID=Europe/Dublin:20260925T000000
@@ -40,6 +50,16 @@ DTSTAMP:20260923T213550Z
 UID:cobh-events-andrew-foley-20260925T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/andrew-foley-2/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Live Music
+DTSTART;TZID=Europe/Dublin:20260925T220000
+DTEND;TZID=Europe/Dublin:20260925T000000
+DTSTAMP:20260925T171651Z
+UID:cobh-events-live-music-20260925T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/live-music/\n\nCreated by The A
+ rch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -64,6 +84,16 @@ DESCRIPTION:🔗 https://incobh.com/events/brian-murphy-4/\n\nCreated by T
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Banjo Jim & Tim
+DTSTART;TZID=Europe/Dublin:20260926T214500
+DTEND;TZID=Europe/Dublin:20260926T234500
+DTSTAMP:20260925T171651Z
+UID:cobh-events-banjo-jim-tim-20260926T2145-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/banjo-jim-tim-3/\n\nCreated by 
+ The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Shane Keane
 DTSTART;TZID=Europe/Dublin:20260926T220000
 DTEND;TZID=Europe/Dublin:20260926T000000
@@ -81,6 +111,16 @@ DTSTAMP:20260923T213550Z
 UID:cobh-events-brian-oglanby-20260926T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-16/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 DJ Killian
+DTSTART;TZID=Europe/Dublin:20260926T220000
+DTEND;TZID=Europe/Dublin:20260926T000000
+DTSTAMP:20260925T171651Z
+UID:cobh-events-dj-killian-20260926T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-killian-5/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -121,6 +161,16 @@ DTSTAMP:20260923T213550Z
 UID:cobh-events-brendan-mccarthy-20260927T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brendan-mccarthy-5/\n\nCreated 
  by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Jamie Shine
+DTSTART;TZID=Europe/Dublin:20260927T210000
+DTEND;TZID=Europe/Dublin:20260927T230000
+DTSTAMP:20260925T171651Z
+UID:cobh-events-jamie-shine-20260927T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/jamie-shine/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -378,6 +428,16 @@ DTSTAMP:20260923T170306Z
 UID:cobh-events-brian-oglanby-20261017T1200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-15/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Screening – The Presidents Cake
+DTSTART;TZID=Europe/Dublin:20261019T194500
+DTEND;TZID=Europe/Dublin:20261019T220000
+DTSTAMP:20260925T171651Z
+UID:cobh-events-screening-the-presidents-cake-20261019T1945-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/screening-the-presidents-cake/\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2705,78 +2765,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-2-januar
  y--20300102T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 9 January
-  2030
-DTSTART;TZID=Europe/Dublin:20300109T200000
-DTEND;TZID=Europe/Dublin:20300109T223000
-DTSTAMP:20260919T155900Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-9-januar
- y--20300109T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 16 Januar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300116T200000
-DTEND;TZID=Europe/Dublin:20300116T223000
-DTSTAMP:20260919T155900Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-16-janua
- ry-20300116T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 23 Januar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300123T200000
-DTEND;TZID=Europe/Dublin:20300123T223000
-DTSTAMP:20260924T045552Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-janua
- ry-20300123T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Januar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300130T200000
-DTEND;TZID=Europe/Dublin:20300130T223000
-DTSTAMP:20260924T045552Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-janua
- ry-20300130T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 6 Februar
- y 2030
-DTSTART;TZID=Europe/Dublin:20300206T200000
-DTEND;TZID=Europe/Dublin:20300206T223000
-DTSTAMP:20260924T213648Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-februa
- ry-20300206T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 Februa
- ry 2030
-DTSTART;TZID=Europe/Dublin:20300213T200000
-DTEND;TZID=Europe/Dublin:20300213T223000
-DTSTAMP:20260924T213648Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-febru
- ar-20300213T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
