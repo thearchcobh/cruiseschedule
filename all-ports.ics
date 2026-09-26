@@ -1012,6 +1012,18 @@ DESCRIPTION:👥 750\n🛳 Seven Seas Grandeur\, Regent Seven Seas\n⚓ Co
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🚢 Test Vessel — Cobh
+DTSTART;TZID=Europe/Dublin:20260926T080000
+DTEND;TZID=Europe/Dublin:20260926T120000
+DTSTAMP:20260926T050229Z
+UID:936254213-20260926-cobh-cruise-terminal-all-test-booking-line-thearchc
+ obh
+DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
+  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
+ ed by The Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cobh
 DTSTART;TZID=Europe/Dublin:20260927T081500
 DTEND;TZID=Europe/Dublin:20260927T140000
