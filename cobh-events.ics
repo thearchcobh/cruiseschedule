@@ -13,27 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 26 September 2026
-DTSTART;TZID=Europe/Dublin:20260926T100000
-DTEND;TZID=Europe/Dublin:20260926T140000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-cobh-farmers-market-sat-26-september-2026-20260926T1000-th
- earchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-0
- 9-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Brian Murphy
-DTSTART;TZID=Europe/Dublin:20260926T120000
-DTEND;TZID=Europe/Dublin:20260926T140000
-DTSTAMP:20260923T170306Z
-UID:cobh-events-brian-murphy-20260926T1200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-murphy-4/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Banjo Jim & Tim
 DTSTART;TZID=Europe/Dublin:20260926T214500
 DTEND;TZID=Europe/Dublin:20260926T234500
@@ -2775,6 +2754,30 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-6-februa
  ry-20300206T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 13 Februa
+ ry 2030
+DTSTART;TZID=Europe/Dublin:20300213T200000
+DTEND;TZID=Europe/Dublin:20300213T223000
+DTSTAMP:20260926T162856Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-13-febru
+ ar-20300213T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 20 Februa
+ ry 2030
+DTSTART;TZID=Europe/Dublin:20300220T200000
+DTEND;TZID=Europe/Dublin:20300220T223000
+DTSTAMP:20260926T162856Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-febru
+ ar-20300220T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
