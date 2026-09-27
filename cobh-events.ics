@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Carillon Recital
-DTSTART;TZID=Europe/Dublin:20260927T163000
-DTEND;TZID=Europe/Dublin:20260927T173000
-DTSTAMP:20260923T213550Z
-UID:cobh-events-carillon-recital-20260927T1630-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/carillon-recital-4/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Dermie O’Rourke
 DTSTART;TZID=Europe/Dublin:20260927T170000
 DTEND;TZID=Europe/Dublin:20260927T190000
@@ -121,16 +111,6 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Rev Disco Cobh
-DTSTART;TZID=Europe/Dublin:20261003T083000
-DTEND;TZID=Europe/Dublin:20261003T223000
-DTSTAMP:20260922T114241Z
-UID:cobh-events-rev-disco-cobh-20261003T0830-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/rev-disco-cobh/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
 DTSTART;TZID=Europe/Dublin:20261003T100000
 DTEND;TZID=Europe/Dublin:20261003T140000
@@ -149,6 +129,37 @@ DTSTAMP:20260923T170306Z
 UID:cobh-events-brian-oglanby-20261003T1200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-14/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Blessing Of The Animals
+DTSTART;TZID=Europe/Dublin:20261003T140000
+DTEND;TZID=Europe/Dublin:20261003T160000
+DTSTAMP:20260927T170400Z
+UID:cobh-events-blessing-of-the-animals-20261003T1400-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/blessing-of-the-animals/\n\nCre
+ ated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Rev Disco Cobh
+DTSTART;TZID=Europe/Dublin:20261003T203000
+DTEND;TZID=Europe/Dublin:20261003T223000
+DTSTAMP:20260927T170400Z
+UID:cobh-events-rev-disco-cobh-20261003T2030-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/rev-disco-cobh/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Junior Infant open day for Sep 2027
+DTSTART;TZID=Europe/Dublin:20261006T133000
+DTEND;TZID=Europe/Dublin:20261006T143000
+DTSTAMP:20260927T170400Z
+UID:cobh-events-junior-infant-open-day-for-sep-2027-20261006T1330-thearchc
+ obh
+DESCRIPTION:🔗 https://incobh.com/events/junior-infant-open-day-for-sep-
+ 2027/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
