@@ -841,9 +841,9 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🟠 $ Norwegian Sun — 2400 pax
-DTSTART;TZID=Europe/Dublin:20261015T070000
-DTEND;TZID=Europe/Dublin:20261015T180000
-DTSTAMP:20260825T155837Z
+DTSTART;TZID=Europe/Dublin:20261015T063000
+DTEND;TZID=Europe/Dublin:20261015T160000
+DTSTAMP:20260927T052242Z
 UID:9218131-20261015-cobh-norwegian-cruise-line-thearchcobh
 DESCRIPTION:👥 2400\n🛳 Norwegian Sun\, Norwegian Cruise Line\n🔗 ht
  tps://www.marinetraffic.com/en/ais/details/ships/imo:9218131\n\nCreated by
