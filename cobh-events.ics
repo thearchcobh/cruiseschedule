@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Brendan McCarthy
-DTSTART;TZID=Europe/Dublin:20260927T210000
-DTEND;TZID=Europe/Dublin:20260927T230000
-DTSTAMP:20260923T213550Z
-UID:cobh-events-brendan-mccarthy-20260927T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brendan-mccarthy-5/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Jamie Shine
-DTSTART;TZID=Europe/Dublin:20260927T210000
-DTEND;TZID=Europe/Dublin:20260927T230000
-DTSTAMP:20260925T171651Z
-UID:cobh-events-jamie-shine-20260927T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/jamie-shine/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Septem
  ber 2026
 DTSTART;TZID=Europe/Dublin:20260930T210000
@@ -459,6 +439,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Hollyz
+DTSTART;TZID=Europe/Dublin:20261101T170000
+DTEND;TZID=Europe/Dublin:20261101T190000
+DTSTAMP:20260928T052900Z
+UID:cobh-events-the-hollyz-20261101T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-6/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 4 Novembe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261104T200000
@@ -638,6 +628,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Hollyz
+DTSTART;TZID=Europe/Dublin:20261129T170000
+DTEND;TZID=Europe/Dublin:20261129T190000
+DTSTAMP:20260928T052900Z
+UID:cobh-events-the-hollyz-20261129T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-7/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 2 Decembe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261202T200000
@@ -750,6 +750,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-23-decem
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-12-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 The Hollyz
+DTSTART;TZID=Europe/Dublin:20261227T170000
+DTEND;TZID=Europe/Dublin:20261227T190000
+DTSTAMP:20260928T052900Z
+UID:cobh-events-the-hollyz-20261227T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-8/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Decemb
@@ -2813,18 +2823,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
  -2-20300410T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 17 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300417T210000
-DTEND;TZID=Europe/Dublin:20300417T233000
-DTSTAMP:20260927T212537Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-17-april
- -2-20300417T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
