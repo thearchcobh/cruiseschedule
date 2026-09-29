@@ -71,6 +71,36 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 The Music Of Liam Lawton
+DTSTART;TZID=Europe/Dublin:20261002T193000
+DTEND;TZID=Europe/Dublin:20261002T213000
+DTSTAMP:20260929T181104Z
+UID:cobh-events-the-music-of-liam-lawton-20261002T1930-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-music-of-liam-lawton/\n\nCr
+ eated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Florin Nolan: A World in Bloom
+DTSTART;TZID=Europe/Dublin:20261003T000000
+DTEND;TZID=Europe/Dublin:20261121T225900
+DTSTAMP:20260929T181104Z
+UID:cobh-events-florin-nolan-a-world-in-bloom-20261003T0000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Shirani Bolle: When We Are Trees
+DTSTART;TZID=Europe/Dublin:20261003T000000
+DTEND;TZID=Europe/Dublin:20261003T235900
+DTSTAMP:20260929T181104Z
+UID:cobh-events-shirani-bolle-when-we-are-trees-20261003T0000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/shirani-bolle-when-we-are-trees
+ /\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
 DTSTART;TZID=Europe/Dublin:20261003T100000
 DTEND;TZID=Europe/Dublin:20261003T140000
@@ -2787,30 +2817,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-20-march
  -2-20300320T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 27 March 
- 2030
-DTSTART;TZID=Europe/Dublin:20300327T200000
-DTEND;TZID=Europe/Dublin:20300327T223000
-DTSTAMP:20260926T234405Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-27-march
- -2-20300327T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 3 April 2
- 030
-DTSTART;TZID=Europe/Dublin:20300403T210000
-DTEND;TZID=Europe/Dublin:20300403T233000
-DTSTAMP:20260926T234405Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-3-april-
- 20-20300403T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
