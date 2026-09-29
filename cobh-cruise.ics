@@ -819,10 +819,10 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 $ MSC Virtuosa — 6297 pax
-DTSTART;TZID=Europe/Dublin:20260930T140000
-DTEND;TZID=Europe/Dublin:20261001T180000
-DTSTAMP:20260825T155837Z
-UID:9803625-20260930-cobh-msc-cruises-thearchcobh
+DTSTART;TZID=Europe/Dublin:20261001T074500
+DTEND;TZID=Europe/Dublin:20261002T080000
+DTSTAMP:20260929T095511Z
+UID:9803625-20261001-cobh-msc-cruises-thearchcobh
 DESCRIPTION:👥 6297\n🛳 MSC Virtuosa\, MSC Cruises\n🔗 https://www.m
  arinetraffic.com/en/ais/details/ships/imo:9803625\n\nCreated by The Arch\,
   Cobh\nData from PortofCork.ie

@@ -2813,16 +2813,4 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 10 April 
- 2030
-DTSTART;TZID=Europe/Dublin:20300410T210000
-DTEND;TZID=Europe/Dublin:20300410T233000
-DTSTAMP:20260927T212537Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-10-april
- -2-20300410T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
 END:VCALENDAR
