@@ -13,38 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Gavin Baxter
-DTSTART;TZID=Europe/Dublin:20260930T200000
-DTEND;TZID=Europe/Dublin:20260930T220000
-DTSTAMP:20260929T221959Z
-UID:cobh-events-gavin-baxter-20260930T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/gavin-baxter-2/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 30 Septem
- ber 2026
-DTSTART;TZID=Europe/Dublin:20260930T210000
-DTEND;TZID=Europe/Dublin:20260930T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-30-septe
- mb-20260930T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 26-09-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Katie McGroarty
-DTSTART;TZID=Europe/Dublin:20260930T213000
-DTEND;TZID=Europe/Dublin:20260930T233000
-DTSTAMP:20260930T124000Z
-UID:cobh-events-katie-mcgroarty-20260930T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-15/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
 DTSTART;TZID=Europe/Dublin:20261001T180000
 DTEND;TZID=Europe/Dublin:20261001T200000
@@ -52,6 +20,16 @@ DTSTAMP:20260930T200605Z
 UID:cobh-events-katie-mcgroarty-20261001T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-16/\n\nCreated 
  by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Kevin Moore
+DTSTART;TZID=Europe/Dublin:20261001T180000
+DTEND;TZID=Europe/Dublin:20261001T200000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-kevin-moore-20261001T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-15/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -86,6 +64,16 @@ UID:cobh-events-mad-for-trad-at-kelly-s-thu-1-october-2026-20261001T2000-t
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Kelly's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Gavin Baxter
+DTSTART;TZID=Europe/Dublin:20261001T200000
+DTEND;TZID=Europe/Dublin:20261001T220000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-gavin-baxter-20261001T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/gavin-baxter-2/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 1 October 
@@ -131,26 +119,6 @@ DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-16/\n\nCreated by T
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Florin Nolan: A World in Bloom
-DTSTART;TZID=Europe/Dublin:20261003T000000
-DTEND;TZID=Europe/Dublin:20261121T225900
-DTSTAMP:20260929T181104Z
-UID:cobh-events-florin-nolan-a-world-in-bloom-20261003T0000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
- n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Shirani Bolle: When We Are Trees
-DTSTART;TZID=Europe/Dublin:20261003T000000
-DTEND;TZID=Europe/Dublin:20261003T235900
-DTSTAMP:20260929T181104Z
-UID:cobh-events-shirani-bolle-when-we-are-trees-20261003T0000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/shirani-bolle-when-we-are-trees
- /\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 3 October 2026
 DTSTART;TZID=Europe/Dublin:20261003T100000
 DTEND;TZID=Europe/Dublin:20261003T140000
@@ -160,6 +128,26 @@ UID:cobh-events-cobh-farmers-market-sat-3-october-2026-20261003T1000-thear
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  0-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Florin Nolan: A World in Bloom
+DTSTART;TZID=Europe/Dublin:20261003T110000
+DTEND;TZID=Europe/Dublin:20261121T160000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-florin-nolan-a-world-in-bloom-20261003T1100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Shirani Bolle: When We Are Trees
+DTSTART;TZID=Europe/Dublin:20261003T110000
+DTEND;TZID=Europe/Dublin:20261003T170000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-shirani-bolle-when-we-are-trees-20261003T1100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/shirani-bolle-when-we-are-trees
+ /\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Brian OGlanby
@@ -326,6 +314,16 @@ UID:cobh-events-mad-for-trad-at-kelly-s-thu-8-october-2026-20261008T2000-t
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Kelly's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Pirates – Table Quiz
+DTSTART;TZID=Europe/Dublin:20261008T200000
+DTEND;TZID=Europe/Dublin:20261008T223000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-cobh-pirates-table-quiz-20261008T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-pirates-table-quiz/\n\nCre
+ ated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 8 October 
@@ -596,16 +594,6 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  high-chaperal/?gde=2026-10-29\n\nCreated by The Arch\, Cobh\nData from InC
  obh.com
 LOCATION:The High Chaperal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20261030T170000
-DTEND;TZID=Europe/Dublin:20261030T190000
-DTSTAMP:20260930T124000Z
-UID:cobh-events-kevin-moore-20261030T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-15/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 31 October 2026
@@ -2787,6 +2775,18 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-decemb
  er-20291205T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Decemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20291212T200000
+DTEND;TZID=Europe/Dublin:20291212T223000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-decem
+ be-20291212T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
