@@ -55,15 +55,15 @@ DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-01\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 1 October 2026
+SUMMARY:🎵 Mad for Trad at Kellys - Thu 1 October 2026
 DTSTART;TZID=Europe/Dublin:20261001T200000
 DTEND;TZID=Europe/Dublin:20261001T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-1-october-2026-20261001T2000-t
- hearchcobh
+DTSTAMP:20261001T183045Z
+UID:cobh-events-mad-for-trad-at-kellys-thu-1-october-2026-20261001T2000-th
+ earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
+LOCATION:Kellys
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Gavin Baxter
@@ -130,16 +130,6 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Florin Nolan: A World in Bloom
-DTSTART;TZID=Europe/Dublin:20261003T110000
-DTEND;TZID=Europe/Dublin:20261121T160000
-DTSTAMP:20261001T101307Z
-UID:cobh-events-florin-nolan-a-world-in-bloom-20261003T1100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
- n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Shirani Bolle: When We Are Trees
 DTSTART;TZID=Europe/Dublin:20261003T110000
 DTEND;TZID=Europe/Dublin:20261003T170000
@@ -147,6 +137,16 @@ DTSTAMP:20261001T101307Z
 UID:cobh-events-shirani-bolle-when-we-are-trees-20261003T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/shirani-bolle-when-we-are-trees
  /\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Florin Nolan: A World in Bloom
+DTSTART;TZID=Europe/Dublin:20261003T110000
+DTEND;TZID=Europe/Dublin:20261121T160000
+DTSTAMP:20261001T101307Z
+UID:cobh-events-florin-nolan-a-world-in-bloom-20261003T1100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
+ n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -305,15 +305,15 @@ DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-08\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 8 October 2026
+SUMMARY:🎵 Mad for Trad at Kellys - Thu 8 October 2026
 DTSTART;TZID=Europe/Dublin:20261008T200000
 DTEND;TZID=Europe/Dublin:20261008T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-8-october-2026-20261008T2000-t
- hearchcobh
+DTSTAMP:20261001T183045Z
+UID:cobh-events-mad-for-trad-at-kellys-thu-8-october-2026-20261008T2000-th
+ earchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
+LOCATION:Kellys
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Cobh Pirates – Table Quiz
@@ -414,15 +414,15 @@ DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-15\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 15 October 2026
+SUMMARY:🎵 Mad for Trad at Kellys - Thu 15 October 2026
 DTSTART;TZID=Europe/Dublin:20261015T200000
 DTEND;TZID=Europe/Dublin:20261015T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-15-october-2026-20261015T2000-
- thearchcobh
+DTSTAMP:20261001T183045Z
+UID:cobh-events-mad-for-trad-at-kellys-thu-15-october-2026-20261015T2000-t
+ hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
+LOCATION:Kellys
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 15 October
@@ -503,15 +503,15 @@ DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-22\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 22 October 2026
+SUMMARY:🎵 Mad for Trad at Kellys - Thu 22 October 2026
 DTSTART;TZID=Europe/Dublin:20261022T200000
 DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-22-october-2026-20261022T2000-
- thearchcobh
+DTSTAMP:20261001T183045Z
+UID:cobh-events-mad-for-trad-at-kellys-thu-22-october-2026-20261022T2000-t
+ hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
+LOCATION:Kellys
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 22 October
@@ -538,6 +538,39 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Halloween Storytelling - Mon 26 October 2026
+DTSTART;TZID=Europe/Dublin:20261026T140000
+DTEND;TZID=Europe/Dublin:20261026T160000
+DTSTAMP:20261001T183045Z
+UID:cobh-events-halloween-storytelling-mon-26-october-2026-20261026T1400-t
+ hearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
+ 6-10-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Halloween Storytelling - Tue 27 October 2026
+DTSTART;TZID=Europe/Dublin:20261027T140000
+DTEND;TZID=Europe/Dublin:20261027T160000
+DTSTAMP:20261001T183045Z
+UID:cobh-events-halloween-storytelling-tue-27-october-2026-20261027T1400-t
+ hearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
+ 6-10-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Halloween Storytelling - Wed 28 October 2026
+DTSTART;TZID=Europe/Dublin:20261028T140000
+DTEND;TZID=Europe/Dublin:20261028T160000
+DTSTAMP:20261001T183045Z
+UID:cobh-events-halloween-storytelling-wed-28-october-2026-20261028T1400-t
+ hearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
+ 6-10-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 28 Octobe
  r 2026
 DTSTART;TZID=Europe/Dublin:20261028T200000
@@ -548,6 +581,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-28-octob
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Halloween Storytelling - Thu 29 October 2026
+DTSTART;TZID=Europe/Dublin:20261029T140000
+DTEND;TZID=Europe/Dublin:20261029T160000
+DTSTAMP:20261001T183045Z
+UID:cobh-events-halloween-storytelling-thu-29-october-2026-20261029T1400-t
+ hearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
+ 6-10-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session - Thu 29 October 2026
@@ -572,15 +616,15 @@ DESCRIPTION:🔗 https://incobh.com/events/acting-classes/?gde=2026-10-29\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kelly’s - Thu 29 October 2026
+SUMMARY:🎵 Mad for Trad at Kellys - Thu 29 October 2026
 DTSTART;TZID=Europe/Dublin:20261029T190000
 DTEND;TZID=Europe/Dublin:20261029T223000
-DTSTAMP:20260825T175911Z
-UID:cobh-events-mad-for-trad-at-kelly-s-thu-29-october-2026-20261029T1900-
- thearchcobh
+DTSTAMP:20261001T183045Z
+UID:cobh-events-mad-for-trad-at-kellys-thu-29-october-2026-20261029T1900-t
+ hearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kelly's
+LOCATION:Kellys
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal - Thu 29 October
@@ -594,6 +638,17 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  high-chaperal/?gde=2026-10-29\n\nCreated by The Arch\, Cobh\nData from InC
  obh.com
 LOCATION:The High Chaperal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Halloween Storytelling - Fri 30 October 2026
+DTSTART;TZID=Europe/Dublin:20261030T140000
+DTEND;TZID=Europe/Dublin:20261030T160000
+DTSTAMP:20261001T183045Z
+UID:cobh-events-halloween-storytelling-fri-30-october-2026-20261030T1400-t
+ hearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
+ 6-10-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market - Sat 31 October 2026
@@ -2727,66 +2782,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-7-novemb
  er-20291107T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-11-07\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 14 Novemb
- er 2029
-DTSTART;TZID=Europe/Dublin:20291114T200000
-DTEND;TZID=Europe/Dublin:20291114T223000
-DTSTAMP:20260918T205926Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-14-novem
- be-20291114T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-11-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 21 Novemb
- er 2029
-DTSTART;TZID=Europe/Dublin:20291121T200000
-DTEND;TZID=Europe/Dublin:20291121T223000
-DTSTAMP:20260918T205926Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-21-novem
- be-20291121T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-11-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 28 Novemb
- er 2029
-DTSTART;TZID=Europe/Dublin:20291128T200000
-DTEND;TZID=Europe/Dublin:20291128T223000
-DTSTAMP:20260918T205926Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-28-novem
- be-20291128T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-11-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 5 Decembe
- r 2029
-DTSTART;TZID=Europe/Dublin:20291205T200000
-DTEND;TZID=Europe/Dublin:20291205T223000
-DTSTAMP:20260918T205926Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-decemb
- er-20291205T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Decemb
- er 2029
-DTSTART;TZID=Europe/Dublin:20291212T200000
-DTEND;TZID=Europe/Dublin:20291212T223000
-DTSTAMP:20261001T101307Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-decem
- be-20291212T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
