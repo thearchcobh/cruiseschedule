@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 The Music Of Liam Lawton
-DTSTART;TZID=Europe/Dublin:20261002T193000
-DTEND;TZID=Europe/Dublin:20261002T213000
-DTSTAMP:20260929T181104Z
-UID:cobh-events-the-music-of-liam-lawton-20261002T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-music-of-liam-lawton/\n\nCr
- eated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Ben Hurley
 DTSTART;TZID=Europe/Dublin:20261002T213000
 DTEND;TZID=Europe/Dublin:20261002T233000
@@ -2784,6 +2774,18 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-5-decemb
  er-20291205T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey - Wed 12 Decemb
+ er 2029
+DTSTART;TZID=Europe/Dublin:20291212T200000
+DTEND;TZID=Europe/Dublin:20291212T223000
+DTSTAMP:20261002T221859Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-wed-12-decem
+ be-20291212T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
