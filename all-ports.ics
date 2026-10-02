@@ -1012,18 +1012,6 @@ DESCRIPTION:👥 750\n🛳 Seven Seas Grandeur\, Regent Seven Seas\n⚓ Co
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🚢 Test Vessel — Cobh
-DTSTART;TZID=Europe/Dublin:20260926T080000
-DTEND;TZID=Europe/Dublin:20260926T120000
-DTSTAMP:20260926T050229Z
-UID:936254213-20260926-cobh-cruise-terminal-all-test-booking-line-thearchc
- obh
-DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
-  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
- ed by The Arch\, Cobh\nData from PortofCork.ie
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🚢 Le Laperouse — Cobh
 DTSTART;TZID=Europe/Dublin:20260927T081500
 DTEND;TZID=Europe/Dublin:20260927T140000
@@ -1046,18 +1034,6 @@ DESCRIPTION:👥 0\n🛳 World Voyager\, Nicko\n⚓ Cork City\n🔗 https:
 LOCATION:Cork City
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🚢 Test Vessel — Cobh
-DTSTART;TZID=Europe/Dublin:20260930T080000
-DTEND;TZID=Europe/Dublin:20260930T120000
-DTSTAMP:20260924T045552Z
-UID:936254213-20260930-cobh-cruise-terminal-all-test-booking-line-thearchc
- obh
-DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
-  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
- ed by The Arch\, Cobh\nData from PortofCork.ie
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🚢 MSC Virtuosa — Cobh
 DTSTART;TZID=Europe/Dublin:20261001T074500
 DTEND;TZID=Europe/Dublin:20261002T080000
@@ -1074,6 +1050,18 @@ DTSTART;TZID=Europe/Dublin:20261001T080000
 DTEND;TZID=Europe/Dublin:20261001T120000
 DTSTAMP:20261001T101308Z
 UID:936254213-20261001-cobh-cruise-terminal-all-test-booking-line-thearchc
+ obh
+DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
+  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
+ ed by The Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🚢 Test Vessel — Cobh
+DTSTART;TZID=Europe/Dublin:20261002T080000
+DTEND;TZID=Europe/Dublin:20261002T120000
+DTSTAMP:20261002T095044Z
+UID:936254213-20261002-cobh-cruise-terminal-all-test-booking-line-thearchc
  obh
 DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
   https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
@@ -1113,6 +1101,30 @@ UID:9803625-20261016-cobh-cruise-terminal-all-msc-cruises-thearchcobh
 DESCRIPTION:👥 6297\n🛳 MSC Virtuosa\, MSC Cruises\n⚓ Cobh\n🔗 htt
  ps://www.marinetraffic.com/en/ais/details/ships/imo:9803625\n\nCreated by 
  The Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🚢 Test Vessel — Cobh
+DTSTART;TZID=Europe/Dublin:20260926T080000
+DTEND;TZID=Europe/Dublin:20260926T120000
+DTSTAMP:20260926T050229Z
+UID:936254213-20260926-cobh-cruise-terminal-all-test-booking-line-thearchc
+ obh
+DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
+  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
+ ed by The Arch\, Cobh\nData from PortofCork.ie
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🚢 Test Vessel — Cobh
+DTSTART;TZID=Europe/Dublin:20260930T080000
+DTEND;TZID=Europe/Dublin:20260930T120000
+DTSTAMP:20260924T045552Z
+UID:936254213-20260930-cobh-cruise-terminal-all-test-booking-line-thearchc
+ obh
+DESCRIPTION:👥 646\n🛳 Test Vessel\, Test Booking Line\n⚓ Cobh\n🔗
+  https://www.marinetraffic.com/en/ais/details/ships/imo:936254213\n\nCreat
+ ed by The Arch\, Cobh\nData from PortofCork.ie
 LOCATION:Cobh
 END:VEVENT
 END:VCALENDAR
