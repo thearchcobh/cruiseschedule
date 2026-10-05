@@ -150,34 +150,34 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kellys
 DTSTART;TZID=Europe/Dublin:20261015T200000
-DTEND;TZID=Europe/Dublin:20261015T233000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261015T220000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-mad-for-trad-at-kellys-20261015T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal
 DTSTART;TZID=Europe/Dublin:20261015T210000
-DTEND;TZID=Europe/Dublin:20261015T233000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261015T230000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-traditional-irish-music-at-the-high-chaperal-20261015T2100
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  high-chaperal/?gde=2026-10-15\n\nCreated by The Arch\, Cobh\nData from InC
  obh.com
-LOCATION:The High Chaperal
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261017T100000
-DTEND;TZID=Europe/Dublin:20261017T140000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261017T120000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-cobh-farmers-market-20261017T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  0-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Brian OGlanby
@@ -192,8 +192,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Screening – The Presidents Cake
 DTSTART;TZID=Europe/Dublin:20261019T194500
-DTEND;TZID=Europe/Dublin:20261019T220000
-DTSTAMP:20260925T171651Z
+DTEND;TZID=Europe/Dublin:20261019T214500
+DTSTAMP:20261005T220658Z
 UID:cobh-events-screening-the-presidents-cake-20261019T1945-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/screening-the-presidents-cake/\
  n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -202,19 +202,19 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261021T210000
-DTEND;TZID=Europe/Dublin:20261021T233000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261021T230000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261021T210
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Haulbowline Theatre Group One Act Plays
-DTSTART;TZID=Europe/Dublin:20261022T000000
-DTEND;TZID=Europe/Dublin:20261024T180000
-DTSTAMP:20261005T144255Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261024
+DTSTAMP:20261005T220658Z
 UID:cobh-events-haulbowline-theatre-group-one-act-plays-20261022T0000-thea
  rchcobh
 DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-one-a
@@ -224,8 +224,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
 DTSTART;TZID=Europe/Dublin:20261022T184500
-DTEND;TZID=Europe/Dublin:20261022T201500
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261022T204500
+DTSTAMP:20261005T220658Z
 UID:cobh-events-cobh-trad-learning-session-20261022T1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
@@ -234,34 +234,34 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kellys
 DTSTART;TZID=Europe/Dublin:20261022T200000
-DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261022T220000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-mad-for-trad-at-kellys-20261022T2000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  6-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The High Chaperal
 DTSTART;TZID=Europe/Dublin:20261022T210000
-DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261022T230000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-traditional-irish-music-at-the-high-chaperal-20261022T2100
  -thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
  high-chaperal/?gde=2026-10-22\n\nCreated by The Arch\, Cobh\nData from InC
  obh.com
-LOCATION:The High Chaperal
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261024T100000
-DTEND;TZID=Europe/Dublin:20261024T140000
-DTSTAMP:20261005T144255Z
+DTEND;TZID=Europe/Dublin:20261024T120000
+DTSTAMP:20261005T220658Z
 UID:cobh-events-cobh-farmers-market-20261024T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  0-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
+LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
