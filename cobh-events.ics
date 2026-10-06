@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Irish Set Dancing Lessons
-DTSTART;TZID=Europe/Dublin:20261006T193000
-DTEND;TZID=Europe/Dublin:20261006T213000
-DTSTAMP:20261006T160307Z
-UID:cobh-events-irish-set-dancing-lessons-20261006T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
- 2026-10-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261007T210000
 DTEND;TZID=Europe/Dublin:20261007T233000
@@ -116,6 +106,16 @@ DESCRIPTION:🔗 https://incobh.com/events/tony-mack-7/\n\nCreated by The
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Leesiders
+DTSTART;TZID=Europe/Dublin:20261010T220000
+DTEND;TZID=Europe/Dublin:20261010T000000
+DTSTAMP:20261006T224422Z
+UID:cobh-events-the-leesiders-20261010T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-leesiders/\n\nCreated by Th
+ e Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Brian OGlanby
 DTSTART;TZID=Europe/Dublin:20261011T180000
 DTEND;TZID=Europe/Dublin:20261011T200000
@@ -123,6 +123,16 @@ DTSTAMP:20260930T053638Z
 UID:cobh-events-brian-oglanby-20261011T1800-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-17/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Andy Rhodes
+DTSTART;TZID=Europe/Dublin:20261011T210000
+DTEND;TZID=Europe/Dublin:20261011T230000
+DTSTAMP:20261006T224422Z
+UID:cobh-events-andy-rhodes-20261011T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/andy-rhodes/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
@@ -2591,17 +2601,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300327T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300403T210000
-DTEND;TZID=Europe/Dublin:20300403T233000
-DTSTAMP:20261005T144255Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300403T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
