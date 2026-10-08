@@ -75,6 +75,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-ramblers-v-kerry-fc/\n\nCr
 LOCATION:St. Colman’s Park
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎵 Live Music
+DTSTART;TZID=Europe/Dublin:20261009T213000
+DTEND;TZID=Europe/Dublin:20261009T233000
+DTSTAMP:20261008T185657Z
+UID:cobh-events-live-music-20261009T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/live-music-2/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Ramblers Bar
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Rock Lobster
 DTSTART;TZID=Europe/Dublin:20261009T220000
 DTEND;TZID=Europe/Dublin:20261009T000000
@@ -2516,17 +2526,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291219T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20291226T200000
-DTEND;TZID=Europe/Dublin:20291226T223000
-DTSTAMP:20261008T104024Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291226T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
