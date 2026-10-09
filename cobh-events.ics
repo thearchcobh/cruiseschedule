@@ -23,48 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Cobh Trad Learning Session
-DTSTART;TZID=Europe/Dublin:20261008T184500
-DTEND;TZID=Europe/Dublin:20261008T201500
-DTSTAMP:20261007T204321Z
-UID:cobh-events-cobh-trad-learning-session-20261008T1845-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
- =2026-10-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Community Centre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kellys
-DTSTART;TZID=Europe/Dublin:20261008T200000
-DTEND;TZID=Europe/Dublin:20261008T233000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-mad-for-trad-at-kellys-20261008T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
- 6-10-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Cobh Pirates – Table Quiz
-DTSTART;TZID=Europe/Dublin:20261008T200000
-DTEND;TZID=Europe/Dublin:20261008T223000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-cobh-pirates-table-quiz-20261008T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-pirates-table-quiz/\n\nCre
- ated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Paddocks Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The High Chaperal
-DTSTART;TZID=Europe/Dublin:20261008T210000
-DTEND;TZID=Europe/Dublin:20261008T233000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-traditional-irish-music-at-the-high-chaperal-20261008T2100
- -thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- high-chaperal/?gde=2026-10-08\n\nCreated by The Arch\, Cobh\nData from InC
- obh.com
-LOCATION:The High Chaperal Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Cobh Ramblers v Kerry FC
 DTSTART;TZID=Europe/Dublin:20261009T194500
 DTEND;TZID=Europe/Dublin:20261009T214500
@@ -2526,6 +2484,50 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291219T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20291226T200000
+DTEND;TZID=Europe/Dublin:20291226T223000
+DTSTAMP:20261009T011947Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291226T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-12-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300102T200000
+DTEND;TZID=Europe/Dublin:20300102T223000
+DTSTAMP:20261009T011947Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300102T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300109T200000
+DTEND;TZID=Europe/Dublin:20300109T223000
+DTSTAMP:20261009T011947Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300109T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300116T200000
+DTEND;TZID=Europe/Dublin:20300116T223000
+DTSTAMP:20261009T011947Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300116T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
