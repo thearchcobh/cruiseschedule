@@ -113,6 +113,16 @@ DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-18/\n\nCreated by
 LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 DJ Killian
+DTSTART;TZID=Europe/Dublin:20261010T220000
+DTEND;TZID=Europe/Dublin:20261010T000000
+DTSTAMP:20261009T103825Z
+UID:cobh-events-dj-killian-20261010T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-killian-7/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Titanic Bar & Grill
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Paul Hannon
 DTSTART;TZID=Europe/Dublin:20261011T170000
 DTEND;TZID=Europe/Dublin:20261011T190000
@@ -2517,17 +2527,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300109T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300116T200000
-DTEND;TZID=Europe/Dublin:20300116T223000
-DTSTAMP:20261009T011947Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300116T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
