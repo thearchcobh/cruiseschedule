@@ -43,6 +43,16 @@ DESCRIPTION:🔗 https://incobh.com/events/tony-mack-7/\n\nCreated by The
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Young Ones
+DTSTART;TZID=Europe/Dublin:20261010T213000
+DTEND;TZID=Europe/Dublin:20261010T233000
+DTSTAMP:20261010T095529Z
+UID:cobh-events-the-young-ones-20261010T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-4/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Connie Doolans
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 The Leesiders
 DTSTART;TZID=Europe/Dublin:20261010T220000
 DTEND;TZID=Europe/Dublin:20261010T000000
@@ -2520,17 +2530,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300130T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300206T200000
-DTEND;TZID=Europe/Dublin:20300206T223000
-DTSTAMP:20261010T005616Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300206T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
