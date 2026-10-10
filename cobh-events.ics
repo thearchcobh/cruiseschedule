@@ -23,26 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market
-DTSTART;TZID=Europe/Dublin:20261010T100000
-DTEND;TZID=Europe/Dublin:20261010T140000
-DTSTAMP:20261005T144255Z
-UID:cobh-events-cobh-farmers-market-20261010T1000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
- 0-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Tony Mack
-DTSTART;TZID=Europe/Dublin:20261010T120000
-DTEND;TZID=Europe/Dublin:20261010T140000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-tony-mack-20261010T1200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/tony-mack-7/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 The Young Ones
 DTSTART;TZID=Europe/Dublin:20261010T213000
 DTEND;TZID=Europe/Dublin:20261010T233000
@@ -2530,6 +2510,28 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300130T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300206T200000
+DTEND;TZID=Europe/Dublin:20300206T223000
+DTSTAMP:20261010T172630Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300206T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300213T200000
+DTEND;TZID=Europe/Dublin:20300213T223000
+DTSTAMP:20261010T172630Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300213T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
