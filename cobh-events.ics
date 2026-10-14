@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Irish Set Dancing Lessons
-DTSTART;TZID=Europe/Dublin:20261013T193000
-DTEND;TZID=Europe/Dublin:20261013T213000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-irish-set-dancing-lessons-20261013T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
- 2026-10-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261014T210000
 DTEND;TZID=Europe/Dublin:20261014T233000
@@ -42,6 +32,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261014T210
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Katie McGroarty
+DTSTART;TZID=Europe/Dublin:20261014T213000
+DTEND;TZID=Europe/Dublin:20261014T233000
+DTSTAMP:20261014T002320Z
+UID:cobh-events-katie-mcgroarty-20261014T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-18/\n\nCreated 
+ by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Mortgage Information Evening
@@ -86,6 +86,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal Bar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Patrick Dowling
+DTSTART;TZID=Europe/Dublin:20261016T220000
+DTEND;TZID=Europe/Dublin:20261016T000000
+DTSTAMP:20261014T002320Z
+UID:cobh-events-patrick-dowling-20261016T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/patrick-dowling-7/\n\nCreated b
+ y The Arch\, Cobh\nData from InCobh.com
+LOCATION:Kellys Bar
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261017T100000
 DTEND;TZID=Europe/Dublin:20261017T140000
@@ -104,6 +114,16 @@ UID:cobh-events-brian-oglanby-20261017T1200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-15/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Patrick O’Mahoney
+DTSTART;TZID=Europe/Dublin:20261018T210000
+DTEND;TZID=Europe/Dublin:20261018T230000
+DTSTAMP:20261014T002320Z
+UID:cobh-events-patrick-o-mahoney-20261018T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/patrick-omahoney/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Screening – The Presidents Cake
@@ -2519,28 +2539,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300403T210
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300410T210000
-DTEND;TZID=Europe/Dublin:20300410T233000
-DTSTAMP:20261012T003641Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300410T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300417T210000
-DTEND;TZID=Europe/Dublin:20300417T233000
-DTSTAMP:20261012T003641Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300417T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
