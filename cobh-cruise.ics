@@ -809,8 +809,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🟠 $ Ambition — 1904 pax
 DTSTART;TZID=Europe/Dublin:20261014T130000
-DTEND;TZID=Europe/Dublin:20261014T190000
-DTSTAMP:20260825T190250Z
+DTEND;TZID=Europe/Dublin:20261014T210000
+DTSTAMP:20261014T050605Z
 UID:9172777-20261014-cobh-ambassador-cruise-line-thearchcobh
 DESCRIPTION:👥 1904\n🛳 Ambition\, Ambassador Cruise Line\n🔗 https:
  //www.marinetraffic.com/en/ais/home/shipid:3380256/tracktype:6\n\nCreated 
