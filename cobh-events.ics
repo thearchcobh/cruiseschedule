@@ -23,26 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Mortgage Information Evening
-DTSTART;TZID=Europe/Dublin:20261015T173000
-DTEND;TZID=Europe/Dublin:20261015T193000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-mortgage-information-evening-20261015T1730-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mortgage-information-evening/\n
- \nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Inspire Credit Union Cobh
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Cobh Trad Learning Session
-DTSTART;TZID=Europe/Dublin:20261015T184500
-DTEND;TZID=Europe/Dublin:20261015T201500
-DTSTAMP:20261007T204321Z
-UID:cobh-events-cobh-trad-learning-session-20261015T1845-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
- =2026-10-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Community Centre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kellys
 DTSTART;TZID=Europe/Dublin:20261015T200000
 DTEND;TZID=Europe/Dublin:20261015T233000
@@ -143,6 +123,16 @@ UID:cobh-events-katie-mcgroarty-20261017T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-19/\n\nCreated 
  by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 DJ Killian
+DTSTART;TZID=Europe/Dublin:20261017T220000
+DTEND;TZID=Europe/Dublin:20261017T010000
+DTSTAMP:20261015T212700Z
+UID:cobh-events-dj-killian-20261017T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-killian-8/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Titanic Bar & Grill
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Cathal Fitz
