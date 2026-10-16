@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Gavin Baxter
-DTSTART;TZID=Europe/Dublin:20261016T200000
-DTEND;TZID=Europe/Dublin:20261016T220000
-DTSTAMP:20261015T044225Z
-UID:cobh-events-gavin-baxter-20261016T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/gavin-baxter-3/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:The Crow’s Nest
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Patrick Dowling
 DTSTART;TZID=Europe/Dublin:20261016T220000
 DTEND;TZID=Europe/Dublin:20261016T000000
@@ -91,6 +81,16 @@ UID:cobh-events-mikey-mahony-dart-tournament-20261017T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mikey-mahony-dart-tournament/\n
  \nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Paddocks Bar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Kevin Moore
+DTSTART;TZID=Europe/Dublin:20261017T140000
+DTEND;TZID=Europe/Dublin:20261017T160000
+DTSTAMP:20261016T211303Z
+UID:cobh-events-kevin-moore-20261017T1400-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-17/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
@@ -2522,6 +2522,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300227T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-02-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300306T200000
+DTEND;TZID=Europe/Dublin:20300306T223000
+DTSTAMP:20261016T211303Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300306T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-03-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
