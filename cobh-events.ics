@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Mikey Mahony Dart Tournament
-DTSTART;TZID=Europe/Dublin:20261017T140000
-DTEND;TZID=Europe/Dublin:20261017T170000
-DTSTAMP:20261014T115648Z
-UID:cobh-events-mikey-mahony-dart-tournament-20261017T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mikey-mahony-dart-tournament/\n
- \nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Paddocks Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
 DTSTART;TZID=Europe/Dublin:20261017T220000
 DTEND;TZID=Europe/Dublin:20261017T000000
@@ -2539,6 +2529,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300417T210
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300424T210000
+DTEND;TZID=Europe/Dublin:20300424T233000
+DTSTAMP:20261017T204020Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300424T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
