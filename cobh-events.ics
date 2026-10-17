@@ -23,26 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market
-DTSTART;TZID=Europe/Dublin:20261017T100000
-DTEND;TZID=Europe/Dublin:20261017T140000
-DTSTAMP:20261006T062830Z
-UID:cobh-events-cobh-farmers-market-20261017T1000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
- 0-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Brian OGlanby
-DTSTART;TZID=Europe/Dublin:20261017T120000
-DTEND;TZID=Europe/Dublin:20261017T140000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-brian-oglanby-20261017T1200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-15/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Mikey Mahony Dart Tournament
 DTSTART;TZID=Europe/Dublin:20261017T140000
 DTEND;TZID=Europe/Dublin:20261017T170000
@@ -51,16 +31,6 @@ UID:cobh-events-mikey-mahony-dart-tournament-20261017T1400-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mikey-mahony-dart-tournament/\n
  \nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Paddocks Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20261017T140000
-DTEND;TZID=Europe/Dublin:20261017T160000
-DTSTAMP:20261016T211303Z
-UID:cobh-events-kevin-moore-20261017T1400-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-17/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Katie McGroarty
@@ -2536,6 +2506,39 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300327T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300403T210000
+DTEND;TZID=Europe/Dublin:20300403T233000
+DTSTAMP:20261017T153943Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300403T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300410T210000
+DTEND;TZID=Europe/Dublin:20300410T233000
+DTSTAMP:20261017T153943Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300410T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300417T210000
+DTEND;TZID=Europe/Dublin:20300417T233000
+DTSTAMP:20261017T153943Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300417T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
