@@ -23,26 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Katie McGroarty
-DTSTART;TZID=Europe/Dublin:20261017T220000
-DTEND;TZID=Europe/Dublin:20261017T000000
-DTSTAMP:20261014T115648Z
-UID:cobh-events-katie-mcgroarty-20261017T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-19/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 DJ Killian
-DTSTART;TZID=Europe/Dublin:20261017T220000
-DTEND;TZID=Europe/Dublin:20261017T010000
-DTSTAMP:20261015T212700Z
-UID:cobh-events-dj-killian-20261017T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dj-killian-8/\n\nCreated by The
-  Arch\, Cobh\nData from InCobh.com
-LOCATION:Titanic Bar & Grill
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Cathal Fitz
 DTSTART;TZID=Europe/Dublin:20261018T170000
 DTEND;TZID=Europe/Dublin:20261018T190000
@@ -2540,6 +2520,28 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300424T210
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300501T210000
+DTEND;TZID=Europe/Dublin:20300501T233000
+DTSTAMP:20261017T231328Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300501T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-05-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300508T210000
+DTEND;TZID=Europe/Dublin:20300508T233000
+DTSTAMP:20261017T231328Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300508T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-05-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
