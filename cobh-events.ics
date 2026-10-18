@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Cathal Fitz
-DTSTART;TZID=Europe/Dublin:20261018T170000
-DTEND;TZID=Europe/Dublin:20261018T190000
-DTSTAMP:20261014T115648Z
-UID:cobh-events-cathal-fitz-20261018T1700-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cathal-fitz-7/\n\nCreated by Th
- e Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Patrick O’Mahoney
 DTSTART;TZID=Europe/Dublin:20261018T210000
 DTEND;TZID=Europe/Dublin:20261018T230000
@@ -2542,6 +2532,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300508T210
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  30-05-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20300515T210000
+DTEND;TZID=Europe/Dublin:20300515T233000
+DTSTAMP:20261018T204639Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300515T210
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 30-05-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
