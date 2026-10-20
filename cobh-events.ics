@@ -108,6 +108,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261024T110000
+DTEND;TZID=Europe/Dublin:20261024T170000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261024T1100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 The Gaza Monologues
 DTSTART;TZID=Europe/Dublin:20261025T183000
 DTEND;TZID=Europe/Dublin:20261025T200000
@@ -148,6 +158,16 @@ DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261028T100000
+DTEND;TZID=Europe/Dublin:20261028T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261028T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-10-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
 DTSTART;TZID=Europe/Dublin:20261028T140000
 DTEND;TZID=Europe/Dublin:20261028T160000
@@ -167,6 +187,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261028T200
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-10-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261029T100000
+DTEND;TZID=Europe/Dublin:20261029T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261029T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-10-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
@@ -211,6 +241,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
 LOCATION:The High Chaperal Bar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261030T100000
+DTEND;TZID=Europe/Dublin:20261030T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261030T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-10-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
 DTSTART;TZID=Europe/Dublin:20261030T140000
 DTEND;TZID=Europe/Dublin:20261030T160000
@@ -229,6 +269,16 @@ UID:cobh-events-cobh-farmers-market-20261031T0900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  0-31\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261031T100000
+DTEND;TZID=Europe/Dublin:20261031T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261031T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-10-31\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
@@ -251,6 +301,16 @@ DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261104T100000
+DTEND;TZID=Europe/Dublin:20261104T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261104T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261104T200000
 DTEND;TZID=Europe/Dublin:20261104T223000
@@ -260,6 +320,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261104T200
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-11-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261105T100000
+DTEND;TZID=Europe/Dublin:20261105T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261105T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
@@ -272,6 +342,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh Community Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261106T100000
+DTEND;TZID=Europe/Dublin:20261106T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261106T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261107T090000
 DTEND;TZID=Europe/Dublin:20261107T130000
@@ -282,6 +362,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261107T100000
+DTEND;TZID=Europe/Dublin:20261107T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261107T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-07\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
 DTSTART;TZID=Europe/Dublin:20261110T183000
 DTEND;TZID=Europe/Dublin:20261110T203000
@@ -290,6 +380,16 @@ UID:cobh-events-irish-set-dancing-lessons-20261110T1830-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
  2026-11-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261111T100000
+DTEND;TZID=Europe/Dublin:20261111T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261111T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
@@ -303,6 +403,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261112T100000
+DTEND;TZID=Europe/Dublin:20261112T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261112T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
 DTSTART;TZID=Europe/Dublin:20261112T174500
 DTEND;TZID=Europe/Dublin:20261112T191500
@@ -311,6 +421,16 @@ UID:cobh-events-cobh-trad-learning-session-20261112T1745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-11-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh Community Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261113T100000
+DTEND;TZID=Europe/Dublin:20261113T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261113T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
@@ -323,6 +443,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261114T100000
+DTEND;TZID=Europe/Dublin:20261114T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261114T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
 DTSTART;TZID=Europe/Dublin:20261117T183000
 DTEND;TZID=Europe/Dublin:20261117T203000
@@ -331,6 +461,16 @@ UID:cobh-events-irish-set-dancing-lessons-20261117T1830-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
  2026-11-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261118T100000
+DTEND;TZID=Europe/Dublin:20261118T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261118T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
@@ -344,6 +484,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261119T100000
+DTEND;TZID=Europe/Dublin:20261119T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261119T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
 DTSTART;TZID=Europe/Dublin:20261119T174500
 DTEND;TZID=Europe/Dublin:20261119T191500
@@ -352,6 +502,16 @@ UID:cobh-events-cobh-trad-learning-session-20261119T1745-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-11-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh Community Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261120T100000
+DTEND;TZID=Europe/Dublin:20261120T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261120T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Diveboy at SIRIUS
@@ -374,6 +534,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261121T100000
+DTEND;TZID=Europe/Dublin:20261121T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261121T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
 DTSTART;TZID=Europe/Dublin:20261124T183000
 DTEND;TZID=Europe/Dublin:20261124T203000
@@ -382,6 +552,16 @@ UID:cobh-events-irish-set-dancing-lessons-20261124T1830-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
  2026-11-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261125T100000
+DTEND;TZID=Europe/Dublin:20261125T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261125T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
@@ -393,6 +573,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261125T200
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-11-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261126T100000
+DTEND;TZID=Europe/Dublin:20261126T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261126T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
@@ -415,6 +605,16 @@ DESCRIPTION:🔗 https://incobh.com/events/the-irresistible-call/\n\nCreat
 LOCATION:St Colman’s Cathedral
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261127T100000
+DTEND;TZID=Europe/Dublin:20261127T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261127T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261128T090000
 DTEND;TZID=Europe/Dublin:20261128T130000
@@ -423,6 +623,16 @@ UID:cobh-events-cobh-farmers-market-20261128T0900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  1-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261128T100000
+DTEND;TZID=Europe/Dublin:20261128T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261128T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-11-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
@@ -445,6 +655,16 @@ DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261202T100000
+DTEND;TZID=Europe/Dublin:20261202T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261202T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-12-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261202T200000
 DTEND;TZID=Europe/Dublin:20261202T223000
@@ -454,6 +674,16 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20261202T200
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-12-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261203T100000
+DTEND;TZID=Europe/Dublin:20261203T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261203T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-12-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
@@ -466,6 +696,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh Community Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261204T100000
+DTEND;TZID=Europe/Dublin:20261204T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261204T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-12-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261205T090000
 DTEND;TZID=Europe/Dublin:20261205T130000
@@ -474,6 +714,16 @@ UID:cobh-events-cobh-farmers-market-20261205T0900-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  2-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
+DTSTART;TZID=Europe/Dublin:20261205T100000
+DTEND;TZID=Europe/Dublin:20261205T160000
+DTSTAMP:20261020T142305Z
+UID:cobh-events-eslam-abd-el-salam-hiraeth-20261205T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
+ =2026-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
@@ -2270,281 +2520,6 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291205T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-12-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20291212T200000
-DTEND;TZID=Europe/Dublin:20291212T223000
-DTSTAMP:20261005T144255Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291212T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20291219T200000
-DTEND;TZID=Europe/Dublin:20291219T223000
-DTSTAMP:20261005T144255Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291219T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20291226T200000
-DTEND;TZID=Europe/Dublin:20291226T223000
-DTSTAMP:20261009T011947Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291226T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-12-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300102T200000
-DTEND;TZID=Europe/Dublin:20300102T223000
-DTSTAMP:20261009T011947Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300102T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300109T200000
-DTEND;TZID=Europe/Dublin:20300109T223000
-DTSTAMP:20261009T011947Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300109T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300116T200000
-DTEND;TZID=Europe/Dublin:20300116T223000
-DTSTAMP:20261010T005616Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300116T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300123T200000
-DTEND;TZID=Europe/Dublin:20300123T223000
-DTSTAMP:20261010T005616Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300123T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300130T200000
-DTEND;TZID=Europe/Dublin:20300130T223000
-DTSTAMP:20261010T005616Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300130T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-01-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300206T200000
-DTEND;TZID=Europe/Dublin:20300206T223000
-DTSTAMP:20261010T172630Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300206T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300213T200000
-DTEND;TZID=Europe/Dublin:20300213T223000
-DTSTAMP:20261010T172630Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300213T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300220T200000
-DTEND;TZID=Europe/Dublin:20300220T223000
-DTSTAMP:20261016T043724Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300220T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300227T200000
-DTEND;TZID=Europe/Dublin:20300227T223000
-DTSTAMP:20261016T043724Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300227T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-02-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300306T200000
-DTEND;TZID=Europe/Dublin:20300306T223000
-DTSTAMP:20261016T211303Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300306T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300313T200000
-DTEND;TZID=Europe/Dublin:20300313T223000
-DTSTAMP:20261016T234119Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300313T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300320T200000
-DTEND;TZID=Europe/Dublin:20300320T223000
-DTSTAMP:20261016T234119Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300320T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300327T200000
-DTEND;TZID=Europe/Dublin:20300327T223000
-DTSTAMP:20261016T234119Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300327T200
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-03-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300403T210000
-DTEND;TZID=Europe/Dublin:20300403T233000
-DTSTAMP:20261017T153943Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300403T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300410T210000
-DTEND;TZID=Europe/Dublin:20300410T233000
-DTSTAMP:20261017T153943Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300410T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300417T210000
-DTEND;TZID=Europe/Dublin:20300417T233000
-DTSTAMP:20261017T153943Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300417T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300424T210000
-DTEND;TZID=Europe/Dublin:20300424T233000
-DTSTAMP:20261017T204020Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300424T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-04-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300501T210000
-DTEND;TZID=Europe/Dublin:20300501T233000
-DTSTAMP:20261017T231328Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300501T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300508T210000
-DTEND;TZID=Europe/Dublin:20300508T233000
-DTSTAMP:20261017T231328Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300508T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300515T210000
-DTEND;TZID=Europe/Dublin:20300515T233000
-DTSTAMP:20261018T204639Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300515T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300522T210000
-DTEND;TZID=Europe/Dublin:20300522T233000
-DTSTAMP:20261018T231622Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300522T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
-DTSTART;TZID=Europe/Dublin:20300529T210000
-DTEND;TZID=Europe/Dublin:20300529T233000
-DTSTAMP:20261020T002442Z
-UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20300529T210
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 30-05-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
