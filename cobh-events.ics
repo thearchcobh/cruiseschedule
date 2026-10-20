@@ -23,16 +23,6 @@ DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/\
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Irish Set Dancing Lessons
-DTSTART;TZID=Europe/Dublin:20261020T193000
-DTEND;TZID=Europe/Dublin:20261020T213000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-irish-set-dancing-lessons-20261020T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
- 2026-10-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
 DTSTART;TZID=Europe/Dublin:20261021T210000
 DTEND;TZID=Europe/Dublin:20261021T233000
@@ -2523,6 +2513,17 @@ UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291121T200
  0-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-11-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music at The Roaring Donkey
+DTSTART;TZID=Europe/Dublin:20291128T200000
+DTEND;TZID=Europe/Dublin:20291128T223000
+DTSTAMP:20261020T235828Z
+UID:cobh-events-traditional-irish-music-at-the-roaring-donkey-20291128T200
+ 0-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-11-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
