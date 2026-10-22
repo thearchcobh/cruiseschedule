@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20261021T210000
-DTEND;TZID=Europe/Dublin:20261021T233000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-traditional-irish-music-20261021T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 26-10-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Katie McGroarty
-DTSTART;TZID=Europe/Dublin:20261021T213000
-DTEND;TZID=Europe/Dublin:20261021T233000
-DTSTAMP:20261021T115248Z
-UID:cobh-events-katie-mcgroarty-20261021T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/katie-mcgroarty-20/\n\nCreated 
- by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Florin Nolan: A World in Bloom
 DTSTART;TZID=Europe/Dublin:20261022T110000
 DTEND;TZID=Europe/Dublin:20261022T170000
@@ -2361,6 +2341,26 @@ DTSTAMP:20261021T171742Z
 UID:cobh-events-traditional-irish-music-20290606T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290613T210000
+DTEND;TZID=Europe/Dublin:20290613T233000
+DTSTAMP:20261022T044940Z
+UID:cobh-events-traditional-irish-music-20290613T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290620T210000
+DTEND;TZID=Europe/Dublin:20290620T233000
+DTSTAMP:20261022T044940Z
+UID:cobh-events-traditional-irish-music-20290620T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
