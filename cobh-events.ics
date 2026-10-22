@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Florin Nolan: A World in Bloom
-DTSTART;TZID=Europe/Dublin:20261022T110000
-DTEND;TZID=Europe/Dublin:20261022T170000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-florin-nolan-a-world-in-bloom-20261022T1100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/?
- gde=2026-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Sirius Arts Centre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
 DTSTART;TZID=Europe/Dublin:20261022T184500
 DTEND;TZID=Europe/Dublin:20261022T201500
@@ -2361,6 +2351,16 @@ DTSTAMP:20261022T044940Z
 UID:cobh-events-traditional-irish-music-20290613T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290620T210000
+DTEND;TZID=Europe/Dublin:20290620T233000
+DTSTAMP:20261022T171554Z
+UID:cobh-events-traditional-irish-music-20290620T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
