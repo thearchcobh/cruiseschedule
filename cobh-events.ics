@@ -13,28 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎵 Mad for Trad at Kellys
-DTSTART;TZID=Europe/Dublin:20261022T200000
-DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-mad-for-trad-at-kellys-20261022T2000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
- 6-10-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The High Chaperal
-DTSTART;TZID=Europe/Dublin:20261022T210000
-DTEND;TZID=Europe/Dublin:20261022T233000
-DTSTAMP:20261007T204321Z
-UID:cobh-events-traditional-irish-music-at-the-high-chaperal-20261022T2100
- -thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- high-chaperal/?gde=2026-10-22\n\nCreated by The Arch\, Cobh\nData from InC
- obh.com
-LOCATION:The High Chaperal Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Florin Nolan: A World in Bloom
 DTSTART;TZID=Europe/Dublin:20261023T110000
 DTEND;TZID=Europe/Dublin:20261023T170000
@@ -66,6 +44,16 @@ DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-one-a
  ct-plays/?gde=2026-10-23\n\nCreated by The Arch\, Cobh\nData from InCobh.c
  om
 LOCATION:Christ Church\, Rushbrooke
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Brian OGlanby
+DTSTART;TZID=Europe/Dublin:20261023T213000
+DTEND;TZID=Europe/Dublin:20261023T233000
+DTSTAMP:20261023T045243Z
+UID:cobh-events-brian-oglanby-20261023T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-20/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Ballynoe Inn
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Monticelli
@@ -2359,6 +2347,16 @@ DTSTAMP:20261022T214022Z
 UID:cobh-events-traditional-irish-music-20290627T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290704T210000
+DTEND;TZID=Europe/Dublin:20290704T233000
+DTSTAMP:20261023T045243Z
+UID:cobh-events-traditional-irish-music-20290704T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
