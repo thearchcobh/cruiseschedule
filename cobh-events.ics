@@ -76,16 +76,6 @@ DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-18/\n\nCreated by T
 LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:👨‍🌾 Cobh Farmers Market
-DTSTART;TZID=Europe/Dublin:20261024T100000
-DTEND;TZID=Europe/Dublin:20261024T140000
-DTSTAMP:20261006T062830Z
-UID:cobh-events-cobh-farmers-market-20261024T1000-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
- 0-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Promenade
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Florin Nolan: A World in Bloom
 DTSTART;TZID=Europe/Dublin:20261024T110000
 DTEND;TZID=Europe/Dublin:20261024T170000
@@ -2357,6 +2347,16 @@ DTSTAMP:20261023T045243Z
 UID:cobh-events-traditional-irish-music-20290704T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290711T210000
+DTEND;TZID=Europe/Dublin:20290711T233000
+DTSTAMP:20261023T114338Z
+UID:cobh-events-traditional-irish-music-20290711T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
