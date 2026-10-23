@@ -13,29 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 The Quiet Club: Danny McCarthy and Mick O’Shea
-DTSTART;TZID=Europe/Dublin:20261023T190000
-DTEND;TZID=Europe/Dublin:20261023T210000
-DTSTAMP:20261014T115648Z
-UID:cobh-events-the-quiet-club-danny-mccarthy-and-mick-o-shea-20261023T190
- 0-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-quiet-club-danny-mccarthy-a
- nd-mick-oshea/\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Sirius Arts Centre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Haulbowline Theatre Group One Act Plays
-DTSTART;TZID=Europe/Dublin:20261023T200000
-DTEND;TZID=Europe/Dublin:20261023T220000
-DTSTAMP:20261022T214022Z
-UID:cobh-events-haulbowline-theatre-group-one-act-plays-20261023T2000-thea
- rchcobh
-DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-one-a
- ct-plays/?gde=2026-10-23\n\nCreated by The Arch\, Cobh\nData from InCobh.c
- om
-LOCATION:Christ Church\, Rushbrooke
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Brian OGlanby
 DTSTART;TZID=Europe/Dublin:20261023T213000
 DTEND;TZID=Europe/Dublin:20261023T233000
@@ -2357,6 +2334,26 @@ DTSTAMP:20261022T214022Z
 UID:cobh-events-traditional-irish-music-20290627T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290704T210000
+DTEND;TZID=Europe/Dublin:20290704T233000
+DTSTAMP:20261023T212842Z
+UID:cobh-events-traditional-irish-music-20290704T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290711T210000
+DTEND;TZID=Europe/Dublin:20290711T233000
+DTSTAMP:20261023T212842Z
+UID:cobh-events-traditional-irish-music-20290711T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
