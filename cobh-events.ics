@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Florin Nolan: A World in Bloom
-DTSTART;TZID=Europe/Dublin:20261023T110000
-DTEND;TZID=Europe/Dublin:20261023T170000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-florin-nolan-a-world-in-bloom-20261023T1100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/?
- gde=2026-10-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Sirius Arts Centre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 The Quiet Club: Danny McCarthy and Mick O’Shea
 DTSTART;TZID=Europe/Dublin:20261023T190000
 DTEND;TZID=Europe/Dublin:20261023T210000
@@ -54,6 +44,16 @@ UID:cobh-events-brian-oglanby-20261023T2130-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-20/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Ballynoe Inn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Ben Hurley
+DTSTART;TZID=Europe/Dublin:20261023T213000
+DTEND;TZID=Europe/Dublin:20261023T233000
+DTSTAMP:20261023T171159Z
+UID:cobh-events-ben-hurley-20261023T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/ben-hurley-4/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:Connie Doolans
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Monticelli
@@ -108,6 +108,16 @@ DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-one-a
 LOCATION:Christ Church\, Rushbrooke
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 The Young Ones
+DTSTART;TZID=Europe/Dublin:20261024T213000
+DTEND;TZID=Europe/Dublin:20261024T233000
+DTSTAMP:20261023T171159Z
+UID:cobh-events-the-young-ones-20261024T2130-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-5/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:Connie Doolans
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Dermie Orourke
 DTSTART;TZID=Europe/Dublin:20261024T220000
 DTEND;TZID=Europe/Dublin:20261024T000000
@@ -126,6 +136,16 @@ UID:cobh-events-dylan-murray-20261024T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dylan-murray-3/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
 LOCATION:Kellys Bar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 DJ Clokey
+DTSTART;TZID=Europe/Dublin:20261025T163000
+DTEND;TZID=Europe/Dublin:20261025T183000
+DTSTAMP:20261023T171159Z
+UID:cobh-events-dj-clokey-20261025T1630-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dj-clokey-5/\n\nCreated by The 
+ Arch\, Cobh\nData from InCobh.com
+LOCATION:Connie Doolans
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Gaza Monologues
@@ -2337,26 +2357,6 @@ DTSTAMP:20261022T214022Z
 UID:cobh-events-traditional-irish-music-20290627T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290704T210000
-DTEND;TZID=Europe/Dublin:20290704T233000
-DTSTAMP:20261023T045243Z
-UID:cobh-events-traditional-irish-music-20290704T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290711T210000
-DTEND;TZID=Europe/Dublin:20290711T233000
-DTSTAMP:20261023T114338Z
-UID:cobh-events-traditional-irish-music-20290711T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
