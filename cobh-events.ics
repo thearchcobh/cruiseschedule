@@ -13,46 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Brian OGlanby
-DTSTART;TZID=Europe/Dublin:20261023T213000
-DTEND;TZID=Europe/Dublin:20261023T233000
-DTSTAMP:20261023T045243Z
-UID:cobh-events-brian-oglanby-20261023T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-20/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Ballynoe Inn
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Ben Hurley
-DTSTART;TZID=Europe/Dublin:20261023T213000
-DTEND;TZID=Europe/Dublin:20261023T233000
-DTSTAMP:20261023T171159Z
-UID:cobh-events-ben-hurley-20261023T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/ben-hurley-4/\n\nCreated by The
-  Arch\, Cobh\nData from InCobh.com
-LOCATION:Connie Doolans
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Monticelli
-DTSTART;TZID=Europe/Dublin:20261023T220000
-DTEND;TZID=Europe/Dublin:20261023T000000
-DTSTAMP:20261021T115248Z
-UID:cobh-events-monticelli-20261023T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/monticelli-2/\n\nCreated by The
-  Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Kevin Moore
-DTSTART;TZID=Europe/Dublin:20261023T220000
-DTEND;TZID=Europe/Dublin:20261023T000000
-DTSTAMP:20261021T115248Z
-UID:cobh-events-kevin-moore-20261023T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/kevin-moore-18/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Florin Nolan: A World in Bloom
 DTSTART;TZID=Europe/Dublin:20261024T110000
 DTEND;TZID=Europe/Dublin:20261024T170000
@@ -95,16 +55,6 @@ DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-5/\n\nCreated by
 LOCATION:Connie Doolans
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Dermie Orourke
-DTSTART;TZID=Europe/Dublin:20261024T220000
-DTEND;TZID=Europe/Dublin:20261024T000000
-DTSTAMP:20261021T115248Z
-UID:cobh-events-dermie-orourke-20261024T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dermie-orourke-3/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Dylan Murray
 DTSTART;TZID=Europe/Dublin:20261024T220000
 DTEND;TZID=Europe/Dublin:20261024T000000
@@ -113,6 +63,16 @@ UID:cobh-events-dylan-murray-20261024T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/dylan-murray-3/\n\nCreated by T
  he Arch\, Cobh\nData from InCobh.com
 LOCATION:Kellys Bar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Dermie ORourke
+DTSTART;TZID=Europe/Dublin:20261024T220000
+DTEND;TZID=Europe/Dublin:20261024T000000
+DTSTAMP:20261024T044146Z
+UID:cobh-events-dermie-orourke-20261024T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/dermie-orourke-3/\n\nCreated by
+  The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 DJ Clokey
@@ -365,6 +325,16 @@ UID:cobh-events-eslam-abd-el-salam-hiraeth-20261031T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
  =2026-10-31\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Halloween Party
+DTSTART;TZID=Europe/Dublin:20261031T200000
+DTEND;TZID=Europe/Dublin:20261030T233000
+DTSTAMP:20261024T044146Z
+UID:cobh-events-halloween-party-20261031T2000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/halloween-party/\n\nCreated by 
+ The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Crow’s Nest
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
@@ -2354,6 +2324,36 @@ DTSTAMP:20261023T212842Z
 UID:cobh-events-traditional-irish-music-20290711T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-07-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290718T210000
+DTEND;TZID=Europe/Dublin:20290718T233000
+DTSTAMP:20261024T044146Z
+UID:cobh-events-traditional-irish-music-20290718T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290725T210000
+DTEND;TZID=Europe/Dublin:20290725T233000
+DTSTAMP:20261024T044146Z
+UID:cobh-events-traditional-irish-music-20290725T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290801T210000
+DTEND;TZID=Europe/Dublin:20290801T233000
+DTSTAMP:20261024T044146Z
+UID:cobh-events-traditional-irish-music-20290801T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
