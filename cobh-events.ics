@@ -13,48 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Haulbowline Theatre Group One Act Plays
-DTSTART;TZID=Europe/Dublin:20261024T200000
-DTEND;TZID=Europe/Dublin:20261024T220000
-DTSTAMP:20261022T214022Z
-UID:cobh-events-haulbowline-theatre-group-one-act-plays-20261024T2000-thea
- rchcobh
-DESCRIPTION:🔗 https://incobh.com/events/haulbowline-theatre-group-one-a
- ct-plays/?gde=2026-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.c
- om
-LOCATION:Christ Church\, Rushbrooke
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 The Young Ones
-DTSTART;TZID=Europe/Dublin:20261024T213000
-DTEND;TZID=Europe/Dublin:20261024T233000
-DTSTAMP:20261023T171159Z
-UID:cobh-events-the-young-ones-20261024T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-young-ones-5/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:Connie Doolans
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Dylan Murray
-DTSTART;TZID=Europe/Dublin:20261024T220000
-DTEND;TZID=Europe/Dublin:20261024T000000
-DTSTAMP:20261021T115248Z
-UID:cobh-events-dylan-murray-20261024T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dylan-murray-3/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Dermie ORourke
-DTSTART;TZID=Europe/Dublin:20261024T220000
-DTEND;TZID=Europe/Dublin:20261024T000000
-DTSTAMP:20261024T044146Z
-UID:cobh-events-dermie-orourke-20261024T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dermie-orourke-3/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 DJ Clokey
 DTSTART;TZID=Europe/Dublin:20261025T163000
 DTEND;TZID=Europe/Dublin:20261025T183000
@@ -565,6 +523,16 @@ UID:cobh-events-eslam-abd-el-salam-hiraeth-20261114T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
  =2026-11-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Singles Night
+DTSTART;TZID=Europe/Dublin:20261114T190000
+DTEND;TZID=Europe/Dublin:20261113T233000
+DTSTAMP:20261024T231834Z
+UID:cobh-events-singles-night-20261114T1900-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/singles-night/\n\nCreated by Th
+ e Arch\, Cobh\nData from InCobh.com
+LOCATION:Titanic Bar & Grill
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
@@ -2354,6 +2322,36 @@ DTSTAMP:20261024T160418Z
 UID:cobh-events-traditional-irish-music-20290815T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-08-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290822T210000
+DTEND;TZID=Europe/Dublin:20290822T233000
+DTSTAMP:20261024T231834Z
+UID:cobh-events-traditional-irish-music-20290822T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290829T210000
+DTEND;TZID=Europe/Dublin:20290829T233000
+DTSTAMP:20261024T231834Z
+UID:cobh-events-traditional-irish-music-20290829T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290905T210000
+DTEND;TZID=Europe/Dublin:20290905T233000
+DTSTAMP:20261024T231834Z
+UID:cobh-events-traditional-irish-music-20290905T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
