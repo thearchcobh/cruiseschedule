@@ -1278,26 +1278,6 @@ LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20270714T210000
-DTEND;TZID=Europe/Dublin:20270714T233000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-traditional-irish-music-20270714T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 27-07-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20270721T210000
-DTEND;TZID=Europe/Dublin:20270721T233000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-traditional-irish-music-20270721T2100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 27-07-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
 DTSTART;TZID=Europe/Dublin:20270728T210000
 DTEND;TZID=Europe/Dublin:20270728T233000
 DTSTAMP:20261021T171742Z
@@ -2354,6 +2334,26 @@ DTSTAMP:20261024T044146Z
 UID:cobh-events-traditional-irish-music-20290801T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290808T210000
+DTEND;TZID=Europe/Dublin:20290808T233000
+DTSTAMP:20261024T160418Z
+UID:cobh-events-traditional-irish-music-20290808T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290815T210000
+DTEND;TZID=Europe/Dublin:20290815T233000
+DTSTAMP:20261024T160418Z
+UID:cobh-events-traditional-irish-music-20290815T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-08-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
