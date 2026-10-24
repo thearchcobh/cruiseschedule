@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Florin Nolan: A World in Bloom
-DTSTART;TZID=Europe/Dublin:20261024T110000
-DTEND;TZID=Europe/Dublin:20261024T170000
-DTSTAMP:20261021T171742Z
-UID:cobh-events-florin-nolan-a-world-in-bloom-20261024T1100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/florin-nolan-a-world-in-bloom/?
- gde=2026-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Sirius Arts Centre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
-DTSTART;TZID=Europe/Dublin:20261024T110000
-DTEND;TZID=Europe/Dublin:20261024T170000
-DTSTAMP:20261020T142305Z
-UID:cobh-events-eslam-abd-el-salam-hiraeth-20261024T1100-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
- =2026-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Sirius Arts Centre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Haulbowline Theatre Group One Act Plays
 DTSTART;TZID=Europe/Dublin:20261024T200000
 DTEND;TZID=Europe/Dublin:20261024T220000
@@ -1274,6 +1254,26 @@ DTSTAMP:20261021T171742Z
 UID:cobh-events-traditional-irish-music-20270707T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  27-07-07\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20270714T210000
+DTEND;TZID=Europe/Dublin:20270714T233000
+DTSTAMP:20261024T205311Z
+UID:cobh-events-traditional-irish-music-20270714T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 27-07-14\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20270721T210000
+DTEND;TZID=Europe/Dublin:20270721T233000
+DTSTAMP:20261024T205311Z
+UID:cobh-events-traditional-irish-music-20270721T2100-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 27-07-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
