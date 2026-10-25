@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 DJ Clokey
-DTSTART;TZID=Europe/Dublin:20261025T173000
-DTEND;TZID=Europe/Dublin:20261025T193000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-dj-clokey-20261025T1730-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dj-clokey-5/\n\nCreated by The 
- Arch\, Cobh\nData from InCobh.com
-LOCATION:Connie Doolans
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 The Gaza Monologues
 DTSTART;TZID=Europe/Dublin:20261025T193000
 DTEND;TZID=Europe/Dublin:20261025T210000
@@ -2362,6 +2352,16 @@ DTSTAMP:20261025T162229Z
 UID:cobh-events-traditional-irish-music-20290912T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-09-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290919T220000
+DTEND;TZID=Europe/Dublin:20290920T003000
+DTSTAMP:20261025T205549Z
+UID:cobh-events-traditional-irish-music-20290919T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
