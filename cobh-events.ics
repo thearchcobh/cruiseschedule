@@ -13,16 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 The Gaza Monologues
-DTSTART;TZID=Europe/Dublin:20261025T193000
-DTEND;TZID=Europe/Dublin:20261025T210000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-the-gaza-monologues-20261025T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/the-gaza-monologues/\n\nCreated
-  by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Community Centre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Rhyan O Halloran!
 DTSTART;TZID=Europe/Dublin:20261025T213000
 DTEND;TZID=Europe/Dublin:20261025T233000
@@ -51,16 +41,6 @@ UID:cobh-events-brian-oglanby-20261025T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-19/\n\nCreated by
   The Arch\, Cobh\nData from InCobh.com
 LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 DJ Killian
-DTSTART;TZID=Europe/Dublin:20261025T220000
-DTEND;TZID=Europe/Dublin:20261025T010000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-dj-killian-20261025T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/dj-killian-9/\n\nCreated by The
-  Arch\, Cobh\nData from InCobh.com
-LOCATION:Titanic Bar & Grill
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
@@ -2362,6 +2342,26 @@ DTSTAMP:20261025T205549Z
 UID:cobh-events-traditional-irish-music-20290919T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290926T220000
+DTEND;TZID=Europe/Dublin:20290927T003000
+DTSTAMP:20261025T232245Z
+UID:cobh-events-traditional-irish-music-20290926T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20291003T220000
+DTEND;TZID=Europe/Dublin:20291004T003000
+DTSTAMP:20261025T232245Z
+UID:cobh-events-traditional-irish-music-20291003T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
