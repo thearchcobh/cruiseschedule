@@ -98,7 +98,7 @@
     "9188037": {
       "details_url": "https://www.marinetraffic.com/en/ais/details/ships/imo:9188037",
       "imo": "9188037",
-      "last_attempt_at": "2026-09-21T13:21:06Z",
+      "last_attempt_at": "2026-10-26T13:34:32Z",
       "shipid": null,
       "vessel": "Bolette"
     },
@@ -340,6 +340,6 @@
       "vessel": "Douglas Mawson"
     }
   },
-  "updated_at": "2026-09-28T14:28:19Z",
+  "updated_at": "2026-10-26T13:34:32Z",
   "version": 1
 }
