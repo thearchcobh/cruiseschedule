@@ -13,36 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Rhyan O Halloran!
-DTSTART;TZID=Europe/Dublin:20261025T213000
-DTEND;TZID=Europe/Dublin:20261025T233000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-rhyan-o-halloran-20261025T2130-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/rhyan-o-halloran/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Crow’s Nest
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Shane Keane
-DTSTART;TZID=Europe/Dublin:20261025T220000
-DTEND;TZID=Europe/Dublin:20261025T010000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-shane-keane-20261025T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/shane-keane-11/\n\nCreated by T
- he Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Brian OGlanby
-DTSTART;TZID=Europe/Dublin:20261025T220000
-DTEND;TZID=Europe/Dublin:20261025T010000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-brian-oglanby-20261025T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/brian-oglanby-19/\n\nCreated by
-  The Arch\, Cobh\nData from InCobh.com
-LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
 DTSTART;TZID=Europe/Dublin:20261026T150000
 DTEND;TZID=Europe/Dublin:20261026T170000
@@ -2362,6 +2332,36 @@ DTSTAMP:20261025T232245Z
 UID:cobh-events-traditional-irish-music-20291003T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20291010T220000
+DTEND;TZID=Europe/Dublin:20291011T003000
+DTSTAMP:20261026T045054Z
+UID:cobh-events-traditional-irish-music-20291010T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20291017T220000
+DTEND;TZID=Europe/Dublin:20291018T003000
+DTSTAMP:20261026T045054Z
+UID:cobh-events-traditional-irish-music-20291017T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20291024T220000
+DTEND;TZID=Europe/Dublin:20291025T003000
+DTSTAMP:20261026T045054Z
+UID:cobh-events-traditional-irish-music-20291024T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
