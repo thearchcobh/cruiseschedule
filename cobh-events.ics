@@ -205,6 +205,16 @@ DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 SIRIUS Halloween Camp
+DTSTART;TZID=Europe/Dublin:20261031T140000
+DTEND;TZID=Europe/Dublin:20261031T170000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-sirius-halloween-camp-20261031T1400-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/sirius-halloween-camp/\n\nCreat
+ ed by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Halloween Party
 DTSTART;TZID=Europe/Dublin:20261031T210000
 DTEND;TZID=Europe/Dublin:20261031T003000
@@ -685,6 +695,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261128T100000
+DTEND;TZID=Europe/Dublin:20261128T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261128T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-11
+ -28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
 DTSTART;TZID=Europe/Dublin:20261128T110000
 DTEND;TZID=Europe/Dublin:20261128T170000
@@ -693,6 +713,16 @@ UID:cobh-events-eslam-abd-el-salam-hiraeth-20261128T1100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
  =2026-11-28\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Sirius Arts Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261129T100000
+DTEND;TZID=Europe/Dublin:20261129T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261129T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-11
+ -29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
@@ -715,6 +745,16 @@ DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261202T100000
+DTEND;TZID=Europe/Dublin:20261202T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261202T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -02\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
 DTSTART;TZID=Europe/Dublin:20261202T110000
 DTEND;TZID=Europe/Dublin:20261202T170000
@@ -735,6 +775,16 @@ DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
 LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261203T100000
+DTEND;TZID=Europe/Dublin:20261203T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261203T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
 DTSTART;TZID=Europe/Dublin:20261203T110000
 DTEND;TZID=Europe/Dublin:20261203T170000
@@ -753,6 +803,16 @@ UID:cobh-events-cobh-trad-learning-session-20261203T1845-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
  =2026-12-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Cobh Community Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261204T100000
+DTEND;TZID=Europe/Dublin:20261204T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261204T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Eslam Abd El Salam: Hiraeth
@@ -785,6 +845,16 @@ DESCRIPTION:🔗 https://incobh.com/events/eslam-abd-el-salam-hiraeth/?gde
 LOCATION:Sirius Arts Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261206T100000
+DTEND;TZID=Europe/Dublin:20261206T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261206T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Irish Set Dancing Lessons
 DTSTART;TZID=Europe/Dublin:20261208T193000
 DTEND;TZID=Europe/Dublin:20261208T213000
@@ -795,6 +865,16 @@ DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261209T100000
+DTEND;TZID=Europe/Dublin:20261209T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261209T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
 DTSTART;TZID=Europe/Dublin:20261209T210000
 DTEND;TZID=Europe/Dublin:20261209T233000
@@ -803,6 +883,16 @@ UID:cobh-events-traditional-irish-music-20261209T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-12-09\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261210T100000
+DTEND;TZID=Europe/Dublin:20261210T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261210T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
@@ -835,6 +925,36 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
 LOCATION:The Promenade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261212T100000
+DTEND;TZID=Europe/Dublin:20261212T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261212T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261213T100000
+DTEND;TZID=Europe/Dublin:20261213T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261213T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261216T100000
+DTEND;TZID=Europe/Dublin:20261216T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261216T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
 DTSTART;TZID=Europe/Dublin:20261216T210000
 DTEND;TZID=Europe/Dublin:20261216T233000
@@ -843,6 +963,16 @@ UID:cobh-events-traditional-irish-music-20261216T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  26-12-16\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261217T100000
+DTEND;TZID=Europe/Dublin:20261217T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261217T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Cobh Trad Learning Session
@@ -855,6 +985,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh Community Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261218T100000
+DTEND;TZID=Europe/Dublin:20261218T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261218T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261219T100000
 DTEND;TZID=Europe/Dublin:20261219T140000
@@ -863,6 +1003,46 @@ UID:cobh-events-cobh-farmers-market-20261219T1000-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/cobh-farmers-market/?gde=2026-1
  2-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Promenade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261219T100000
+DTEND;TZID=Europe/Dublin:20261219T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261219T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261220T100000
+DTEND;TZID=Europe/Dublin:20261220T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261220T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261221T100000
+DTEND;TZID=Europe/Dublin:20261221T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261221T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Cobh Santa Express
+DTSTART;TZID=Europe/Dublin:20261222T100000
+DTEND;TZID=Europe/Dublin:20261222T180000
+DTSTAMP:20261026T130638Z
+UID:cobh-events-cobh-santa-express-20261222T1000-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/cobh-santa-express/?gde=2026-12
+ -22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:Cobh Heritage Centre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
@@ -2182,186 +2362,6 @@ DTSTAMP:20261025T044521Z
 UID:cobh-events-traditional-irish-music-20290620T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290627T220000
-DTEND;TZID=Europe/Dublin:20290628T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290627T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290704T220000
-DTEND;TZID=Europe/Dublin:20290705T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290704T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290711T220000
-DTEND;TZID=Europe/Dublin:20290712T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290711T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-11\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290718T220000
-DTEND;TZID=Europe/Dublin:20290719T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290718T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-18\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290725T220000
-DTEND;TZID=Europe/Dublin:20290726T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290725T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-07-25\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290801T220000
-DTEND;TZID=Europe/Dublin:20290802T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290801T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-01\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290808T220000
-DTEND;TZID=Europe/Dublin:20290809T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290808T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-08\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290815T220000
-DTEND;TZID=Europe/Dublin:20290816T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290815T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-15\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290822T220000
-DTEND;TZID=Europe/Dublin:20290823T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290822T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-22\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290829T220000
-DTEND;TZID=Europe/Dublin:20290830T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290829T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-08-29\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290905T220000
-DTEND;TZID=Europe/Dublin:20290906T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290905T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-05\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290912T220000
-DTEND;TZID=Europe/Dublin:20290913T003000
-DTSTAMP:20261025T162229Z
-UID:cobh-events-traditional-irish-music-20290912T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-12\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290919T220000
-DTEND;TZID=Europe/Dublin:20290920T003000
-DTSTAMP:20261025T205549Z
-UID:cobh-events-traditional-irish-music-20290919T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-19\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290926T220000
-DTEND;TZID=Europe/Dublin:20290927T003000
-DTSTAMP:20261025T232245Z
-UID:cobh-events-traditional-irish-music-20290926T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-09-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20291003T220000
-DTEND;TZID=Europe/Dublin:20291004T003000
-DTSTAMP:20261025T232245Z
-UID:cobh-events-traditional-irish-music-20291003T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-03\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20291010T220000
-DTEND;TZID=Europe/Dublin:20291011T003000
-DTSTAMP:20261026T045054Z
-UID:cobh-events-traditional-irish-music-20291010T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-10\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20291017T220000
-DTEND;TZID=Europe/Dublin:20291018T003000
-DTSTAMP:20261026T045054Z
-UID:cobh-events-traditional-irish-music-20291017T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-17\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20291024T220000
-DTEND;TZID=Europe/Dublin:20291025T003000
-DTSTAMP:20261026T045054Z
-UID:cobh-events-traditional-irish-music-20291024T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-10-24\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
