@@ -14,16 +14,6 @@ LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 Halloween Storytelling
-DTSTART;TZID=Europe/Dublin:20261026T150000
-DTEND;TZID=Europe/Dublin:20261026T170000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-halloween-storytelling-20261026T1500-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
- 6-10-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Heritage Centre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Halloween Storytelling
 DTSTART;TZID=Europe/Dublin:20261027T150000
 DTEND;TZID=Europe/Dublin:20261027T170000
 DTSTAMP:20261025T044521Z
@@ -226,10 +216,10 @@ LOCATION:The Crow’s Nest
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
-DTSTART;TZID=Europe/Dublin:20261101T180000
+DTSTART;TZID=Europe/Dublin:20261101T173000
 DTEND;TZID=Europe/Dublin:20261101T200000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-the-hollyz-20261101T1800-thearchcobh
+DTSTAMP:20261026T203429Z
+UID:cobh-events-the-hollyz-20261101T1730-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-6/\n\nCreated by The
   Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
@@ -2362,6 +2352,26 @@ DTSTAMP:20261025T044521Z
 UID:cobh-events-traditional-irish-music-20290620T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290627T220000
+DTEND;TZID=Europe/Dublin:20290628T003000
+DTSTAMP:20261026T203429Z
+UID:cobh-events-traditional-irish-music-20290627T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290704T220000
+DTEND;TZID=Europe/Dublin:20290705T003000
+DTSTAMP:20261026T203429Z
+UID:cobh-events-traditional-irish-music-20290704T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-07-04\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
