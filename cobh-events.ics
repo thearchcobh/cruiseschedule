@@ -13,26 +13,6 @@ DESCRIPTION:\nCreated by The Arch\, Cobh\nData from The Arch
 LOCATION:Cobh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎫 Halloween Storytelling
-DTSTART;TZID=Europe/Dublin:20261027T150000
-DTEND;TZID=Europe/Dublin:20261027T170000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-halloween-storytelling-20261027T1500-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/halloween-storytelling/?gde=202
- 6-10-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh Heritage Centre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎫 Irish Set Dancing Lessons
-DTSTART;TZID=Europe/Dublin:20261027T193000
-DTEND;TZID=Europe/Dublin:20261027T213000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-irish-set-dancing-lessons-20261027T1930-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/irish-set-dancing-lessons/?gde=
- 2026-10-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Rob Roy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎫 Florin Nolan: A World in Bloom
 DTSTART;TZID=Europe/Dublin:20261028T110000
 DTEND;TZID=Europe/Dublin:20261028T170000
@@ -2372,6 +2352,36 @@ DTSTAMP:20261025T044521Z
 UID:cobh-events-traditional-irish-music-20290606T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-06-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290613T220000
+DTEND;TZID=Europe/Dublin:20290614T003000
+DTSTAMP:20261027T221848Z
+UID:cobh-events-traditional-irish-music-20290613T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290620T220000
+DTEND;TZID=Europe/Dublin:20290621T003000
+DTSTAMP:20261027T221848Z
+UID:cobh-events-traditional-irish-music-20290620T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎵 Traditional Irish Music
+DTSTART;TZID=Europe/Dublin:20290627T220000
+DTEND;TZID=Europe/Dublin:20290628T003000
+DTSTAMP:20261027T221848Z
+UID:cobh-events-traditional-irish-music-20290627T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
+ 29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
