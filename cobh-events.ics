@@ -1866,13 +1866,13 @@ LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20280621T210000
-DTEND;TZID=Europe/Dublin:20280621T230000
-DTSTAMP:20261027T003107Z
-UID:cobh-events-traditional-irish-music-20280621T2100-thearchcobh
+DTSTART;TZID=Europe/Dublin:20280621T220000
+DTEND;TZID=Europe/Dublin:20280622T003000
+DTSTAMP:20261027T090424Z
+UID:cobh-events-traditional-irish-music-20280621T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  28-06-21\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:Cobh
+LOCATION:The Roaring Donkey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎵 Traditional Irish Music
