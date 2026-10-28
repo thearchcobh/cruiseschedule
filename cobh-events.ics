@@ -103,6 +103,16 @@ DESCRIPTION:🔗 https://incobh.com/events/cobh-trad-learning-session/?gde
 LOCATION:Cobh Community Centre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Quiz Night Fundraiser
+DTSTART;TZID=Europe/Dublin:20261029T193000
+DTEND;TZID=Europe/Dublin:20261029T223000
+DTSTAMP:20261028T125948Z
+UID:cobh-events-quiz-night-fundraiser-20261029T1930-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/quiz-night-fundraiser/\n\nCreat
+ ed by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎵 Mad for Trad at Kellys
 DTSTART;TZID=Europe/Dublin:20261029T200000
 DTEND;TZID=Europe/Dublin:20261029T233000
@@ -165,6 +175,16 @@ DESCRIPTION:🔗 https://incobh.com/events/brendan-mccarthy-6/\n\nCreated
 LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Boxcar Waiting
+DTSTART;TZID=Europe/Dublin:20261030T220000
+DTEND;TZID=Europe/Dublin:20261030T000000
+DTSTAMP:20261028T125948Z
+UID:cobh-events-boxcar-waiting-20261030T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/boxcar-waiting/\n\nCreated by T
+ he Arch\, Cobh\nData from InCobh.com
+LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:👨‍🌾 Cobh Farmers Market
 DTSTART;TZID=Europe/Dublin:20261031T100000
 DTEND;TZID=Europe/Dublin:20261031T140000
@@ -225,12 +245,42 @@ DESCRIPTION:🔗 https://incobh.com/events/dermot-orourke-7/\n\nCreated by
 LOCATION:Kellys Bar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 Ronan O’Driscoll
+DTSTART;TZID=Europe/Dublin:20261031T220000
+DTEND;TZID=Europe/Dublin:20261031T000000
+DTSTAMP:20261028T125948Z
+UID:cobh-events-ronan-o-driscoll-20261031T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-5/\n\nCreated b
+ y The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 Copper Kettle Club
+DTSTART;TZID=Europe/Dublin:20261101T170000
+DTEND;TZID=Europe/Dublin:20261101T190000
+DTSTAMP:20261028T125948Z
+UID:cobh-events-copper-kettle-club-20261101T1700-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/copper-kettle-club/\n\nCreated 
+ by The Arch\, Cobh\nData from InCobh.com
+LOCATION:The Rob Roy
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 The Hollyz
 DTSTART;TZID=Europe/Dublin:20261101T173000
 DTEND;TZID=Europe/Dublin:20261101T200000
 DTSTAMP:20261026T203429Z
 UID:cobh-events-the-hollyz-20261101T1730-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-6/\n\nCreated by The
+  Arch\, Cobh\nData from InCobh.com
+LOCATION:The Roaring Donkey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎫 The Hollyz
+DTSTART;TZID=Europe/Dublin:20261101T180000
+DTEND;TZID=Europe/Dublin:20261101T200000
+DTSTAMP:20261028T125948Z
+UID:cobh-events-the-hollyz-20261101T1800-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/the-hollyz-9/\n\nCreated by The
   Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
@@ -2332,56 +2382,6 @@ DTSTAMP:20261025T044521Z
 UID:cobh-events-traditional-irish-music-20290523T2200-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
  29-05-23\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290530T220000
-DTEND;TZID=Europe/Dublin:20290531T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290530T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-05-30\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290606T220000
-DTEND;TZID=Europe/Dublin:20290607T003000
-DTSTAMP:20261025T044521Z
-UID:cobh-events-traditional-irish-music-20290606T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-06-06\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290613T220000
-DTEND;TZID=Europe/Dublin:20290614T003000
-DTSTAMP:20261027T221848Z
-UID:cobh-events-traditional-irish-music-20290613T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-06-13\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290620T220000
-DTEND;TZID=Europe/Dublin:20290621T003000
-DTSTAMP:20261027T221848Z
-UID:cobh-events-traditional-irish-music-20290620T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-06-20\n\nCreated by The Arch\, Cobh\nData from InCobh.com
-LOCATION:The Roaring Donkey
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music
-DTSTART;TZID=Europe/Dublin:20290627T220000
-DTEND;TZID=Europe/Dublin:20290628T003000
-DTSTAMP:20261027T221848Z
-UID:cobh-events-traditional-irish-music-20290627T2200-thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music/?gde=20
- 29-06-27\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:The Roaring Donkey
 END:VEVENT
 END:VCALENDAR
