@@ -205,6 +205,16 @@ DESCRIPTION:🔗 https://incobh.com/events/ronan-odriscoll-5/\n\nCreated b
 LOCATION:The Rob Roy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎫 DJ’s Adam & Cian
+DTSTART;TZID=Europe/Dublin:20261031T220000
+DTEND;TZID=Europe/Dublin:20261031T010000
+DTSTAMP:20261029T100202Z
+UID:cobh-events-dj-s-adam-cian-20261031T2200-thearchcobh
+DESCRIPTION:🔗 https://incobh.com/events/djs-adam-cian/\n\nCreated by Th
+ e Arch\, Cobh\nData from InCobh.com
+LOCATION:Titanic Bar & Grill
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎫 Copper Kettle Club
 DTSTART;TZID=Europe/Dublin:20261101T170000
 DTEND;TZID=Europe/Dublin:20261101T190000
@@ -2347,17 +2357,5 @@ UID:cobh-events-mad-for-trad-at-kellys-20270826T2100-thearchcobh
 DESCRIPTION:🔗 https://incobh.com/events/mad-for-trad-at-kellys/?gde=202
  7-08-26\n\nCreated by The Arch\, Cobh\nData from InCobh.com
 LOCATION:Kellys Bar
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎵 Traditional Irish Music at The High Chaperal
-DTSTART;TZID=Europe/Dublin:20270826T220000
-DTEND;TZID=Europe/Dublin:20270827T003000
-DTSTAMP:20261029T010147Z
-UID:cobh-events-traditional-irish-music-at-the-high-chaperal-20270826T2200
- -thearchcobh
-DESCRIPTION:🔗 https://incobh.com/events/traditional-irish-music-at-the-
- high-chaperal/?gde=2027-08-26\n\nCreated by The Arch\, Cobh\nData from InC
- obh.com
-LOCATION:The High Chaperal Bar
 END:VEVENT
 END:VCALENDAR
